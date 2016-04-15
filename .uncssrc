@@ -1,0 +1,31 @@
+{
+    "ignore": [
+        ".Fold-target.is-open",
+        ".Modal.is-displayed .Modal-content",
+        ".Aside-list--item.active > a",
+        ".Form-group.is-active > label:not(.error)",
+        ".affix",
+        ".affix-bottom",
+        ".Article h1",
+        ".Article h2",
+        ".Article h3",
+        ".Article h4",
+        ".Article h5",
+        ".Article p:first-of-type",
+        ".Article p b",
+        ".Article b",
+        ".Article small",
+        ".Article a",
+        "table",
+        "thead",
+        "tbody",
+        "tr",
+        "thead tr",
+        "tbody tr",
+        "tbody tr:last-child",
+        "th",
+        "td",
+        ".u-hide",
+        ".u-marginT0"
+    ]
+}

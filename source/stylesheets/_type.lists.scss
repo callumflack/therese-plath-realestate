@@ -1,0 +1,51 @@
+
+
+// --------------------------------------------------------------------------
+//   TYPE: LISTS
+// --------------------------------------------------------------------------
+
+
+ul {
+    list-style-type: disc;
+    margin-left: size(list-inset, margin);
+    padding-left: size(list-inset, padding);
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+li {
+    margin-bottom: 0;
+}
+
+
+// Clean list: remove all default spacing
+// --------------------------------------------------------------------------
+
+@mixin listClean() {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.u-listClean { @include listClean(); }
+
+
+// Inline list.
+// Apply to the ul/ol tag, but it's setup for use on any div.
+// --------------------------------------------------------------------------
+
+@mixin listInline() {
+    @include listClean();
+
+    li,
+    div {
+        display: inline-block;
+        &:not(:last-child) {
+            margin-right: space(0.25);
+        }
+    }
+}
+
+.u-listInline { @include listInline(); }

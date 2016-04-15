@@ -1,0 +1,27 @@
+
+
+// --------------------------------------------------------------------------
+//   COMPONENT: NAV
+// --------------------------------------------------------------------------
+
+
+.Nav-list {
+    @include listClean();
+    float: right;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all map-fetch($transition, duration, fast) map-fetch($transition, type, base);
+
+    li {
+        padding-bottom: space(0.25);
+        text-align: right;
+    }
+}
+
+
+/* uncss:ignore */
+.Modal.is-active .Nav-list {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all map-fetch($transition, duration, fast) map-fetch($transition, type, fine) 200ms;
+}

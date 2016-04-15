@@ -1,0 +1,23 @@
+
+
+// --------------------------------------------------------------------------
+//   LAYOUT: THANKS PG
+// --------------------------------------------------------------------------
+
+
+/* uncss:ignore */
+.thanks {
+    .Section {
+        background-color: color(ui, background);
+        margin: 0 !important;
+        padding: space(1.75) 0 space(2.5);
+
+        @include respond-to(sm) {
+            padding: space(2.5) 0 space(3.5);
+        }
+    }
+
+    .Footer {
+        margin-top: 0;
+    }
+}

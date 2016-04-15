@@ -1,0 +1,56 @@
+
+
+// --------------------------------------------------------------------------
+// COMPONENT: MOBILE NAV
+// --------------------------------------------------------------------------
+
+
+.TouchNav {
+    // @include smoothTransition();
+    // background-color: map-fetch($color, ui, brand-alt);
+    background-color: map-fetch($color, ui, neutral);
+    bottom: space(1);
+    border-radius: map-fetch($size, border-radius, base);
+    box-shadow: 0 0 space(1.5) color(text, medium);
+    padding: space(0.75) space(1) space(0.75) space(0.75);
+    position: fixed;
+    right: space(1.5);
+}
+
+
+.TouchNav-item {
+    @include u-link(none);
+	@include TextSm();
+	// color: color(text, white);
+    display: block;
+	font-family: $font-sans-bold;
+	line-height: $base-line-height-unit;
+	margin: 0 0 space(0.5);
+
+    &:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+	@include on-event() {
+		border-color: color(text, brand);
+		color: color(text, brand);
+	}
+}
+
+// .Aside-list--link {
+// 	@include TextSm();
+// 	@include u-link(none);
+// 	color: color(text, medium);
+// 	font-family: $font-sans-regular;
+// 	line-height: $base-line-height-unit;
+// 	margin: rem(8) 0 rem(8) 0;
+//
+// 	& + .Aside-list--link {
+// 		margin-left: rem(10);
+// 	}
+//
+// 	@include on-event() {
+// 		color: color(text, brand);
+// 	}
+// }

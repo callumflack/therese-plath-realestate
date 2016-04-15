@@ -1,0 +1,123 @@
+
+
+// --------------------------------------------------------------------------
+// TYPOGRAPHY ANCHORS
+// Avoiding ugly text-decoration: underlines
+// --------------------------------------------------------------------------
+
+
+$linkRuleBlack: linear-gradient(to bottom, rgba(color(ui, dark),0) 50%, rgba(color(ui, dark),0.4) 50%);
+$linkRuleGrey:  linear-gradient(to bottom, rgba(color(ui, muted),0) 50%, color(ui, muted) 50%);
+$linkRuleLite:  linear-gradient(to bottom, rgba(color(ui, light),0) 50%, color(ui, light) 50%);
+$linkRuleWhite: linear-gradient(to bottom, rgba(color(ui, white),0) 50%, color(ui, white) 50%);
+$linkRuleBrand: linear-gradient(to bottom, rgba(color(ui, brand),0) 50%, color(ui, brand) 50%);
+$linkRuleNone:  linear-gradient(to bottom, rgba(color(ui, dark),0) 50%, rgba(color(ui, dark),0) 50%);
+
+@mixin u-link(
+    $mixin-rule: $linkRuleBlack,
+    $mixin-hover-rule: none,
+    $mixin-color: currentColor,
+    $mixin-hover-color: inherit,
+    // $mixin-hover-color: currentColor,
+    $mixin-inverse: false
+
+) {
+
+    @if $mixin-rule == 'none' {
+        background-image: none;
+        padding-bottom: 0;
+    }
+
+    @else {
+        background-image: $mixin-rule;
+        background-repeat: repeat-x;
+        background-size: 1px 1px;
+        background-position: 0 100%;
+        color: $mixin-color;
+        padding-bottom: rem(3);
+        text-decoration: none;
+    }
+
+    @include on-event() {
+        background-image: $mixin-hover-rule;
+        color: $mixin-hover-color;
+        text-decoration: none;
+    }
+}
+
+.u-link { @include u-link(); }
+.u-childLink { a { @include u-link(); } }
+
+.u-linkGrey { @include u-link($mixin-rule: $linkRuleGrey); }
+.u-childLinkGrey { a { @include u-link($mixin-rule: $linkRuleGrey); } }
+
+.u-linkLite { @include u-link($mixin-rule: $linkRuleLite); }
+.u-childLinkLite { a { @include u-link($mixin-rule: $linkRuleLite); } }
+
+.u-linkBrand { @include u-link($mixin-rule: $linkRuleBrand); }
+.u-childLinkBrand { a { @include u-link($mixin-rule: $linkRuleBrand); } }
+
+.u-linkWhite { @include u-link($mixin-rule: $linkRuleWhite); }
+.u-childLinkWhite { a { @include u-link($mixin-rule: $linkRuleWhite); } }
+
+.u-linkInvisible { @include u-link(none); }
+.u-childLinkInvisible { a { @include u-link(none); } }
+
+
+
+// Anchor
+// --------------------------------------------------------------------------
+
+a {
+    @include u-link(none);
+    @include baseTransition();
+    color: palette(charcoal);
+    text-decoration: none;
+
+    @include on-event() {
+        @include baseTransition();
+        color: palette(black) !important;
+    }
+}
+
+p a {
+    color: palette(black);
+}
+
+.u-linkHot {
+    color: palette(black) !important;
+
+    @include on-event() {
+        background-color: palette(brand);
+    }
+}
+
+// a + a { margin-left: $space * 1.25; }
+
+
+// Buried anchors
+// Same pattern as Suit's u-linkComplex, but different styling.
+// --------------------------------------------------------------------------
+
+@mixin complexLink {
+    display: block;
+    width: 100%;
+
+    @include on-event() {
+        .u-linkBuriedTarget {
+            background-color: palette(brand);
+        }
+    }
+}
+
+.u-linkBuried {
+    @include complexLink();
+    margin-bottom: space(0.5);
+}
+
+// Don't forget: this is a span, not an <a>,
+// so it needs these styles.
+.u-linkBuriedTarget {
+    @include baseTransition();
+    color: palette(black);
+}

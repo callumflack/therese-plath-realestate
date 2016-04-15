@@ -1,0 +1,126 @@
+
+
+// --------------------------------------------------------------------------
+//   COMPONENT: PROPERTY
+// --------------------------------------------------------------------------
+
+
+// Hero slider property details block
+// --------------------------------------------------------------------------
+
+.Hero-details {
+    background-color: palette(white);
+    display: inline-block;
+    margin-bottom: space(2.5);
+    padding: space(0.5) space(1) space(0.6);
+
+    span {
+        margin: 0 space(0.15);
+    }
+
+    .Property-price {
+        @include TextSm();
+    }
+}
+
+
+// Property card list
+// --------------------------------------------------------------------------
+
+a.Card {
+    @include baseTransition();
+    @include complexLink();
+	border: 1px solid palette(charcoal);
+    border-radius: size(border-radius, base);
+    display: block;
+    margin-bottom: space(1);
+    position: relative;
+
+    @include on-event() {
+        @include baseTransition();
+        background-blend-mode: multiply;
+        background-color: rgba( palette(brand), 0.4 );
+
+        .Property-image {
+            @include baseTransition();
+            background-blend-mode: multiply;
+            background-color: rgba( palette(brand), 0.4 );
+        }
+    }
+}
+
+
+// Used in both list and view templates
+// --------------------------------------------------------------------------
+
+[class*="Property-"] {
+    margin-bottom: 0;
+}
+
+
+// Property card elements
+// --------------------------------------------------------------------------
+
+.Property-image {
+    @include baseTransition();
+    @include CoverImage();
+    height: space(7.5);
+
+    @include respond-to(xs) {
+        height: space(10);
+    }
+}
+
+// Scoped details
+
+.Property-details {
+    padding: space(0.25) space(0.5) space(1);
+}
+
+.Property-details--title {
+    @include headlineSecondary();
+}
+
+.Property-details--location {
+}
+
+.Property-details--price {
+}
+
+
+// Property view elements
+// --------------------------------------------------------------------------
+
+.Property-title,
+.Property-price {
+    @include headlineRg();
+    margin-bottom: 0;
+}
+
+.Property-title {
+    margin-bottom: space(0.25);
+}
+
+.Property-price {
+    color: palette(muted);
+}
+
+.Property-address {
+    font-family: $font-sans-bold;
+}
+
+.Property-id {
+    color: palette(muted);
+}
+
+
+// Property config (used in hero, card & view )
+// Consists of:
+// * Property-bedroooms
+// * Property-bathroms
+// * Property-carspaces
+// --------------------------------------------------------------------------
+
+.Property-config span {
+    margin: 0;
+}

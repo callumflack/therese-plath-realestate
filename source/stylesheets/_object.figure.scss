@@ -1,0 +1,66 @@
+
+
+// --------------------------------------------------------------------------
+// FIGURE ELEMENT
+// --------------------------------------------------------------------------
+
+
+.Figure {
+    margin: space(2) auto;
+
+    img { width: 100%; }
+}
+
+.Figure--hero {
+    // border-bottom: 2px solid color(ui, brand);
+    // background-color: color(ui, neutral-light);
+    // margin: 0 0 space(1.75) 0;
+    margin: 0 0 space(1);
+    // margin: 0 0 space(1.25);
+    // margin: space(0.5) 0 0;
+    // margin: 0;
+    // padding-top: space(1);
+    // height: rem(460);
+    // overflow-y: hidden;
+
+    @include respond-to(xs) {
+        margin: space(1.5) 0 space(1.25);
+        margin: 0 0 space(1.25);
+    }
+}
+
+.Figure--sm {
+    margin: 0 0 space(0.75);
+}
+
+.Figure--stamp {
+    background-color: color(ui, neutral);
+    margin-top: 0;
+}
+
+.Figure--teamGrid {
+    margin-bottom: space(0.5);
+    width: rem(150);
+}
+
+.Figure--topRounded {
+    margin: 0;
+
+    > img {
+        border-top-left-radius: map-fetch($size, border-radius, large );
+        border-top-right-radius: map-fetch($size, border-radius, large );
+    }
+}
+
+.Figure--workPost {
+    margin: $space auto 0;
+    // @include respond-to(xs) { margin: ($space * 1) auto 0; }
+    @include respond-to(md) { margin: 0 auto; }
+}
+
+.md-Figure--workPostNudgeLeft {
+    @include respond-to(md) {
+        margin: 0;
+        margin-left: space(-1.25);
+    }
+}

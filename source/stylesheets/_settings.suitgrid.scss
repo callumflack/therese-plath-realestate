@@ -1,0 +1,44 @@
+
+
+// --------------------------------------------------------------------------
+//    LAYOUT SUIT GRID
+//    See: https://github.com/suitcss/components-grid
+// --------------------------------------------------------------------------
+
+
+// Available classes
+// Grid: core component
+// Grid--alignCenter: center-align all child Grid-cell
+// Grid--alignRight: right-align all child Grid-cell
+// Grid--alignMiddle: middle-align all child Grid-cell
+// Grid--alignBottom: bottom-align all child Grid-cell
+// Grid--fit: evenly distribute space amongst all child Grid-cell
+// Grid--equalHeight: all child Grid-cell match height of the tallest
+// Grid--withGutter: adds a gutter between cells
+// Grid-cell: a child cell of Grid that wraps grid content
+// Grid-cell--center: center an individual Grid-cell
+
+.Grid--withGutter {
+    margin: 0 space(-0.25);
+
+    @include respond-to(xs) { margin: 0 space(-0.5); }
+}
+
+.Grid--withGutter > .Grid-cell {
+    padding: 0 space(0.25);
+
+    @include respond-to(xs) { padding: 0 space(0.5); }
+}
+
+// test
+// .Grid--withGutter,
+// .Grid-cell,
+// .Headline,
+// .Test {
+//     border: 1px solid salmon;
+// }
+//
+// .Headline {
+//     margin-bottom: 0 !important;
+//     padding-bottom: space(1);
+// }

@@ -1,0 +1,20 @@
+
+
+// --------------------------------------------------------------------------
+//   OBJECT: CURSOR STATES
+// --------------------------------------------------------------------------
+
+
+// https://css-tricks.com/attribute-selectors/
+// https://css-tricks.com/almanac/selectors/a/attribute/
+// Also: Attribute Not Equal Selector [name!=”value”]
+
+// [data-value*="dismiss"],
+// [data-*="toggle"],
+// [data-toggle],
+[data-toggle-fold],
+[data-dismiss]
+// [rel^="data-toggle"],
+{
+    cursor: pointer;
+}

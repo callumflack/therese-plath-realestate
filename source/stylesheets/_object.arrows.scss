@@ -1,0 +1,230 @@
+
+
+// --------------------------------------------------------------------------
+// OBJECT: ARROWS
+// @Author: Callum 160107
+// This is basically a Bootstrap rip job.
+// @URL: https://css-tricks.com/snippets/css/css-triangle/
+// --------------------------------------------------------------------------
+
+$arrowSizeSm: 0.18em;
+$arrowSize:   0.3em;
+$arrowMargin: 0.35rem;
+
+@mixin Arrow() {
+    content: "";
+    display: inline-block;
+    height: 0;
+    transform: translateY(rem(-1));
+    vertical-align: middle;
+    width: 0;
+}
+
+// regular size
+.Arrow-right:after {
+    @include Arrow();
+    border-top: $arrowSize solid transparent;
+    border-bottom: $arrowSize solid transparent;
+    border-left: $arrowSize solid;
+    margin-left: $arrowMargin;
+    // margin: 0 $arrowMargin;
+}
+
+.Arrow-left:before {
+    @include Arrow();
+    border-top: $arrowSize solid transparent;
+    border-bottom: $arrowSize solid transparent;
+    border-right: $arrowSize solid;
+    margin-right: $arrowMargin;
+}
+
+.Arrow-bottom:after {
+    @include Arrow();
+    border-top: $arrowSize solid;
+    border-left: $arrowSize solid transparent;
+    border-right: $arrowSize solid transparent;
+    margin-left: $arrowMargin;
+}
+
+.Arrow-top:after {
+    @include Arrow();
+    border-bottom: $arrowSize solid;
+    border-left: $arrowSize solid transparent;
+    border-right: $arrowSize solid transparent;
+    margin-left: $arrowMargin;
+}
+
+// small
+.Arrow-right--sm:after {
+    @include Arrow();
+    border-top: $arrowSizeSm solid transparent;
+    border-bottom: $arrowSizeSm solid transparent;
+    border-left: $arrowSizeSm solid;
+    margin-left: $arrowMargin * 2.5;
+    // margin: 0 $arrowMargin;
+    transform: translateY(rem(-4));
+}
+
+.Arrow-left--sm:before {
+    @include Arrow();
+    border-top: $arrowSizeSm solid transparent;
+    border-bottom: $arrowSizeSm solid transparent;
+    border-right: $arrowSizeSm solid;
+    margin-right: $arrowMargin * 2.5;
+    transform: translateY(rem(-4));
+}
+
+// large
+.Arrow-left--lg:before {
+    @include Arrow();
+    border-top: $arrowSizeSm solid transparent;
+    border-bottom: $arrowSizeSm solid transparent;
+    border-right: $arrowSizeSm solid;
+    margin-right: 0;
+    transform: translateY(rem(-6));
+}
+
+
+// vars that would be better done using the OUI system?
+
+.Arrow-left-left:before {
+    @include Arrow();
+    border-top: $arrowSize solid transparent;
+    border-bottom: $arrowSize solid transparent;
+    border-right: $arrowSize solid;
+    margin-left: $arrowMargin * 0.25;
+    margin-right: $arrowMargin * 1.25;
+}
+
+.Arrow-left-bottom:before {
+    @include Arrow();
+    border-top: $arrowSize solid;
+    border-left: $arrowSize solid transparent;
+    border-right: $arrowSize solid transparent;
+    margin-right: $arrowMargin;
+}
+
+.Arrow-left-top:before {
+    @include Arrow();
+    border-bottom: $arrowSize solid;
+    border-left: $arrowSize solid transparent;
+    border-right: $arrowSize solid transparent;
+    margin-right: $arrowMargin;
+}
+
+
+
+
+
+
+
+
+/// CSS Arrows
+/// @description This mixin creates a CSS arrow on a given element. We can have
+/// the arrow appear in one of 12 locations, 3 positions for each side.
+///
+/// @example[scss] Pass this position in along with a desired arrow color and
+/// optional border color for just a single, red arrow.
+///   @include arrow(top, left, red)
+/// @example[scss] A red triangle with a black border which sits at the bottom
+/// center of the element.
+///   @include arrow(bottom, center, red, black)
+
+// @mixin arrow($arrow-edge, $arrow-location, $arrow-color, $border-color: $arrow-color) {
+//   @if $arrow-edge == top {
+//     @extend %arrow--top;
+//
+//     &::before {
+//       border-bottom-color: $border-color;
+//     }
+//
+//     &::after {
+//       border-bottom-color: $arrow-color;
+//     }
+//
+//     @if $arrow-location == left {
+//       @extend %arrow--left;
+//     }
+//
+//     @if $arrow-location == center {
+//       @extend %arrow--center;
+//     }
+//
+//     @if $arrow-location == right {
+//       @extend %arrow--right;
+//     }
+//   }
+//
+//   @if $arrow-edge == right {
+//     @extend %arrow--far;
+//
+//     &::before {
+//       border-left-color: $border-color;
+//     }
+//
+//     &::after {
+//       border-left-color: $arrow-color;
+//     }
+//
+//     @if $arrow-location == top {
+//       @extend %arrow--upper;
+//     }
+//
+//     @if $arrow-location == center {
+//       @extend %arrow--middle;
+//     }
+//
+//     @if $arrow-location == bottom {
+//       @extend %arrow--lower;
+//     }
+//   }
+//
+//   @if $arrow-edge == bottom {
+//     @extend %arrow--bottom;
+//
+//     &::before {
+//       border-top-color: $border-color;
+//     }
+//
+//     &::after {
+//       border-top-color: $arrow-color;
+//     }
+//
+//     @if $arrow-location == left {
+//       @extend %arrow--left;
+//     }
+//
+//     @if $arrow-location == center {
+//       @extend %arrow--center;
+//     }
+//
+//     @if $arrow-location == right {
+//       @extend %arrow--right;
+//     }
+//   }
+//
+//   @if $arrow-edge == left {
+//     @extend %arrow--near;
+//
+//     &::before {
+//       border-right-color: $border-color;
+//     }
+//
+//     &::after {
+//       border-right-color: $arrow-color;
+//     }
+//
+//     @if $arrow-location == top {
+//       @extend %arrow--upper;
+//     }
+//
+//     @if $arrow-location == center {
+//       @extend %arrow--middle;
+//     }
+//
+//     @if $arrow-location == bottom {
+//       @extend %arrow--lower;
+//     }
+//   }
+// }
+//

@@ -1,0 +1,30 @@
+
+
+// --------------------------------------------------------------------------
+//   FONTFACE ON LOAD
+//   requires: fontfaceonload.js
+//   requires: component.fontfaceonload.js
+//   see: https://github.com/zachleat/fontfaceonload/
+//   see: http://www.zachleat.com/web/critical-webfonts/
+// --------------------------------------------------------------------------
+
+
+// $sans-thin            : #{$sans-font-name}thin;
+// $sans-light           : #{$sans-font-name}light;
+// $sans-book            : #{$sans-font-name}book;
+// $sans-regular         : #{$sans-font-name}regular;
+// $sans-medium          : #{$sans-font-name}medium;
+// $sans-bold            : #{$sans-font-name}bold;
+// $sans-black           : #{$sans-font-name}black;
+// $sans-comp-bk         : #{$sans-font-name}comp-book;
+
+
+body {
+    font-family: $font-sans-stack;
+}
+
+.regular-loaded {
+    body {
+        font-family: $font-sans-regular;
+    }
+}

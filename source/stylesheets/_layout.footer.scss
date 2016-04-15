@@ -1,0 +1,77 @@
+
+
+// --------------------------------------------------------------------------
+//   LAYOUT: FOOTER
+// --------------------------------------------------------------------------
+
+
+.Footer {
+    // a {
+    //     @include u-link(none);
+    //     @include on-event() {
+    //         color: color(text, brand-alt);
+    //     }
+    // }
+}
+
+.Footer-contact {
+    background-color: color(ui, brand);
+    padding: space(2) 0;
+    text-align: center;
+
+    h1,
+    p {
+        color: color(text, white);
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: space(0.5);
+    }
+
+    @include respond-to(sm) {
+        padding: space(2.5) 0;
+    }
+}
+
+.Footer-menu {
+    border-top: 1px solid color(ui, base);
+    padding: space(1) 0 space(1);
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        position: relative;
+    }
+
+    li {
+        @include TextSm();
+        color: color(text, lite);
+        margin: 0 0 2px;
+    }
+
+    @include respond-to(sm) {
+        padding: space(1.5) 0 space(2.5);
+    }
+}
+
+.Footer-logo img {
+    height: rem(50);
+
+    @media (min-width: 767px) and (max-width: 992px) {
+        height: rem(90);
+    }
+
+    @include respond-to(md) {
+        height: rem(50);
+    }
+}
+
+
+// crash test
+
+// .Columns {
+//     @include respond-to(xs) {
+//         columns: 3;
+//     }
+// }

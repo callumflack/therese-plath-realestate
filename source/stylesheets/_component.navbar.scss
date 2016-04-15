@@ -1,0 +1,324 @@
+
+
+// --------------------------------------------------------------------------
+//   BOOTSTRAP NAVBAR
+//   See: http://v4-alpha.getbootstrap.com/getting-started/download/
+// --------------------------------------------------------------------------
+
+
+// Wrapper and base class
+// --------------------------------------------------------------------------
+// Provide a static navbar from which we expand to create full-width, fixed, and
+// other navbar variations.
+
+.navbar {
+    position: relative;
+    padding: space(1);
+    @include clearfix;
+
+    @include respond-to(sm) {
+        border-radius: 0;
+    }
+}
+
+
+
+// Navbar alignment options
+// --------------------------------------------------------------------------
+// Display the navbar across the entirety of the page or fixed it to the top or
+// bottom of the page.
+
+// A static, full width modifier with no rounded corners.
+.navbar-full {
+    z-index: 1;
+
+    @include respond-to(sm) {
+        border-radius: size(border-radius, base);
+    }
+}
+
+// Fix the top/bottom navbars when screen real estate supports it
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 2;
+
+    // Undo the rounded corners
+    @include respond-to(sm) {
+        border-radius: 0;
+    }
+}
+
+.navbar-fixed-top {
+    top: 0;
+}
+
+.navbar-fixed-bottom {
+    bottom: 0;
+}
+
+.navbar-sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+
+    // Undo the rounded corners
+    @include respond-to(sm) {
+        border-radius: 0;
+    }
+}
+
+
+
+// Brand/project name
+// --------------------------------------------------------------------------
+
+.navbar-brand {
+    @include u-link(none);
+    @include headlineRg();
+    margin-right: 1rem;
+
+    @include on-event {
+        text-decoration: none;
+    }
+
+    > img {
+        display: block;
+    }
+}
+
+
+.navbar-divider {
+    float: left;
+    width: 1px;
+    padding-top: .425rem;
+    padding-bottom: .425rem;
+    margin-right: space(1);
+    margin-left:  space(1);
+    overflow: hidden;
+
+    &::before {
+        content: "\00a0";
+    }
+}
+
+
+
+// Navbar toggle
+// --------------------------------------------------------------------------
+// Custom button for toggling the `.navbar-collapse`, powered by the collapse
+// Bootstrap JavaScript plugin.
+
+.navbar-toggler {
+    background: none;
+    border: 1px solid transparent;
+    border-radius: size(border-radius, base);
+    font-size: fontsize(textRg, base);
+    line-height: 1;
+    padding: .5rem .75rem;
+
+    @include on-event {
+        text-decoration: none;
+    }
+
+    .icon-bar {
+        background-color: palette(charcoal);
+        border-radius: 1px;
+        display: block;
+        height: 2px;
+        transition: all 0.2s;
+        width: 35px;
+
+        @include respond-to(xs) {
+            border-radius: 1.5px;
+            height: 3px;
+            width: rem(38);
+        }
+
+        + .icon-bar {
+            margin-top: 6px;
+
+            @include respond-to(sm) {
+                margin-top: 7px;
+            }
+
+        }
+    }
+}
+
+// Open: not implemented
+// .navbar-toggler[aria-expanded='true']{
+//     .icon-bar {
+//         &.top {
+//             transform: rotate(45deg);
+//             transform-origin: 10% 100%;
+//
+//             @include respond-to(xs) {
+//                 transform-origin: 0% 100%;
+//             }
+//         }
+//
+//         &.middle {
+//             opacity: 0;
+//             transform-origin: 0% 0%;
+//         }
+//
+//         &.bottom {
+//             transform: rotate(-45deg);
+//             transform-origin: 20% 100%;
+//         }
+//     }
+// }
+
+// Custom override for
+.navbar-toggleable {
+    &-xs {
+        @include respond-to(sm) {
+            display: block !important;
+        }
+    }
+    &-sm {
+        @include respond-to(md) {
+            display: block !important;
+        }
+    }
+    &-md {
+        @include respond-to(lg) {
+            display: block !important;
+        }
+    }
+}
+
+
+// Navigation
+// --------------------------------------------------------------------------
+// Custom navbar navigation built on the base `.nav` styles.
+
+// .navbar-nav {
+//     .nav-item {
+//         float: left;
+//     }
+//
+//     .nav-link {
+//         display: block;
+//         padding-top:    .425rem;
+//         padding-bottom: .425rem;
+//
+//     + .nav-link {
+//           margin-left: 1rem;
+//         }
+//     }
+//
+//     .nav-item + .nav-item {
+//         margin-left: 1rem;
+//     }
+// }
+
+// Dark links against a light background
+// .navbar-light {
+//     .navbar-brand {
+//         color: $navbar-light-active-color;
+//
+//         @include hover-focus {
+//             color: $navbar-light-active-color;
+//         }
+//     }
+//
+//     .navbar-nav {
+//         .nav-link {
+//             color: $navbar-light-color;
+//
+//             @include hover-focus {
+//                 color: $navbar-light-hover-color;
+//             }
+//         }
+//
+//         .open > .nav-link,
+//         .active > .nav-link,
+//         .nav-link.open,
+//         .nav-link.active {
+//             @include plain-hover-focus {
+//                 color: $navbar-light-active-color;
+//             }
+//         }
+//     }
+//
+//     .navbar-divider {
+//         background-color: rgba(0,0,0,.075);
+//     }
+// }
+//
+// // White links against a dark background
+// .navbar-dark {
+//     .navbar-brand {
+//         color: $navbar-dark-active-color;
+//
+//         @include hover-focus {
+//             color: $navbar-dark-active-color;
+//         }
+//     }
+//
+//     .navbar-nav {
+//         .nav-link {
+//             color: $navbar-dark-color;
+//
+//             @include hover-focus {
+//                 color: $navbar-dark-hover-color;
+//             }
+//         }
+//
+//         .open > .nav-link,
+//         .active > .nav-link,
+//         .nav-link.open,
+//         .nav-link.active {
+//             @include plain-hover-focus {
+//                 color: $navbar-dark-active-color;
+//             }
+//         }
+//     }
+//
+//     .navbar-divider {
+//         background-color: rgba(255,255,255,.075);
+//     }
+// }
+
+
+// BS animation
+// --------------------------------------------------------------------------
+//
+// .fade {
+//     opacity: 0;
+//     transition: opacity .15s linear;
+//
+//     &.in {
+//         opacity: 1;
+//     }
+// }
+//
+// .collapse {
+//   display: none;
+//
+//     &.in {
+//         display: block;
+//     }
+// }
+//
+// .collapsing {
+//     position: relative;
+//     height: 0;
+//     overflow: hidden;
+//     transition-timing-function: ease;
+//     transition-duration: .35s;
+//     transition-property: height;
+// }
+
+
+// Theme
+// --------------------------------------------------------------------------
+
+.tp-navbar {
+
+}

@@ -1,0 +1,63 @@
+
+
+// --------------------------------------------------------------------------
+//    TYPOGRAPHY ELEMENT SETTINGS
+// --------------------------------------------------------------------------
+
+
+// Using font-face? Use this with it.
+// --------------------------------------------------------------------------
+
+@mixin TypeReset() {
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* uncss:ignore */
+h1, h2, h3, h4, h5, h6,
+blockquote,
+ul, ol, li, dl, dd
+p, address,
+table, time,
+form, fieldset, legend,
+figure, figcaption,
+table, th, td, caption
+pre, small,
+em, b {
+    @include TypeReset();
+}
+
+
+// Root styling to cascade thru
+// Moved to body, not :root, so that it's easier to use fontfaceonload.js
+// --------------------------------------------------------------------------
+
+// html {
+// :root {
+
+body {
+    @include TypeReset();
+    color: color(text, charcoal);
+    font-family: $font-sans-regular;
+    font-size: 100%;
+    line-height: $base-line-height-unit;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+// Consistent vertical rhythm
+// --------------------------------------------------------------------------
+
+/* uncss:ignore */
+h1, h2, h3, h4, h5, h6,
+ul, ol, li, dl,
+blockquote, p, address,
+table, time,
+fieldset,
+pre {
+    margin-bottom: space(0.5);
+}

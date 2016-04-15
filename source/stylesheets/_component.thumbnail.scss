@@ -1,0 +1,97 @@
+
+/* ==========================================================================
+
+   THUMBNAIL COMPONENT
+
+   ========================================================================== */
+
+/**
+ * Thumb on hover
+ */
+
+.ThumbSet .Grid-cell > a {
+    @include u-linkInvisible();
+    margin-bottom: space(1);
+    position: relative;
+}
+
+.Thumbset--grey {
+    a .Thumb-img {
+        filter: grayscale(90%);
+    }
+
+    a:hover .Thumb-img {
+        filter: grayscale(0);
+    }
+}
+
+
+/**
+ * Thumbnail overlay
+ * Use with '.u-posAbsoluteCenter'
+ */
+
+.Thumb-panel {
+    background-image: linear-gradient(to bottom, rgba(color(text, charcoal),1.0), rgba(color(text, charcoal),0.8));
+    padding: space(1);
+    opacity: 0;
+    transition: all map-fetch($transition, duration, short) map-fetch($transition, type, base) ease;
+
+    p {
+        margin-bottom: space(1/6);
+    }
+}
+
+/**
+ * Thumbs with background-images set by data-attrs.
+ * Requires JS.
+ */
+
+.Thumb {
+    background-color: color(text, charcoal);
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+
+    @include when-inside('a:hover') {
+        .Thumb-img {
+            opacity: 1;
+            transform: scale(1.01);
+        }
+
+        .Thumb-caption {
+            // opacity: 0;
+        }
+    }
+
+    @include respond-to(sm) {
+        height: rem(200);
+    }
+}
+
+.Thumb-img,
+.Thumb-caption {
+    @include smoothTransition();
+    background-size: cover !important;
+    margin: auto;
+    opacity: 0.8;
+    position: absolute;
+    transition: all map-fetch($transition, duration, short) map-fetch($transition, type, base);
+}
+
+.Thumb-img {
+    @include u-absoluteCenter();
+}
+
+.Thumb-caption {
+    top: space(0.5) - rem(2);
+    left: space(0.5);
+    opacity: 1;
+    right: space(0.5);
+}
+
+.Thumb-caption p {
+    @include TextSm();
+    color: color(ui, white);
+    margin-bottom: 0;
+}

@@ -1,0 +1,90 @@
+
+
+// --------------------------------------------------------------------------
+//   MODAL COMPONENT
+// --------------------------------------------------------------------------
+
+
+.Modal {
+    background-color: palette(brand);
+    backface-visibility: hidden;
+    border-top: rem(6) solid palette(brand);
+    margin: 0;
+    opacity: 0;
+    outline: 0;
+    overflow: hidden;
+    transition: z-index 0s ease 500ms, opacity 500ms ease;
+    width: 100vw;
+    z-index: map-fetch($z-index, 'below');
+
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+/* uncss:ignore */
+.Modal.is-active {
+    opacity: 1;
+    overflow: hidden;
+    transition: z-index 0s ease, opacity 250ms ease;
+    z-index: map-fetch($z-index, 'modal');
+
+    @include respond-to(xs) {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+.Modal-dialog {
+    margin: space(1) auto;
+    // opacity: 0;
+    position: relative;
+    // transform: translateY(10px);
+    // transition: all map-fetch($transition, duration, fast) map-fetch($transition, type, base);
+    width: size(container, default);
+
+    @include respond-to(sm) {
+        margin: space(2) auto;
+        width: size(container, default);
+    }
+}
+
+/* uncss:ignore */
+// .Modal.is-active .Modal-dialog {
+//     opacity: 1;
+//     transform: translateY(0);
+//     transition: all map-fetch($transition, duration, fast) map-fetch($transition, type, fine) 200ms;
+// }
+
+
+// .Modal-title {
+//     color: color(ui, brand-alt);
+//     text-align: center;
+// }
+//
+// .Modal-content {
+//     // background-color: #fff;
+//     background-clip: padding-box;
+//     // border: 1px solid #999;
+//     // border: 1px solid rgba(0,0,0,.2);
+//     // border-radius: 6px;
+//     // box-shadow: 0 3px 9px rgba(0,0,0,.5);
+//     outline: 0;
+//     padding: space(0.75);
+//     position: relative;
+//     transform: scale(0.9, 0.9);
+//     transition: transform map-fetch($transition, duration, long) map-fetch($transition, type, cubic-static);
+//
+//     /* uncss:ignore */
+//     @include when-inside('.Modal.is-displayed') {
+//         transform: scale(1, 1);
+//         transition: transform map-fetch($transition, duration, short) map-fetch($transition, type, cubic-state);
+//     }
+//
+//     @include respond-to(xs) {
+//         // box-shadow: 0 5px 15px rgba(0,0,0,.5);
+//         padding: space(1.5);
+//     }
+// }

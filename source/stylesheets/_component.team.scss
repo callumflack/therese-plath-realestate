@@ -1,0 +1,44 @@
+
+
+// --------------------------------------------------------------------------
+//   COMPONENT: TEAM
+// --------------------------------------------------------------------------
+
+
+.Author {
+    min-height: space(10);
+}
+
+.Author-details {
+    background-color: palette(neutral);
+    padding: space(0.75);
+}
+
+// Style the post's author block by reusing the 'card-*.html'
+// include and scoping by context.
+
+.index .Author-details {
+    background-color: palette(background);
+    padding: 0 space(0.75);
+}
+
+
+// About page stuff
+// --------------------------------------------------------------------------
+
+.Hgroup {
+    > * {
+        color: palette(white);
+    }
+}
+
+.Profile-details {
+    min-height: space(15);
+    position: relative;
+}
+
+.Profile-image {
+    margin-top: space(0.3);
+    min-height: space(15);
+    position: relative;
+}

@@ -1,0 +1,84 @@
+
+
+// --------------------------------------------------------------------------
+//   COMPONENT: ARTICLE ASIDE
+//   Can be used with the 'affix' & 'scrollspy' functions
+// --------------------------------------------------------------------------
+
+
+// consistent spacing variable
+$leftOutset: 13px;
+$leftBorder: 2px;
+
+.Aside--affixed {
+	margin: 0;
+	width: rem(300);
+}
+
+// List for the affix aside menu.
+.Aside-list {
+    list-style-type: none;
+    margin-left: - $leftOutset;
+    padding-left: 0;
+
+}
+
+// on 'li' element in a scrollspy '.nav'
+.Aside-list--item {
+	@include TextSm();
+	color: color(text, medium);
+	font-family: $font-sans-medium;
+	line-height: $base-line-height-unit;
+	margin: 0;
+	transition: all map-fetch($transition, duration, short) map-fetch($transition, type, base);
+
+	a {
+		@include u-link(none);
+		border-left: $leftBorder solid transparent;
+		display: block;
+		margin: 0 0 rem(2) 0;
+		padding: space(0.2) 0 space(0.125) ($leftOutset - $leftBorder);
+
+		@include on-event() {
+			border-color: color(text, brand);
+			color: color(text, brand);
+		}
+	}
+
+	// styling on scrollspy
+	&.active {
+        > a {
+            border-color: color(text, brand);
+            color: color(text, brand);
+			font-family: $font-sans-bold;
+        }
+	}
+}
+
+.Aside-list--link {
+	@include TextSm();
+	@include u-link(none);
+	color: color(text, medium);
+	font-family: $font-sans-regular;
+	line-height: $base-line-height-unit;
+	margin: rem(8) 0 rem(8) 0;
+
+	& + .Aside-list--link {
+		margin-left: rem(10);
+	}
+
+	@include on-event() {
+		color: color(text, brand);
+	}
+}
+
+// .Info-avatar {
+//     margin-bottom: space(0.5);
+//     padding-left: 12px;
+//
+// 	> img {
+// 		border: 1px solid color(ui, brand);
+// 	    border-radius: map-fetch($size, border-radius, base);
+// 	}
+//
+// }

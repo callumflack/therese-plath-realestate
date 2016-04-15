@@ -1,0 +1,17 @@
+
+// --------------------------------------------------------------------------
+// COMPONENT: IMAGE BLENDS
+// See: http://codepen.io/Guilh/pen/LEQWev?editors=110
+// See: https://sarasoueidan.com/demos/css-blender/
+// See: http://una.im/CSSgram/
+// --------------------------------------------------------------------------
+
+@mixin ImageBlend(
+    $blend: multiply,
+    $color: rgba( palette(brand-complement), 0.9)
+) {
+    background-blend-mode: $blend;
+    background-color: $color;
+}
+
+.ImageBlend { @include ImageBlend(); }

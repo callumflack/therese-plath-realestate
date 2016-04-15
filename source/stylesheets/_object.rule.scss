@@ -1,0 +1,76 @@
+
+
+// --------------------------------------------------------------------------
+// OBJECT: RULE
+// --------------------------------------------------------------------------
+
+
+// Rules on divs
+
+// @mixin SectionRule(
+//     $mixin-color: color(ui, muted),
+//     $mixin-weight: 1px
+// ) {
+//     border-top: $mixin-weight solid $mixin-color;
+//     // padding-top: space(0.5);
+// }
+//
+// .SectionRule            { @include SectionRule(); }
+// .SectionRule--base      { @include SectionRule( color(ui, base) ); }
+// .SectionRule--dark      { @include SectionRule( color(ui, charcoal) ); }
+//
+// .msm-SectionRule        { @include SectionRule(); @include respond-to(sm) { display: none; } }
+// .msm-SectionRule--light { @include SectionRule($mixin-color: rgba( color(ui, muted), 0.5) ); @include respond-to(sm) { display: none; } }
+// .mxs-SectionRule        { @include respond-to(max-xs) { @include SectionRule(); } }
+
+
+
+// Rules (replacing HRs)
+
+@mixin Rule(
+    $mixin-color: palette(base),
+    $mixin-weight: 1px
+) {
+    border: 0;
+    border-top: $mixin-weight solid $mixin-color;
+}
+
+.HzRule {
+    @include Rule();
+    height: 0;
+    margin-top: calc( #{space(1)} - 1px);
+    margin-bottom: space(1);
+}
+
+.DivRule {
+    @include Rule( 2px, palette(charcoal) );
+    padding-top: space(1/3);
+}
+
+.DivRule--light {
+    @include Rule( 1px, palette(base) );
+    padding-top: space(1/3);
+}
+
+.VertRule--left {
+    border-left: 1px solid palette(base);
+}
+
+
+// .HzRule--white   { @include Rule( color(ui, white) ); }
+// .HzRule--muted   { @include Rule( color(ui, muted) ); }
+// .HzRule--dark    { @include Rule( color(ui, charcoal) ); }
+//
+// .msm-HzRule      { @include respond-to(max-sm) { @include Rule(); } }
+//
+// .HzRule--footer {
+//     border-top: 1px solid rgba( color(ui, medium), 0.25);
+//     height: 1px;
+//     margin: space(0.75) 0;
+//     width: 100%;
+//
+//     @include respond-to(xs) {
+//         margin: rem(9) 0 rem(11);
+//         width: 80%;
+//     }
+// }

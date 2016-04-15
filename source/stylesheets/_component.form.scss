@@ -1,0 +1,181 @@
+
+
+// --------------------------------------------------------------------------
+// FORM
+// --------------------------------------------------------------------------
+
+
+input,
+textarea,
+select,
+label {
+    @include TextSm();
+    color: palette(medium);
+}
+
+input,
+textarea {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: size(border-radius, base);
+    display: inline-block;
+    line-height: size(button-height, base);
+    padding: 0 space(2/3);
+    resize: none;
+    transition: all map-fetch($transition, duration, long) map-fetch($transition, type, base);
+    width: 100%;
+    -webkit-appearance: none;
+
+    @include on-event() {
+        outline: 0;
+    }
+
+    @include respond-to(max-xs) {
+        // font-size: 16px;
+    }
+
+    &:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 rem(100) darken(color(ui, neutral),4%) inset;
+        -webkit-text-fill-color: color(text, medium);
+        background-clip: padding-box;
+    }
+
+    $color-placeholder: color(text, medium);
+
+    &::-webkit-input-placeholder { color: $color-placeholder; }
+    &:-moz-placeholder           { color: $color-placeholder; }
+    &::-moz-placeholder          { color: $color-placeholder; }
+    &:-ms-input-placeholder      { color: $color-placeholder; }
+}
+
+input,
+textarea {
+    border: 1px solid color(ui, base);
+    margin-bottom: space(0.5);
+}
+
+textarea {
+    line-height: 1.5;
+    padding-top: space(0.5);
+}
+
+
+// Pattern: transition hide the form label.
+// Requires JS.
+// --------------------------------------------------------------------------
+
+/* uncss:ignore */
+.Form-group {
+    position: relative;
+
+    &:not(:last-child) {
+        margin: 0 0 space(0.5);
+    }
+
+    @include when-inside(".Form--clear") {
+        margin-top: space(1.0);
+        margin-bottom: 0;
+    }
+
+    label {
+        position: absolute;
+        top: rem(10);
+        left: rem(16);
+        cursor: text;
+        transition: all map-fetch($transition, duration, fast) map-fetch($transition, type, fine);
+        z-index: 100;
+    }
+
+    input.Form-control,
+    textarea.Form-control {
+        padding-left: rem(16);
+        padding-right: rem(16);
+    }
+
+    // retain theme typography alignment
+    // input.Button {
+    //     padding-top: 2px;
+    // }
+
+    // /* uncss:ignore */
+    // &.is-active > label:not(.error) {
+    //     // color: color(text, charcoal);
+    //     // font-size: rem($sizeTextSm * 0.65);
+    //     opacity: 0;
+    //     transform: translateY(rem(-10));
+    // }
+
+    // below elements for cascade purposes
+    &--clean {
+        margin-bottom: space(1.5) !important;
+
+        select {
+            @include TextRg();
+        }
+
+        label {
+            left: 0;
+            position: relative;
+            margin-left: 16px;
+            margin-right: 5px;
+            top: 0;
+
+        }
+    }
+
+}
+
+/* uncss:ignore */
+.Form-group.is-active > label:not(.error) {
+    opacity: 0;
+    transform: translateY(rem(-10));
+}
+
+/* uncss:ignore */
+.Form--clear .Form-group.is-active > label:not(.error) {
+    font-size: fontsize(textXs, base);
+    opacity: 1;
+    transform: translate(0, -32px);
+}
+
+
+// Form-group errors
+// --------------------------------------------------------------------------
+
+// label {
+//     &.error{
+//         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+//         background-color: color(ui, warning );
+//         padding: 10px 20px 10px 20px;
+//         max-width: 260px !important;
+//         border-radius: 5px;
+//         margin-top: 40px;
+//         color: color(ui, white);
+//         position: absolute;
+//         z-index: $zindex-tooltip;
+//
+//         &::before{
+//             border-bottom: 10px solid $color-validation-error;
+//             border-right: 10px solid transparent;
+//             border-left: 10px solid transparent;
+//             box-sizing: border-box;
+//             content: '';
+//             height: 0;
+//             width: 0;
+//             left: 8%;
+//             position: absolute;
+//             margin-top: -19px;
+//         }
+//
+//         &[for="hiddenRecaptcha2"]{
+//             margin-left: 10%;
+//         }
+//     }
+// }
+//
+// input,
+// textarea{
+//     &.error{
+//         border-color: $color-validation-error;
+//     }
+// }

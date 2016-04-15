@@ -1,0 +1,45 @@
+
+
+// --------------------------------------------------------------------------
+//   COMPONENT: FANCY WELL
+// --------------------------------------------------------------------------
+
+
+@mixin FancyWell {
+    color: color(ui, brand);
+    display: inline-block;
+    font-family: $font-sans-thin;
+    font-size: map-fetch($size, font, super, xs);
+    position: absolute;
+    top: 0;
+    transform: translateY( rem(2) );
+
+    @include respond-to(xs) {
+        font-size: map-fetch($size, font, super, base);
+        transform: translateY( rem(4) );
+    }
+}
+
+.FancyWell {
+    position: relative;
+
+    &:before {
+        @include FancyWell;
+        content: "{";
+        left: -1%;
+
+        @include respond-to(xs) {
+            left: -10%;
+        }
+    }
+
+    &:after {
+        @include FancyWell;
+        content: "}";
+        right: -1%;
+
+        @include respond-to(xs) {
+            right: -10%;
+        }
+    }
+}

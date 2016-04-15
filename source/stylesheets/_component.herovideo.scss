@@ -1,0 +1,55 @@
+
+
+// --------------------------------------------------------------------------
+// COMPONENT: HERO
+// Youtube embed poster frame reveal
+// See: http://codepen.io/pixelthing/pen/zGZKaQ
+// --------------------------------------------------------------------------
+
+
+.videoWrapper {
+    // position: relative;
+    // width: 100%;
+    // height: 100%;
+    background-color: palette(black);
+}
+
+.videoIframe {
+    // @extend .u-posAbsoluteCenter;
+    // width: 100%;
+    // height: 100%;
+    // background-color: transparent;
+}
+
+.videoPoster {
+    // @include baseTransition();
+    text-indent: -999em;
+    overflow: hidden;
+    opacity: 1;
+    transition: opacity 800ms, height 0s;
+    transition-delay: 0s, 0s;
+
+    &:before {
+        @include baseTransition();
+        background-color: rgba( palette(black), 0.25 );
+        content: " ";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    .videoWrapperActive & {
+        opacity: 0;
+        height: 0;
+        transition-delay: 0s, 800ms;
+    }
+
+    @include on-event() {
+        &:before {
+            background-color: rgba( palette(black), 0.5 );
+        }
+    }
+}

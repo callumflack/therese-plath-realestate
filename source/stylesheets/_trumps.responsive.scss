@@ -1,0 +1,56 @@
+
+
+// --------------------------------------------------------------------------
+// TRUMPS: RESPONSIVE HELPERS
+// Hide or show things responsively v2
+// --------------------------------------------------------------------------
+
+
+// hide for liquid conditionals
+.u-hide                      { display: none; }
+
+// hide at breakpoints
+// better naming? "hidden-sm-up"
+.u-mxs-hide                  { @include respond-to(max-xs) { display: none !important; } }
+.u-xs-hide                   { @include respond-to(xs) { display: none !important; } }
+.u-sm-hide                   { @include respond-to(sm) { display: none !important; } }
+.u-md-hide                   { @include respond-to(md) { display: none !important; } }
+.u-lg-hide                   { @include respond-to(lg) { display: none !important; } }
+
+// display at breakpoints
+.u-mxs-display               { display: none; @include respond-to(max-xs) { display: block !important; } }
+.u-xs-display                { display: none; @include respond-to(xs) { display: block !important; } }
+.u-lg-display                { display: none; @include respond-to(lg) { display: block !important; } }
+
+// display:block at breakpoints
+.u-mxs-block               { @include respond-to(max-xs) { display: block !important; } }
+.u-xs-block                { @include respond-to(xs) { display: block !important; } }
+.u-lg-block                { @include respond-to(lg) { display: block !important; } }
+
+// breakpoint: max-sm
+.msm-Grid-cell--center       { @include respond-to(max-sm) { margin: 0 auto; } }
+.u-msm-size10of12            { @include respond-to(max-sm) { width: 83.33333333333334% !important; } }
+
+// breakpoint: max-xs
+.u-mxs-flex                  { @include respond-to(max-xs) { display: flex !important; } }
+.u-mxs-flexOrderFirst        { @include respond-to(max-xs) { order: -1 !important; } }
+.u-mxs-flexOrderLast         { @include respond-to(max-xs) { order: 1 !important; } }
+.u-mxs-flexAlignItemsStretch { @include respond-to(max-xs) { align-items: stretch !important; } }
+.u-mxs-flexJustifyBetween    { @include respond-to(max-xs) { justify-content: space-between !important; } }
+
+// breakpoint: xs
+.xs-Grid--withGutter         { @include respond-to(xs) { margin: 0 -(space(0.5)); > .Grid-cell { padding: 0 space(0.5); } } }
+.u-xs-flex                   { display: none; @include respond-to(xs) { display: flex !important; } }
+.u-xs-floatRight             { @include respond-to(xs) { float: right !important; } }
+
+// breakpoint: sm
+.u-sm-flex                   { @include respond-to(sm) { display: flex !important; } }
+.u-sm-flexAlignItemsCenter   { @include respond-to(sm) { align-items: center !important; } }
+.u-sm-flexJustifyCenter      { @include respond-to(sm) { justify-content: center !important; } }
+
+// text alignments
+.u-mxs-textCenter            { @include respond-to(max-xs) { text-align: center !important; } }
+.u-msm-textCenter            { @include respond-to(max-sm) { text-align: center !important; } }
+.u-ip6-textLeft              { @include respond-to(ip6) { text-align: left !important; } }
+.u-xs-textRight              { @include respond-to(xs) { text-align: right !important; } }
+.u-lg-textCenter             { @include respond-to(lg) { text-align: center !important; } }

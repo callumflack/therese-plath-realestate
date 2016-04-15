@@ -1,0 +1,118 @@
+
+
+// --------------------------------------------------------------------------
+// FLICKITY THEME COMPONENT
+// --------------------------------------------------------------------------
+
+
+.gallery-cell {
+    width: 100%;
+}
+
+a.gallery-cell {
+    @include u-link(none);
+    transition: none;
+}
+
+.flickity-page-dots .dot {
+    background: palette(muted);
+}
+
+.flickity-prev-next-button {
+    background-color: transparent;
+    border: none;
+    color: palette(muted);
+    height: 100%;
+    opacity: 0;
+    top: 0;
+    transform: none;
+    width: 20%;
+
+    &:disabled {
+        opacity: 0;
+    }
+
+    &.next     { right: -20%; }
+    &.previous { left: -20%; }
+
+    .arrow {
+        fill: currentColor;
+    }
+
+    @include on-event() {
+        background-color: transparent;
+        opacity: 1;
+        transition: opacity 500ms;
+    }
+}
+
+
+// Theme when inside '.Hero'
+// --------------------------------------------------------------------------
+
+.Hero .gallery-cell {
+    .CoverImage {
+        transition: 1s transform ease-out;
+    }
+
+    @include on-event() {
+        .CoverImage--hint {
+            transform: scale(1.02);
+        }
+    }
+
+    @include respond-to(md) {
+        width: size(container, wide-picture);
+    }
+}
+
+.Hero .flickity-page-dots {
+    bottom: space(1);
+
+    .dot {
+        background: palette(white);
+    }
+}
+
+.Hero .flickity-prev-next-button {
+    @include baseTransition();
+    border-radius: 0;
+    color: palette(charcoal);
+    height: 100%;
+    opacity: 1;
+    top: 0;
+    width: 20%;
+    width: 0;
+
+    @include respond-to(sm) {
+        background-color: rgba( palette(neutral-light), 0.96 );
+        width: calc( (100% - #{size(container, wide-picture)}) * 0.5 );
+    }
+
+    &.next     { right: 0; }
+    &.previous { left: 0; }
+
+    $flickityArrowHeight: 100px;
+
+    svg {
+        @include baseTransition();
+        color: inherit;
+        height: $flickityArrowHeight;
+        left: auto;
+        opacity: 0;
+        right: 50%;
+        top: calc( (100% - #{$flickityArrowHeight}) / 2 );
+        transform: translate(50%);
+        width: $flickityArrowHeight;
+    }
+
+    .arrow {
+        fill: currentColor;
+    }
+
+    @include on-event() {
+        svg {
+            opacity: 1;
+        }
+    }
+}

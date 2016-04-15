@@ -1,0 +1,154 @@
+
+
+// --------------------------------------------------------------------------
+//   COMPONENT: CARDS
+//   See: https://github.com/IanLunn/Hover
+// --------------------------------------------------------------------------
+
+
+@mixin CardGlow() {
+	@include smoothTransition();
+	transition-duration: 0.3s;
+	transition-property: box-shadow;
+
+	&:hover {
+		box-shadow: 0 0 space(1.5) color(text, medium);
+	}
+}
+
+@mixin ImageFilter {
+	filter: grayscale(50%);
+	&:hover {
+		filter: grayscale(0);
+	}
+}
+
+// The Card
+.Card {
+    @include CardGlow();
+	border: 1px solid color(ui, brand);
+    border-radius: map-fetch($size, border-radius, base);
+    display: block;
+	margin-bottom: space(0.5);
+    position: relative;
+
+    &:after {
+        border-left: 1rem solid transparent;
+        border-right: 1rem solid transparent;
+        border-bottom: 1rem solid color(ui, brand-muted);
+        content: "";
+        display: inline-block;
+        height: 0;
+        left: 50%;
+        opacity: 0;
+        position: absolute;
+        top: calc(100% + #{2.25rem} );
+        // transform: translate(-50%, 0);
+        transition: all map-fetch($transition, duration, short) map-fetch($transition, type, fine);
+        vertical-align: middle;
+        width: 0;
+    }
+
+    &.is-open:after {
+        opacity: 1;
+		transform: translate(-50%, 0);
+    }
+
+	@include respond-to(xs) {
+	    margin-bottom: 0;
+	}
+}
+
+.Card-image {
+	@include CoverImage();
+	@include ImageBlend();
+	height: rem(80) !important;
+
+	@include respond-to(xs) {
+	    height: rem(165) !important;
+	}
+
+	&.with-headline {
+		@extend .u-flex;
+		@extend .u-flexAlignItemsEnd;
+		.Card-type { background-color: transparent !important; }
+	}
+
+	> img {
+		// @include ImageFilter();
+		border-top-left-radius: map-fetch($size, border-radius, base);
+		border-top-right-radius: map-fetch($size, border-radius, base);
+	}
+}
+
+.Card-type {
+    background-color: color(ui, brand);
+    color: color(text, white);
+	font-family: $font-sans-bold;
+	font-size: map-fetch($size, font, textSm, xs);
+    margin-bottom: 0;
+    padding: rem(7) rem(12) rem(6);
+    text-align: left;
+	text-transform: capitalize;
+
+	@include respond-to(xs) {
+	    font-size: map-fetch($size, font, textSm, base);
+		padding: rem(7) rem(16) rem(6);
+	}
+}
+
+.Card-title {
+    @include headlineRg();
+	// background-color: rgba( color(ui, brand), 0.05);
+	// background-color: color(ui, brand-light);
+	// background-color: color(ui, brand-muted);
+    color: color(text, charcoal);
+	font-family: $font-sans-regular;
+	font-size: map-fetch($size, font, headerRg, xs);
+	margin-bottom: 0;
+	min-height: rem(85);
+    padding: rem(7) rem(16) rem(7) rem(12);
+    text-align: left;
+
+    @include respond-to(sm) {
+		font-family: $font-sans-light;
+		font-size: map-fetch($size, font, headerMd, base);
+        // margin-bottom: space(0.75);
+        margin-bottom: 0;
+		min-height: rem(125);
+		padding: rem(12) rem(24) rem(12) rem(14);
+    }
+}
+
+
+// Info opened via fold-toggling the Card
+// --------------------------------------------------------------------------
+
+.Info {
+    position: relative;
+}
+
+.Info-menu {
+    margin: space(1) 0 space(0.5);
+}
+
+// on 'a' element in a '.Fold'
+.Info-link {
+	@include TextSm();
+	@include u-link(none);
+	@extend .u-flexAlignSelfStretch;
+	border: 1px solid currentColor;
+	border-radius: map-fetch($size, border-radius, base);
+	color: color(text, charcoal);
+	display: block;
+	font-family: $font-sans-bold;
+	margin-bottom: space(0.5);
+	min-height: space(3);
+	padding: rem(10) rem(20) rem(12) rem(12);
+	transition: all map-fetch($transition, duration, short) map-fetch($transition, type, base);
+	width: 100%;
+
+	@include on-event() {
+		background-color: color(ui, white);
+	}
+}

@@ -1,0 +1,112 @@
+
+/**
+ * Page slide controls.
+ * Abstracted into a mixin for use in the Owl Carousel / home-work controls.
+ * Change bg-color: http://codepen.io/anon/pen/LyiFg
+ */
+
+$linkWidth: 4rem;
+
+@mixin Page-link() {
+    @include u-linkInvisible();
+    background-color: color(ui, brand);
+    bottom: 0;
+    cursor: pointer;
+    height: 100vh;
+    left: 0;
+    max-height: 100vh;
+    position: fixed;
+    top: 0;
+    transition: all map-fetch($transition, duration, short) map-fetch($transition, type, base) ease-in;
+    width: $linkWidth;
+    z-index: z(second);
+
+    // test flex
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: darken(color(ui, brand),5%);
+    }
+
+    > span {
+        @include headlineSm();
+        @include remFallback($sizeHeader);
+        align-self: center;
+        color: color(text, charcoal);
+        margin: 0 -space(1);
+        transform: rotate(-90deg);
+    }
+}
+
+.OpenPage {
+    @include Page-link();
+
+    @include when-inside('.is-work') {
+        background-color: color(ui, neutral);
+    }
+}
+
+.ClosePage {
+    @include Page-link();
+    background-color: transparent;
+    cursor: default;
+    left: auto;
+    right: 0;
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    @include when-inside('.is-work') {
+        cursor: pointer;
+    }
+}
+
+
+/**
+ * Page slides.
+ */
+
+.index {
+    @include respond-to(sm) {
+        background-color: color(ui, neutral);
+        max-width: 100%;
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+    }
+}
+
+.index.is-work .page-index {
+    @include respond-to(sm) {
+        transform: translate(calc(100% - #{$linkWidth}),0);
+        overflow-x: hidden;
+    }
+}
+
+.page-index {
+    @include respond-to(sm) {
+        background-color: color(ui, background);
+        height: 100%;
+        left: 0;
+        padding: 0 space(0.75);
+        position: absolute;
+        top: 0;
+        transition: transform map-fetch($transition, duration, long) map-fetch($transition, type, fine);
+        width: 100%;
+        z-index: z(first);
+
+        // @include bp(sm-md) { padding: 0 5rem; }
+        // @include bp(md-up) { padding: 0; }
+    }
+}
+
+.index .page-index,
+.index .page-work {
+    @include respond-to(sm) {
+        min-height: 100vh;
+        overflow-y: scroll;
+    }
+}

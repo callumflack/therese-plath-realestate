@@ -1,0 +1,92 @@
+
+
+// --------------------------------------------------------------------------
+// LAYOUT: HEADER
+// --------------------------------------------------------------------------
+
+
+.Header {
+    border-top: rem(6) solid palette(brand);
+    padding: space(1) 0;
+    transition-duration: map-fetch($transition, duration, base);
+    transition-duration: 0.2s;
+
+    //     @include respond-to(max-sm) { width: 100vw; } // 1.
+
+    @include respond-to(sm) {
+        padding: space(2) 0;
+    }
+}
+
+// .Header-nav {
+//     border-bottom: 1px solid $color-grey-rule;
+//     margin: space(0.5) 0 0;
+//     padding-bottom: space(0.5);
+//     position: relative;
+// }
+
+.Header-logo,
+.Header-title {
+    @include u-link(none);
+    @include headlineRg();
+}
+
+.Header-logo {
+    margin-right: space(0.25);
+}
+
+.Header-title {
+    color: palette(muted);
+}
+
+// .Header-menu {
+//     position: absolute;
+//     top: space(1); right: 0;
+//     margin: 0;
+//
+//     li {
+//         background-image: none;
+//         color: rgba(color(text, medium), 0.25);
+//         font-size: 15px;
+//         display: inline-block;
+//         margin: 0;
+//         // vertical-align: baseline;
+//     }
+//
+//     li a {
+//         color: rgba(color(text, medium), 0.5);
+//
+//     }
+// }
+
+
+
+// Make the header nav fixed and animate down into view on scroll
+// See: http://codepen.io/Craig-Watson/pen/zGbNRL
+// --------------------------------------------------------------------------
+
+$FixedHeaderHeight: rem(143);
+
+.Header--fixed {
+    background-color: palette(background);
+    background-color: rgba( palette(background), 0.96 );
+    left: 0;
+    margin-bottom: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition-duration: map-fetch($transition, duration, base);
+    z-index: 1050;
+}
+
+// This is the req'd wrapper for all other page content.
+// Yeah, I know.
+
+body > .Content:first-of-type {
+    margin-top: $FixedHeaderHeight;
+}
+
+.Header--fixed-transition {
+    transform: translateY( -#{$FixedHeaderHeight} );
+    transition-duration: map-fetch($transition, duration, long);
+}

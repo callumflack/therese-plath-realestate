@@ -1,0 +1,457 @@
+
+
+// --------------------------------------------------------------------------
+//   MIXINS
+// --------------------------------------------------------------------------
+
+
+// Clearfix
+// --------------------------------------------------------------------------
+// 1. The space content is one way to avoid an Opera bug when the
+//    contenteditable attribute is included anywhere else in the document.
+//    Otherwise it causes space to appear at the top and bottom of elements
+//    that are clearfixed.
+// 2. The use of `table` rather than `block` is only necessary if using
+//    `:before` to contain the top-margins of child elements.
+
+@mixin clearfix() {
+    &:before,
+    &:after {
+        content: " "; // 1
+        display: table; // 2
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+
+// Event wrapper
+// --------------------------------------------------------------------------
+// @author Harry Roberts
+// @param {Bool} $self [false] - Whether or not to include current selector
+// @link https://twitter.com/csswizardry/status/478938530342006784
+// @link https://css-tricks.com/snippets/sass/simplifying-contexts-events/
+
+@mixin on-event($self: false) {
+    @if $self {
+        &,
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+    } @else {
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+    }
+}
+
+
+
+// Context-based selector
+// --------------------------------------------------------------------------
+// Make a context-based selector a little more friendly
+// @author Hugo Giraudel
+// @param {String} $context
+// @link https://css-tricks.com/snippets/sass/simplifying-contexts-events/
+// .my-element {
+//     display: flex;
+//     @include when-inside('.no-flexbox') {
+//         display: table;
+//     }
+// }
+
+@mixin when-inside($context) {
+    #{$context} & {
+        @content;
+    }
+}
+
+
+
+// Tint
+// --------------------------------------------------------------------------
+
+@function tint($current-color, $percent) {
+    @return mix(#FFF, $current-color, $percent);
+}
+
+
+
+// Transition base
+// --------------------------------------------------------------------------
+
+@mixin baseTransition {
+    transition-property: all;
+    transition-duration: map-fetch($transition, duration, long);
+    transition-timing-function: map-fetch($transition, type, base);
+}
+
+
+
+// Spacer computation
+// --------------------------------------------------------------------------
+// See: https://gist.github.com/jlong/8760275
+// See: OUI:partials:elements:functions
+
+// @function spacer($value) {
+//   @if ($value * 2) % 1 != 0 {
+//     @warn 'Spacer value must be a multiple of 0.5';
+//     @return 'Spacer value must be a multiple of 0.5';
+//   } @else {
+//     @return $spacer-unit * $value;
+//   }
+// }
+
+@function space($value) {
+    @return $space-unit * $value;
+}
+
+
+
+// Centers an element vertically & horizontally using flexbox.
+// --------------------------------------------------------------------------
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+// Scut strip unit
+// --------------------------------------------------------------------------
+// http://davidtheclark.github.io/scut/strip-unit.html
+
+@function scut-strip-unit (
+    $num
+) {
+
+    @return $num / ($num * 0 + 1);
+
+}
+
+
+// Scut px to rem
+// --------------------------------------------------------------------------
+// http://davidtheclark.github.io/scut/rem.html
+// Requires: `scut-strip-unit`.
+// Renamed rem() from scut-rem() for ease of use.
+
+$scut-rem-base: 16 !default;
+
+@function rem (
+    $pixels
+) {
+
+    $rem-vals: ();
+    @each $val in $pixels {
+        $val-in-rems: scut-strip-unit($val) / $scut-rem-base * 1rem;
+        $rem-vals: append($rem-vals, $val-in-rems);
+    }
+
+    @if length($rem-vals) == 1 {
+        // return a single value instead of a list,
+        // so it can be used in calculations
+        @return nth($rem-vals, 1);
+    }
+    @else {
+        @return $rem-vals;
+    }
+
+}
+
+
+// Scut rem fallback
+// --------------------------------------------------------------------------
+// http://davidtheclark.github.io/scut/remFallback.html
+// Requires: scut-rem and scut-strip-unit.
+// Renamed remFallback() from scut-remFallback() for ease of use.
+
+@mixin remFallback (
+    $pixels,
+    $property: font-size
+) {
+
+    $px-vals: null;
+    @each $val in $pixels {
+        $val-in-px: scut-strip-unit($val) * 1px;
+        $px-vals: append($px-vals, $val-in-px);
+    }
+    $rem-vals: rem($pixels);
+
+    #{$property}: $px-vals;
+    #{$property}: $rem-vals;
+
+}
+
+
+// Scut font-face
+// --------------------------------------------------------------------------
+// http://davidtheclark.github.io/scut/font-face.html
+// Renamed font-face() from scut-font-face() for ease of use.
+// Original $formats: eot woff2 woff ttf svg
+
+@function main-src($formats, $file-path, $font-family) {
+    // Return the list of `src` values, in order, that
+    // a good `@font-face` will need, including only
+    // those formats specified in the list `$formats`.
+    $result: ();
+    @if index($formats, eot) {
+        $eot-val: url('#{$file-path}.eot?#iefix') format('embedded-opentype');
+        $result: append($result, $eot-val, comma);
+    }
+    @if index($formats, woff2) {
+        $woff2-val: url('#{$file-path}.woff2') format('woff2');
+        $result: append($result, $woff2-val, comma);
+    }
+    @if index($formats, woff) {
+        $woff-val: url('#{$file-path}.woff') format('woff');
+        $result: append($result, $woff-val, comma);
+    }
+    @if index($formats, ttf) {
+        $ttf-val: url('#{$file-path}.ttf') format('truetype');
+        $result: append($result, $ttf-val, comma);
+    }
+    @if index($formats, svg) {
+        $svg-val: url('#{$file-path}.svg##{$font-family}') format('svg');
+        $result: append($result, $svg-val, comma);
+    }
+    @return $result;
+}
+
+@mixin font-face (
+    $font-family,
+    $file-path,
+    $weight: normal,
+    $style: normal,
+    $formats: eot woff ttf svg
+) {
+
+    @if index('italic' 'oblique', $weight) {
+        $style: $weight;
+        $weight: normal;
+    }
+
+    @font-face {
+        font-family: $font-family;
+        font-weight: $weight;
+        font-style: $style;
+
+        @if index($formats, eot) {
+            src: url('#{$file-path}.eot');
+        }
+
+        src: main-src( $formats, $file-path, $font-family );
+    }
+
+}
+
+
+
+
+
+// Retina images
+//
+// Short retina mixin for setting background-image and -size
+
+// .img-retina(@file-1x; @file-2x; @width-1x; @height-1x) {
+//   background-image: url("@{file-1x}");
+
+//   @media
+//   only screen and (-webkit-min-device-pixel-ratio: 2),
+//   only screen and (   min--moz-device-pixel-ratio: 2),
+//   only screen and (     -o-min-device-pixel-ratio: 2/1),
+//   only screen and (        min-device-pixel-ratio: 2),
+//   only screen and (                min-resolution: 192dpi),
+//   only screen and (                min-resolution: 2dppx) {
+//     background-image: url("@{file-2x}");
+//     background-size: @width-1x @height-1x;
+//   }
+// }
+
+
+
+
+
+
+// Transform smoothing hacks
+// --------------------------------------------------------------------------
+// As is often the case, some devices/browsers need additional code to get CSS to work
+// in the most desired way. These mixins are used to quickly drop in hacks for each element
+// Find out more here: https://github.com/IanLunn/Hover/wiki/Hacks-Explained
+// 1. Improve performance on mobile/tablet devices
+// 2. Improve aliasing on mobile/tablet devices
+// 3. Transforms need to be block-level to work
+// 4. @CF: 'will-change' is almost available. See: https://dev.opera.com/articles/css-will-change-property/
+
+@mixin hardwareAccel() {
+    transform: translateZ(0); //1.
+}
+
+@mixin improveAntiAlias() {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0); // 2.
+}
+
+@mixin fontSmooth() {
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin forceBlockLevel() {
+    display: inline-block; //3.
+    // vertical-align: middle;
+}
+
+@mixin anticipatePainting {
+    will-change: all; // 4.
+}
+
+@mixin smoothTransition() {
+    @include forceBlockLevel();
+    @include hardwareAccel();
+    /* @include improveAntiAlias(); */
+    @include fontSmooth();
+    /* @include anticipatePainting(); */
+}
+
+
+
+
+
+
+// Access nested maps
+// --------------------------------------------------------------------------
+// TODO: add an error message, like:
+// @if ($value == null) {
+//  @error "The value '#{$key}' doesn't exist in the map."; }
+// See: https://gist.github.com/jlong/8760275
+// See: OUI:partials:elements:functions
+// See: http://codepen.io/jakealbaugh/post/using-sass-functions-to-access-complex-variable-maps
+
+@function map-fetch($map, $keys...) {
+    $value: $map;
+    @each $key in $keys {
+        $value: map-get($value, $key);
+    }
+    @return $value;
+}
+
+// OUI map-fetch
+// @function map-fetch($map, $keys) {
+//   $key: nth($keys, 1);
+//   $length: length($keys);
+//   $value: map-get($map, $key);
+//   @if ($length > 1) {
+//     $rest: ();
+//     @for $i from 2 through $length {
+//       $rest: append($rest, nth($keys, $i));
+//     }
+//     @if ($value == null) {
+//       @error "The value '#{$key}' doesn't exist in the map.";
+//     }
+//     @return map-fetch($value, $rest)
+//   } @else {
+//     @if ($value == null) {
+//       @error "The value '#{$key}' doesn't exist in the map.";
+//     }
+//     @return $value;
+//   }
+// }
+
+// Debuggin sass maps
+// Can't get this to work ATM but could be useful.
+// http://www.sitepoint.com/debugging-sass-maps/
+
+@mixin debug-map($map) {
+    @at-root {
+        @debug-map {
+            __toString__: inspect($map);
+            __length__: length($map);
+            __depth__: depth($map);
+            __keys__: map-keys($map);
+            __properties__ {
+                @each $key, $value in $map {
+                    #{'(' + type-of($value) + ') ' + $key}: inspect($value);
+                }
+            }
+        }
+    }
+}
+
+
+// Spin-out map-fetch functions for most-used styles.
+// Done as functions, not mixins, so we can use them within
+// standard style lists, e.g. color: color();
+
+// http://www.bigeng.io/how-we-use-sass-maps-for-design-tokens-and-developer-happiness/
+// http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/
+// @function palette($palette, $tone: 'base') {
+//     @return map-get(map-get($palettes, $palette), $tone);
+// }
+
+@function color($type: 'ui', $increment: 'base') {
+    @return map-fetch($color, $type, $increment);
+}
+
+@function palette($hue: 'grey-25') {
+    @return map-fetch($palette, $hue);
+}
+
+@function size($type: 'font', $increment: 'text') {
+    @return map-fetch($size, $type, $increment);
+}
+
+@function fontsize($increment: 'textRg', $response: 'base') {
+    @return map-fetch($size, font, $increment, $response);
+}
+
+
+// Responsive manager.
+// @link http://sass-guidelin.es/#breakpoint-manager Sass Guidelines - Breakpoint Manager
+// @link http://www.sitepoint.com/managing-responsive-breakpoints-sass/
+
+@mixin respond-to($breakpoint) {
+    // $raw-query: map-get($breakpoints, $breakpoint);
+    $raw-query: map-fetch($size, breakpoint, $breakpoint);
+
+    @if $raw-query {
+        $query: if(type-of($raw-query) == 'string', unquote($raw-query), inspect($raw-query));
+
+        @media #{$query} {
+            @content;
+        }
+
+    } @else {
+        @error 'No value found for `#{$breakpoint}`. '
+             + 'Please make sure it is defined in `$breakpoints` map.';
+    }
+}
+
+
+// Get a font weight value from a layer name
+// @access public
+// @param {String} $layer - Layer's name
+// @return {Number}
+// @link http://sass-guidelin.es/#errors
+// @link https://jonsuh.com/blog/organizing-z-index-with-sass/
+
+@function font-weight($key) {
+    @if not map-has-key($font-weight, $key) {
+        @error 'There is no key named `#{$key}` in $font-weights. '
+             + 'Key should be one of #{map-keys($font-weight)}.';
+    }
+
+    @return map-get($font-weight, $key);
+}
+
+@mixin font-weight($key) {
+    // font-family: $font;
+    font-weight: font-weight($key);
+}

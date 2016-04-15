@@ -1,0 +1,108 @@
+
+
+// --------------------------------------------------------------------------
+// COMPONENT: STACKED NAV
+// Ripping off: http://getbootstrap.com/javascript/#scrollspy
+// --------------------------------------------------------------------------
+
+
+// .SectionNav {
+//     margin-bottom: $space * 0.9;
+// }
+
+// .SectionNav-title {
+//     @include TextSans($font: $sans-bold);
+//     margin-left: rem(13);
+//     margin-bottom: $space * 0.25;
+//
+//     a {
+//         @include u-link(none, $mixin-hover-color: $color-brand);
+//     }
+// }
+
+.Nav--stack {
+    color: $color-grey;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    // structure
+    > li {
+        // margin-right: spacer(1);
+
+        > a {
+            display: block;
+        }
+    }
+
+    // theme
+    li {
+        // @include TextSans($font: $sans-bold);
+        color: currentColor;
+        // font-size: rem($sizeTextXs);
+        letter-spacing: 0;
+        text-transform: capitalize;
+
+        a {
+            @include u-link(none, $mixin-hover-color: $color-brand);
+            border-left: 1px solid transparent;
+            color: currentColor;
+            display: block;
+            padding: rem(3) rem(12);
+
+            @include on-event() {
+                border-color: currentColor;
+            }
+        }
+    }
+
+    // scrollspy styling
+    .active {
+        > a {
+            border-left: 2px solid currentColor;
+            color: color(ui, brand);
+            padding-left: rem(11);
+        }
+
+        > ul {
+            display: block;
+        }
+    }
+
+}
+
+// list within a list
+.Nav--stack .Nav--stack {
+    display: none;
+    padding-bottom: rem(10);
+
+    > li {
+        // font-family: $sans-reg;
+
+        a {
+            padding-left: rem(22);
+        }
+    }
+
+    // scrollspy styling
+    .active > a {
+        padding-left: rem(21);
+
+    }
+}
+
+.Nav--stack + .Nav--stack {
+    margin-top: rem(3);
+}
+
+.Nav--stack-link {
+    // @include TextSans($font: $sans-reg);
+    @include u-link(none, $mixin-hover-color: $color-brand);
+    color: $color-grey;
+    display: block;
+    // font-size: rem($sizeTextXs);
+    letter-spacing: 0;
+    margin: 0;
+    padding: 0;
+    padding: rem(3) rem(13);
+}
