@@ -8,7 +8,6 @@ phone:
 email: 
 name: Team Plath
 mobile: 
-position: 
 picture: "/uploads/team-plath.jpg"
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: How To Satisfy Fresh Tomato Cravings
 date: 2016-04-05 07:16:00 Z
+tags:
+- Suburb profiles
 list-img-full: 
 list-text-left: 
 list-text-truncate: '40'
 hero: "/uploads/post-img-3.jpg"
-tags:
-- Suburb profiles
 ---
 
 The holidays bring with them thoughts of carving and serving delicious turkey dinners to your family and friends. Tradition has its fans, but perhaps this year you’d like to try a twist to your turkey recipe. If you have a gas grill and enjoy the smoky flavor of grilled meats, why not try grilling? 

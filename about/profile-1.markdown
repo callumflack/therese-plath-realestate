@@ -1,10 +1,10 @@
 ---
 title: profile-1
 date: 2016-04-07 22:22:00 Z
+position: 0
 phone: "(07) 4045 9700"
 email: jodie.kneebone@raywhite.com
 name: Jodie Kneebone
-position: Sales Associate
 picture: "/uploads/team-plath-2.jpg"
 summary: Her bright personality has endeared her to regular clients and strangers
   alike, Jodie is always there to give our staff and clients the assistance they need
