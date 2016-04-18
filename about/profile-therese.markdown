@@ -10,13 +10,8 @@ email: therese.plath@raywhite.com
 name: Therese Plath
 mobile: 0418 772 995
 picture: "/uploads/therese-plath.jpg"
-Field name:
-  name: Therese Plath
-  picture: "/uploads/therese-plath.jpg"
-  email: therese.plath@raywhite.com
-  phone: "(07) 4045 9700"
-  mobile: 0418 772 995
-  summary: Therese Plath is a true local. Born in Cairns,  she grew up on the Tablelands
+profile:
+  profile: Therese Plath is a true local. Born in Cairns,  she grew up on the Tablelands
     before returning to Cairns on her marriage, 40 years ago. For the past 30 years,
     Therese has happily resided on their south side acreage property at Edmonton.
 ---
