@@ -12,6 +12,7 @@ mobile: 0418 772 995
 picture: "/uploads/therese-plath.jpg"
 profile:
   name: Therese Plath
+  position: Co-founder
   picture: "/uploads/therese-plath.jpg"
   email: therese.plath@raywhite.com
   phone: "(07) 4045 9700"
