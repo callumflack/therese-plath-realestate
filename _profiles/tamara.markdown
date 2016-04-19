@@ -1,13 +1,16 @@
 ---
-title: profile-2
-date: 2016-04-07 22:27:00 Z
-phone: "(07) 4045 9700"
-email: tamara.west@raywhite.com
+title: tamara
+date: 2016-04-08 08:27:00 +10:00
 name: Tamara West
+position: 4
+title: Personal assistant
+picture: "/uploads/team-plath-1.jpg"
+email: tamara.west@raywhite.com
+phone: "(07) 4045 9700"
+mobile: 0418 772 995
 summary: Her bright personality has endeared her to regular clients and strangers
   alike, Tamara is always there to give our staff and clients the assistance they
   need and is always eager to please.
-picture: "/uploads/team-plath-1.jpg"
 ---
 
 Tamara started with Ray White in June 2011 as Personal Assistant to Therese Plath, after working at Harcourts for 12 months as their receptionist/sales support.

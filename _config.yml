@@ -1,7 +1,7 @@
 ---
 title: Therese Plath Real Estate
 url: http://thereseplathre.siteleaf.net
-timezone: UTC
+timezone: Australia/Brisbane
 exclude: [README.markdown, package.json, gulp.js, gulpfile.js, node_modules]
 collections:
     posts:

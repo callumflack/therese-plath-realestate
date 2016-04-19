@@ -1,12 +1,13 @@
 ---
-title: profile-therese
-date: 2016-04-07 22:44:00 Z
+title: therese
+date: 2016-04-08 08:44:00 +10:00
 name: Therese Plath
+position: 1
+title: Co-founder
 picture: "/uploads/therese-plath.jpg"
 email: therese.plath@raywhite.com
 phone: "(07) 4045 9700"
 mobile: 0418 772 995
-position: 0
 summary: Therese Plath is a true local. Born in Cairns,  she grew up on the Tablelands
 before returning to Cairns on her marriage, 40 years ago. For the past 30 years,
 Therese has happily resided on their south side acreage property at Edmonton.
