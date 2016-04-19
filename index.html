@@ -44,9 +44,14 @@ layout: default
         <div class="Grid Grid--withGutter">
             <div class="Grid-cell u-xs-size1of2">
 
-                {% include profile-card.html %}
+                {% assign therese = site.profiles.therese %}
+
+                <p>{{ site.profiles.name }}</p>
+                <p>{{ therese.name }}</p>
+                <p>{{ site.tags['House tips'].value }}</p>
+
             </div>
-            
+
         </div>
 
     </div>
