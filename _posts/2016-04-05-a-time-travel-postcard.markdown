@@ -1,10 +1,10 @@
 ---
 title: A Time Travel Postcard
-date: 2016-04-05 07:52:00 Z
-layout: blog
+date: 2016-04-05 17:52:00 +10:00
 tags:
 - Community events
-list-img-full:
+layout: blog
+list-img-full: 
 list-text-left: 'true'
 hero: "/uploads/post-img-2.jpg"
 summary: The city of southern California, San Diego is locally known as ‘America’s
