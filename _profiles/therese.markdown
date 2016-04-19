@@ -1,6 +1,7 @@
 ---
 title: Therese
-date: 2016-04-19 10:51:56.725000000 +10:00
+date: 2016-04-19 10:51:00 +10:00
+test: salmon
 ---
 
 Following a successful career in tourism and hospitality and having bought and sold many properties over the years that is was almost overnight Therese became very successful winning many sales and marketing awards and in 1993 joined her partners to form Ray White Central. In 25 years of selling real estate in the Cairns area, Therese has become one of the State's outstanding Sales Principals, always prominent in the Top 5 in the State. In February 2011 Therese was awarded Number 4 Top Selling Principal in Queensland.
