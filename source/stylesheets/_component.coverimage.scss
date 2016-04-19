@@ -49,6 +49,8 @@
 
 .CoverImage {
     @include CoverImage();
+    @include baseTransition();
+
 }
 
 .CoverImage--dark {

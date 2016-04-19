@@ -29,7 +29,7 @@ $ButtonAlignment: 2px;
 
 .Button {
     @include ButtonType();
-    background-color: rgba( palette(brand), 0.3 );
+    background-color: rgba( palette(brand), 0.15 );
     border: 1px solid palette(base);
     border-radius: size(border-radius, base);
     line-height: size(button-height, base);
@@ -76,11 +76,25 @@ $ButtonAlignment: 2px;
         }
     }
 
+    &.Button--neutral {
+        background-color: palette(neutral);
+        @include on-event() {
+            background-color: darken( palette(neutral), 10% );
+        }
+    }
+
+    &.Button--medium {
+        background-color: palette(panel);
+        @include on-event() {
+            background-color: darken( palette(panel), 10% );
+        }
+    }
+
     &.Button--rev {
-        border: 2px solid color(ui, white);
+        border-color: palette(charcoal);
         background-color: transparent;
         @include on-event() {
-            background-color: color(ui, brand-dark);
+            background-color: palette(brand);
         }
     }
 

@@ -85,7 +85,8 @@ a.gallery-cell {
     width: 0;
 
     @include respond-to(sm) {
-        background-color: rgba( palette(neutral-light), 0.96 );
+        background-color: rgba( palette(neutral), 0.96 );
+        // background-color: palette(background);
         width: calc( (100% - #{size(container, wide-picture)}) * 0.5 );
     }
 

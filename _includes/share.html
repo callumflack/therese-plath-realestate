@@ -1,19 +1,24 @@
+{% comment %}
+    See: http://www.ericmobley.net/social-media-share-buttons-impact-on-performance/
+    Also, fb could be: href="https://www.facebook.com/dialog/share?app_id=APP_ID&display=popup&href={{ permalink }}&redirect_uri={{ site.permalink }}
+    Register w/ fb: https://www.facebook.com/login.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Fapps
+    more refs: https://developers.facebook.com/docs/javascript/quickstart/v2.5
+{% endcomment %}
+
+{% capture caption %} {{ title }} {{ meta['hero-byline' ]}} {% endcapture %}
+{% assign page_location = {{ page.url | prepend: 'http://www.thereseplath.com.au' }} %}
+
 <div class="">
-
-    {% capture caption %} {{ title }} {{ meta['hero-byline' ]}} {% endcapture %}
-    {% assign myurl = {{url | prepend: 'http://www.thereseplath.com.au' }} %}
-
-    <a class="" href="https://www.facebook.com/dialog/share?app_id=504840559704298&display=popup&href={{ permalink }}&redirect_uri={{ site.permalink }}" >
-        <svg class="Icon Icon--lg Icon--textAlign">
+    <a class="u-colorPanel" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: 'http://www.thereseplath.com.au' }}">
+        <svg class="Icon Icon--xl Icon--textAlign">
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-sm-facebook"></use>
         </svg>
     </a>
-    <a class="" href="mailto:?subject=Check out this article from {{ site.meta.title }}&body={{ caption }} {{ permalink }}" target="_blank">
-        <svg class="Icon Icon--lg Icon--right Icon--textAlign">
+    <a class="u-colorPanel" href="mailto:?subject=Check out this article from {{ site.title }}&body={{ caption }} …from {{ page_url }}" target="_blank">
+        <svg class="Icon Icon--xl Icon--right Icon--textAlign">
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-sm-email"></use>
         </svg>
     </a>
-
     <!-- <a class="" href="https://twitter.com/intent/tweet?source=&text={{ caption }}&url={{ permalink }}" target="_blank">
         <svg class="ic-sm-twitter" viewBox="0 0 44 44"><use xlink:href="#ic-sm-twitter"></use></svg>
     </a> -->

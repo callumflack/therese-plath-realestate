@@ -150,6 +150,35 @@ textarea {
 // Form-group errors
 // --------------------------------------------------------------------------
 
+.Form--capsule {
+    font-size: 0;
+
+    .Form-group {
+        display: inline-block;
+        vertical-align: top;
+
+        > .Form-control {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-right-color: transparent;
+        }
+
+        > .Button {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+
+    .Form-control {
+        margin: 0;
+    }
+}
+
+
+
+// Form-group errors
+// --------------------------------------------------------------------------
+
 // label {
 //     &.error{
 //         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);

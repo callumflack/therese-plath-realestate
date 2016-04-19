@@ -45,16 +45,18 @@ a.Post {
         .CoverImage {
             @include baseTransition();
             background-blend-mode: multiply;
-            background-color: rgba( palette(brand), 0.4 );
+            // background-color: rgba( palette(brand), 0.4 );
+            background-color: palette(brand);
             // filter: grayscale(100%);
             // opacity: 0.3;
         }
     }
 
-    @include when-inside(".post") {
+    @include when-inside(".Post") {
         @include on-event() {
             .CoverImage {
-                opacity: 0.2;
+                @include baseTransition();
+                opacity: 1;
             }
         }
     }

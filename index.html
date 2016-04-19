@@ -12,10 +12,11 @@ layout: default
 </section>
 
 <section class="Section">
-    <div class="Container DivRule">
-        <a href="/about"><h1 class="Headline">Team Plath</h1></a>
+    <!-- <div class="Container DivRule"> -->
+    <div class="Container">
+        <!-- <a href="/about"><h1 class="Headline">Team Plath</h1></a> -->
 
-        <div class="u-sm-size9of12 Grid-cell--center u-marginT2">
+        <div class="Grid-cell--center u-marginT2">
             <div class="FlexEmbed">
                 <div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
                 <div class="FlexEmbed-content">
@@ -32,15 +33,16 @@ layout: default
             </div>
         </div>
 
-        <div class="u-sm-size9of12 Grid-cell--center u-marginT15 u-marginB3">
-            <h2 class="Headline u-textCenter u-marginB15">Selling in all price ranges, in all Cairns suburbs.</h2>
+        <div class="u-sm-size11of12 Grid-cell--center u-marginT15 u-marginB3">
+            <h2 class="Headline u-textCenter u-marginB15">Therese Plath Real Estate.</br>Selling in all price ranges, in all Cairns suburbs.</h2>
             <div class="gallery u-sm-size11of12 Grid-cell--center">
                 {% include testimonial-1.html %}
                 {% include testimonial-2.html %}
             </div>
         </div>
 
-        <div class="HzRule">&nbsp;</div>
+        <div class="DivRule--light u-marginBD2">&nbsp;</div>
+        <!-- <a href="/about"><h1 class="Headline">Team Plath</h1></a> -->
         <div class="Grid Grid--withGutter">
             <div class="Grid-cell u-xs-size1of2">
                 {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
@@ -50,13 +52,12 @@ layout: default
                 {% assign profile = site.profiles | where: 'title', 'Team' | first %}
                 {% include profile-card.html %}
             </div>
-
         </div>
 
     </div>
 </section>
 
-<section class="Section u-bgBrandLight" style="font-size:0">
+<section class="Section u-bgNeutral" style="font-size:0">
     <div class="Container Container--lg">
         <a class="Pathway u-size1of3 u-textRight" href="/for-sale">
             <span class="Pathway-icon">
