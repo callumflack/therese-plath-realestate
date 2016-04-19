@@ -1,5 +1,5 @@
 ---
-title: jodie
+title: Jodie
 date: 2016-04-08 08:22:00 +10:00
 position: 3
 name: Jodie Kneebone
