@@ -1,8 +1,9 @@
 ---
-title: Personal assistant
+title: jodie
 date: 2016-04-08 08:22:00 +10:00
 position: 3
 name: Jodie Kneebone
+jobtitle: Personal assistant
 picture: "/uploads/team-plath-2.jpg"
 email: jodie.kneebone@raywhite.com
 phone: "(07) 4045 9700"
@@ -12,7 +13,7 @@ summary: Her bright personality has endeared her to regular clients and stranger
   and is always eager to please.
 ---
 
-Positive, energetic, bubbly, honest, enthusiastic and self motivated are just a few attributes used to describe Jodie Kneebone. 
+Positive, energetic, bubbly, honest, enthusiastic and self motivated are just a few attributes used to describe Jodie Kneebone.
 
 Jodie with her vivacious personality was given a golden opportunity over eight years ago to train under one of Queensland’s most successful and exceptional consultants, Therese Plath. This makes this an enviable team which sets a high standard of professionalism above all. You will feel as though you have known and respected them for years.
 
