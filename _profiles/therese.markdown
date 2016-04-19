@@ -1,6 +1,5 @@
 ---
 title: Therese
-date: 2016-04-19 11:12:38.823000000 +10:00
 position: 1
 name: Therese Plath
 jobtitle: Co-founder
