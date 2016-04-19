@@ -3,15 +3,22 @@ title: Therese Plath Real Estate
 url: http://thereseplathre.siteleaf.net
 timezone: Australia/Brisbane
 collections:
-  posts:
-    title: Posts
-    output: true
-  profiles:
-    title: Profiles
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+    posts:
+        title: Posts
+        output: true
+    profiles:
+        title: Profiles
+        output: true
+    uploads:
+        title: Uploads
+        output: true
+defaults:
+    scope:
+        path: ""
+        type: posts
+    values:
+        layout: post
+        permalink: /blog/:slug/
 exclude:
 - README.markdown
 - package.json

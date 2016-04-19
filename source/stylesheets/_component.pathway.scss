@@ -27,7 +27,7 @@
     }
 
     @include respond-to(sm) {
-        padding: space(2.5) space(2) space(2);
+        padding: space(4) space(2);
     }
 }
 

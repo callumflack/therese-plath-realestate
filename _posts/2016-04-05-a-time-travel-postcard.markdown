@@ -1,7 +1,10 @@
 ---
 title: A Time Travel Postcard
 date: 2016-04-05 07:52:00 Z
-layout: blog
+layout: post
+permalink: /blog/:slug/
+header: Blog
+author: tamara
 tags:
 - Community events
 list-img-full:

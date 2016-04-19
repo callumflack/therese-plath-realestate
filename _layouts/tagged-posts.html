@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% comment %}
+    See: http://christianspecht.de/2014/10/25/separate-pages-per-tag-category-with-jekyll-without-plugins/
+{% endcomment %}
+
+<section class="Section u-marginT0">
+    <div class="Container">
+        <div class="Grid Grid--withGutter">
+            <div class="Grid-cell u-sm-size3of12 u-sm-display">
+                <div class="Affix" data-spy="affix" data-offset-top="200">
+                    <ul class="Posts-nav">
+                        <li><a class="u-linkHot Arrow-left" href="/blog">View all posts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Grid-cell u-sm-size9of12">
+                {% for post in site.tags[page.tag] %}
+                    {% include post-in-list.html %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

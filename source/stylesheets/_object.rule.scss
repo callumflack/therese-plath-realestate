@@ -43,7 +43,7 @@
 }
 
 .DivRule {
-    @include Rule( 2px, palette(charcoal) );
+    @include Rule( 3px, palette(charcoal) );
     padding-top: space(1/3);
 }
 

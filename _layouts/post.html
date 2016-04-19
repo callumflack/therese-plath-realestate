@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+{% comment %}
+    This layout requires assigning a "profile" variable for the "profile-card" include.
+{% endcomment %}
+
+{% if page.author == 'tamara' %}
+    {% assign profile = site.profiles | where: 'title', 'Tamara' | first %}
+{% elsif page.author == 'jodie' %}
+    {% assign profile = site.profiles | where: 'title', 'Jodie' | first %}
+{% else page.author == 'therese' %}
+    {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
+{% endif %}
+
+<p>{{ site.pages.blog.title }}</p>
+<p>{{ page.parent.title }}</p>
+
+<article class="Post">
+    <section class="Section u-marginT0 u-marginB2 u-bgBrandAlt">
+        <div class="Container">
+            <figure class="">
+                <div class="FlexEmbed">
+                    <div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
+                    <div class="FlexEmbed-content">
+                        <div class="u-posAbsoluteCenter CoverImage" style="background-image: url('{{ page.hero }}')"></div>
+                    </div>
+                </div>
+            </figure>
+        </div>
+    </section>
+
+    <div class="Container">
+        <div class="Grid Grid--withGutter">
+            <div class="Grid-cell u-sm-size5of12 u-paddingR2 u-md-display">
+                <h1 class="Post-title">{{ page.title }}</h1>
+                <p class="u-textLg">{{ page.summary }}</p>
+
+                <div class="DivRule--light u-marginT3"></div>
+                <h3 class="Headline--tertiary">Share this post</h3>
+                {% include share.html %}
+
+                <div class="DivRule--light u-marginT15"></div>
+                <h3 class="Headline--tertiary">Get posts by email</h3>
+                {% include newsletter-form.html %}
+            </div>
+
+            <div class="Grid-cell u-sm-size6of12 u-sm-after1of12 u-alignBlockDown">
+                {{ content }}
+                {% include profile-card.html %}
+            </div>
+        </div>
+
+        <section class="Section">
+            <div class="Container DivRule">
+                <a href="/blog">
+                    <h1 class="Headline Arrow-right">View all posts</h1>
+                </a>
+                <div class="Grid">
+                    {% if page.previous %}
+                        <div class="Grid-cell u-xs-size1of2">
+                            <a class="Post" href="{{ page.previous.url }}">
+                                <figure class="Post-image--dark">
+                                    <div class="FlexEmbed">
+                                        <div class="FlexEmbed-ratio FlexEmbed-ratio--16by9 u-bgDark"></div>
+                                        <div class="FlexEmbed-content CoverImage" style="background-image: url('{{ page.previous.hero }}')"></div>
+                                        <div class="FlexEmbed-content">
+                                            <h1 class="Post-headline Post-headline--right Arrow-left">{{ page.previous.title }}</h1>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                    {% endif %}
+                    {% if page.next %}
+                    <div class="Grid-cell u-xs-size1of2">
+                        <a class="Post" href="{{ page.next.url }}">
+                            <figure class="Post-image--dark">
+                                <div class="FlexEmbed">
+                                    <div class="FlexEmbed-ratio FlexEmbed-ratio--16by9 u-bgDark"></div>
+                                    <div class="FlexEmbed-content CoverImage" style="background-image: url('{{ page.next.hero }}')"></div>
+                                    <div class="FlexEmbed-content">
+                                        <h1 class="Post-headline Arrow-right">{{ page.next.title }}</h1>
+                                    </div>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    {% endif %}
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+</article>

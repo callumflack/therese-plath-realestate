@@ -13,7 +13,7 @@ layout: default
 
 <section class="Section">
     <div class="Container DivRule">
-        <a href="{{ site.pages.about.url }}"><h1 class="Headline">Team Plath</h1></a>
+        <a href="/about"><h1 class="Headline">Team Plath</h1></a>
 
         <div class="u-sm-size9of12 Grid-cell--center u-marginT2">
             <div class="FlexEmbed">
@@ -56,9 +56,9 @@ layout: default
     </div>
 </section>
 
-<section class="Section u-bgBrand" style="font-size:0">
+<section class="Section u-bgBrandLight" style="font-size:0">
     <div class="Container Container--lg">
-        <a class="Pathway u-size1of3 u-textRight" href="{{ site.pages.for-sale.url }}">
+        <a class="Pathway u-size1of3 u-textRight" href="/for-sale">
             <span class="Pathway-icon">
                 <svg class="Icon Icon--lg Icon--textAlign">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-for-sale"></use>
@@ -67,7 +67,7 @@ layout: default
             <span class="Pathway-title Arrow-right">Properties for sale</span>
             <p class="">&nbsp;</p>
         </a>
-        <a class="Pathway u-size1of3 VertRule--left" href="{{ site.pages.appraisal.url }}">
+        <a class="Pathway u-size1of3 VertRule--left" href="/appraisal">
             <span class="Pathway-icon">
                 <svg class="Icon Icon--lg Icon--textAlign">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-appraisal"></use>
@@ -88,24 +88,20 @@ layout: default
     </div>
 </section>
 
-{% assign profile = site.profiles | where: 'title', 'Therese' | first %}
-
 <section class="Section">
     <div class="Container DivRule">
         <div class="Grid Grid--withGutter">
             <div class="Grid-cell u-size3of12">
-                <a href="{{ site.pages.blog.url }}"><h1 class="Headline">{{ site.pages.blog.permalink }} Blog</h1></a>
+                <a href="/blog"><h1 class="Headline">Blog</h1></a>
                 <div class="Affix" data-spy="affix" data-offset-top="2642">
                     {% include posts-aside.html %}
                 </div>
             </div>
-
             <div class="Grid-cell u-size9of12 u-alignBlockDown">
                 {% for post in site.posts | limit: 3 %}
                     {% include post-in-list.html %}
                 {% endfor %}
             </div>
-
         </div>
     </div>
 </section>

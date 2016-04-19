@@ -69,6 +69,7 @@
 .u-bgBlack          { background-color: palette(black) !important; }
 
 .u-bgBrand          { background-color: palette(brand) !important; }
+.u-bgBrandLight     { background-color: rgba( palette(brand), 0.4 ) !important; }
 .u-bgBrandAlt       { background-color: palette(brand-complement) !important; }
 
 .u-sm-bgNeutral     { @include respond-to(sm) { background-color: palette(neutral) !important; } }

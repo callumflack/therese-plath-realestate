@@ -123,6 +123,14 @@ textarea {
         }
     }
 
+    // simple error states
+    // https://www.google.com/design/spec/components/text-fields.html#text-fields-search-filter
+    &.error {
+        label {
+            color: palette(bad-news);
+        }
+    }
+
 }
 
 /* uncss:ignore */

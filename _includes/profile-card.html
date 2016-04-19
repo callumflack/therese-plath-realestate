@@ -1,9 +1,9 @@
 {% comment %}
     This include requires assigning a variable for {{ profile }}
-    e.g. {% assign profile = site.pages.about.pages.profile-therese %}
+    e.g. {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
 {% endcomment %}
 
-<div class="Grid Author u-flexAlignItemsStretch {% if post %}u-marginT3{% endif %}">
+<div class="Grid Author u-flexAlignItemsStretch {% if page.categories %}u-marginT3{% endif %}">
     <div class="Grid-cell u-posRelative {% if page.url == '/' %}u-xs-size5of12{% else %}u-xs-size6of12{% endif %}">
         <div class="u-posAbsoluteCenter CoverImage" style="background-image: url('{{ profile.picture }}')"></div>
     </div>
@@ -23,26 +23,7 @@
                 <a class="u-linkHot Arrow-right" href="#">View all {{ profile.name }}'s posts</a>
             {% else %}
                 <li>Contact:</li>
-                {% if profile.mobile %}
-                    <li>
-                        <a href="tel:{{ profile.mobile }}">
-                            <span class="Contact-target">M.</span>
-                            {{ profile.mobile }}
-                        </a>
-                    </li>
-                {% endif %}
-                <li>
-                    <a href="tel:{{ profile.phone }}">
-                        <span class="Contact-target">T.</span>
-                        {{ profile.phone }}
-                    </a>
-                </li>
-                <li style="white-space:nowrap;">
-                    <a href="mailto:{{ profile.email }}">
-                        <span class="Contact-target">E.</span>
-                        {{ profile.email }}
-                    </a>
-                </li>
+                {% include profile-contact.html %}
             {% endif %}
         </ul>
     </div>

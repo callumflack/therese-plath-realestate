@@ -1,14 +1,4 @@
 
-{% assign bridging            = site.pages.info-for.pages.bridging %}
-{% assign business            = site.pages.info-for.pages.business %}
-{% assign cashout             = site.pages.info-for.pages.cash-out %}
-{% assign construction        = site.pages.info-for.pages.construction %}
-{% assign fhbuyers            = site.pages.info-for.pages.first-home-buyers %}
-{% assign investment          = site.pages.info-for.pages.investment %}
-{% assign refinance           = site.pages.info-for.pages.refinance %}
-{% assign somethingdiff       = site.pages.info-for.pages.something-different %}
-{% assign choose              = site.pages.why-choose-australian-property-finance %}
-
 <footer class="Footer" role="contentinfo">
     <div class="Container DivRule--light">
         <div class="Grid Grid--withGutter u-marginTD2 u-marginB">
@@ -41,7 +31,7 @@
                     <div class="Grid-cell u-size3of12">
                         <ul class="u-listClean u-colorMutedBlock">
                             <li>Get in touch:</li>
-                            {% assign profile-contact  = site.pages.about.pages.profile-therese %}
+                            {% assign profile = site.profiles | where: 'title', 'Team' | first %}
                             {% include profile-contact.html %}
                         </ul>
                     </div>

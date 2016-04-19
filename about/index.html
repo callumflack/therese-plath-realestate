@@ -1,0 +1,86 @@
+---
+title: About Team Plath
+layout: default
+---
+
+{% assign therese = site.profiles | where: 'title', 'Therese' | first %}
+{% assign jodie   = site.profiles | where: 'title', 'Jodie' | first %}
+{% assign tamara  = site.profiles | where: 'title', 'Tamara' | first %}
+
+<section class="Section u-marginT0 u-marginB2 u-bgBrandAlt">
+    <div class="Container">
+        <figure class="">
+            <div class="FlexEmbed">
+                <div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
+                <div class="FlexEmbed-content u-flex u-flexAlignItemsCenter">
+                    <div class="u-posAbsoluteCenter CoverImage" style="background-image: url('/build/images/therese-plath-lg.png'); background-position-x:78%; margin-right:0!important; width:70%"></div>
+                    <div class="Hgroup u-sm-size4of12">
+                        <h1 class="Headline u-marginB0">{{ therese.name }}</h1>
+                        <h2 class="Headline u-weightRegular">{{ therese.jobtitle }}</h2>
+                        <p class="u-textLg">{{ therese.summary }}</p>
+                    </div>
+                </div>
+            </div>
+        </figure>
+    </div>
+</section>
+
+<div class="Container">
+
+    <div class="Grid Grid--withGutter">
+        <div class="Grid-cell u-sm-size4of12 u-paddingR2">
+            <div class="DivRule"></div>
+            <h3 class="Headline--tertiary u-marginB0">Contact Therese</h3>
+            <ul class="u-listClean u-marginBD1">
+                {% assign profile = therese %}
+                {% include profile-contact.html %}
+            </ul>
+            {% include share.html %}
+        </div>
+
+        <div class="Grid-cell u-sm-before1of12 u-sm-size6of12 u-after1of12 u-alignBlockUp">
+            {{ therese.content }}
+        </div>
+    </div>
+
+    <div class="DivRule u-marginT5">
+        <div class="Grid Grid--withGutter">
+            <div class="Grid-cell u-sm-size4of12 u-paddingR2 u-alignBlockDown">
+                <figure class="Profile-image">
+                    <div class="u-posAbsoluteCenter CoverImage" style="background-image: url('/build/images/team-plath.jpg')"></div>
+                </figure>
+                <h3 class="Headline--tertiary u-marginTD2 u-marginB0">Contact {{ jodie.name | first }}</h3>
+                <ul class="u-listClean u-marginBD1">
+                    {% assign profile-contact  = site.pages.about.pages.profile-1 %}
+                    {% include profile-contact.html %}
+                </ul>
+                {% include share.html %}
+            </div>
+            <div class="Grid-cell u-sm-size6of12 u-alignBlockDown u-flexOrderFirst">
+                <h1 class="Headline">{{ jodie.name }}</h1>
+                {{ jodie.content }}
+            </div>
+        </div>
+    </div>
+
+    <div class="DivRule u-marginT5">
+        <div class="Grid Grid--withGutter">
+            <div class="Grid-cell u-sm-before2of12 u-sm-size4of12 u-paddingL2 u-alignBlockDown">
+                <figure class="Profile-image">
+                    <div class="u-posAbsoluteCenter CoverImage" style="background-image: url('/build/images/team-plath.jpg')"></div>
+                </figure>
+                <h3 class="Headline--tertiary u-marginTD2 u-marginB0">Contact {{ tamara.name | first }}</h3>
+                <ul class="u-listClean u-marginBD1">
+                    {% assign profile-contact  = site.pages.about.pages.profile-2 %}
+                    {% include profile-contact.html %}
+                </ul>
+                {% include share.html %}
+            </div>
+            <div class="Grid-cell u-sm-size6of12 u-alignBlockDown">
+                <h1 class="Headline">{{ tamara.name }}</h1>
+                {{ tamara.content }}
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,13 +1,8 @@
 ---
 title: blog
 layout: default
+permalink: /blog/tags/
 ---
-
-<p>This is the blog template.</p>
-
-{% if type == 'post' %}
-    {% include 'post.html %}
-{% else %}
 
 <section class="Section u-marginT0">
     <div class="Container">
@@ -18,12 +13,10 @@ layout: default
                 </div>
             </div>
             <div class="Grid-cell u-sm-size9of12">
-                {% for post in posts | limit: 12 %}
+                {% for post in site.posts %}
                     {% include post-in-list.html %}
                 {% endfor %}
             </div>
         </div>
     </div>
 </section>
-
-{% endif %}
