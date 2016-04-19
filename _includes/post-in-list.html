@@ -1,0 +1,21 @@
+<a class="Post" href="{{ post.url }}">
+    <div class="Grid Grid--withGutter">
+        <div class="Grid-cell {% if post.meta.list-img-full %}u-sizeFull{% else %}u-size9of12{% endif %}">
+            <figure class="Post-image {% if post.meta.list-img-full %}Post-image--fullWidth{% endif %}">
+                <div class="FlexEmbed">
+                    <div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
+                    <div class="FlexEmbed-content CoverImage" style="background-image: url('{{ post.assets.first }}')"></div>
+                </div>
+            </figure>
+        </div>
+        <div class="Grid-cell {% if post.meta.list-img-full %}u-size9of12{% else %}u-size3of12{% endif %} {% if post.meta.list-text-left %}u-flexOrderFirst{% endif %}">
+            <h1 class="Post-title">{{ post.title }}</h1>
+            {% if type == 'post' %}
+                {{ post.body }}
+            {% else %}
+                {{ post.body | truncatewords: 32 }}
+                <span class="u-marginLD3 u-linkBuriedTarget Arrow-right">Read more</span>
+            {% endif %}
+        </div>
+    </div>
+</a>

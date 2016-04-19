@@ -1,0 +1,9 @@
+<ul class="Posts-nav">
+    {% assign tags = site.pages.blog.taxonomy.tags | sort:'value' %}
+    {% for tag in tags %}
+        <li><a class="{{ tag.slug }}" href="{{tag.url}}">{{tag.value}}</a></li>
+    {% endfor %}
+    {% if slug != 'blog' %}
+        <li><a class="u-linkHot Arrow-right" href="{{ blog.url }}">View all posts</a></li>
+    {% endif %}
+</ul>

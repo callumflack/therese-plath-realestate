@@ -7,8 +7,8 @@
 
 .TouchNav {
     // @include smoothTransition();
-    // background-color: map-fetch($color, ui, brand-alt);
-    background-color: map-fetch($color, ui, neutral);
+    // background-color: color(ui, brand-alt);
+    background-color: color(ui, neutral);
     bottom: space(1);
     border-radius: map-fetch($size, border-radius, base);
     box-shadow: 0 0 space(1.5) color(text, medium);

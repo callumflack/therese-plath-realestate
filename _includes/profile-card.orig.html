@@ -1,0 +1,7 @@
+{% if type == 'post' %}
+    <a class="u-linkHot Arrow-right" href="#">View all {{ profile.meta.name | first }}'s posts</a>
+    <a class="u-linkHot Arrow-right" href="#">View all {{ post.author.firstname }}'s posts</a>
+{% else %}
+    <li>Contact:</li>
+    {% include 'includes/profile-contact' %}
+{% endif %}

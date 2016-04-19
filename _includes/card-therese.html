@@ -1,0 +1,16 @@
+<div class="Grid Grid--withGutter">
+    <div class="Grid-cell u-xs-size5of12">
+        <img src="/build/images/therese-plath.jpg" alt="">
+    </div>
+    <div class="Grid-cell u-xs-size6of12 u-alignBlockUp u-fullHeight">
+        <a href="/about" class="u-linkBuried u-colorBlackBlock">
+            <h3 class="Headline--tertiary u-marginB0">Therese Plath, Principal</h3>
+            <p class=""> A true local, Therese was born in Cairns and grew up on the Tablelands before returning to Cairns upon her marriage… <span class="u-linkBuriedTarget Arrow-right">Read</span></p>
+        </a>
+        <ul class="u-listClean u-marginB0">
+            <li>Contact Therese:</li>
+            {% assign profile-contact  = site.pages.about.pages.profile-therese %}
+            {% include 'includes/profile-contact' %}
+        </ul>
+    </div>
+</div>

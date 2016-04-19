@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible", content="IE=edge,chrome=1" >
+    <meta http-equiv="cleartype", content="on" >
+    <meta name="viewport", content="width=device-width, initial-scale=1.0" >
+    <title>{{ site.title }}</title>
+    <meta name='description' content='{{ site.meta.description }}' >
+    <meta name='keywords' content="{{ site.meta.keywords }}" >
+    <meta name="author", content="{{ site.meta.title }}" >
+    <meta name="handheldfriendly", content="true" >
+    <meta name="mobileoptimized", content="320" >
+    <link rel="canonical" href="{{ site.meta.url }}">
+    {% include meta-share.html %}
+    <meta name="google-site-verification" content="" />
+    <link rel="alternate" type="application/rss+xml" href="{{ site.feed_url }}" />
+    <link rel="alternate" type="application/rss+xml" href="{{ site.sitemap_url }}" />
+    <link rel="stylesheet" href="/source/stylesheets/application.css">
+    <!-- <link rel="stylesheet" href="/build/application.min.css"> -->
+</head>
+<body id="top" class="{{type}} {{slug}} {% for tag in taxonomy.tags %} {{tag.slug}} {% endfor %}"
+    data-spy="scroll" data-target="#scrollspy" data-offset="300">
+
+    {% include header.html %}
+
+    <main class="Content" role="main">
+
+        {{ content }}
+
+    </main>
+
+    {% include footer.html %}
+    {% include nav.html %}
+    {% include icons.html %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/build/application.min.js"></script>
+    {% include google-analytics.html %}
+
+</body>
+</html>

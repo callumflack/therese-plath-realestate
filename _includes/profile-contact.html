@@ -1,0 +1,25 @@
+{% comment %}
+    This include requires assigning a variable for {{ profile-contact }}
+    e.g. {% assign profile-contact  = site.pages.about.pages.profile-therese %}
+{% endcomment %}
+
+{% if profile-contact.meta.mobile %}
+    <li>
+        <a href="tel:{{ profile-contact.meta.mobile }}">
+            <span class="Contact-target">M.</span>
+            {{ profile-contact.meta.mobile }}
+        </a>
+    </li>
+{% endif %}
+<li>
+    <a href="tel:{{ profile-contact.meta.phone }}">
+        <span class="Contact-target">T.</span>
+        {{ profile-contact.meta.phone }}
+    </a>
+</li>
+<li style="white-space:nowrap;">
+    <a href="mailto:{{ profile-contact.meta.email }}">
+        <span class="Contact-target">E.</span>
+        {{ profile-contact.meta.email }}
+    </a>
+</li>

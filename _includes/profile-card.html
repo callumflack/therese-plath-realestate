@@ -1,0 +1,54 @@
+{% comment %}
+    This include requires assigning a variable for {{ profile }}
+    e.g. {% assign profile = site.pages.about.pages.profile-therese %}
+{% endcomment %}
+
+{% assign somevar = 'about-us' %}
+{{ pages.[somevar].content }}
+
+{% assign person = site.pages.about.pages.profile-therese %}
+
+<p>{{ site.profiles.therese.date }}</p>
+<p>{{ site.tags['House tips'].value }}</p>
+
+<div class="Grid Author u-flexAlignItemsStretch {% if post %}u-marginT3{% endif %}">
+    <div class="Grid-cell u-posRelative {% if home? %}u-xs-size5of12{% else %}u-xs-size6of12{% endif %}">
+        <div class="u-posAbsoluteCenter CoverImage" style="background-image: url('{{ profile.picture }}')"></div>
+    </div>
+    <div class="Grid-cell u-xs-size6of12 Author-details {% if home? %}u-alignBlockUp{% endif %}">
+        <a href="/about" class="u-linkBuried {% if home? %}u-colorBlackBlock{% endif %}">
+            <h3 class="Headline--tertiary u-marginB0">{{ profile.name }}{% if profile.position %}, {{ profile.position }}{% endif %}</h3>
+            <p class="">{{ profile.summary | truncatewords: 15 }} <span class="u-linkBuriedTarget Arrow-right">Read</span></p>
+        </a>
+        <ul class="u-listClean u-marginB0">
+            {% if type == 'post' %}
+                <a class="u-linkHot Arrow-right" href="#">View all {{ post.author.firstname }}'s posts</a>
+                <a class="u-linkHot Arrow-right" href="#">View all {{ profile.name }}'s posts</a>
+            {% else %}
+                <li>Contact:</li>
+                {% include profile-contact.html %}
+                <p>PINK</p>
+                {% if profile-contact.meta.mobile %}
+                    <li>
+                        <a href="tel:{{ profile.mobile }}">
+                            <span class="Contact-target">M.</span>
+                            {{ profile.mobile }}
+                        </a>
+                    </li>
+                {% endif %}
+                <li>
+                    <a href="tel:{{ profile.phone }}">
+                        <span class="Contact-target">T.</span>
+                        {{ profile.phone }}
+                    </a>
+                </li>
+                <li style="white-space:nowrap;">
+                    <a href="mailto:{{ profile.email }}">
+                        <span class="Contact-target">E.</span>
+                        {{ profile.email }}
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>

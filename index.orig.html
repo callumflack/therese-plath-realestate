@@ -1,0 +1,116 @@
+{% capture content %}
+
+    <section class="Hero">
+        <div class="gallery">
+            {% include hero-post %}
+            {% include hero-post %}
+            {% include hero-post %}
+        </div>
+    </section>
+
+    <section class="Section">
+        <div class="Container DivRule">
+            <a href="{{ site.pages.about.url }}"><h1 class="Headline">Team Plath</h1></a>
+
+            <div class="u-sm-size9of12 Grid-cell--center u-marginT2">
+                <div class="FlexEmbed">
+                    <div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
+                    <div class="FlexEmbed-content">
+                        <div class="videoWrapper js-videoWrapper">
+                            <iframe class="u-posAbsoluteCenter js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/{{ site.meta.therese-plath-youtube }}" width="100%" height="100%" ></iframe>
+                            <button class="u-posAbsoluteCenter CoverImage videoPoster js-videoPoster" style="background-image:url('/build/images/video-poster.jpg');">
+                                <svg class="u-posAbsoluteCenter Icon Icon--super u-colorWhite">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-play"></use>
+                                </svg>
+                                Play video
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="u-sm-size9of12 Grid-cell--center u-marginT15 u-marginB3">
+                <h2 class="Headline u-textCenter u-marginB15">Selling in all price ranges, in all Cairns suburbs.</h2>
+                <div class="gallery u-sm-size11of12 Grid-cell--center">
+                    {% include testimonial-1 %}
+                    {% include testimonial-2 %}
+                </div>
+            </div>
+
+            <div class="HzRule">&nbsp;</div>
+            <div class="Grid Grid--withGutter">
+                <div class="Grid-cell u-xs-size1of2">
+                    {% assign profile         = site.pages.about.pages.profile-therese %}
+                    {% assign profile-contact = site.pages.about.pages.profile-therese %}
+                    {% include profile-card %}
+                </div>
+                <div class="Grid-cell u-xs-size1of2">
+                    {% assign profile         = site.pages.about.pages.profile-team %}
+                    {% assign profile-contact = site.pages.about.pages.profile-therese %}
+                    {% include profile-card %}
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="Section" style="font-size:0">
+        <a class="Pathway u-size1of2 u-textRight" href="{{ site.pages.for-sale.url }}">
+            <div class="u-sm-before3of12 u-sm-size9of12 u-lg-before1of2 u-lg-size1of2">
+                <span class="Pathway-icon">
+                    <svg class="Icon Icon--lg Icon--textAlign">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-for-sale"></use>
+                    </svg>
+                </span>
+                <span class="Pathway-title Arrow-right">Properties for sale</span>
+            </div>
+        </a>
+        <a class="Pathway u-size1of2 VertRule--left" href="{{ site.pages.for-sale.url }}">
+            <div class="u-sm-size9of12 u-lg-size1of2">
+                <span class="Pathway-icon">
+                    <svg class="Icon Icon--lg Icon--textAlign">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-recent-sales"></use>
+                    </svg>
+                </span>
+                <span class="Pathway-title Arrow-right">Recent sales</span>
+            </div>
+        </a>
+        <a class="Pathway u-bgFaint" href="{{ site.pages.appraisal.url }}">
+            <div class="Container">
+                <span class="Pathway-icon">
+                    <svg class="Icon Icon--lg Icon--textAlign">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-appraisal"></use>
+                    </svg>
+                </span>
+                <span class="Pathway-title Arrow-right">Find out what your property is worth</span>
+                <p class="">Get a free no-obligation quote</p>
+            </div>
+        </a>
+    </section>
+
+    {% assign blog = site.pages.blog %}
+
+    <section class="Section">
+        <div class="Container DivRule">
+            <div class="Grid Grid--withGutter">
+                <div class="Grid-cell u-size3of12">
+                    <a href="{{ site.pages.blog.url }}"><h1 class="Headline">Blog</h1></a>
+                    <div class="Affix" data-spy="affix" data-offset-top="2642">
+                        {% include blog-aside %}
+                    </div>
+                </div>
+
+                <div class="Grid-cell u-size9of12 u-alignBlockDown">
+                    {% for post in blog.posts | limit: 3 %}
+                        {% include post-in-list %}
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+{% endcapture %}
+
+{% include default %}

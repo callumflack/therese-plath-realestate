@@ -1,15 +1,15 @@
 ---
 title: profile-therese
 date: 2016-04-07 22:44:00 Z
+name: Therese Plath
+picture: "/uploads/therese-plath.jpg"
+email: therese.plath@raywhite.com
+phone: "(07) 4045 9700"
+mobile: 0418 772 995
 position: 0
 summary: Therese Plath is a true local. Born in Cairns,  she grew up on the Tablelands
-  before returning to Cairns on her marriage, 40 years ago. For the past 30 years,
-  Therese has happily resided on their south side acreage property at Edmonton.
-phone: "(07) 4045 9700"
-email: therese.plath@raywhite.com
-name: Therese Plath
-mobile: 0418 772 995
-picture: "/uploads/therese-plath.jpg"
+before returning to Cairns on her marriage, 40 years ago. For the past 30 years,
+Therese has happily resided on their south side acreage property at Edmonton.
 ---
 
 Following a successful career in tourism and hospitality and having bought and sold many properties over the years that is was almost overnight Therese became very successful winning many sales and marketing awards and in 1993 joined her partners to form Ray White Central. In 25 years of selling real estate in the Cairns area, Therese has become one of the State's outstanding Sales Principals, always prominent in the Top 5 in the State. In February 2011 Therese was awarded Number 4 Top Selling Principal in Queensland.

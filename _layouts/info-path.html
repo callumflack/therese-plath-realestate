@@ -1,0 +1,75 @@
+{% capture content %}
+
+    {% assign image-path     = '/build/images/' %}
+    {% assign info-page      = site.pages.info-for %}
+    {% assign choose-page    = site.pages.why-choose-australian-property-finance %}
+    {% assign privacy-page   = site.pages.privacy %}
+    {% assign offset-top     = "970" %}
+    {% assign offset-bottom  = "2010" %}
+
+    {% if parent.slug != info-page.slug %}
+        {% assign offset-top     = "340" %}
+        {% assign offset-bottom  = "1700" %}
+    {% endif %}
+
+    {% if slug == choose-page.slug %}
+        {% assign offset-bottom  = "1900" %}
+    {% endif %}
+
+    {% if parent.slug == info-page.slug %}
+        <figure class="Figure Figure--hero">
+            <div class="Container Container--full">
+                <div class="FlexEmbed">
+                    <div class="FlexEmbed-ratio FlexEmbed-ratio--2by1"></div>
+                    <div class="FlexEmbed-content">
+                        <div class="u-posAbsoluteCenter CoverImage" style="background-image: url('{{ image-path }}{{ slug }}.jpg')"></div>
+                    </div>
+                </div>
+            </div>
+        </figure>
+    {% endif %}
+
+    <section class="Section {% if parent.slug != info-page.slug %} u-marginT u-xs-marginT2{% else %} u-marginT0{% endif %}">
+        <div class="Container">
+            <div class="Grid Grid--withGutter">
+                <div class="Grid-cell u-xs-size4of12 u-xs-after1of12">
+                    <aside class="Aside--affixed affix-top" id="scrollspy" data-spy="affix" data-offset-top="{{ offset-top }}" data-offset-bottom="{{ offset-bottom }}">
+                        <h1 class="Headline--super">{{ title }}</h1>
+
+                        <div class="u-mxs-hide">
+                            {% if parent.slug == info-page.slug %}
+                                <ul class="Aside-list nav">
+                                    {{ content }}
+                                </ul>
+                                <div class="HzRule"></div>
+                            {% endif %}
+                            <a class="Aside-list--link Arrow-left" href="/">Back home</a>
+                            <a class="Aside-list--link Arrow-top" href="#top">Back to top</a>
+                        </div>
+
+                    </aside>
+                </div>
+                <div class="Grid-cell u-xs-size7of12">
+                    <article class="Article u-alignBlockDown">
+
+                        {{ body }}
+
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include 'includes/path-cta' %}
+
+    {% if parent.slug == info-page.slug %}
+        {% include 'includes/cards-section' %}
+    {% endif %}
+
+    {% if slug == choose-page.slug %}
+        {% include 'includes/newsletter-block' %}
+    {% endif %}
+
+{% endcapture %}
+
+{% include 'layouts/default' %}
