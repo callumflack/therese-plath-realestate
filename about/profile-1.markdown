@@ -1,7 +1,7 @@
 ---
 title: profile-1
 date: 2016-04-08 08:22:00 +10:00
-position: 1
+position: 2
 phone: "(07) 4045 9700"
 email: jodie.kneebone@raywhite.com
 name: Jodie Kneebone
