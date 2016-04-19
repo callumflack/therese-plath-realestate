@@ -1,6 +1,7 @@
 ---
 title: profile-2
-date: 2016-04-07 22:27:00 Z
+date: 2016-04-08 08:27:00 +10:00
+position: 2
 phone: "(07) 4045 9700"
 email: tamara.west@raywhite.com
 name: Tamara West
