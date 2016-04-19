@@ -96,13 +96,13 @@
                 <div class="Grid-cell u-size3of12">
                     <a href="{{ site.pages.blog.url }}"><h1 class="Headline">Blog</h1></a>
                     <div class="Affix" data-spy="affix" data-offset-top="2642">
-                        {% include blog-aside %}
+                        {% include posts-aside %}
                     </div>
                 </div>
 
                 <div class="Grid-cell u-size9of12 u-alignBlockDown">
                     {% for post in blog.posts | limit: 3 %}
-                        {% include post-in-list %}
+                        {% include posts %}
                     {% endfor %}
                 </div>
 

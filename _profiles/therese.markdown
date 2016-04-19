@@ -3,7 +3,7 @@ title: Therese
 date: 2016-04-19 11:17:09.486000000 +10:00
 position: 1
 name: Therese Plath
-jobtitle: Co-founder
+jobtitle: Founder
 picture: "/uploads/therese-plath.jpg"
 email: therese.plath@raywhite.com
 phone: "(07) 4045 9700"

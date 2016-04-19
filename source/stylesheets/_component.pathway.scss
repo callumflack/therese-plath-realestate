@@ -7,9 +7,9 @@
 
 
 .Pathway {
-    background-color: palette(neutral);
+    @include baseTransition();
     display: inline-block;
-    padding: 6%;
+    padding: 6% 4%;
     text-align: center;
     width: 100%;
 
@@ -21,12 +21,13 @@
     }
 
     @include on-event() {
-        background-color: palette(brand);
         color: palette(charcoal) !important;
+        transform: translateY(-5px);
+        transition: all map-fetch($transition, duration, short) map-fetch($transition, type, base);
     }
 
     @include respond-to(sm) {
-        padding: space(2.5);
+        padding: space(2.5) space(2) space(2);
     }
 }
 

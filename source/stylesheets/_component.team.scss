@@ -12,16 +12,15 @@
 .Author-details {
     background-color: palette(neutral);
     padding: space(0.75);
+
+    @include when-inside(".Home") {
+        // Style the post's author block by reusing the 'card-*.html'
+        // include and scoping by context.
+        @extend .u-alignBlockUp;
+        background-color: palette(background);
+        padding: 0 space(0.75);
+    }
 }
-
-// Style the post's author block by reusing the 'card-*.html'
-// include and scoping by context.
-
-.index .Author-details {
-    background-color: palette(background);
-    padding: 0 space(0.75);
-}
-
 
 // About page stuff
 // --------------------------------------------------------------------------

@@ -3,16 +3,19 @@
     e.g. {% assign profile = site.pages.about.pages.profile-therese %}
 {% endcomment %}
 
-
-
 <div class="Grid Author u-flexAlignItemsStretch {% if post %}u-marginT3{% endif %}">
-    <div class="Grid-cell u-posRelative {% if home? %}u-xs-size5of12{% else %}u-xs-size6of12{% endif %}">
+    <div class="Grid-cell u-posRelative {% if page.url == '/' %}u-xs-size5of12{% else %}u-xs-size6of12{% endif %}">
         <div class="u-posAbsoluteCenter CoverImage" style="background-image: url('{{ profile.picture }}')"></div>
     </div>
-    <div class="Grid-cell u-xs-size6of12 Author-details {% if home? %}u-alignBlockUp{% endif %}">
+    <div class="Grid-cell u-xs-size6of12 Author-details">
         <a href="/about" class="u-linkBuried {% if home? %}u-colorBlackBlock{% endif %}">
-            <h3 class="Headline--tertiary u-marginB0">{{ profile.name }}{% if profile.position %}, {{ profile.position }}{% endif %}</h3>
-            <p class="">{{ profile.summary | truncatewords: 15 }} <span class="u-linkBuriedTarget Arrow-right">Read</span></p>
+            <h3 class="Headline--tertiary u-marginB0">
+                {{ profile.name }}{% if profile.jobtitle %}, {{ profile.jobtitle }}{% endif %}
+            </h3>
+            <p class="">
+                {{ profile.summary | truncatewords: 15 }}
+                <span class="u-linkBuriedTarget Arrow-right">Read</span>
+            </p>
         </a>
         <ul class="u-listClean u-marginB0">
             {% if type == 'post' %}
@@ -20,9 +23,7 @@
                 <a class="u-linkHot Arrow-right" href="#">View all {{ profile.name }}'s posts</a>
             {% else %}
                 <li>Contact:</li>
-                {% include profile-contact.html %}
-                <p>PINK</p>
-                {% if profile-contact.meta.mobile %}
+                {% if profile.mobile %}
                     <li>
                         <a href="tel:{{ profile.mobile }}">
                             <span class="Contact-target">M.</span>
