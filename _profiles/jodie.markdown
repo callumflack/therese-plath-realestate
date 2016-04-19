@@ -1,9 +1,8 @@
 ---
-title: jodie
-date: 2016-04-08 08:22:00 +10:00
-name: Jodie Kneebone
-position: 3
 title: Personal assistant
+date: 2016-04-08 08:22:00 +10:00
+position: 3
+name: Jodie Kneebone
 picture: "/uploads/team-plath-2.jpg"
 email: jodie.kneebone@raywhite.com
 phone: "(07) 4045 9700"

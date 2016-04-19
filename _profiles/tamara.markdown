@@ -1,9 +1,8 @@
 ---
-title: tamara
-date: 2016-04-08 08:27:00 +10:00
-name: Tamara West
-position: 4
 title: Personal assistant
+date: 2016-04-08 08:27:00 +10:00
+position: 4
+name: Tamara West
 picture: "/uploads/team-plath-1.jpg"
 email: tamara.west@raywhite.com
 phone: "(07) 4045 9700"
