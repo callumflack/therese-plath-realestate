@@ -23,41 +23,34 @@
 
 // Simple highlighted menu using tags and CSS
 // See: https://gist.github.com/sskylar/c8f6fef2ff6fd49e1169
-.tag.community-events .Posts-nav .community-events,
-.tag.house-tips .Posts-nav .house-tips,
-.tag.suburb-profiles .Posts-nav .suburb-profiles {
-    background-color: palette(brand);
-    color: palette(black);
-}
+// Obsolete in Siteleaf v2
+// .tag.community-events .Posts-nav .community-events,
+// .tag.house-tips .Posts-nav .house-tips,
+// .tag.suburb-profiles .Posts-nav .suburb-profiles {
+//     background-color: palette(brand);
+//     color: palette(black);
+// }
 
 
 // Post block
 // --------------------------------------------------------------------------
 
 a.Post {
+    // @include baseTransition();
     @include complexLink();
 
     + .Post {
+        border-right: 2px solid palette(background);
         margin-top: space(3.25);
     }
 
     @include on-event() {
         .CoverImage {
-            @include baseTransition();
+            // @include baseTransition();
             background-blend-mode: multiply;
-            // background-color: rgba( palette(brand), 0.4 );
             background-color: palette(brand);
             // filter: grayscale(100%);
-            // opacity: 0.3;
-        }
-    }
-
-    @include when-inside(".Post") {
-        @include on-event() {
-            .CoverImage {
-                @include baseTransition();
-                opacity: 1;
-            }
+            opacity: 1;
         }
     }
 }
@@ -72,14 +65,23 @@ a.Post {
     &--dark .CoverImage {
         opacity: 0.5;
     }
-
-    .CoverImage {
-        @include baseTransition();
-    }
 }
 
 .Post-title {
     @include headlineRg();
+}
+
+.Post-tag {
+    @include TextSm();
+    border: 1px solid palette(base);
+    border-radius: size(border-radius, base);
+    color: palette(medium);
+    display: inline-block;
+    padding: space(0.05) space(0.25);
+
+    &:not(:last-child) {
+        margin-right: space(0.25);
+    }
 }
 
 .Post-excerpt {

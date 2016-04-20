@@ -95,6 +95,7 @@ $ButtonAlignment: 2px;
         background-color: transparent;
         @include on-event() {
             background-color: palette(brand);
+            border-color: transparent;
         }
     }
 

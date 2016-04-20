@@ -14,9 +14,6 @@ layout: default
     {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
 {% endif %}
 
-<p>{{ site.pages.blog.title }}</p>
-<p>{{ page.parent.title }}</p>
-
 <article class="Post">
     <section class="Section u-marginT0 u-marginB2 u-bgBrandAlt">
         <div class="Container">
@@ -36,18 +33,22 @@ layout: default
             <div class="Grid-cell u-sm-size5of12 u-paddingR2 u-md-display">
                 <h1 class="Post-title">{{ page.title }}</h1>
                 <p class="u-textLg">{{ page.summary }}</p>
+                <div class="u-marginT"></div>
+                <a class="Post-tag" href="/blog/tags/{{ page.tags }}">{{ page.tags }}</a>
 
                 <div class="DivRule u-marginT2"></div>
                 <h3 class="Headline--tertiary">Share this post</h3>
                 {% include share.html %}
 
-                <div class="DivRule--light u-marginT15"></div>
-                <h3 class="Headline--tertiary">Get posts by email</h3>
-                {% include newsletter-form.html %}
+
             </div>
 
             <div class="Grid-cell u-sm-size6of12 u-sm-after1of12 u-alignBlockDown">
                 {{ content }}
+
+                <div class="DivRule--medium u-marginT25"></div>
+                <h3 class="Headline--tertiary u-marginB">Get posts by email</h3>
+                {% include newsletter-form.html %}
                 {% include profile-card.html %}
             </div>
         </div>

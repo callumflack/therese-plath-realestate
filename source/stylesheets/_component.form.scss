@@ -170,6 +170,8 @@ textarea {
     }
 
     .Form-control {
+        background-color: rgba( palette(brand), 0.2 );
+        background-color: palette(neutral-light);
         margin: 0;
     }
 }

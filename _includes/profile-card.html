@@ -10,6 +10,7 @@
     <div class="Grid-cell u-xs-size6of12 Author-details">
         <a href="/about" class="u-linkBuried {% if home? %}u-colorBlackBlock{% endif %}">
             <h3 class="Headline--tertiary u-marginB0">
+                {% if page.url contains 'blog' %}Written by {% endif %}
                 {{ profile.name }}{% if profile.jobtitle %}, {{ profile.jobtitle }}{% endif %}
             </h3>
             <p class="">
