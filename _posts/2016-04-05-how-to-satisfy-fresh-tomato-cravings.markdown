@@ -1,16 +1,16 @@
 ---
 title: How To Satisfy Fresh Tomato Cravings
-date: 2016-04-05 07:16:00 Z
-layout: post
-permalink: /blog/:slug/
-header: Blog
-author: jodie
+date: 2016-04-05 17:16:00 +10:00
+permalink: "/blog/:slug/"
 tags:
 - Suburb profiles
-list-img-full:
-list-text-left:
+layout: post
+header: Blog
+author: jodie
+list-img-full: 
+list-text-left: 
 list-text-truncate: '40'
-hero: /uploads/post-img-3.jpg
+hero: "/uploads/post-img-3.jpg"
 summary: The city of southern California, San Diego is locally known as ‘America’s
   Finest City’.
 ---

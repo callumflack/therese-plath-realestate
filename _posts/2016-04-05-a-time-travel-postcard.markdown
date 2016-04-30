@@ -1,14 +1,15 @@
 ---
 title: A Time Travel Postcard
-layout: post
-permalink: /blog/:slug/
-header: Blog
-author: tamara
+date: 2016-04-05 00:00:00 +10:00
+permalink: "/blog/:slug/"
 tags:
 - Community events
+layout: post
+header: Blog
+author: tamara
 list-img-full: 
 list-text-left: true
-hero: /uploads/post-img-2.jpg
+hero: "/uploads/post-img-2.jpg"
 summary: The city of southern California, San Diego is locally known as ‘America’s
   Finest City’.
 ---
