@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b73d27c4-da43-4305-9dca-eae04f8947f7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recent-sales/index.html" afterPath="$PROJECT_DIR$/recent-sales/index.html" />
-    </list>
+    <list default="true" id="b73d27c4-da43-4305-9dca-eae04f8947f7" name="Default" comment="" />
     <ignored path="therese-plath-realestate.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -232,15 +230,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462773552425</updated>
-      <workItem from="1462773554681" duration="76000" />
+      <workItem from="1462773554681" duration="197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76000" />
+    <option name="totallyTimeSpent" value="197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
