@@ -12,6 +12,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  estimate:
+    title: estimate
+    output: true
 exclude:
 - README.markdown
 - package.json
