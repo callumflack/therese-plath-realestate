@@ -1,0 +1,4 @@
+property_id,image,address_suburb,address_street,bedrooms,bathrooms,garage,date_created
+ABCD1234,http://www.realestate.com.au/tmp/imageM.jpg,RICHMOND,"39, Main Road",4,2,3,2008-01-01-12:30:00
+ABCD3546,http://www.realestate.com.au/tmp/imageM.jpg,RICHMOND,"39, Main Road",4,2,3,2009-01-01-12:30:00
+ABCD789,http://www.realestate.com.au/tmp/imageM.jpg,RICHMOND,"39, Main Road",4,2,3,2009-01-01-12:30:00
