@@ -1,4 +1,2 @@
-property_id,image,address_suburb,address_street,bedrooms,bathrooms,garage,price,date_created
-ABCD3546,http://www.realestate.com.au/tmp/imageM.jpg,RICHMOND,"39, Main Road",4,2,3,"Between $400 and $600",2009-01-01-12:30:00
-ABCD789,http://www.realestate.com.au/tmp/imageM.jpg,RICHMOND,"39, Main Road",4,2,3,"Between $400 and $600",2009-01-01-12:30:00
+property_id,image,address_suburb,address_street,bedrooms,bathrooms,garage,price,date_createdABCD1234,http://www.realestate.com.au/tmp/imageM.jpg,RICHMOND,"39, Main Road",4,2,3,"Between $400,000 and $600,000",2009-01-01-12:30:00
 ABCD1234,http://www.realestate.com.au/tmp/imageM.jpg,RICHMOND,"39, Main Road",4,2,3,"Between $400,000 and $600,000",2009-01-01-12:30:00
