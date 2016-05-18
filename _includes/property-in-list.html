@@ -1,4 +1,4 @@
-{% for member in site.data.current %}
+{% for current in site.data.current %}
 <div class="Grid-cell u-size1of2 u-xs-size1of3">
     <a class="Property Card" href="/for-sale/{{current.property_id}}">
         <div class="Property-image" style="background-image: url('{{current.image}}')"></div>
@@ -6,7 +6,7 @@
         <div class="Property-details">
             <h1 class="Property-details--title Arrow-right u-marginB0">{{current.address_suburb}}</h1>
             <p class="Property-details--location">{{current.address_street}}</p>
-            <p class="Property-details--price">High $800s</p>
+            <p class="Property-details--price">{{current.price}}</p>
 
             <p class="Property-config u-marginTD6">
                 <span class="Property-bedroooms">{{current.bedrooms}}</span>
