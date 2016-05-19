@@ -1,6 +1,6 @@
 {% for current in site.data.current limit:12%}
 <div class="Grid-cell u-size1of2 u-xs-size1of3">
-    <a class="Property Card" href="/for-sale/{{current.property_id}}.html">
+    <a class="Property Card" href="/{{current.property_id}}/">
         <div class="Property-image" style="background-image: url({{current.image}})"></div>
 
         <div class="Property-details">
