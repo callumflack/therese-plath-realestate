@@ -4,30 +4,18 @@ layout: default
 ---
 
 {% comment %}
-    This include requires assigning a variable for {{ profile }}
-    e.g. {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
+This include requires assigning a variable for {{ profile }}
+e.g. {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
 {% endcomment %}
 
 {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
-                    
+
 <article class="Property">
     <section class="Hero u-marginB2">
         <div class="gallery">
-            <div class="gallery-cell">
-<div class="FlexEmbed">
-<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
-<div class="FlexEmbed-content">
-    <div class="u-posAbsoluteCenter CoverImage" style="background-image: url('http://www.realestate.com.au/tmp/imageM.jpg')"></div>
-</div>
-</div>
-</div><div class="gallery-cell">
-<div class="FlexEmbed">
-<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
-<div class="FlexEmbed-content">
-    <div class="u-posAbsoluteCenter CoverImage" style="background-image: url('http://www.realestate.com.au/tmp/imageA.jpg')"></div>
-</div>
-</div>
-</div>
+            {% include property-img.html %}
+            {% include property-img.html %}
+            {% include property-img.html %}
         </div>
     </section>
 
@@ -43,29 +31,29 @@ layout: default
             </div>
 
             <div class="Grid-cell u-xs-size8of12">
-                <h1 class="Property-title">Residential property at RICHMOND on a80 m<sub>2</sub></h1>
-                <p class="Property-price">Between $400,000 and $600,000</p>
+                <h1 class="Property-title">Private Family Tranquility Backing onto Creek with 5 Beds + 5 Bay Sheds on 5,407m²</h1>
+                <p class="Property-price">High $800K</p>
 
                 <div class="DivRule u-marginT15"></div>
                 <p class="Property-address">
-                    39, Main Road, RICHMOND
+                    Lot 8, Woods Circuit, Kewarra Beach
                     <span class="Property-config u-marginLD3">
-                        <span class="Property-bedroooms">4</span>
+                        <span class="Property-bedroooms">3</span>
                         <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bed"></use>
                         </svg>
-                        <span class="Property-bathrooms">2</span>
+                        <span class="Property-bathrooms">1</span>
                         <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
                         </svg>
-                        <span class="Property-carspaces">3</span>
+                        <span class="Property-carspaces">2</span>
                         <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
                             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
                         </svg>
                     </span>
                 </p>
-                <p class="Property-area">Land area: 80 m<sub>2</sub></p>
-                <p class="Property-id">Property ID ABCD1234</p>
+                <p class="Property-area">Land area: 1.34 acres / 5407 sqm</p>
+                <p class="Property-id">Property ID 1328951</p>
 
                 <!-- <div class="DivRule u-marginT15"></div> -->
 
@@ -75,7 +63,15 @@ layout: default
                 <div class="Grid Grid--withGutter u-marginT">
                     <div class="Grid-cell u-sm-size9of12">
 
-                        <p>Don't pass up an opportunity like this! First to inspect will buy! Close to local amenities and schools. Features lavishly appointed bathrooms, modern kitchen, rustic outhouse.Don't pass up an opportunity like this! First to inspect will buy! Close to local amenities and schools. Features lavishly appointed bathrooms, modern kitchen, rustic outhouse.</p>
+                        <p>Therese Plath says Enjoy the serenity. Superbly presented on a flat block in an exclusive acreage pocket backing natural bushland and creek and located at the end of a quiet close in Little Mulgrave, only 12 minutes to Gordonvale and 30 minutes to Cairns Central Business and Cairns Esplanade.</p>
+                        <p>You will be thrilled at the content on offer along with generous proportions, style and feel that just beckons for you to call home sweet home with wide open grassed areas, numerous established fruit trees.</p>
+                        <p>The indoor / outdoor experience is paramount with the kitchen, dining and lounge opening onto the entertaining area which maximises natural light and airflow throughout the home. Watch the children play or simply relax whilst enjoying the never ending views across the green landscape.</p>
+                        <p>The perfect kitchen is well appointed and is any great chef's delight, exuding function ability adjoins the open plan dining and living areas appointed with quality fixtures and finishes, boasting extensive cabinetry, pantry and a full range of quality appliances, including dishwasher, and electric cook top and oven.</p>
+                        <p>The five bedrooms are all built in and newly appointed carpet, four with in-built desks with the master bedroom with air-conditioning and large en-suite, double vanities, double shower and separate toilet which will accommodate families of all sizes.</p>
+                        <p>The office is separate and has built in shelving and cupboards.</p>
+                        <p>A host of many other features include: five bay workshops, double remote control lock up garage with internal access to house, internal laundry / craft room, lean to for boat / caravan, 5 KVA solar panels, generator, bio-cycle, ADSL 2 and chicken coop.</p>
+                        <p>Imagine summer days swimming in your very own piece of paradise in the fabulous creek where you can tube, fish and relax.</p>
+                        <p>The ultimate acreage rarely become available .. This expansive family home is a superb example of unrestricted living with space and lifestyle to spare! Make your inspection today.</p>
 
                         <div class="u-marginT2">
                             {% include profile-card.html %}
