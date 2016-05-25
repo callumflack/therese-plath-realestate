@@ -1,0 +1,29 @@
+{% for current in site.data.sold limit:12%}
+<div class="Grid-cell u-size1of2 u-xs-size1of3">
+    <a class="Property Card" href="/for-sale/{{current.property_id}}.html">
+        <div class="Property-image" style="background-image: url({{current.image}})"></div>
+
+        <div class="Property-details">
+            <h1 class="Property-details--title Arrow-right u-marginB0">{{current.address_suburb}}</h1>
+            <p class="Property-details--location">{{current.address_street}}</p>
+            <p class="Property-details--price">{{current.price}}</p>
+
+            <p class="Property-config u-marginTD6">
+                <span class="Property-bedroooms">{{current.bedrooms}}</span>
+                <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bed"></use>
+                </svg>
+                <span class="Property-bathrooms">{{current.bathrooms}}</span>
+                <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
+                </svg>
+                <span class="Property-carspaces">{{current.garage}}</span>
+                <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
+                </svg>
+            </p>
+
+        </div>
+    </a>
+</div>
+{% endfor %}
