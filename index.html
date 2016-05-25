@@ -5,9 +5,45 @@ layout: default
 
 <section class="Hero">
     <div class="gallery">
-        {% include hero-post.html %}
-        {% include hero-post.html %}
-        {% include hero-post.html %}
+        {% for current in site.data.current limit:7%}
+        <a class="gallery-cell" href="/for-sale/{{current.property_id}}.html">
+            <div class="FlexEmbed">
+                <div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
+                <div class="FlexEmbed-content">
+                    <div class="u-posAbsoluteCenter CoverImage CoverImage--hint" style="background-image: url({{current.image}})"></div>
+                    <div class="Container u-fullHeight">
+                        <div class="Grid Grid--withGutter u-fullHeight u-flex u-flexAlignItemsEnd">
+                            <div class="Grid-cell u-textCenter">
+                                <div class="Hero-details">
+                                    <span class="Property-address">{{current.address_street}}, {{current.address_suburb}}</span>
+                                    <span>•</span>
+                                    <span class="Property-price">{{current.price}}</span>
+                                    <span>•</span>
+                            <span class="Property-config">
+                                <span class="Property-bedroooms">{{current.bedrooms}}</span>
+                                <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bed"></use>
+                                </svg>
+                                <span class="Property-bathrooms">{{current.bathrooms}}</span>
+                                <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
+                                </svg>
+                                <span class="Property-carspaces">{{current.garage}}</span>
+                                <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
+                                </svg>
+                            </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+        <!--{% include hero-post.html %}-->
+        <!--{% include hero-post.html %}-->
+        <!--{% include hero-post.html %}-->
     </div>
 </section>
 
