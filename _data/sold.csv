@@ -1,1 +1,370 @@
 property_id,image,address_suburb,address_street,bedrooms,bathrooms,garage,price,date_created
+CS0294,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/104752401ml1268349974.jpg,EDMONTON,"7/35, Bruce Highway",1,1,0,"$68,000",2016-02-18-09:57
+1460064,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/106844989ml1284940052.jpg,EDMONTON,"8/35-37, Bruce Highway",1,1,0,"$50,000 Neg",2012-10-31-08:13
+1493909,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/106960029ml1328144088.jpg,GORDONVALE,"2255, Pine Creek Road East  Trinity",3,1,0,"398,000",2012-09-18-07:31
+1589116,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/107236972ql1330922760.jpg,GORDONVALE,"14, Swensen Street",4,2,2,"$359,000 Neg",2014-01-06-13:56
+1651984,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/107377531ml1304489395.jpg,"BENTLEY PARK","4, Neales Street",4,2,2,"$339,000 Neg",2013-10-01-08:36
+1658384,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/107400752hl1318760780.jpg,EDMONTON,"12, Mulindie Close",3,2,2,"$249,000 neg",2012-08-06-12:21
+1711028,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/107524956ml1309748998.jpg,GORDONVALE,"30, Corcoran Street",3,1,0,"475,000 neg",2014-07-31-13:50
+1724852,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/107545827ml1310620588.jpg,EDMONTON,"Unit 1/3, Australis Street",3,1,2,"$264,000 Neg",2012-10-31-09:37
+1727108,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1401498758-18665-1.jpg,EDMONTON,"15/16, Mount Peter Road",2,1,0,"$156,000 Neg",2014-07-21-14:35
+1743481,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/107591026dl1312433750.jpg,"BELLENDEN KER","21, Munro Road",3,1,4,"Mid $500,000s",2012-06-20-15:18
+1761342,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/107779236al1329286261.jpg,EDMONTON,"36, Carruthers Street",4,2,2,"$385,000 Negotiable",2012-08-01-08:41
+1759192,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/107899066cl1315984973.jpg,EDMONTON,"42, Millhouse Close",4,2,2,"$487,000",2012-06-01-13:29
+1784293,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/108171886gl1321852940.jpg,GORDONVALE,"7, Rossi Street",4,3,6,"$485,000",2012-06-01-10:07
+1787286,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/11646-2.jpg,EDMONTON,"7, Briese Close",3,1,0,"$249,000 neg",2012-07-17-07:49
+1796972,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/108613941bl1319899125.jpg,GORDONVALE,"9, Sinclair St",3,1,0,"$265,000 neg",2012-09-03-07:13
+1804869,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/108697796ml1322529188.jpg,WESTCOURT,"2/18-20, Rose Street",1,1,1,"$125,000 Neg",2013-11-18-11:56
+1825063,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/26825-1.jpg,EDMONTON,"6, Barney Street",3,1,0,"Offers from $279,000",2013-06-03-07:44
+1842932,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/28931-1.jpg,EDMONTON,"52, Mallicoola Crescent",4,2,2,"$309,000 Neg",2013-05-24-12:29
+1850452,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/18963-23banville.jpg,EDMONTON,"23, Banville Street",4,2,2,"$320,000 Neg",2012-06-15-13:39
+1852534,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/109625216al1329360284.jpg,EDMONTON,"11, Banville Street",4,2,2,"Offers over $290,000",2012-07-09-14:31
+1854090,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/109654101ml1329713438.jpg,GORDONVALE,"11, Warncke Close",4,2,2,"$339,000 neg",2012-08-21-07:46
+1859560,,EDMONTON,"2/29, Suhle",2,1,0,"$189,000 neg",2012-06-25-09:44
+1860244,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/109799701ml1330587343.jpg,GOLDSBOROUGH,"26-28, Windlass Street",2,1,0,"$275,000",2012-10-04-14:40
+1860795,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/109864376al1331103294.jpg,EDMONTON,"82, Farmer Street",3,2,2,"$352,000",2012-12-21-08:28
+1863847,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/28643-5.jpg,GOLDSBOROUGH,"13-15, Costain Street",4,2,2,"$530,000",2013-07-16-08:05
+1863490,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/109903251al1331338491.jpg,"CAIRNS NORTH","407 / 2, Greenslopes Street",2,1,0,"Reduced $255,000 neg",2013-03-06-10:49
+CSS4152738,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/19197-1.jpg,"BENTLEY PARK","10, Charnley Avenue",4,2,2,"Offers in the Low $400,000s",2012-11-01-08:31
+CSS4153856,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/29564-1.jpg,EDMONTON,"28, Accatino Street",3,2,0,"$269,500 neg",2012-08-10-08:41
+CSS4156330,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/7052-P5240007.JPG,GORDONVALE,"11, Malaponte Close",3,2,2,"$290,000",2012-09-24-07:23
+CSS4163706,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/8313-9CoolamonTce019640x427.jpg,"MOUNT SHERIDAN","9 , Coolamon Terrace",4,2,2,"$335,000 neg",2012-05-29-14:36
+CSS4164162,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/7952-IMG_3751.JPG,DEERAL,"Lot 1, Bruce Hughway",3,1,0,"$155,000 neg",2012-06-12-14:10
+CSS4170522,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/15288-12KingsleyCloseWhiterock010640x412.jpg,"WHITE ROCK","12, Kingsley Close",3,2,2,"$338,000 neg",2012-06-19-07:50
+CSS4170548,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/18379-WEB__DSC0196b.jpg,EDMONTON,"14, Luisa Street",4,2,2,"$299,000",2012-06-25-09:45
+CSS4205480,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/14457-IMG_3973.JPG,GORDONVALE,"4, Gilbert Court",3,2,0,"$435,000 neg",2013-03-05-07:43
+CSS4205962,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/20171-12.jpg,GORDONVALE,"1 - 7, Mercy Close",3,2,2,"$535,000",2012-07-25-09:58
+CSS4212729,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13193-8.JPG,EDMONTON,"16, Marr Street",2,1,0,"249,000 neg",2012-09-10-14:29
+CSS4218176,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/32129-IMG_4153.JPG,EDMONTON,"26, Novelli Street",4,2,2,"offers from $329,000",2012-08-27-14:50
+CSS4224315,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/5773-IMG_4210.JPG,EDMONTON,"5, Melvin Close",4,2,2,"Offers over $399,000",2012-05-28-11:08
+CSS4228516,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/6417-1.jpg,"MOUNT SHERIDAN","23, Meteor Street",3,2,0,"$310,000",2014-05-07-07:12
+CSS4243798,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13882-1g.jpg,EDMONTON,"2/21, Massey Street",2,1,1,"$215,000 Neg",2012-06-05-13:09
+CSS4268543,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/5636-Photo+1-1871853379-O.jpg,"BENTLEY PARK","254, Robert Road",3,2,0,"$389,000 Neg",2012-07-23-14:01
+CSS4272317,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/26403-6.jpg,GORDONVALE,"141, Norman Street",4,2,1,"$260,000",2012-10-10-13:40
+CSS4280702,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4789-Photo-3-3126838128-O.jpg,"BENTLEY PARK","79, Bathurst Drive",3,2,2,"$330,000",2014-04-14-08:13
+CSS4296182,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/8295-FrontofHouse3.JPG,GORDONVALE,"1, Gilbert Court",4,1,2,"$260,000",2012-12-03-07:53
+CSS4342094,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/15351-Blank069800x533.jpg,"BAYVIEW HEIGHTS","20 - 22, Bellbird Street",3,2,0,"$345,000 neg",2015-07-13-13:43
+CSS4351944,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/1454-3.jpg,EDMONTON,"16, Briese Close",3,2,0,"$259,000 neg",2012-07-26-06:40
+CSS4356722,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/27904-P6140009.jpg,GORDONVALE,"4, Halloran Close",3,1,0,"$254,000",2014-10-07-06:18
+CSS4360920,,"MOUNT SHERIDAN","26, Idalia Road",3,1,1,"$335,000",2012-08-06-08:32
+CSS4362223,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/26880-1.jpg,EDMONTON,"39, Hancock St",3,1,1,"$225,000 neg",2012-08-09-14:01
+CSS4375072,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/8850-14.jpg,EDMONTON,"Lot 165, Isabella Road",3,2,2,"$299,000 Neg",2013-08-30-13:59
+CSS4382670,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/24057-big.jpg,"MOUNT SHERIDAN","1, Racemosa Street",4,2,2,"$385,000 Neg",2012-09-20-13:15
+CSS4391719,,GOLDSBOROUGH,"5-7, Bullion Street",1,1,1,"$359,000",2012-08-10-06:38
+CSS4399773,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/9222-Photo-1-1973769200-O.jpg,"BENTLEY PARK","6, Whela Close",4,2,2,"$386,000",2012-09-07-10:39
+CSS4404089,,"WHITE ROCK","2, Greenacres Close",4,2,2,"$565,000",2012-08-10-12:24
+CSS4408494,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/9738-1.jpg,"BENTLEY PARK","6, Leeuwin Crescent",3,1,1,"$269,000 Neg",2012-11-13-14:55
+CSS4424829,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/22220-2.jpg,"MOUNT SHERIDAN","31, Marsden Street",3,2,2,"$320,000",2012-08-28-10:02
+CSS4429200,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/14672-2.jpg,EDMONTON,"48, Farmer Street",3,2,2,"$265,000",2012-09-24-14:26
+CSS4433051,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/32172-2.jpg,"BENTLEY PARK","291, Robert Road",3,2,1,"$289,000",2012-08-21-07:05
+CSS4439090,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/31319-3-27ArmstrongSt004800x533.jpg,EDMONTON,"3 / 27, Armstrong Street",1,1,1,"$75,000 Neg",2012-11-01-08:27
+CSS4446203,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1455762920-29386-I1.jpg,EDMONTON,"22, Isley Street",3,1,0,"$245,000 Neg",2016-03-15-07:44
+CSS4453185,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13232-5.jpg,GORDONVALE,"10, Ridolfi Close",4,2,2,"$389,000",2014-02-24-12:39
+CSS4453199,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/25740-85DempseyStreet2003800x533.jpg,GORDONVALE,"85 - 87, Dempsey Street",5,3,0,"High $500,000's",2013-06-05-14:49
+CSS4455146,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/14218-1.jpg,EDMONTON,"50, Banville Street",4,2,2,"$329,000 neg",2012-09-03-08:13
+CSS4456683,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/12519-5.jpg,"FISHERY FALLS","Lot 18, McMahon Drive",3,2,0,"$480,000",2012-09-25-13:56
+CSS4462883,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/23713-IMG_0289.JPG,EDMONTON,"17, McPhail Street",3,2,0,"$279,000 Neg",2012-12-10-12:06
+CSS4462889,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/7195-14.jpg,EDMONTON,"18, Hartill Street",5,1,2,"$405,000 Neg",2013-08-07-13:59
+CSS4464736,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/12631-22-24WindlassSt023800x533.jpg,MOOROOBOOL,"1 / 74 - 82, Swallow Street",1,1,0,"$118,000neg",2013-03-04-12:19
+CSS4470087,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/20239-2.jpg,GORDONVALE,"2, Coughlan Close",4,2,0,"$319,000 Neg",2012-11-29-11:14
+CSS4476978,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/27339-CopyofP8270028.JPG,"WHITE ROCK","6, Sirens Street",4,1,0,"$299,000 Neg",2012-10-18-06:52
+CSS4501913,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4831-P8280031.JPG,EDMONTON,"6/27-29, Stokes Street",2,1,0,"$138,000",2013-11-05-11:42
+CSS4505954,,GORDONVALE,"52, Wiltshire Drive",0,0,0,"$395,000",2012-09-21-10:36
+CSS4508924,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/19254-3.jpg,"MOUNT SHERIDAN","50, Barnard Drive",4,2,0,"Low $300s",2013-07-11-11:26
+CSS4511741,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/30683-19118464_11.JPG,GOLDSBOROUGH,"22 - 24, Windlass Street",3,1,4,"$380,000 ( Neg )",2012-11-23-08:40
+CSS4525224,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/30537-4.jpg,"BENTLEY PARK","5, Batavia Court",3,2,0,"$310,000",2012-11-01-08:29
+CSS4525593,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/23629-P4110068.JPG,EDMONTON,"5, Wienert Street",4,2,2,"$323,000 Neg",2012-10-15-14:44
+CSS4529953,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/23855-1.jpg,EDMONTON,"19, Banville Street",4,2,2,"$358,000 Neg",2012-10-19-13:20
+CSS4529978,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13710-7.jpg,GORDONVALE,"10, McSweeney Crescent",4,2,2,"$419,000",2013-11-25-14:21
+CSS4536246,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/29805-2.jpg,"MOUNT SHERIDAN","1, Roma Close",4,2,2,"$429,000 Neg",2012-11-08-13:04
+CSS4540861,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/17618-21.jpg,"BENTLEY PARK","21, Cadell Street",4,2,2,"$369,000 Neg",2013-01-07-14:12
+CSS4547208,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/7542-5.jpg,GORDONVALE,"6, Hatfield Close",4,1,2,"$295,000",2013-09-11-14:00
+CSS4555019,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/30607-1.jpg,"BENTLEY PARK","112, Fitzmaurice Drive",4,2,2,"Offers from $398,000",2013-01-11-10:08
+CSS4567316,,GORDONVALE,"16, Palmer Close",4,2,2,"$330,000",2012-10-30-10:13
+CSS4576653,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/6283-kitchen1.jpg,"WHITE ROCK","7, Colombia Street",4,2,2,"$295,000 Neg",2013-09-02-08:26
+CSS4582901,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/21561-2.jpg,GOLDSBOROUGH,"89-91, Costain Street",4,2,2,"$490,000 neg",2012-12-18-07:41
+CSS4583242,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/8240-1.jpg,"BENTLEY PARK","15, Conway Close",4,2,2,"$330,000-$330,000",2013-01-11-14:07
+CSS4585611,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/20428-2.jpg,EDMONTON,"33, Farmer Street",4,2,2,"$329,000 Neg",2013-04-18-12:10
+CSS4587286,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/25647-2.jpg,"MOUNT SHERIDAN","50, Malabar Street",4,2,0,"$299,000",2013-03-05-14:20
+CSS4587957,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/15163-2.jpg,GORDONVALE,"24-26, Appaloosa Street",3,2,2,"Offers over $585,000",2014-11-28-10:22
+CSS4589950,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/811-1.jpg,GORDONVALE,"17, Cleland Street",3,1,0,"$265,000",2012-11-30-16:00
+CSS4590075,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/19493-IMG_8872Small.JPG,"MOUNT SHERIDAN","69, Booyong Drive",3,2,2,"$305,000",2014-01-29-10:36
+CSS4591008,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/25657-1.jpg,EDMONTON,"23, Badilla Street",4,2,2,"$559,000 Neg",2013-10-01-08:36
+CSS4593897,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/17402-7.jpg,EDMONTON,"11, Rosa Close",3,1,1,"$295,000",2015-07-16-13:14
+CSS4605789,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/9074-6.jpg,EDMONTON,"39, Galeandra Street",5,2,2,"$399,000 Neg",2013-04-09-11:12
+CSS4606753,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/12083-1.jpg,EDMONTON,"8, Cattleya Close",4,1,2,$281.875,2014-07-22-11:06
+CSS4609044,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/1136-1.jpg,"MOUNT SHERIDAN","29, Sawpit Street",4,2,2,"$399,000 Neg",2012-12-20-10:36
+CSS4653016,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/19879-10MurphySt2008800x533.jpg,GORDONVALE,"10, Murphy Street",3,1,2,"Reduced $279,000neg",2013-02-21-09:46
+CSS4655156,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/23603-1.JPG,"MOUNT SHERIDAN","19, Avondale Street",3,1,0,"$249,000 neg",2013-03-05-10:52
+CSS4676185,,"MOUNT SHERIDAN","1, Hazelwood Close",0,0,0,"$338,000",2012-12-03-07:54
+CSS4681062,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13868-1.jpg,EDMONTON,"4, Luisa Street",3,2,2,"$289,000 Neg",2012-11-23-14:09
+CSS4681149,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4950-newest.jpg,EDMONTON,"56, Accatino Street",3,2,2,"Offers from $325,000",2013-08-20-07:29
+CSS4684861,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13853-Photo-1-2216831322-O.jpg,EDMONTON,"75, Piccone Drive",3,2,2,"$359,000 Neg",2012-12-07-12:50
+CSS4686486,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/25867-Photo-12-2218725335-O.jpg,GORDONVALE,"24, Swensen Street",4,2,2,"High $400,000's",2013-01-08-13:54
+CSS4686789,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/8540-1.jpg,"BENTLEY PARK","10, Sandover Close",4,2,2,"$329,000 Neg",2013-05-03-09:40
+CSS4690275,,"MOUNT SHERIDAN","8, Bourke Close",3,2,0,"$310,000",2012-11-26-14:33
+CSS4693617,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/25593-new3.jpg,EDMONTON,"8, Mulindie Street",3,2,2,"$267,000 Neg",2013-04-04-12:45
+CSS4705119,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/2731-Photo-12-2224512650-O.jpg,"BENTLEY PARK","291, Robert Road",3,2,1,"$310,000",2013-03-01-09:06
+CSS4721208,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/5618-5.jpg,"WHITE ROCK","9, Paradise Close",3,1,2,"$230,000",2013-05-21-15:26
+CSS4725349,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/7103-3.jpg,EDMONTON,"47, Meranti Street",4,2,2,"$335,000 Neg",2013-03-13-14:20
+CSS4726645,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/29763-2.jpg,EDMONTON,"59, Bruce Highway",2,1,0,"$249,000 neg",2013-01-24-07:19
+CSS4729514,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4547-8.jpg,GORDONVALE,"20, Murphy Street",3,1,0,"$242,500 Neg",2013-02-19-12:21
+CSS4763643,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/29444-2.jpg,"MOUNT SHERIDAN","5, Bowen Street",4,2,2,"$395,000",2013-05-27-07:31
+CSS4787784,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/17177-7.jpg,EDMONTON,"4, Miltonia Close",4,1,0,"$249,000 Neg",2013-05-08-12:34
+CSS4803270,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/10430-Photo-12-2206027017-O.jpg,EDMONTON,"20, Banville Street",4,2,2,"Offers from $299,000",2013-03-04-15:33
+CSS4837786,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/3548-Photo-2-2268170237-O.jpg,GORDONVALE,"38, Swan Street",2,1,3,"$280,000",2013-02-11-07:20
+CSS4861425,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/32659-15.jpg,EDMONTON,"111, Mt Peter Road",3,1,0,"$289,000 Neg",2013-04-23-13:40
+CSS4896510,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/22088-5.jpg,"BENTLEY PARK","23, Goodsell Drive",5,3,2,"$555,000 Neg",2013-06-12-08:05
+CSS4968979,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/15341-3.jpg,GORDONVALE,"11, Moller Street",4,1,2,"$315,000",2013-03-19-14:10
+CSS4974373,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4255-26.jpg,"BENTLEY PARK","3, Speedy Close",4,2,2,"$390,000",2013-03-27-11:46
+CSS4989357,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/27321-IMG_2351.JPG,EDMONTON,"2, Cadzow Court",5,2,2,"$319,000 Neg",2013-04-16-14:46
+CSS4998973,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/10182-Copy2ofboyce5MediumSmall.JPG,"BENTLEY PARK","39, Boyce Street",3,2,0,"$239,000 neg",2013-05-28-11:46
+CSS5000960,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/8298-P1310067.JPG,GORDONVALE,"9, Lisha Court",3,2,2,"$369,000",2013-05-08-12:42
+CSS5001124,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/16881-DSCN0795.JPG,"WHITE ROCK","68, Hollywood Bvd",3,1,2,"$239,000",2013-05-16-08:04
+CSS5004930,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/25306-5.jpg,"BENTLEY PARK","1, Pollock Close",4,2,2,"$559,000",2014-05-30-09:30
+CSS5013267,,KOAH,"608, Koah Road",3,1,1,"$400,000",2014-03-14-12:45
+CSS5015901,,GORDONVALE,"36, Swensen Street",3,1,1,"$320,000",2013-03-05-10:45
+CSS5024403,,GORDONVALE,"210, Dempsey Street",3,1,1,"$250,000",2013-02-21-09:17
+CSS5032233,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/15890-WEB__DSC0342.jpg,GORDONVALE,"5 - 7, Ebrington Close",5,2,3,"$550,000 neg",2013-05-21-13:51
+CSS5043938,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/11663-1.jpg,"MOUNT SHERIDAN","27, Rennel Close",4,2,2,"$369,000 NEG",2013-12-10-15:05
+CSS5051353,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/18975-b.jpg,GORDONVALE,"9, Hatfield Close",3,1,0,"$269,000 neg",2013-10-01-08:31
+CSS5061952,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/25833-Photo-4-2383226699-O.jpg,GORDONVALE,"3, Palmer Close",3,2,0,"$349,000 ( Neg )",2013-04-16-14:43
+CSS5064234,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/12709-1.jpg,WESTCOURT,"707/12, Gregory Street",1,1,0,"$199,000 neg",2013-05-02-07:12
+CSS5067969,,"MOUNT SHERIDAN","5, Hazelwood Closr",4,2,2,"$350,000",2013-03-01-09:05
+CSS5074046,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/27599-1.jpg,EDMONTON,"6, Frost Close",3,2,0,"$299,000",2013-05-09-12:51
+CSS5074048,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/30929-1.jpg,EDMONTON,"27, Quinn Drive",4,2,2,"$359,000",2014-04-30-14:23
+CSS5095602,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/12772-21.JPG,GORDONVALE,"18, Patrick Close",4,1,0,"$339,000 Neg",2013-07-02-09:32
+CSS5099855,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/15165-7.jpg,EDMONTON,"24, Slipper Street",3,1,0,"$289,000",2013-05-15-13:51
+CSS5145534,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/24037-4.jpg,EDMONTON,"4-6, Millhouse Close",3,2,2,"$379,000 Neg",2013-04-26-15:28
+CSS5146272,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/25444-5SchormannStreet015800x533.jpg,GORDONVALE,"5, Schorman Street",3,2,0,"$299,000 neg",2013-05-10-08:16
+CSS5176677,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/676-g.jpg,EDMONTON,"7, Morison Street",4,1,0,"$287,000 neg",2013-06-03-06:59
+CSS5177979,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/12365-IMG_1437Small.JPG,"BENTLEY PARK","18, Cliffdale Street",4,2,2,AUCTION,2013-06-20-15:05
+CSS5178896,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/29800-1.jpg,"BENTLEY PARK","4, Hillman Place",4,2,2,"$420,000",2013-06-11-12:59
+CSS5183934,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/12081-Photo-5-2483197089-O.jpg,"BENTLEY PARK","9, Laidley Close",4,2,2,"Offers Above $405,000",2013-07-09-07:04
+CSS5203689,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/27829-9Simmonds-20_resize.JPG,GORDONVALE,"9, Simmonds Street",4,1,3,"$320,000 neg",2013-11-04-10:08
+CSS5222520,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/9890-DSCN0799.JPG,WOREE,"290, Anderson Road",1,1,0,"Offers over $35,000",2014-03-10-14:28
+CSS5223901,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/10128-IMG_1455.JPG,GORDONVALE,"53, Dexter Road",4,2,0,"$379,000 Neg",2013-06-19-14:40
+CSS5233845,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/32490-6.jpg,EDMONTON,"25 - 27, Stewart Street",4,3,0,AUCTION,2013-06-05-09:49
+CSS5235252,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/24185-DSCN08162.jpg,GOLDSBOROUGH,"69-71, Golden Street",3,1,2,"$375,000",2014-02-07-10:33
+CSS5252945,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/12208-Photo-1-2505860538-O.jpg,GORDONVALE,"12, Rossi Street",4,2,5,"Low $500,000's",2013-05-31-11:02
+CSS5258525,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/21298-Photo-2-2499477131-O.jpg,GORDONVALE,"21, Ormond Close",4,2,3,"$475,000 Neg",2013-08-12-12:26
+CSS5268399,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/28376-5new.jpg,GORDONVALE,"164, Gillies Range Road",3,2,2,"$465,000 Neg",2013-10-30-14:57
+CSS5285688,,"CAIRNS NORTH","3/267, Esplanade",4,2,2,"$535,000",2013-06-12-08:06
+CSS5289254,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/7212-2.jpg,"MOUNT SHERIDAN","1, Piper Close",3,2,2,"Offers in the $330,000s",2013-07-18-11:14
+CSS5332095,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/31553-17.jpg,EDMONTON,"1, Devecchi Close",5,2,2,"$329,000 Neg",2013-11-25-14:20
+CSS5336817,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/11790-5.JPG,"BENTLEY PARK","10, Lorraine Close",3,1,0,"$249,000",2014-05-30-09:58
+CSS5337266,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/31136-1.jpg,"BENTLEY PARK","34, Robert Road",4,1,0,"$259,000",2013-06-14-10:38
+CSS5345134,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/28905-3.jpg,EDMONTON,"7, Hyacinth Close",4,2,2,"Low $300s",2014-04-28-13:41
+CSS5369394,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/18094-photo.JPG3.JPG,EDMONTON,"49, Hancock Street",3,1,0,"$285,000 Neg",2013-11-11-12:10
+CSS5392878,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/19664-03.jpg,EDMONTON,"9, Mann Street",4,2,0,"$279,000 Neg",2013-08-26-13:28
+CSS5400764,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4137-1.jpg,"BENTLEY PARK","159, Fitzmaurice drive",4,2,2,"$389,000 Neg",2013-11-29-09:19
+CSS5400968,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/18882-1.jpg,EDMONTON,"2, Tuppy Place",4,2,2,"317,000 Neg",2013-07-01-12:54
+CSS5403028,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/5017-GetFile2800x600.jpg,WOREE,"39, Mintaro Street",8,4,0,"$599,000 neg",2013-11-29-09:30
+CSS5407591,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13585-z.jpg,EDMONTON,"Unit 2/5, Nindii Close",3,1,0,"$223,000 Neg",2014-07-30-13:59
+CSS5407672,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/24759-01.jpg,EDMONTON,"23, Marr Street",3,2,0,"$259,000 Neg",2013-12-09-08:16
+CSS5411194,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/2693-1.jpg,GORDONVALE,"21, Devine Crescent",4,2,2,"$385,000",2013-08-30-13:53
+CSS5418463,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/31307-Photo-1-2579847368-O.jpg,"MOUNT SHERIDAN","3, Keats Close",3,2,0,"$339,000 Neg",2013-07-24-14:22
+CSS5418503,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/15127-6.jpg,GORDONVALE,"165, Dempsey Street",4,2,4,"$585,000 Neg",2013-08-28-08:00
+CSS5422219,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/1107-newsmall.jpg,MOOROOBOOL,"52, Hayward Street",4,2,2,"$385,000 Neg",2013-08-22-07:18
+CSS5423053,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/1343-Picture1.jpg,GORDONVALE,"451, Pine Creek Road",3,1,0,"$570,000",2013-07-31-12:12
+CSS5423143,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/5197-11.jpg,"BENTLEY PARK","16, Altona Street",4,2,2,"$385,000",2013-10-08-08:32
+CSS5449854,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/15744-2.jpg,"MOUNT SHERIDAN","8, Keats Close",5,2,0,"$365,000 Neg",2013-08-26-08:51
+CSS5452130,,EDMONTON,"49, Mt Peter Road",4,2,2,"$245,000",2013-08-16-09:29
+CSS5467865,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/2445-11.jpg,"BENTLEY PARK","20, Bounty Close",4,1,0,"$260,000",2013-08-30-13:54
+CSS5473598,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/14110-Photo-6-2649517187-O.jpg,GORDONVALE,"6, Norman Street",3,1,0,"$255,000 neg",2013-09-25-13:10
+CSS5493235,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/3042-Waterfall.jpg,"FISHERY FALLS","Lot 69251, Bruce Highway",0,0,0,"Mid $500's",2013-07-31-06:54
+CSS5524573,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/24898-3.JPG,GORDONVALE,"71306, Bruce Hwy",5,2,5,"$485 ,000 Neg",2014-10-31-13:57
+CSS5525294,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/27077-a.jpg,EDMONTON,"6-22, Mt Peter Road",2,1,0,"$140,000",2014-01-07-10:24
+CSS5530894,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/27483-105PicconeDrive-6.jpg,EDMONTON,"105, Piccone Street",4,2,2,"$367,000-$367,000",2013-09-12-14:04
+CSS5539820,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/17564-4.jpg,GORDONVALE,"25, Corcoran Street",4,2,6,"$580,000",2013-10-03-08:05
+CSS5539854,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/12033-4lishacourt2033800x533.jpg,GORDONVALE,"4, Lisha Court",4,2,2,"$299,000 Neg",2013-11-28-14:35
+CSS5583301,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/19395-1c.jpg,WESTCOURT,"5/18, Rose Street",3,1,0,"$150,000",2013-09-02-08:21
+CSS5590063,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13869-1Small.JPG,EDMONTON,"87, Farmer Street",3,1,0,"$269,000",2013-11-26-10:44
+CSS5616602,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/23743-1.jpg,GORDONVALE,"226, Dempsey Street",4,2,0,"$399,000 Neg",2013-12-02-07:37
+CSS5619256,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13098-1.jpg,EDMONTON,"5, Arkendeith Drive",4,2,2,"$395,000 Neg",2013-08-30-13:54
+CSS5633792,,"WHITE ROCK","1/5, Kansas Close",4,2,0,"$193,000",2013-09-12-13:53
+CSS5637099,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/5849-Photo-2-2747520650-O.jpg,GORDONVALE,"123, Dempsey Street",4,2,3,"$469,000 Neg",2014-02-03-08:11
+CSS5654243,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/25964-21678420_9.JPG,EDMONTON,"7, Miltonia Street",4,2,0,"$339,000",2013-12-02-14:41
+CSS5684231,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/10974-newpictoday.jpg,"BENTLEY PARK","43, Timberlea Drive E",4,2,2,"$319,000 Neg",2013-11-14-11:02
+CSS5684330,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/10699-newest.jpg,"BENTLEY PARK","37, Timberlea Drive E",3,2,2,"$310,000 Neg",2014-05-30-09:28
+CSS5691669,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/903-6.jpg,EDMONTON,"26, Ravizza Drive",3,2,2,"$295,000",2013-12-16-09:15
+CSS5698781,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/21785-14.JPG,EDMONTON,"69, Accatino Street",4,2,0,"Offers in the $300,000's Considered",2013-12-10-15:04
+CSS5701466,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13363-12.jpg,"WHITE ROCK","5, Kambara Street",3,1,1,"$255,000 Neg",2013-10-31-09:25
+CSS5705657,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13544-DSCN1216.jpg,GORDONVALE,"Unit 1 29, Riverstone Road",2,1,0,"$145,000",2014-02-05-08:23
+CSS5708721,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4025-6.jpg,EDMONTON,"102, Farmer Street",3,2,0,"$308,000",2013-10-10-09:50
+CSS5723497,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/30016-1.jpg,WOREE,"112/1-21, Anderson Road",1,1,0,"$37,000 Neg",2015-02-20-09:34
+CSS5724156,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/19910-1.jpg,EDMONTON,"4, Jorgensen Street",3,1,1,"$275,000 Neg",2013-10-24-14:19
+CSS5725801,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/8037-143VeiversDriveSpeewah021800x533.jpg,SPEEWAH,"143, Veivers Drive",3,2,2,"AUCTION !",2013-10-29-07:39
+CSS5727469,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/356-12.jpg,EDMONTON,"37, Cooktown Road",4,2,2,"Mid $300's",2013-10-08-08:33
+CSS5739464,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/15625-1.jpg,GORDONVALE,"21, Muirhead Street",4,2,2,"$397,000",2014-02-27-12:27
+CSS5740062,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/29035-Photo-1-2760629581-O.jpg,GORDONVALE,"13, Pyramid Close",5,2,4,"$680,000",2013-10-31-14:59
+CSS5750513,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4222-4.jpg,EDMONTON,"Unit 1/5, Nindii Close",3,1,0,"$239,000 Neg",2013-12-02-12:36
+CSS5753714,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/29809-33CairnsRoadGordonvale005800x533.jpg,GORDONVALE,"33, Cairns Road",2,2,4,"$225,000 neg",2014-02-06-14:43
+CSS5785261,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/29811-1.jpg,EDMONTON,"33, Farmer street",4,2,2,"$349,000 Neg",2013-12-19-14:29
+CSS5785563,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/5514-4.jpg,"EAST TRINITY","1338, Pine Creek Road",1,2,0,"$475,000",2015-03-20-13:42
+CSS5793174,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/8472-10a.jpg,GORDONVALE,"124, Norman Street",3,1,0,"$299,000 Neg",2013-12-11-15:17
+CSS5800510,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/32405-25-27DempseyStreet039.JPG,GORDONVALE,"25 - 27, DEMPSEY STREET",4,2,2,"$580,000neg",2013-12-19-06:35
+CSS5801994,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/15375-1.jpg,"MOUNT SHERIDAN","4, Fife Close",3,2,2,"$325,000",2013-10-21-14:01
+CSS5809056,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/22962-1.jpg,EDMONTON,"Unit 1 - 9, Gammie Street",3,1,0,"$237,000 Neg",2013-11-18-07:14
+CSS5811686,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/21672-Photo-2-2800344250-O.jpg,EDMONTON,"9, Brutus Close",4,2,0,"$389,000 Neg",2013-11-11-07:42
+CSS5816904,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/11990-13.jpg,EDMONTON,"86, Farmer Street",3,2,2,"$329,000 Neg",2014-01-07-10:18
+CSS5835769,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/23665-15.jpg,GORDONVALE,"8 - 12, Cohen Close",4,3,2,"$540,000 Neg",2014-02-28-08:39
+CSS5853378,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/16711-6.jpg,EDMONTON,"13, Otto Close",3,1,0,"$245,000 Neg",2013-12-19-11:18
+CSS5881483,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/31059-Photo-1-2848469177-O.jpg,EDMONTON,"57, Archibald Street",4,2,2,"$379,000 Neg",2013-12-04-14:27
+CSS5885324,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/10179-Photo-14-2855967560-O.jpg,GOLDSBOROUGH,"41 - 43, Goldrush Close",4,2,3,"$485,000",2013-12-16-12:06
+CSS5885395,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/17161-9IdaliaClose002800x551.jpg,"MOUNT SHERIDAN","9, Idalia Street",3,1,0,"Offers Above $300,000",2014-06-04-09:47
+CSS5885410,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/14255-Photo-1-2865222032-O.jpg,"BENTLEY PARK","6, Laidley Close",4,2,2,"$439,000 Neg",2013-11-27-10:18
+CSS5897003,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/22988-14McPhailst-37.jpg,EDMONTON,"14, McPhail Street",4,2,2,"Offers In The $430,000's",2013-12-12-09:14
+CSS5897111,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/3820-37PriorSt-4.jpg,EDMONTON,"37, Prior Street",3,1,4,"Offers Over $280,000",2014-10-13-14:28
+CSS5899004,,GORDONVALE,"6, Riverstone Road",4,2,2,"$317,500",2013-10-31-15:00
+CSS5901486,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/2712-1.jpg,EDMONTON,"9B, Marr Street",3,1,0,"$249,000",2013-11-18-11:55
+CSS5914488,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4465-DSCN2523.JPG,EDMONTON,"32, Novelli Street",4,2,2,"$349,000 Neg",2013-11-08-12:49
+CSS5925299,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/25045-2.jpg,"BENTLEY PARK","16, Blackbird street",3,1,0,"$275,000 Neg",2015-03-16-13:23
+CSS5938875,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/6897-4TuronClose-11.jpg,"BENTLEY PARK","4, Turon Close",4,2,2,"$357,000 Neg",2014-03-31-09:32
+CSS5939323,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/31664-P1050644.jpeg,EDMONTON,"17, Mceachan Street",3,2,2,"$305,000 neg",2014-01-21-14:20
+CSS5939897,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/27206-12PollockSt-3.jpg,"BENTLEY PARK","12, Pollock Close",4,2,2,"Offers Considered From $399,000",2014-03-31-07:47
+CSS5940345,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/28449-Photo-5-2889755258-O.jpg,GORDONVALE,"23, George Street",3,1,0,"249,000",2013-11-29-09:18
+CSS5950935,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/22072-1.jpg,EDMONTON,"28 - 30, Melchiori Close",4,2,2,Auction,2016-05-13-10:21
+CSS5950941,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/8312-Photo-16-2900047342-O.jpg,EDMONTON,"22, Claderia Street",3,2,2,"$365,000 Neg",2014-01-14-13:32
+CSS5956646,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13046-PA010030.jpg,EDMONTON,"66, Mount Peter Road",3,2,0,"$310,000",2014-02-28-08:38
+CSS5967175,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/11034-Photo-1-2957653707-O.jpg,EDMONTON,"12, Noble Close",3,2,2,"$349,000",2014-06-30-11:39
+CSS5967615,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/24527-4f.jpg,EDMONTON,"35, Luisa Street",3,1,0,"$275,000 neg",2014-03-14-12:57
+CSS5979598,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/24652-Photo-13-2917302738-O.jpg,GORDONVALE,"6, Slatcher Close",3,1,1,"$325,000",2014-03-17-13:55
+CSS5981888,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/14421-Photo-7-2929760048-O.jpg,GORDONVALE,"7, Rossi Street",4,2,6,"$530,000 Neg",2014-01-31-09:29
+CSS5981934,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/5500-Photo-7-2929759949-O.jpg,GORDONVALE,"3, Creswell Close",3,2,0,"$329,000 Neg",2014-06-24-13:56
+CSS5993844,,GORDONVALE,"6, Radford Close",4,2,2,"$275,000",2014-01-07-10:21
+CSS6001219,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/21871-38CadelleSt-10.jpg,"BENTLEY PARK","38, Cadell Street",4,2,2,"$410,000 Offers Considered",2015-05-20-07:39
+CSS6009860,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/32595-photo8800x600.jpg,GORDONVALE,"30, Devine Crescent",4,2,2,"$399,000 Neg",2014-02-24-12:39
+CSS6010040,,GORDONVALE,"3, Bonner Street",4,2,0,"$376,100",2014-01-06-13:57
+CSS6029227,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4743-Photo-1-2946678799-O.jpg,GORDONVALE,"6, Spender Close",4,2,2,"$419,000 Neg",2014-02-28-08:38
+CSS6031743,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/17438-100_7157.JPG,EDMONTON,"11, De Vecchi Close",4,2,0,"$310,000 Neg",2014-06-27-12:31
+CSS6036287,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/3871-DSCN2686.JPG,GORDONVALE,"6, Turner Close",3,1,0,"$250,000 Neg",2014-01-22-08:16
+CSS6036900,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/18558-12Amazon-06_resize.JPG,"MOUNT SHERIDAN","12, Amazon Close",3,2,1,"$325,000 Neg",2014-01-13-07:53
+CSS6046952,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/16070-16.jpg,"BENTLEY PARK","17, Julia Percy Close",5,3,2,"$425,000",2014-03-11-14:03
+CSS6054840,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/23494-1a.jpg,EDMONTON,"22, Banville Street",4,2,2,"$327,000 Neg",2014-10-30-07:44
+CSS6078335,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/25275-b.jpg,WESTCOURT,"Unit 14/87, Earl Street",2,1,0,Auction,2014-02-04-13:16
+CSS6112650,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/6927-zzz.jpg,GORDONVALE,"13, Murphy Street",3,1,0,"$239,000 Neg",2014-03-03-11:45
+CSS6113544,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/26154-c.jpg,EDMONTON,"13, Nindii Close",4,2,2,"$359,000 Neg",2014-04-01-08:05
+CSS6113922,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/20133-Back.jpg,"BENTLEY PARK","185, Robert Road",3,2,2,"Offers in the $320,000's",2014-04-30-14:33
+CSS6125130,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/17025-19698673_1[1].jpg,EDMONTON,"11, Tilse Close",4,2,2,"$355,000 Neg",2014-02-05-06:59
+CSS6140479,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/431-ne2.jpg,"BENTLEY PARK","6, Anson Street",4,2,2,"$389,000 Neg",2014-04-30-14:41
+CSS6147145,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/22919-Photo-3-3035166582-O.jpg,GORDONVALE,"26, Devine Crescent",4,2,2,"$435,000 Neg",2014-02-28-13:40
+CSS6150109,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/11204-3.jpg,GORDONVALE,"41, Riverstone Road",3,1,0,"$289,000 Neg",2014-10-02-06:43
+CSS6159610,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/18779-2.jpg,WHITFIELD,"91, Upper Richardson Street",6,3,2,"Offers in the $480,000's",2014-05-27-11:32
+CSS6167422,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1402624483-18693-Photo-1-3046572891-O.jpg,GORDONVALE,"17, Clarke Street",3,2,0,"$329,000 neg",2015-07-08-12:33
+CSS6167435,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/7543-1.jpg,GORDONVALE,"29, Lucas Street",3,2,2,"$319,000",2014-02-28-08:41
+CSS6182649,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/29449-Photo1.jpg,GORDONVALE,"5, Miley Close",4,2,2,"$549,000",2014-08-29-09:37
+CSS6191010,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/1397178480-6119-1.jpg,"BENTLEY PARK","22, Allinga Close",4,3,2,"$495,000 Neg",2014-05-20-14:51
+CSS6194390,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/22828-DSCN2826.JPG,EDMONTON,"20, Jordan Street",3,1,1,"$247,000",2014-04-30-14:35
+CSS6204375,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/19971-9.jpg,EDMONTON,"7, McCann Close",2,1,1,"$259,000 Neg",2014-03-28-10:52
+CSS6223976,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/30292-3.jpg,GORDONVALE,"7, Wiltshire Drive",3,1,1,"$318,000 Neg",2014-03-25-07:30
+CSS6225754,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/10549-19Swan_0015.jpg,GORDONVALE,"19, Swan Street",4,1,2,"$417,000 Neg",2014-12-01-14:30
+CSS6226470,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/32144-P8040023.jpg,GORDONVALE,"6, Murphy Street",3,1,0,"$255,000 Neg",2014-09-01-14:26
+CSS6234774,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/7978-2NewbyCl_0015.jpg,EDMONTON,"2, Newby Close",4,2,2,"$340,000 Neg",2014-04-09-14:24
+CSS6236652,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/24499-IMG_1924Small2.jpg,"MOUNT SHERIDAN","18, Avondale Street",3,1,1,"$279,000 Neg",2014-12-16-10:19
+CSS6248416,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/13721-16Anson_0025.jpg,"BENTLEY PARK","16, Anson Street",4,2,2,"Mid $400,000's",2014-04-24-14:09
+CSS6279928,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/30285-2.jpg,EDMONTON,"38, Maren Street",3,1,2,"$329,000 Neg",2015-05-29-15:08
+CSS6285695,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/3703-z.jpg,"MOUNT SHERIDAN","1, Mayfield Close",4,1,0,"$319,000 Neg",2014-08-25-13:59
+CSS6293381,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/12612-12.jpg,"EAST TRINITY","1495, Pine Creek Road",3,1,0,"$495,000",2014-07-29-13:59
+CSS6293430,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/8216-Photo-1-3105250453-O.jpg,GORDONVALE,"17, Muirhead Street",3,2,2,"$390,000",2014-03-24-07:17
+CSS6315076,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/14056-11CollingwoodClose025800x533.jpg,GORDONVALE,"11, Collingwood Close",3,1,0,"$298,000 Neg",2014-04-30-13:17
+CSS6334244,,EDMONTON,"25, Barramulla Close",4,2,2,"$353,000",2014-04-01-08:07
+CSS6334756,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/23849-2.jpg,GORDONVALE,"17, Wiltshire Drive",3,2,2,"$399,000 Neg",2014-07-16-13:46
+CSS6344256,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4684-2Victoryent.jpg,EDMONTON,"2, Victory Close",3,1,0,"$269,000 Neg",2014-05-02-08:27
+CSS6346542,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/2714-Photo-3.jpg,EDMONTON,"5, Frost Close",4,2,0,"$349,000",2014-04-15-14:45
+CSS6353062,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/16027-12.jpg,EDMONTON,"3/35-37, Bruce Highway",1,1,0,"$79,000 Neg",2014-09-22-14:27
+CSS6353066,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/4791-Photo-9-3129035330-O.jpg,"BAYVIEW HEIGHTS","34, Dandaloo Street",5,1,0,"$399,000 Neg",2014-04-30-14:36
+CSS6365323,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/22358-12.JPG,GORDONVALE,"61-63, Campbell Street",4,1,0,"$295,000 neg",2014-10-28-14:33
+CSS6367739,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/32114-52HeritageGardens_0019.jpg,EARLVILLE,"52/11-21, Barr Street",2,1,1,"$240,000",2014-06-25-12:53
+CSS6382379,,"BENTLEY PARK","29, Boyce Street",3,2,2,"$304,000",2014-04-30-14:37
+CSS6383348,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/7903-1NealesStreet.JPG,"BENTLEY PARK","1, Neales Street",4,2,2,"$389,000",2014-06-13-14:39
+CSS6402621,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1413596459-13573-Windlass13-15October007800x533.jpg,GOLDSBOROUGH,"13 - 15, Windlass Street",4,2,2,"$520,000neg",2015-10-16-14:32
+CSS6402719,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/1396659160-27282-182Mcleod027800x533.jpg,"CAIRNS NORTH","1 / 182, McLeod Street",2,1,1,"$229,000 Neg",2014-07-31-14:03
+CSS6412880,http://s3-ap-southeast-2.amazonaws.com/mydesktop.aunz/rwcairso/photos/1396672540-5857-small.jpg,GORDONVALE,"15, Devine Crescent",3,2,2,"$369,000 Neg",2014-08-15-10:01
+CSS6445837,,EDMONTON,"12, Rainforest Road",3,2,0,"$450,000 Neg",2014-12-16-10:21
+CSS6465648,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1415157829-5351-9MclaughlinStreet007800x533.jpg,"BENTLEY PARK","9, McLaughlin Road",4,2,1,"$339,000 Neg",2014-12-04-14:35
+CSS6468526,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1397496252-15188-1.jpg,GORDONVALE,"15, Simmonds Street",3,2,3,"$249,000",2014-05-09-14:13
+CSS6470182,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1429091328-17028-IMG_16211.JPG,EDMONTON,"5, McPhail Close",5,2,2,"$429,000 neg",2015-05-20-14:51
+CSS6479668,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1397736031-3559-Photo-1-3185166642-O.jpg,EDMONTON,"72, Cooktown Road",4,2,2,"$399,000 Neg",2014-05-12-08:20
+CSS6485713,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1397875162-22762-15.jpg,"BENTLEY PARK","238, Robert Road",3,2,0,"$289,000 Neg",2014-08-06-12:58
+CSS6512083,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1398662863-4958-10WiernetClose-12.jpg,EDMONTON,"10, Wienert Street",4,2,2,"High $300,000's",2014-05-29-07:43
+CSS6526154,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1398989161-27844-8Hyancinthclose-4.jpg,EDMONTON,"8, Hyacinth Close",3,2,2,"$313,000 Neg",2014-07-23-06:51
+CSS6534403,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1399334247-19680-24.jpg,"CAIRNS NORTH","3/267, Esplanade",3,3,1,"$620,000 Neg",2014-08-19-14:34
+CSS6550128,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1404645847-21924-IMG_0048.JPG,GORDONVALE,"17, Murphy Street",4,2,2,"$389,000 Neg",2014-07-31-13:19
+CSS6550339,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1399420595-27801-52HeritageGardens_0004.jpg,EARLVILLE,"34/11-21, Barr Street",1,1,0,"$170,000",2014-06-18-12:15
+CSS6550603,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1399421585-17044-DSCN2869.JPG,GORDONVALE,"123, Norman Street",8,4,4,"Buyers In The $600,000's",2014-07-31-14:04
+CSS6557684,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1399520222-31199-1.jpg,EDMONTON,"11, Rosemarkie Street",4,2,2,"$399,000 Neg",2014-10-09-13:51
+CSS6559131,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1399532602-7600-1.jpg,"WHITE ROCK","75, Hollywood Boulevard",3,2,2,"$279,000 Neg",2014-06-24-11:50
+CSS6569061,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1399943906-2655-Photo-6-3239372186-O.jpg,GORDONVALE,"33, Campbell Street",3,1,0,"$275,000 Neg",2014-11-26-11:52
+CSS6590107,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1400224830-30096-web_dsfmdo.jpg,GORDONVALE,"121, Norman Street",4,1,6,"$375,000",2014-11-28-10:25
+CSS6590470,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1402885295-3199-IMG_0230.jpg,GOLDSBOROUGH,"89-91, Costain Street",4,2,2,"$495,000",2014-07-30-14:06
+CSS6612733,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1401325577-562-3.jpg,"BENTLEY PARK","13, Cowie Close",3,2,2,"$395,000",2014-07-22-12:24
+CSS6634994,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1401687572-32405-1.jpg,"BENTLEY PARK","36, Tryal Street",4,2,0,"$279,000 Neg",2014-09-01-14:25
+CSS6648859,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1402357418-15184-Photo-4-3296923301-O.jpg,MANOORA,"4, Millard Street",3,1,0,"$240,000 Neg",2014-08-22-09:49
+CSS6648887,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1402357633-20734-Photo-2-3296926600-O.jpg,MOOROOBOOL,"4, Deacon Court",3,1,0,"$230,000 Neg",2014-10-13-14:27
+CSS6652512,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1402004357-28993-73Swanst-8.jpg,GORDONVALE,"73, Swan Street",3,2,2,"$417,000 Neg",2014-07-16-13:54
+CSS6653762,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1402019618-6215-Unit2Exterior.jpg,GORDONVALE,"1, Elliott Court",6,2,0,"Offers in the $420,000's",2014-07-07-08:04
+CSS6674365,,"BENTLEY PARK","4, Roderick Street",4,2,1,"$349,900",2014-07-22-12:50
+CSS6680500,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1402617372-6495-Picture11.jpg,EDMONTON,"29, Stewart Street",4,2,1,"$425,000",2014-07-25-10:17
+CSS6681986,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1402569116-18468-Otto3_015.jpg,EDMONTON,"3, Otto Close",4,2,2,"Offers Over $295,000",2015-07-06-09:15
+CSS6693929,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1403066337-18269-15.jpg,GORDONVALE,"11, Buzacott Street",3,1,1,"$279,000 Neg",2015-03-09-14:19
+CSS6700569,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1403132877-9224-34LuisaStEdmonton_0009.jpg,EDMONTON,"34, Luisa Street",4,1,0,"$310,000 Neg",2014-07-29-13:57
+CSS6701395,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1403135964-30795-22BadillaSt_0008.jpg,EDMONTON,"22, Badilla Street",3,1,2,"$340,000's Open to Offers",2014-11-28-10:42
+CSS6716042,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1403588277-29235-13BountyCl_0004.jpg,"BENTLEY PARK","13, Bounty Close",4,1,0,"$315,000 Neg",2014-08-29-14:01
+CSS6729881,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1403853186-28345-1SheehyRd_0019.jpg,"WHITE ROCK","1, Sheehy Road",4,2,6,"High $300,000's",2014-08-25-14:15
+CSS6731498,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1404082721-2388-DSCN09982.JPG,GORDONVALE,"1, Radford Close",4,2,2,"$350,000 Neg",2014-08-19-14:34
+CSS6733608,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1404347322-7041-Photo-10-3358887714-O.jpg,REDLYNCH,"1, Olea Court",4,1,1,"$412,000 Neg",2014-07-21-14:36
+CSS6743689,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1404739636-16138-IMG_0122.JPG,EDMONTON,"13, Piccone Drive",4,2,2,"$435,000",2014-07-25-15:13
+CSS6746997,,EDMONTON,"26, McEachan Street",4,2,2,"$422,000",2014-07-24-08:27
+CSS6753580,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1404518886-16418-Photo-1-3363076337-O.jpg,GORDONVALE,"4, Taffy Close",4,2,2,"$398,000",2015-01-13-11:54
+CSS6754343,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1404738164-13247-IMG_0061.JPG,"BENTLEY PARK","242, Robert Road",3,2,0,"$319,000 Neg",2014-07-31-08:17
+CSS6758060,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1413188547-1137-Photo-13-3608806151-O.jpg,EDMONTON,"6, Clune Court",3,1,2,"$285,000",2014-11-28-10:28
+CSS6758224,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1404721444-10988-Photo-1-3368152889-O.jpg,GORDONVALE,"6, Dall'alba Close",3,1,1,"$250,000",2014-07-16-13:54
+CSS6811247,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1405999218-28041-Photo-4-3401281212-O.jpg,EDMONTON,"114, Farmer Street",4,1,2,"$299,000",2014-10-16-14:10
+CSS6819295,,"MOUNT SHERIDAN","71, Barnard Drive",3,2,1,"$309,000",2014-08-06-07:09
+CSS6826699,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1406245681-26893-IMG_7488Small.JPG,"BENTLEY PARK","41, Timberlea Drive East",3,2,2,"$329,000 Neg",2015-04-07-12:21
+CSS6839414,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1406616758-24773-Photo-2-3420759819-O.jpg,"BENTLEY PARK","26, Allinga Close",4,2,2,"$445,000 Neg",2014-08-22-11:02
+CSS6840008,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1406791874-4347-Photo-1-3425771688-O.jpg,"EDGE HILL","13, Torrance Avenue",3,1,1,"$349,000",2014-08-26-08:06
+CSS6840722,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1424488464-17697-Photo-8.jpg,"BENTLEY PARK","10, Anson Street",4,2,2,"High $400,000's",2015-09-10-13:06
+CSS6851395,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1406781479-31495-IMG_0741.JPG,GORDONVALE,"95-97, George Street",3,2,0,"Reduced to $370,000",2014-09-22-10:06
+CSS6869487,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1407313658-18781-Front.jpg,GORDONVALE,"5, Campbell Street",3,1,0,"Reduced $250,000 Neg",2014-11-20-14:07
+CSS6877362,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1407496321-30178-3.jpg,"BENTLEY PARK","30, Lockyer Crescent",4,2,2,"$437,000 Neg",2014-10-09-12:46
+CSS6890807,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1408507403-29793-Photo-2-3470971660-O.jpg,"BENTLEY PARK","7, Anniebuka Close",4,2,2,"$390,000 Neg",2014-12-10-13:11
+CSS6908864,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1408168868-30679-IMG_3441.JPG,"BENTLEY PARK","34, Tryal Street",3,1,0,"$269,000 Neg",2014-09-30-13:47
+CSS6909954,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1423012549-31358-1.jpg,GORDONVALE,"6, Malaponte Close",3,1,2,"Offers Over $325,000",2015-04-28-12:48
+CSS6911322,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1408394096-24281-Photo-1-3468069492-O.jpg,"MOUNT SHERIDAN","115, Booyong Drive",4,2,2,"$425,000",2014-09-19-13:30
+CSS6915764,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1408515266-26922-IMG_0150-Copy.JPG,GORDONVALE,"74 - 76, Dempsey Street",3,2,2,"$549,000 Neg",2014-10-27-14:19
+CSS6916418,,EDMONTON,"5, Otto Close",3,2,2,"$282,000",2014-10-02-11:43
+CSS6924125,,GORDONVALE,"32, Mercy Close",4,2,2,"$765,000",2014-09-12-08:19
+CSS6929193,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1408689143-16072-9.jpg,EDMONTON,"18, Zarr Street",3,1,1,"Offers Over $280,000",2014-11-21-14:32
+CSS6929467,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1415206243-32210-IMG_0848.JPG,EDMONTON,"71663, Bruce Highway",4,2,2,"Low to Mid $500,00's",2015-05-29-15:04
+CSS6929759,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1408948322-474-DSCN3007.JPG,"MILLAA MILLAA","9, Pine Street South",4,2,0,"$339,000 Neg",2015-01-15-11:49
+CSS6934839,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1408958378-2675-IMG_1698.JPG,GORDONVALE,"66, Vico Street",4,2,2,"$510,000 Neg",2014-10-31-13:57
+CSS6939770,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1409031586-4465-IMG_0229.JPG,EDMONTON,"14, Claderia",4,2,2,"$390,000 Neg",2014-09-30-13:48
+CSS6970290,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1409610337-10975-1.jpg,"BENTLEY PARK","187, Timberlea Drive",3,1,2,"$305,000 Neg",2014-11-26-08:16
+CSS6973163,,GORDONVALE,"9, Flynn Close",3,2,2,"$130,000",2014-09-22-14:24
+CSS6984495,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1426565259-17892-IMG_1424.JPG,GORDONVALE,"36, Kenrick Street",4,2,2,"$329,000 Neg",2015-04-09-10:34
+CSS7002593,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1410341413-10860-Photo-1-3524818203-O.jpg,BUNGALOW,"76, Wilks Street",3,1,0,"$315,000 Neg",2014-10-23-11:50
+CSS7011560,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1410398098-20878-Photo-6-3524886618-O.jpg,GORDONVALE,"6, Devine Crescent",4,2,2,"$420,000",2015-04-28-14:07
+CSS7012791,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1410411134-8309-Photo-1-3524862621-O.jpg,GORDONVALE,"1, Taffy Close",4,2,2,"$398,000",2015-06-11-08:16
+CSS7043868,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1410661980-30991-Tryal13_003.jpg,"BENTLEY PARK","13, Tryal Street",4,2,2,"$399,000 Neg",2014-10-27-06:57
+CSS7069961,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1411095529-3990-IMG_0274.JPG,"MOUNT SHERIDAN","22, Scotia Close",3,1,0,"$295,000 Neg",2014-12-01-06:30
+CSS7158726,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1412060248-20070-Photo-1-3572756503-O.jpg,GORDONVALE,"2, Davids Street",3,1,2,AUCTION,2014-11-28-10:20
+CSS7165812,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1412202039-20134-56VerbenaDrive-13.jpg,"MOUNT SHERIDAN","56, Verbena Drive",4,2,2,"$439,000 Neg",2014-11-26-08:08
+CSS7167135,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1412726407-6003-Photo-2-3593824928-O.jpg,GORDONVALE,"3, Bonner Close",4,2,2,"$405,000 Neg",2014-10-31-14:18
+CSS7173703,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1412459804-23611-88Giffin_0011.jpg,"WHITE ROCK","88B, Giffin Road",2,1,5,"$439,000 Neg",2014-12-16-10:20
+CSS7175778,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1412752440-31069-Photo-1-3596418292-O.jpg,EDMONTON,"17, Noble Close",3,1,2,"$289,000",2014-10-24-11:00
+CSS7217601,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1413886618-20596-Photo-7-3630467796-O.jpg,"BENTLEY PARK","14, Wheatley Ave",4,2,2,"$389,000 Neg",2014-11-28-14:09
+CSS7224886,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1414023500-3812-Photo-5-3634982627-O.jpg,GORDONVALE,"76, Sheppards street",3,1,2,"$280,000 Neg",2014-11-18-14:11
+CSS7235463,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1413955191-12242-Photo-8-3632194088-O.jpg,EDMONTON,"17, Massey Street",4,2,2,"$399,000 neg",2015-05-15-15:06
+CSS7261011,,EDMONTON,"11, Otto Close",3,1,0,"$280,000",2015-01-06-06:47
+CSS7274381,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1414724060-18455-IMG_0259.jpg,GORDONVALE,"33, Fisher Road",3,1,0,"$259,000",2014-11-17-14:32
+CSS7276937,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1415531838-12500-IMG_0451.JPG,EDMONTON,"12/23, Armstrong Street",3,2,0,"$215,000 Neg",2014-12-19-15:27
+CSS7278225,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1415048228-22783-Photo-4-3665216690-O.jpg,"BENTLEY PARK","3, Adventure Close",3,1,2,AUCTION,2014-12-10-08:04
+CSS7288814,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1415199574-31768-Photo-30-3669922006-O.jpg,MOOROOBOOL,"1, Oceanview Place",4,3,3,"$785,000 Neg",2015-03-30-10:31
+CSS7309766,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1417864888-23155-IMG_3600.JPG,EDMONTON,"11, Mulindie Close",4,2,0,"$445,000 Neg",2015-01-19-07:16
+CSS7313356,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1415791287-309-Photo-1-3689773369-O.jpg,EDMONTON,"138, Isabella Road",4,2,2,"$375,000 neg",2015-03-20-13:43
+CSS7313948,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1415728956-31050-IMG_1057.JPG,"MOUNT SHERIDAN","37, Trafalgar Road",4,2,2,"Offers in the $370,000's",2014-11-25-11:24
+CSS7318959,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1415793201-701-IMG_0603.JPG,"MOUNT SHERIDAN","15, Bourke Close",3,1,1,"$329,000 Neg",2015-01-05-10:20
+CSS7346716,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1415966710-2192-7.jpg,EDMONTON,"9, Mallory Close",4,2,2,"Offers Over $395,000",2016-04-11-11:33
+CSS7361534,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1416377300-29814-Photo-1.jpg,"BENTLEY PARK","43, Bi-Centennial Road",3,1,0,"Low $300,000s",2015-02-17-08:53
