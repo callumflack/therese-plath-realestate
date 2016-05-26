@@ -1,66 +1,10 @@
 property_id,image,address_suburb,address_street,bedrooms,bathrooms,garage,price,date_created
-CTR4382493-3219014,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/111658619-image-M.jpg,EARLVILLE,"Unit 13/17, Balaclava Road",2,1,1,"Reduced To Sell $179,000",2016-04-17-01:11
-CTR4670256-3450529,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/112154131-image-M.jpg,"WHITE ROCK","194-196, Progress Road",3,1,0,"Massive Price Reduction! $250,000",2016-04-19-11:48
-CTR4256717,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/119073107-image-M.jpg,"MOUNT SHERIDAN","19, Adonis Street",3,1,0,"High $200's Range",2016-04-05-13:59
-CTR8575306,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/120574033-image-M.jpg,EDMONTON,"18, Arkendeith Drive",4,2,2,"Low $400's Range",2016-04-05-14:20
-CTR9073692,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/121507910-image-M.jpg,MANUNDA,"145-147, McCormack Street",3,1,2,"$355,000",2016-04-05-13:24
-CTR9333794,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/121886678-image-M.jpg,"BENTLEY PARK","3, Dugong Close",5,2,0,"Mid $400's Range Must See",2016-04-05-09:48
+1676138,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/107440107-image-M.jpg,WOREE,"232/1, Anderson Road",1,1,1,"$65,000 Negotiable - Make Your Offer TODAY!!!!",2016-04-05-14:25
+CSS7973007,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1427859323-14102-property_map.jpg,CAIRNS,"123, Bob Road",4,2,2,"Offers are invited",2016-04-26-09:12
+CSS8241748,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1432725241-12263-IMG_1009.JPG,MUNDOO,"8, Aerodrome Road",3,1,2,"$470,000 Neg",2016-02-17-13:36
 CSS9534811,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1459471539-13547-IMG_4282.jpg,"MOUNT SHERIDAN","6, Ironwood Street",3,1,1,"$329,000 Neg",2016-05-18-12:45
+CSS9539503,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1427433986-13344-1.jpg,"GREEN HILL","194, Gray Road",4,2,4,"$1.6m to $1.7m",2016-04-05-13:13
 CSS9539662,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/21277-1.jpg,MOOROOBOOL,"11, Oceanview Place",4,3,2,"$1.25m Negotiable",2016-04-05-13:26
 CSS9539687,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10195-Photo-6-2351780406-O.jpg,WESTCOURT,"22 / 192, Mann Street",1,1,0,"$108,000 Negotiable",2016-04-05-14:10
 CSS9539905,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1431047430-29181-1.jpg,"BENTLEY PARK","136, Robert Road",3,1,2,"Low $300's Range Negotiable",2016-04-24-01:10
 CSS9539916,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14075-027Open2viewID408561-2-4WaterfallRoadEdmonton.jpg,EDMONTON,"2-4, Waterfall Close",4,3,2,"$899,000",2016-04-29-12:13
-CSS9539965,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1432785572-17686-1.jpg,GORDONVALE,"199-201, Dempsey Street",4,2,5,"Mid to High $600's Range",2016-04-05-11:59
-CSS9540045,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1436161585-29700-11.jpg,"BAYVIEW HEIGHTS","24, Sunbird Drive",5,4,3,"Price Upon Application",2016-04-12-13:23
-CSS9540322,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1459837652-29051-01.jpg,"BENTLEY PARK","13, Bundey Street",4,2,2,"$429,000",2016-05-22-01:11
-CSS9540566,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1450325822-11828-1.jpg,MOOROOBOOL,"2, Caleb Court",4,3,2,$1.4m,2016-04-05-13:25
-CSS9540757,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1433206989-22249-1.jpg,MOOROOBOOL,"35, Southerden Drive",4,2,3,"Price Upon Application",2016-04-05-13:47
-CSS9540777,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1436929600-27366-1.jpg,GOLDSBOROUGH,"73-75, Golden Street",3,3,0,"Outstanding Value! High $300's Range",2016-05-25-10:12
-CSS9540778,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1440030193-22500-1.jpg,"BAYVIEW HEIGHTS","11, Dandaloo Street",3,1,0,"Buyers in The $340's Range",2016-04-05-09:11
-CSS9540787,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1435812986-19113-1.jpg,"LITTLE MULGRAVE","48-50, Appaloosa Street",5,2,6,"Low $600,000 Range",2016-05-25-07:58
-CSS9540792,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1436244979-23756-7.jpg,CAIRNS,"36, The Esplanade",5,3,8,"$850,000 Negotiable",2016-04-21-10:08
-CSS9540814,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1437701036-28997-1.jpg,"MOUNT SHERIDAN","12, Mabel Street",4,2,2,"$379,000 Negotiable",2016-05-20-11:41
-CSS9540818,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1437628845-22969-1.jpg,CAIRNS,"20, Barrett Street",3,2,1,"$420's Range",2016-04-05-10:16
-CSS9540869,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1441339098-10820-01.jpg,WOREE,"612, Bruce Highway",5,2,2,"High $700's Range",2016-04-28-07:05
-CSS9540872,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1441344346-1280-1a.jpg,"BENTLEY PARK","13, Somerset Close",3,1,0,"Offers Over $340,000",2016-04-05-10:04
-CSS9540921,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1444977266-22083-1.jpg,"BENTLEY PARK","17, Golden Grove Drive",4,1,0,"$339,000",2016-04-05-09:57
-CSS9540951,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/15569-1.jpg,"BENTLEY PARK","15, Cliffdale Street",4,2,2,"High $300's Range",2016-05-25-08:27
-CSS9540956,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1450758736-10087-Wood8_001.jpg,"KEWARRA BEACH","Lot 8, Woods Circuit",4,2,2,"High $800's Range",2016-05-09-12:37
-CSS9540968,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1450842928-5274-1.jpg,"BAYVIEW HEIGHTS","20, Wirrah Street",4,2,2,"$370's Range",2016-05-12-07:23
-CSS9540971,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1451889170-17212-photo1.jpg,REDLYNCH,"50/2-6, Fairweather Road",2,2,1,"Offers Over $250,000",2016-04-05-14:06
-CSS9540988,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1454280246-22763-1.jpg,EDMONTON,"16, Newby Close",3,2,2,"High $300's Range",2016-04-25-08:35
-CSS9541023,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1455249724-13128-1.jpg,"LITTLE MULGRAVE","Lot 2, Palamino Court",4,2,2,"$599,000 negotiable",2016-05-26-12:09
-CSS9541027,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/30470-01.jpg,"BAYVIEW HEIGHTS","9, Sandpiper Court",4,2,2,"Low to Mid $500's Range",2016-05-25-07:42
-CSS9541041,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1457583553-23841-1.jpg,"BENTLEY PARK","15, Herald Street",3,1,2,"$349,000 Negotiable",2016-05-25-07:39
-CSS9551510,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1459909435-18577-117MunroGoldenStreet0141280x8522.jpg,BABINDA,"117, Munro Street",3,1,0,"$230,000 Negotiable",2016-04-11-13:31
-CSS9554774,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1459941564-29244-IMG_4333.jpg,"BENTLEY PARK","21, Golden Grove Drive",4,1,0,"325,000 Neg",2016-05-25-18:36
-CSS9555926,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1459993079-10581-015_Open2view_ID407103-74_Farmer_St__Edmonton.jpg,EDMONTON,"74, Farmer Street",4,2,5,"$489,000 Neg",2016-05-25-18:50
-CSS9567458,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1460110323-13532-001_Open2view_ID407105-120_Wiseman_Rd_West__Edmonton1.jpg,EDMONTON,"120, Wiseman Road West",4,3,6,"459,000 Neg",2016-05-24-10:44
-CSS9586447,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1460591743-7749-1.jpg,EDMONTON,"40-42, Plantation Road",4,1,2,"High $700's Range",2016-05-25-07:40
-CSS9591387,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/12037-IMG4477.JPG,GORDONVALE,"16, Mendelsohn Close",3,2,2,"$359,000 Neg",2016-05-10-14:00
-CSS9608009,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8014-10.jpg,"MOUNT SHERIDAN","19, Idalia Road",3,2,2,"Buyers in $360's Range",2016-05-19-11:11
-CSS9608784,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/4096-outsideview.jpg,EDMONTON,"1/46, Prior Street",3,2,0,"Offers  mid $200,000's",2016-05-19-14:24
-CSS9609093,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/24888-Photo-8.jpg,GORDONVALE,"3, Gadaloff Close",4,2,2,"$585,000 Negotiable",2016-05-26-07:13
-CSS9609130,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/14594-02.jpg,"MOUNT SHERIDAN","28, Marsden Street",3,2,2,"Buyers in the Low $300's Range",2016-05-23-13:26
-CSS9622777,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/8781-02.jpg,EARLVILLE,"49, Yarrum Street",3,1,2,"Mid $300's Range",2016-05-20-07:36
-CSS9642762,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/29900-IMG44312.jpg,"MOUNT SHERIDAN","20, Lizard Street",4,2,1,"$389,000 Neg",2016-05-25-18:27
-CSS9662564,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/25807-1.jpg,"BAYVIEW HEIGHTS","44, Wirrah Close",4,3,2,"Buyers up to Mid $400's Range Should Inspect!",2016-05-25-07:43
-CSS9681733,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1300-Photo-8.jpg,"BENTLEY PARK","65, Resolution Drive",4,2,4,"$379,000 Negotiable",2016-05-25-07:43
-CSS9683685,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/24142-1.jpg,EDMONTON,"21-23, Cultivation Close",6,4,10,"High $900,000's Range",2016-05-04-12:46
-CSS9695941,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/24287-Photo-32.jpg,CAIRNS,"5, McCrae Street",3,2,0,"$420,000",2016-05-25-12:10
-CSS9702114,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/21586-2.jpg,GORDONVALE,"16, Malaponte cl",4,2,2,"$520,000 neg",2016-05-11-18:31
-CSS9714714,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10185-1a.jpg,"BAYVIEW HEIGHTS","13, Pheasant Street",4,2,2,"High $500's Range",2016-05-25-07:40
-CSS9720550,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/25900-1.jpg,EDMONTON,"23, Pyne Street",3,1,0,"Low $300's Range",2016-05-22-01:11
-CSS9732331,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/9389-023Open2viewID411871-4PyramidCloseGordonvale.jpg,GORDONVALE,"4, Pyramid Close",5,3,3,"$899,000",2016-05-21-09:00
-CSS9740315,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/9037-IMG4570.jpg,EDMONTON,"10, Mulindie Close",3,1,0,"317,000 Neg",2016-05-25-19:16
-CSS9767238,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/4137-Photo-2.jpg,"WHITE ROCK","45, Phoenix Street",4,2,2,"$389,000 Neg",2016-05-25-19:17
-CSS9539503,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1427433986-13344-1.jpg,"GREEN HILL","194, Gray Road",4,2,4,"$1.6m to $1.7m",2016-04-05-13:13
-CSS9540141,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1446618264-13242-003_Open2view_ID383242-432_Russell_Road__Gordonvale.jpg,GORDONVALE,"432, Russell  Road",4,4,6,"Price Upon Application",2016-05-17-09:58
-CSS9540934,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1447136267-13645-1.jpg,EDMONTON,"3-5, Melchiori Close",4,4,4,$2.45m,2016-04-05-10:48
-CSS9540973,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1452146238-4050-1.JPG,BARRINE,"7, Andrews Road",3,2,3,"$649,000 Negotiable",2016-04-05-09:10
-CSS7973007,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1427859323-14102-property_map.jpg,CAIRNS,"123, Bob Road",4,2,2,"Offers are invited",2016-04-26-09:12
-CSS8241748,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1432725241-12263-IMG_1009.JPG,MUNDOO,"8, Aerodrome Road",3,1,2,"$470,000 Neg",2016-02-17-13:36
-1676138,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/107440107-image-M.jpg,WOREE,"232/1, Anderson Road",1,1,1,"$65,000 Negotiable - Make Your Offer TODAY!!!!",2016-04-05-14:25
-CTR6128827,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/115854307-image-M.jpg,"CAIRNS CITY","37/62, Abbott Street",1,1,0,"$185,000 Negotiable",2016-05-20-09:31
-CTR6298160,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/116425947-image-M.jpg,EDMONTON,"10/27, Stokes Street",2,1,0,"$159,000",2016-04-19-12:14
-CTR7289709,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/118392283-image-M.jpg,"HOLLOWAYS BEACH","41/129, Oleander Street",1,1,0,"$120,000's Range",2016-04-05-14:50
