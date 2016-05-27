@@ -10,7 +10,7 @@ layout: default
             <div class="Grid">
                 <div class="Grid-cell u-size1of2">
                     {% for current in site.data.current limit:1%}
-                    <p class="u-textBold">Showing {{forloop.length}} totla listings<!--Showing 1 – 20 of 32 total listings--></p>
+                    <p class="u-textBold">Showing {% forloop.length %} total listings<!--Showing 1 – 20 of 32 total listings--></p>
                     {% endfor %}
 
                 </div>
