@@ -13,7 +13,7 @@ layout: default
                     {% for current in site.data.current%}
                     {% size=size+1 %}
                         {% if forloop.last %}
-                            <p class="u-textBold">Showing {{size | plus:forloop.size}} total listings<!--Showing 1 – 20 of 32 total listings--></p>
+                            <p class="u-textBold">Showing {{size | plus:forloop.length}} total listings<!--Showing 1 – 20 of 32 total listings--></p>
                         {% endif %}
                     {% endfor %}
 
