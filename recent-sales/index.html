@@ -8,7 +8,13 @@ layout: default
         <div class="DivRule"></div>
         <div class="Grid Grid--withGutter u-marginB2">
             <div class="Grid-cell u-sm-size1of3">
-                <p class="u-textBold">Showing 1 – 20 of 32 total listings</p>
+                {% assign CurrentSoldSize = 0 %}
+                {% for current in site.data.sold%}
+                {% if forloop.last %}
+                <p class="u-textBold">Showing {{CurrentSoldSize | plus:forloop.length}} total listings<!--Showing 1 – 20 of 32 total listings--></p>
+                {% endif %}
+                {% endfor %}
+                <!--<p class="u-textBold">Showing 1 – 20 of 32 total listings</p>-->
             </div>
             <div class="Grid-cell u-sm-size1of3">
                 <label for="sortcombo" class="optional u-marginRD6">Sort by:</label>
