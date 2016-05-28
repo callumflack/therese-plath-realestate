@@ -2,7 +2,7 @@
 title: For sale
 layout: default
 ---
-
+                    
                     {% comment %}
                         This include requires assigning a variable for {{ profile }}
                         e.g. {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
@@ -4518,6 +4518,7 @@ Immersed amongst peaceful landscaped gardens and situated in the ever so popular
                                     </a>
                                     <div class="Grid Grid--withGutter">
                                         {% for current in site.data.current limit:2%}
+                                        {% if current.id!="CSS9683685" %}
 <div class="Grid-cell u-size1of2 u-xs-size1of3">
     <a class="Property Card" href="/for-sale/{{current.property_id}}.html">
         <div class="Property-image" style="background-image: url({{current.image}})"></div>
@@ -4545,6 +4546,7 @@ Immersed amongst peaceful landscaped gardens and situated in the ever so popular
         </div>
     </a>
 </div>
+{% endif %}
 {% endfor %}
                                         <div class="Grid-cell u-xs-size1of3">
                                             <a class="Pathway Card u-bgNeutral u-textCenter u-flex u-flexAlignItemsCenter" href="/for-sale">
