@@ -12,8 +12,11 @@ layout: default
                     {% assign size = 0 %}
                     {% for current in site.data.current%}
                     {% assign size=size+1 %}
+                        {% if forloop.last %}
+                            <p class="u-textBold">Showing {{size}} total listings<!--Showing 1 – 20 of 32 total listings--></p>
+                        {% endif %}
                     {% endfor %}
-                    <p class="u-textBold">Showing {{size}} total listings<!--Showing 1 – 20 of 32 total listings--></p>
+
 
                 </div>
                 <div class="Grid-cell u-size1of2 u-textRight">
