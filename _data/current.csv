@@ -1,9 +1,5 @@
 property_id,image,address_suburb,address_street,bedrooms,bathrooms,garage,price,date_created
-1676138,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/107440107-image-M.jpg,WOREE,"232/1, Anderson Road",1,1,1,"$65,000 Negotiable - Make Your Offer TODAY!!!!",2016-04-05-14:25
-CSS7973007,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1427859323-14102-property_map.jpg,CAIRNS,"123, Bob Road",4,2,2,"Offers are invited",2016-04-26-09:12
-CSS8241748,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1432725241-12263-IMG_1009.JPG,MUNDOO,"8, Aerodrome Road",3,1,2,"$470,000 Neg",2016-02-17-13:36
-CSS9534811,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1459471539-13547-IMG_4282.jpg,"MOUNT SHERIDAN","6, Ironwood Street",3,1,1,"$329,000 Neg",2016-05-18-12:45
-CSS9539503,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1427433986-13344-1.jpg,"GREEN HILL","194, Gray Road",4,2,4,"$1.6m to $1.7m",2016-04-05-13:13
-CSS9539662,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/21277-1.jpg,MOOROOBOOL,"11, Oceanview Place",4,3,2,"$1.25m Negotiable",2016-04-05-13:26
-CSS9539687,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/10195-Photo-6-2351780406-O.jpg,WESTCOURT,"22 / 192, Mann Street",1,1,0,"$108,000 Negotiable",2016-04-05-14:10
-CSS9539905,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1431047430-29181-1.jpg,"BENTLEY PARK","136, Robert Road",3,1,2,"Low $300's Range Negotiable",2016-04-24-01:10
+CSS9369477,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1456876911-11929-Photo-22.jpg,"BAYVIEW HEIGHTS","9, Fiesta Close",5,2,2,"$485,000 Neg",2016-05-22-01:11
+CSS9387874,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/1456195604-23398-18VicoStreet2001.JPG,GORDONVALE,"18, Vico Street",4,2,2,"NOW $575,000 Neg",2016-05-22-01:11
+CSS9695941,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/24287-Photo-32.jpg,CAIRNS,"5, McCrae Street",3,2,0,"$420,000",2016-05-22-01:11
+CSS9740315,http://mydesktop.aunz.s3-website-ap-southeast-2.amazonaws.com/rwcairso/photos/9037-IMG4570.jpg,EDMONTON,"10, Mulindie Close",3,1,0,"317,000 Neg",2016-05-22-01:11
