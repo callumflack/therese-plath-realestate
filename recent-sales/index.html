@@ -11,7 +11,7 @@ layout: default
                 {% assign CurrentSoldSize = 0 %}
                 {% for current in site.data.sold%}
                 {% if forloop.last %}
-                <p class="u-textBold">Showing {{CurrentSoldSize | plus:forloop.length}} total listings<!--Showing 1 – 20 of 32 total listings--></p>
+                <p class="u-textBold">Showing {{urrentSoldSize | plus:forloop.length}} total listings<!--Showing 1 – 20 of 32 total listings--></p>
                 {% endif %}
                 {% endfor %}
                 <!--<p class="u-textBold">Showing 1 – 20 of 32 total listings</p>-->
