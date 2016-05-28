@@ -9,12 +9,11 @@ layout: default
         <div class="u-marginB25">
             <div class="Grid">
                 <div class="Grid-cell u-size1of2">
+                    {% assign size = 0 %}
                     {% for current in site.data.current%}
-                    {% if forloop.last %}
-                    <p class="u-textBold">Showing {% forloop.length %} total listings<!--Showing 1 – 20 of 32 total listings--></p>
-                    {% endif %}
+                    {% assign size=size+1 %}
                     {% endfor %}
-
+                    <p class="u-textBold">Showing {{size}} total listings<!--Showing 1 – 20 of 32 total listings--></p>
 
                 </div>
                 <div class="Grid-cell u-size1of2 u-textRight">
