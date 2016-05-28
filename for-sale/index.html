@@ -9,7 +9,10 @@ layout: default
         <div class="u-marginB25">
             <div class="Grid">
                 <div class="Grid-cell u-size1of2">
-                    {% assign ListingSize = site.data.current.length%}
+                    {% assign ListingSize = 0 %}
+                    {% for current in site.data.current%}
+                    {% increment ListingSize %}
+                    {% endfor %}
                     <p class="u-textBold">Showing {{ListingSize}} total listings<!--Showing 1 – 20 of 32 total listings--></p>
 
                 </div>
