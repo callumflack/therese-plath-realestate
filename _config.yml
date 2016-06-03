@@ -2,6 +2,9 @@
 title: Therese Plath Real Estate
 timezone: Australia/Brisbane
 collections:
+  posttags:
+    title: PostTags
+    output: true
   posts:
     title: Posts
     output: true
@@ -11,9 +14,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  video:
-    title: Video
-    output: false
 exclude:
 - README.markdown
 - package.json
