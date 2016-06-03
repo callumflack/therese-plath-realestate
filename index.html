@@ -53,8 +53,7 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 				<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
 				<div class="FlexEmbed-content">
 					<div class="videoWrapper js-videoWrapper">
-						{% assign showcase_video = site.pages | where: 'title', 'index' | first %}
-						<iframe class="u-posAbsoluteCenter js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="{{ showcase_video.youtube_link }}" width="100%" height="100%" ></iframe>
+						<iframe class="u-posAbsoluteCenter js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="{{ page.youtube_link }}" width="100%" height="100%" ></iframe>
 						<button class="u-posAbsoluteCenter CoverImage videoPoster js-videoPoster" style="background-image:url('/build/images/video-poster.jpg');">
 							<svg class="u-posAbsoluteCenter Icon Icon--super u-colorWhite">
 								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-play"></use>
