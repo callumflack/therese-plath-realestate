@@ -13,7 +13,7 @@ collections:
     output: true
   video:
     title: Video
-    output: true
+    output: false
 exclude:
 - README.markdown
 - package.json
