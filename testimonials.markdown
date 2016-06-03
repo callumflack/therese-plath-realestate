@@ -1,5 +1,5 @@
 ---
-title: Testimonials
+title: testimonials
 date: 2016-04-11 15:35:00 +10:00
 hero: 
 ---
