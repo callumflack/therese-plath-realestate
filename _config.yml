@@ -8,6 +8,9 @@ collections:
   posts2:
     title: Posts
     output: true
+  postsx:
+    title: Posts
+    output: true
   posts:
     title: Posts
     output: true
