@@ -31,7 +31,7 @@ layout: default
 			<!--Display the first 12 properties-->
 			{% for current in site.data.sold | limit:12 %}
 			<div class="Grid-cell u-size1of2 u-xs-size1of3">
-				<a class="Property Card" href="/for-sale/{{current.property_id}}.html">
+				<a class="Property Card" href="/recent-sales/{{current.property_id}}.html">
 					<div class="Property-image" style="background-image: url({{current.image}})"></div>
 
 					<div class="Property-details">
@@ -82,7 +82,7 @@ layout: default
 			<!--Display rest of the Properties-->
 			{% for current in site.data.sold | offset:13 %}
 			<div class="Grid-cell u-size1of2 u-xs-size1of3">
-				<a class="Property Card" href="/for-sale/{{current.property_id}}.html">
+				<a class="Property Card" href="/recent-sales/{{current.property_id}}.html">
 					<div class="Property-image" style="background-image: url({{current.image}})"></div>
 
 					<div class="Property-details">
