@@ -22,7 +22,7 @@
 
 	@include on-event() {
 		color: palette(charcoal) !important;
-		transform: translateY(-20px);
+		transform: translateY(-15px);
 		transition: all map-fetch($transition, duration, short) map-fetch($transition, type, base);
 	}
 
