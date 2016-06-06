@@ -4,7 +4,7 @@ timezone: Australia/Brisbane
 collections:
   general:
     title: General
-    output: true
+    output: false
   posts:
     title: Posts
     output: true
