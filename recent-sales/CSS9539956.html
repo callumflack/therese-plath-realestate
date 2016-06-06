@@ -1,5 +1,5 @@
 ---
-title: For sale
+title: Recent sales
 layout: default
 ---
 
@@ -211,12 +211,12 @@ layout: default
                                 </div>
                     
                                 <div class="Grid-cell u-xs-size8of12">
-                                    <h1 class="Property-title">Residential property at REDLYNCH on a m<sub>2</sub></h1>
+                                    <h1 class="Property-title">Residential property at REDLYNCH on am<sub>2</sub></h1>
                                     <p class="Property-price">$1.39m Negotiable</p>
                     
                                     <div class="DivRule u-marginT15"></div>
                                     <p class="Property-address">
-                                        33, Chirio Drive, REDLYNCH
+                                        33 Chirio Drive, REDLYNCH
                                         <span class="Property-config u-marginLD3">
                                             <span class="Property-bedroooms">4</span>
                                             <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
@@ -232,8 +232,8 @@ layout: default
                                             </svg>
                                         </span>
                                     </p>
-                                    <p class="Property-area">Land area:  m<sub>2</sub></p>
-                                    <p class="Property-id">Property ID CSS9539956</p>
+                                    <p class="Property-area">Land area: m<sub>2</sub></p>
+                                    <p class="Property-id">Property ID: CSS9539956</p>
                     
                                     <!-- <div class="DivRule u-marginT15"></div> -->
                     
@@ -270,7 +270,6 @@ layout: default
                                     </a>
                                     <div class="Grid Grid--withGutter">
                                         {% for current in site.data.sold limit:2%}
-                                        {% if current.id !="CSS9539956" %}
 <div class="Grid-cell u-size1of2 u-xs-size1of3">
     <a class="Property Card" href="/for-sale/{{current.property_id}}.html">
         <div class="Property-image" style="background-image: url({{current.image}})"></div>
@@ -298,7 +297,6 @@ layout: default
         </div>
     </a>
 </div>
-{% endif %}
 {% endfor %}
                                         <div class="Grid-cell u-xs-size1of3">
                                             <a class="Pathway Card u-bgNeutral u-textCenter u-flex u-flexAlignItemsCenter" href="/for-sale">

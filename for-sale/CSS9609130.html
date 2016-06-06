@@ -2,7 +2,7 @@
 title: For sale
 layout: default
 ---
-
+                    
                     {% comment %}
                         This include requires assigning a variable for {{ profile }}
                         e.g. {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
@@ -71,12 +71,12 @@ layout: default
                                 </div>
                     
                                 <div class="Grid-cell u-xs-size8of12">
-                                    <h1 class="Property-title">Residential property at MOUNT SHERIDAN on a710 m<sub>2</sub></h1>
+                                    <h1 class="Property-title">Residential property at MOUNT SHERIDAN on a710m<sub>2</sub></h1>
                                     <p class="Property-price">Buyers in the Low $300's Range</p>
                     
                                     <div class="DivRule u-marginT15"></div>
                                     <p class="Property-address">
-                                        28, Marsden Street, MOUNT SHERIDAN
+                                        28 Marsden Street, MOUNT SHERIDAN
                                         <span class="Property-config u-marginLD3">
                                             <span class="Property-bedroooms">3</span>
                                             <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
@@ -92,8 +92,8 @@ layout: default
                                             </svg>
                                         </span>
                                     </p>
-                                    <p class="Property-area">Land area: 710 m<sub>2</sub></p>
-                                    <p class="Property-id">Property ID CSS9609130</p>
+                                    <p class="Property-area">Land area: 710m<sub>2</sub></p>
+                                    <p class="Property-id">Property ID: CSS9609130</p>
                     
                                     <!-- <div class="DivRule u-marginT15"></div> -->
                     
@@ -126,7 +126,6 @@ layout: default
                                     </a>
                                     <div class="Grid Grid--withGutter">
                                         {% for current in site.data.current limit:2%}
-                                        {% if current.id!="CSS9609130" %}
 <div class="Grid-cell u-size1of2 u-xs-size1of3">
     <a class="Property Card" href="/for-sale/{{current.property_id}}.html">
         <div class="Property-image" style="background-image: url({{current.image}})"></div>
@@ -154,7 +153,6 @@ layout: default
         </div>
     </a>
 </div>
-{% endif %}
 {% endfor %}
                                         <div class="Grid-cell u-xs-size1of3">
                                             <a class="Pathway Card u-bgNeutral u-textCenter u-flex u-flexAlignItemsCenter" href="/for-sale">

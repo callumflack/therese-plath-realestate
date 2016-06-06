@@ -2,7 +2,7 @@
 title: For sale
 layout: default
 ---
-
+                    
                     {% comment %}
                         This include requires assigning a variable for {{ profile }}
                         e.g. {% assign profile = site.profiles | where: 'title', 'Therese' | first %}
@@ -169,12 +169,12 @@ layout: default
                                 </div>
                     
                                 <div class="Grid-cell u-xs-size8of12">
-                                    <h1 class="Property-title">Residential property at BARRINE on a2.57 m<sub>2</sub></h1>
+                                    <h1 class="Property-title">Residential property at BARRINE on a2.57m<sub>2</sub></h1>
                                     <p class="Property-price">$649,000 Negotiable</p>
                     
                                     <div class="DivRule u-marginT15"></div>
                                     <p class="Property-address">
-                                        7, Andrews Road, BARRINE
+                                        7 Andrews Road, BARRINE
                                         <span class="Property-config u-marginLD3">
                                             <span class="Property-bedroooms">3</span>
                                             <svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
@@ -190,8 +190,8 @@ layout: default
                                             </svg>
                                         </span>
                                     </p>
-                                    <p class="Property-area">Land area: 2.57 m<sub>2</sub></p>
-                                    <p class="Property-id">Property ID CSS9540973</p>
+                                    <p class="Property-area">Land area: 2.57m<sub>2</sub></p>
+                                    <p class="Property-id">Property ID: CSS9540973</p>
                     
                                     <!-- <div class="DivRule u-marginT15"></div> -->
                     
@@ -236,7 +236,6 @@ layout: default
                                     </a>
                                     <div class="Grid Grid--withGutter">
                                         {% for current in site.data.current limit:2%}
-                                        {% if current.id!="CSS9540973" %}
 <div class="Grid-cell u-size1of2 u-xs-size1of3">
     <a class="Property Card" href="/for-sale/{{current.property_id}}.html">
         <div class="Property-image" style="background-image: url({{current.image}})"></div>
@@ -264,7 +263,6 @@ layout: default
         </div>
     </a>
 </div>
-{% endif %}
 {% endfor %}
                                         <div class="Grid-cell u-xs-size1of3">
                                             <a class="Pathway Card u-bgNeutral u-textCenter u-flex u-flexAlignItemsCenter" href="/for-sale">
