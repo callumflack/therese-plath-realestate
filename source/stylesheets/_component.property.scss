@@ -9,18 +9,18 @@
 // --------------------------------------------------------------------------
 
 .Hero-details {
-    background-color: palette(white);
-    display: inline-block;
-    margin-bottom: space(2.5);
-    padding: space(0.5) space(1) space(0.6);
+	background-color: palette(white);
+	display: inline-block;
+	margin-bottom: space(2.5);
+	padding: space(0.5) space(1) space(0.6);
 
-    span {
-        margin: 0 space(0.15);
-    }
+	span {
+		margin: 0 space(0.15);
+	}
 
-    .Property-price {
-        @include TextSm();
-    }
+	.Property-price {
+		@include TextSm();
+	}
 }
 
 
@@ -28,25 +28,25 @@
 // --------------------------------------------------------------------------
 
 a.Card {
-    @include baseTransition();
-    @include complexLink();
+	@include baseTransition();
+	@include complexLink();
 	border: 1px solid palette(charcoal);
-    border-radius: size(border-radius, base);
-    display: block;
-    margin-bottom: space(1);
-    position: relative;
+	border-radius: size(border-radius, base);
+	display: block;
+	margin-bottom: space(1);
+	position: relative;
 
-    @include on-event() {
-        @include baseTransition();
-        background-blend-mode: multiply;
-        background-color: rgba( palette(brand), 0.4 );
+	@include on-event() {
+		@include baseTransition();
+		background-blend-mode: multiply;
+		background-color: rgba( palette(brand), 0.4 );
 
-        .Property-image {
-            @include baseTransition();
-            background-blend-mode: multiply;
-            background-color: rgba( palette(brand), 0.4 );
-        }
-    }
+		.Property-image {
+			@include baseTransition();
+			background-blend-mode: multiply;
+			background-color: rgba( palette(brand), 0.4 );
+		}
+	}
 }
 
 
@@ -54,7 +54,7 @@ a.Card {
 // --------------------------------------------------------------------------
 
 [class*="Property-"] {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 
@@ -62,23 +62,23 @@ a.Card {
 // --------------------------------------------------------------------------
 
 .Property-image {
-    @include baseTransition();
-    @include CoverImage();
-    height: space(7.5);
+	@include baseTransition();
+	@include CoverImage();
+	height: space(7.5);
 
-    @include respond-to(xs) {
-        height: space(10);
-    }
+	@include respond-to(xs) {
+		height: space(10);
+	}
 }
 
 // Scoped details
 
 .Property-details {
-    padding: space(0.25) space(0.5) space(1);
+	padding: space(0.25) space(0.5) space(1);
 }
 
 .Property-details--title {
-    @include headlineSecondary();
+	@include headlineSecondary();
 }
 
 .Property-details--location {
@@ -93,24 +93,34 @@ a.Card {
 
 .Property-title,
 .Property-price {
-    @include headlineRg();
-    margin-bottom: 0;
+	@include headlineRg();
+	margin-bottom: 0;
 }
 
 .Property-title {
-    margin-bottom: space(0.25);
+	margin-bottom: space(0.25);
 }
 
 .Property-price {
-    color: palette(muted);
+	color: palette(muted);
 }
 
 .Property-address {
-    font-family: $font-sans-bold;
+	font-family: $font-sans-bold;
 }
 
 .Property-id {
-    color: palette(muted);
+	color: palette(muted);
+}
+
+
+
+// Property typographic elements
+// --------------------------------------------------------------------------
+
+.Property sub {
+	bottom: 0;
+	vertical-align: super;
 }
 
 
@@ -122,5 +132,5 @@ a.Card {
 // --------------------------------------------------------------------------
 
 .Property-config span {
-    margin: 0;
+	margin: 0;
 }
