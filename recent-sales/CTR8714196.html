@@ -169,7 +169,7 @@ layout: default
 											</svg>
 										</span>
 									</p>
-									<p class="Property-area">Land area: m<sub>2</sub></p>
+									
 									<p class="Property-id">Property ID: CTR8714196</p>
 
 									<!-- <div class="DivRule u-marginT15"></div> -->
@@ -200,7 +200,7 @@ layout: default
 							<section class="Section">
 								<div class="Container DivRule">
 									<a href="/for-sale">
-										<h1 class="Headline Arrow-right u-marginB15">More recent sale</h1>
+										<h1 class="Headline Arrow-right u-marginB15">More recent sales</h1>
 									</a>
 									<div class="Grid Grid--withGutter">
 										{% for current in site.data.sold limit:2%}
@@ -220,7 +220,7 @@ layout: default
 				</svg>
 				<span class="Property-bathrooms">{{current.bathrooms}}</span>
 				<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bath"></use>
 				</svg>
 				<span class="Property-carspaces">{{current.garage}}</span>
 				<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
@@ -240,7 +240,7 @@ layout: default
 															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-recent-sales"></use>
 														</svg>
 													</span>
-													<span class="Pathway-title Arrow-right">Recent sale</span>
+													<span class="Pathway-title Arrow-right">Recent sales</span>
 												</div>
 											</a>
 										</div>
