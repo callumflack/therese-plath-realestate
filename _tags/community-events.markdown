@@ -2,7 +2,6 @@
 title: Community events
 date: 2016-06-03 18:53:00 +10:00
 permalink: "/blog/tags/:slug/"
-header: tags
 layout: tags
 ---
 
