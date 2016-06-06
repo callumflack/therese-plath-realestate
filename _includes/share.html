@@ -7,13 +7,15 @@
 
 {% capture caption %} {{ title }} {{ meta['hero-byline' ]}} {% endcapture %}
 
+{% assign sitedomain = site.general | where: 'title', 'settings' | first %}
+
 <div class="">
 	<a class="u-colorPanel" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: 'http://www.thereseplath.com.au' }}">
 		<svg class="Icon Icon--xl Icon--textAlign">
 			<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-sm-facebook"></use>
 		</svg>
 	</a>
-	<a class="u-colorPanel" href="mailto:?subject=Check out this article from {{ site.title }}&body={{ caption }} …from {{ page_url }}" target="_blank">
+	<a class="u-colorPanel" href="mailto:?subject=Check out this article from {{ site.title }}&body={{ page.caption }} …at: {{ sitedomain.site_domain }}{{ page.url }}" target="_blank">
 		<svg class="Icon Icon--xl Icon--right Icon--textAlign">
 			<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-sm-email"></use>
 		</svg>
