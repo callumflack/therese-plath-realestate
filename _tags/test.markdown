@@ -5,3 +5,4 @@ permalink: "/blog/tags/:slug/"
 layout: tags
 ---
 
+Initiate 'jeykll-tags-effort' branch.
