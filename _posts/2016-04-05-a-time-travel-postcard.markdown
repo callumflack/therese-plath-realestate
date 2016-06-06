@@ -11,6 +11,7 @@ list-text-left: true
 hero: "/uploads/post-img-2.jpg"
 summary: The city of southern California, San Diego is locally known as ‘America’s
   Finest City’.
+tagz: community events
 layout: post
 ---
 
