@@ -1,13 +1,6 @@
-{% comment %}
-	See jekyll notes on printing tags to find out more about the below liquid thing.
-{% endcomment %}
-
-{% capture tags %}{% for tag in site.tags %}{{ tag | first }}|{% endfor %}{% endcapture %}
-{% assign sortedtags = tags | split:'|' | sort %}
-
 <ul class="Posts-nav">
-	{% for tag in sortedtags %}
-		<li><a href="/blog/tags/{{ tag | cgi_escape }}">{{ tag }}</a></li>
+	{% for tag in site.tags %}
+		<li><a href="{{ tag.permalink }}">{{ tag.title }}</a></li>
 	{% endfor %}
 	{% if page.title != 'Blog' %}
 		<li><a class="u-linkHot Arrow-right" href="/blog">View all posts</a></li>
