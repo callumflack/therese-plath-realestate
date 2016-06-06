@@ -8,9 +8,6 @@ collections:
   profiles:
     title: Profiles
     output: true
-  tagging:
-    title: Tagging
-    output: true
   uploads:
     title: Uploads
     output: true
