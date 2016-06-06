@@ -1,7 +1,6 @@
 ---
 title: A Time Travel Postcard
 date: 2016-04-05 00:00:00 +10:00
-permalink: "/blog/:slug/"
 tags:
 - Community events
 header: Blog
