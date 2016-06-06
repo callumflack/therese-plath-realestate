@@ -3,9 +3,9 @@ title: Blog
 layout: default
 ---
 
-{% comment %}
-	Requires creating a variable for 'taggedPosts'
-{% endcomment %}
+{% if page.title == 'Community events' %}
+	{% assign taggedPosts = site.posts | where: 'tags', 'Community events' | first  %}
+{% endif %}
 
 <section class="Section u-marginT0">
 	<div class="Container">
