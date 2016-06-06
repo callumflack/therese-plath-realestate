@@ -4,7 +4,6 @@ date: 2016-04-05 00:00:00 +10:00
 permalink: "/blog/:slug/"
 tags:
 - Community events
-- test
 header: Blog
 author: tamara
 list-img-full: 
