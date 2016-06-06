@@ -1,8 +1,8 @@
 <ul class="Posts-nav">
 	{% for tag in site.tags %}
-		<li><a href="{{ tag.permalink }}">{{ tag.title }}</a></li>
+		<li><a href="/blog/tags/{{ tag.slug }}">{{ tag.title }}</a></li>
 	{% endfor %}
 	{% if page.title != 'Blog' %}
-		<li><a class="u-linkHot Arrow-right" href="/blog">View all posts</a></li>
+		<li><a class="u-linkHot Arrow-left" href="/blog">View all posts</a></li>
 	{% endif %}
 </ul>
