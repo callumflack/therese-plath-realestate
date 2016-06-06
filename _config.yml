@@ -3,7 +3,7 @@ title: Therese Plath Real Estate
 timezone: Australia/Brisbane
 collections:
   blog:
-    title: Posts
+    title: Blog
     output: true
   posts:
     title: Posts
