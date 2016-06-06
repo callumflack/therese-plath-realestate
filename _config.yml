@@ -5,9 +5,6 @@ collections:
   blog:
     title: Posts
     output: true
-  postsy:
-    title: Posts
-    output: true
   posts:
     title: Posts
     output: true
