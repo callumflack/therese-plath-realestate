@@ -6,49 +6,54 @@
 
 
 .Modal {
-    background-color: palette(brand);
-    backface-visibility: hidden;
-    border-top: rem(6) solid palette(brand);
-    margin: 0;
-    opacity: 0;
-    outline: 0;
-    overflow: hidden;
-    transition: z-index 0s ease 500ms, opacity 500ms ease;
-    width: 100vw;
-    z-index: map-fetch($z-index, 'below');
+	background-color: palette(brand);
+	backface-visibility: hidden;
+	border-top: rem(6) solid palette(brand);
+	margin: 0;
+	opacity: 0;
+	outline: 0;
+	overflow: hidden;
+	transition: z-index 0s ease 500ms, opacity 500ms ease;
+	width: 100vw;
+	z-index: map-fetch($z-index, 'below');
 
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
 }
 
 /* uncss:ignore */
 .Modal.is-active {
-    opacity: 1;
-    overflow: hidden;
-    transition: z-index 0s ease, opacity 250ms ease;
-    z-index: map-fetch($z-index, 'modal');
+	opacity: 1;
+	overflow: hidden;
+	transition: z-index 0s ease, opacity 250ms ease;
+	z-index: map-fetch($z-index, 'modal');
 
-    @include respond-to(xs) {
-        overflow-x: hidden;
-        overflow-y: auto;
-    }
+	@include respond-to(xs) {
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
 }
 
 .Modal-dialog {
-    margin: space(1) auto;
-    // opacity: 0;
-    position: relative;
-    // transform: translateY(10px);
-    // transition: all map-fetch($transition, duration, fast) map-fetch($transition, type, base);
-    width: size(container, default);
+	margin: space(1) auto;
+	// opacity: 0;
+	position: relative;
+	// transform: translateY(10px);
+	// transition: all map-fetch($transition, duration, fast) map-fetch($transition, type, base);
+	max-width: size(container, default);
 
-    @include respond-to(sm) {
-        margin: space(2) auto;
-        width: size(container, default);
-    }
+	@include respond-to(sm) {
+		margin: space(2) auto;
+		max-width: size(container, default);
+	}
+
+	// container styling
+	@include clearfix();
+	padding: 0 space(0.75);
+	@include respond-to(lg) { padding: 0; }
 }
 
 /* uncss:ignore */

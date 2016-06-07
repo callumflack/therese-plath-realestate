@@ -7,48 +7,52 @@
 
 
 .Pathway {
-    @include baseTransition();
-    display: inline-block;
-    padding: 6% 4%;
-    text-align: center;
-    width: 100%;
+	@include baseTransition();
+	display: inline-block;
+	padding: 6% 4%;
+	text-align: center;
+	width: 100%;
 
-    // When used with .Property's .Card
-    // TOD: somehow refactor w/o min-height
-    &.Card {
-        min-height: rem(366);
-        padding: 0 !important;
-    }
+	// When used with .Property's .Card
+	// TOD: somehow refactor w/o min-height
+	&.Card {
+		min-height: rem(366);
+		padding: 0 !important;
+	}
 
-    @include on-event() {
-        color: palette(charcoal) !important;
-        transform: translateY(-5px);
-        transition: all map-fetch($transition, duration, short) map-fetch($transition, type, base);
-    }
+	@include on-event() {
+		color: palette(charcoal) !important;
+		transform: translateY(-15px);
+		transition: all map-fetch($transition, duration, short) map-fetch($transition, type, base);
+	}
 
-    @include respond-to(sm) {
-        padding: space(4) space(2);
-    }
+	@include respond-to(xs) {
+		padding: space(4) space(1);
+	}
+
+	@include respond-to(sm) {
+		padding: space(4) space(2);
+	}
 }
 
 .Pathway-detail {
-    width: 100%;
+	width: 100%;
 }
 
 .Pathway-icon,
 .Pathway-title {
-    display: block;
-    text-align: center;
+	display: block;
+	text-align: center;
 }
 
 .Pathway-icon {
-    margin-bottom: space(0.25);
+	margin-bottom: space(0.25);
 }
 
 .Pathway-title {
-    // @extend .u-linkBuriedTarget;
-    @include headlineSm();
-    font-family: $font-sans-xbold;
-    margin-bottom: 0;
-    text-align: center;
+	// @extend .u-linkBuriedTarget;
+	@include headlineSm();
+	font-family: $font-sans-xbold;
+	margin-bottom: 0;
+	text-align: center;
 }

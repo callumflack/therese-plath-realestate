@@ -6,15 +6,15 @@
 
 
 .affix {
-    top: space(2);
-    width: space(10);
+	top: space(2);
+	width: 295px;
 
-    // only affix on larger viewports
-    @include respond-to(sm) {
-        position: fixed;
-    }
+	// only affix on larger viewports
+	@include respond-to(sm) {
+		position: fixed;
+	}
 }
 
 .affix-bottom {
-    position: absolute;
+	position: absolute;
 }

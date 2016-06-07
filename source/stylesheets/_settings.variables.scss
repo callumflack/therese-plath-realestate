@@ -27,121 +27,121 @@ $base-black                    : #000;
 $base-white                    : #FFF;
 
 $palette: (
-    black                      : $base-black,
-    dark                       : tint($base-black, 15%),
-    ash                        : tint($base-black, 22%),
-    charcoal                   : tint($base-black, 39%),
-    medium                     : tint($base-black, 50%),
-    muted                      : tint($base-black, 65%),
-    panel                      : tint($base-black, 78%),
-    base                       : tint($base-black, 88%),
-    light                      : tint($base-black, 94%),
-    faint                      : tint($base-black, 97%),
-    white                      : $base-white,
-    background                 : #fdfdfd,
-    neutral                    : #f0eeeb,
-    neutral-light              : lighten(#f0eeeb, 4%),
-    brand                      : #ffe93b,
-    brand-complement           : #887E73,
-    warning                    : #FFD40C,
-    bad-news                   : #C60C0C,
-    good-news                  : #97C70A
+	black                      : $base-black,
+	dark                       : tint($base-black, 15%),
+	ash                        : tint($base-black, 22%),
+	charcoal                   : tint($base-black, 39%),
+	medium                     : tint($base-black, 50%),
+	muted                      : tint($base-black, 65%),
+	panel                      : tint($base-black, 78%),
+	base                       : tint($base-black, 88%),
+	light                      : tint($base-black, 94%),
+	faint                      : tint($base-black, 97%),
+	white                      : $base-white,
+	background                 : #fdfdfd,
+	neutral                    : #f0eeeb,
+	neutral-light              : lighten(#f0eeeb, 4%),
+	brand                      : #ffe93b,
+	brand-complement           : #887E73,
+	warning                    : #FFD40C,
+	bad-news                   : #C60C0C,
+	good-news                  : #97C70A
 );
 
 $root-color: (
-    grey-85                    : tint($base-black, 15%),
-    grey-78                    : tint($base-black, 22%),
-    grey-66                    : tint($base-black, 34%),
-    grey-50                    : tint($base-black, 50%),
-    grey-40                    : tint($base-black, 60%),
-    grey-35                    : tint($base-black, 65%),
-    grey-25                    : tint($base-black, 75%),
-    grey-12                    : tint($base-black, 88%),
-    grey-06                    : tint($base-black, 94%),
-    grey-03                    : tint($base-black, 97%),
-    background                 : #fdfdfd,
-    neutral                    : #f0eeeb,
-    neutral-light              : lighten(#f0eeeb, 4%),
-    brand                      : #ffe93b,
-    brand-faint                : lighten(#0071bc, 56%),
-    brand-light                : lighten(#0071bc, 59%),
-    brand-muted                : #E5F0F8,
-    brand-dark                 : darken(#0071bc, 15%),
-    brand-alt                  : #f15a24,
-    brand-alt-dark             : darken(#f15a24, 10%),
-    brand-alt-muted            : desaturate(#f15a24, 20%),
-    brand-alt-muted-dark       : darken(#f15a24, 20%),
-    warning                    : #FFD40C,
-    bad-news                   : #C60C0C,
-    good-news                  : #97C70A
+	grey-85                    : tint($base-black, 15%),
+	grey-78                    : tint($base-black, 22%),
+	grey-66                    : tint($base-black, 34%),
+	grey-50                    : tint($base-black, 50%),
+	grey-40                    : tint($base-black, 60%),
+	grey-35                    : tint($base-black, 65%),
+	grey-25                    : tint($base-black, 75%),
+	grey-12                    : tint($base-black, 88%),
+	grey-06                    : tint($base-black, 94%),
+	grey-03                    : tint($base-black, 97%),
+	background                 : #fdfdfd,
+	neutral                    : #f0eeeb,
+	neutral-light              : lighten(#f0eeeb, 4%),
+	brand                      : #ffe93b,
+	brand-faint                : lighten(#0071bc, 56%),
+	brand-light                : lighten(#0071bc, 59%),
+	brand-muted                : #E5F0F8,
+	brand-dark                 : darken(#0071bc, 15%),
+	brand-alt                  : #f15a24,
+	brand-alt-dark             : darken(#f15a24, 10%),
+	brand-alt-muted            : desaturate(#f15a24, 20%),
+	brand-alt-muted-dark       : darken(#f15a24, 20%),
+	warning                    : #FFD40C,
+	bad-news                   : #C60C0C,
+	good-news                  : #97C70A
 );
 
 // Base Colors for all UI elements
 
 $color: (
 
-    ui: (
-        white                    : $base-white,
-        faint                    : map-fetch($root-color, grey-03),
-        light                    : map-fetch($root-color, grey-06),
-        base                     : map-fetch($root-color, grey-12),
-        muted                    : map-fetch($root-color, grey-25),
-        medium                   : map-fetch($root-color, grey-40),
-        charcoal                 : map-fetch($root-color, grey-78),
-        dark                     : map-fetch($root-color, grey-85),
-        background               : map-fetch($root-color, background),
-        neutral                  : map-fetch($root-color, neutral),
-        neutral-light            : map-fetch($root-color, neutral-light),
-        brand                    : map-fetch($root-color, brand),
-        brand-light              : map-fetch($root-color, brand-light),
-        brand-faint              : map-fetch($root-color, brand-faint),
-        brand-muted              : map-fetch($root-color, brand-muted),
-        brand-dark               : map-fetch($root-color, brand-dark),
-        brand-alt                : map-fetch($root-color, brand-alt),
-        brand-alt-dark           : map-fetch($root-color, brand-alt-dark),
-        brand-alt-muted          : map-fetch($root-color, brand-alt-muted),
-        brand-alt-muted-dark     : map-fetch($root-color, brand-alt-muted-dark),
-        warning                  : map-fetch($root-color, warning)
-    ),
+	ui: (
+		white                    : $base-white,
+		faint                    : map-fetch($root-color, grey-03),
+		light                    : map-fetch($root-color, grey-06),
+		base                     : map-fetch($root-color, grey-12),
+		muted                    : map-fetch($root-color, grey-25),
+		medium                   : map-fetch($root-color, grey-40),
+		charcoal                 : map-fetch($root-color, grey-78),
+		dark                     : map-fetch($root-color, grey-85),
+		background               : map-fetch($root-color, background),
+		neutral                  : map-fetch($root-color, neutral),
+		neutral-light            : map-fetch($root-color, neutral-light),
+		brand                    : map-fetch($root-color, brand),
+		brand-light              : map-fetch($root-color, brand-light),
+		brand-faint              : map-fetch($root-color, brand-faint),
+		brand-muted              : map-fetch($root-color, brand-muted),
+		brand-dark               : map-fetch($root-color, brand-dark),
+		brand-alt                : map-fetch($root-color, brand-alt),
+		brand-alt-dark           : map-fetch($root-color, brand-alt-dark),
+		brand-alt-muted          : map-fetch($root-color, brand-alt-muted),
+		brand-alt-muted-dark     : map-fetch($root-color, brand-alt-muted-dark),
+		warning                  : map-fetch($root-color, warning)
+	),
 
-    link: (
-        base                     : map-fetch($root-color, brand),
-        brand-light              : map-fetch($root-color, brand-light),
-        bad-news                 : map-fetch($root-color, bad-news),
-        white                    : $base-white
-    ),
+	link: (
+		base                     : map-fetch($root-color, brand),
+		brand-light              : map-fetch($root-color, brand-light),
+		bad-news                 : map-fetch($root-color, bad-news),
+		white                    : $base-white
+	),
 
-    background: (
-        base                     : $base-white,
-        white                    : $base-white,
-        faint                    : map-fetch($root-color, grey-03),
-        light                    : map-fetch($root-color, grey-06),
-        muted                    : map-fetch($root-color, grey-35),
-        medium                   : map-fetch($root-color, grey-50),
-        charcoal                 : map-fetch($root-color, grey-78),
-        black                    : $base-black,
-        brand                    : map-fetch($root-color, brand),
-        brand-dark               : map-fetch($root-color, brand-dark),
-        brand-light              : #F2F7FC,
-        warning                  : #FCF8E3
-    ),
+	background: (
+		base                     : $base-white,
+		white                    : $base-white,
+		faint                    : map-fetch($root-color, grey-03),
+		light                    : map-fetch($root-color, grey-06),
+		muted                    : map-fetch($root-color, grey-35),
+		medium                   : map-fetch($root-color, grey-50),
+		charcoal                 : map-fetch($root-color, grey-78),
+		black                    : $base-black,
+		brand                    : map-fetch($root-color, brand),
+		brand-dark               : map-fetch($root-color, brand-dark),
+		brand-light              : #F2F7FC,
+		warning                  : #FCF8E3
+	),
 
-    text: (
-        base                     : map-fetch($root-color, grey-85),
-        background               : map-fetch($root-color, background),
-        white                    : $base-white,
-        faint                    : map-fetch($root-color, grey-12),
-        light                    : map-fetch($root-color, grey-25),
-        muted                    : map-fetch($root-color, grey-35),
-        medium                   : map-fetch($root-color, grey-50),
-        charcoal                 : map-fetch($root-color, grey-66),
-        dark                     : map-fetch($root-color, grey-85),
-        brand                    : map-fetch($root-color, brand),
-        brand-dark               : map-fetch($root-color, brand-dark),
-        brand-alt                : map-fetch($root-color, brand-alt),
-        brand-alt-dark           : map-fetch($root-color, brand-alt-dark),
-        warning                  : map-fetch($root-color, warning)
-    )
+	text: (
+		base                     : map-fetch($root-color, grey-85),
+		background               : map-fetch($root-color, background),
+		white                    : $base-white,
+		faint                    : map-fetch($root-color, grey-12),
+		light                    : map-fetch($root-color, grey-25),
+		muted                    : map-fetch($root-color, grey-35),
+		medium                   : map-fetch($root-color, grey-50),
+		charcoal                 : map-fetch($root-color, grey-66),
+		dark                     : map-fetch($root-color, grey-85),
+		brand                    : map-fetch($root-color, brand),
+		brand-dark               : map-fetch($root-color, brand-dark),
+		brand-alt                : map-fetch($root-color, brand-alt),
+		brand-alt-dark           : map-fetch($root-color, brand-alt-dark),
+		warning                  : map-fetch($root-color, warning)
+	)
 
 );
 
@@ -162,91 +162,92 @@ $space                    : $space-unit * 1;
 
 $size: (
 
-    border-radius: (
-        base              : rem(4),
-        large             : rem(6)
-    ),
+	border-radius: (
+		base              : rem(4),
+		large             : rem(6)
+	),
 
-    breakpoint: (
-        'max-xs'          : ( max-width:  600px ),
-        'max-sm'          : ( max-width:  767px ),
-        'ip6'             : ( min-width:  374px ),
-        'xs'              : ( min-width:  600px ),
-        'sm'              : ( min-width:  767px ),
-        'md'              : ( min-width:  992px ),
-        'lg'              : ( min-width: 1200px ),
-        'xl'              : ( min-width: 1700px )
-    ),
+	breakpoint: (
+		'max-xs'          : ( max-width:  600px ),
+		'max-sm'          : ( max-width:  768px ),
+		'ip6'             : ( min-width:  374px ),
+		'ip6p'            : ( min-width:  415px ),
+		'xs'              : ( min-width:  600px ),
+		'sm'              : ( min-width:  769px ),
+		'md'              : ( min-width:  992px ),
+		'lg'              : ( min-width: 1200px ),
+		'xl'              : ( min-width: 1700px )
+	),
 
-    button-height: (
-        base              : rem(40)
-    ),
+	button-height: (
+		base              : rem(40)
+	),
 
-    container: (
-        modal-form        : rem(740),
-        modal-form-sm     : 80%,
-        default           : rem(1040),
-        half              : rem(520),
-        text-column       : rem(1040),
-        picture           : rem(960),
-        wide-picture      : rem(1240)
-    ),
+	container: (
+		modal-form        : rem(740),
+		modal-form-sm     : 80%,
+		default           : rem(1040),
+		half              : rem(520),
+		text-column       : rem(1040),
+		picture           : rem(960),
+		wide-picture      : rem(1240)
+	),
 
-    font: (
-        textXs: (
-            xs            : rem(11),
-            base          : rem(12)
-        ),
-        textSm: (
-            xs            : rem(12),
-            base          : rem(14)
-        ),
-        textRg: (
-            xs            : rem($base-font-size-unit * 0.8825),
-            base          : rem($base-font-size-unit)
-        ),
-        textMd: (
-            xs            : rem(15),
-            base          : rem(18)
-        ),
-        textLg: (
-            xs            : rem(17),
-            base          : rem(20)
-        ),
-        headerSm: (
-            xs            : rem(17),
-            base          : rem(20)
-        ),
-        headerRg: (
-            xs            : rem(21),
-            base          : rem(28)
-        ),
-        headerMd: (
-            xs            : rem(21),
-            base          : rem(28)
-        ),
-        headerLg: (
-            xs            : rem(21),
-            base          : rem(28)
-        ),
-        headerXl: (
-            xs            : rem(26),
-            base          : rem(48)
-        ),
-        close: (
-            xs            : rem(33),
-            base          : rem(66)
-        ),
-        super: (
-            xs            : rem(50),
-            base          : rem(100)
-        ),
-    ),
+	font: (
+		textXs: (
+			xs            : rem(11),
+			base          : rem(12)
+		),
+		textSm: (
+			xs            : rem(12),
+			base          : rem(14)
+		),
+		textRg: (
+			xs            : rem($base-font-size-unit * 0.8825),
+			base          : rem($base-font-size-unit)
+		),
+		textMd: (
+			xs            : rem(15),
+			base          : rem(18)
+		),
+		textLg: (
+			xs            : rem(17),
+			base          : rem(20)
+		),
+		headerSm: (
+			xs            : rem(17),
+			base          : rem(20)
+		),
+		headerRg: (
+			xs            : rem(21),
+			base          : rem(28)
+		),
+		headerMd: (
+			xs            : rem(21),
+			base          : rem(28)
+		),
+		headerLg: (
+			xs            : rem(21),
+			base          : rem(28)
+		),
+		headerXl: (
+			xs            : rem(26),
+			base          : rem(48)
+		),
+		close: (
+			xs            : rem(33),
+			base          : rem(66)
+		),
+		super: (
+			xs            : rem(50),
+			base          : rem(100)
+		),
+	),
 
-    list-inset: (
-        margin            : space(1.5),
-        padding           : 0
-    ),
+	list-inset: (
+		margin            : space(1.5),
+		padding           : 0
+	),
 );
 
 
@@ -309,13 +310,13 @@ $font-sans-regular-i  : join($sans-regular-italic, $font-sans-stack);
 // if using @fontface via a cloud service, eg. Google fonts.
 
 $font-weight: (
-    'thin'      : 100,
-    'light'     : 200,
-    'book'      : 400,
-    'regular'   : 500,
-    'medium'    : 600,
-    'bold'      : 700,
-    'black'     : 900
+	'thin'      : 100,
+	'light'     : 200,
+	'book'      : 400,
+	'regular'   : 500,
+	'medium'    : 600,
+	'bold'      : 700,
+	'black'     : 900
 );
 
 
@@ -323,17 +324,17 @@ $font-weight: (
 // --------------------------------------------------------------------------
 
 $transition: (
-    duration: (
-        fast         : 50ms,
-        short        : 150ms,
-        long         : 500ms
-    ),
-    type: (
-        cubic-static : cubic-bezier(0, -0.1, 1, -0.1),
-        cubic-state  : cubic-bezier(0, 1.1, 1, 1.1),
-        base         : ease-out,
-        fine         : ease-in-out
-    )
+	duration: (
+		fast         : 50ms,
+		short        : 150ms,
+		long         : 500ms
+	),
+	type: (
+		cubic-static : cubic-bezier(0, -0.1, 1, -0.1),
+		cubic-state  : cubic-bezier(0, 1.1, 1, 1.1),
+		base         : ease-out,
+		fine         : ease-in-out
+	)
 );
 
 
@@ -341,11 +342,11 @@ $transition: (
 // --------------------------------------------------------------------------
 
 $z-index: (
-    'modal'     : 8001,
-    'overlay'   : 8000,
-    'dropdown'  : 7000,
-    'second'    : 2000,
-    'first'     : 1000,
-    'default'   : 1,
-    'below'     : -1,
+	'modal'     : 8001,
+	'overlay'   : 8000,
+	'dropdown'  : 7000,
+	'second'    : 2000,
+	'first'     : 1000,
+	'default'   : 1,
+	'below'     : -1,
 );

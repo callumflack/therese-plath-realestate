@@ -1,7 +1,9 @@
 ---
 title: testimonials
-date: 2016-04-11 15:35:00 +10:00
-hero: 
+date: 2016-06-06 18:21:00 +10:00
+Field name:
+- test
+layout: default
 ---
 
 This was an uncomplicated sale with a willing seller and a willing buyer. The offer price was fair and no conditions of note required. The agency staff were the conduit for a speedy and painless sale/ purchase process. Common sense and attention to requests for information were evident in the short negotiation period. Very happy with manner and result.

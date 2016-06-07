@@ -4,116 +4,116 @@ layout: default
 ---
 
 <section class="Section u-marginT0">
-    <div class="Container">
-        <div class="Grid Grid--withGutter">
-            <div class="Grid-cell u-sm-size4of12 u-sm-paddingR2">
-                <div class="Affix" data-spy="affix" data-offset-top="200">
-                    <p class="">To arrange your free, no-obligation property appraisal please fill in this form, or simply call Therese on 0418 772 995.</p>
-                    <p class="">The appraisal will be arranged for a time that suits you, and includes a detailed, up-to-date report on real estate prices, past and present, in your local community.</p>
-                </div>
-            </div>
+	<div class="Container">
+		<div class="Grid Grid--withGutter">
+			<div class="Grid-cell u-sm-size4of12 u-sm-paddingR2">
+				<div class="Affix" data-spy="affix" data-offset-top="200">
+					<p class="">To arrange your free, no-obligation property appraisal please fill in this form, or simply call Therese on 0418 772 995.</p>
+					<p class="">The appraisal will be arranged for a time that suits you, and includes a detailed, up-to-date report on real estate prices, past and present, in your local community.</p>
+				</div>
+			</div>
 
-            <div class="Grid-cell u-sm-before10f12 u-sm-size6of12 u-alignBlockDown">
-                <form class="Form Form--clear" accept-charset="UTF-8" action="https://formkeep.com/f/f7a4b50755db" method="POST">
-                    <div class="DivRule"></div>
-                    <p class="u-textLg u-textBold u-marginB15">Your details</p>
+			<div class="Grid-cell u-sm-before10f12 u-sm-size6of12 u-alignBlockDown">
+				{% assign profile = site.profiles | where: 'title', 'Therese' | first %}
+				<form class="Form Form--clear" accept-charset="UTF-8" action="https://formspree.io/{{ profile.email }}" method="POST">
+					<div class="DivRule"></div>
+					<p class="u-textLg u-textBold u-marginB15">Your details</p>
 
-                    <div class="Form-group error">
-                        <label id="" for="name">Full name:</label>
-                        <input class="Form-control required" id="name" type="name" value="" name="name" placeholder="" required>
-                    </div>
+					<div class="Form-group">
+						<label id="" for="name">Full name:</label>
+						<input class="Form-control required" id="name" type="text" name="name" required>
+					</div>
 
-                    <div class="Form-group">
-                        <label id="" for="email">Email:</label>
-                        <input class="Form-control required" id="email" type="email" value="" name="email" placeholder="" required>
-                    </div>
+					<div class="Form-group">
+						<label id="" for="email">Email:</label>
+						<input class="Form-control required" id="email" type="text" name="_replyto" required>
+					</div>
 
-                    <div class="Form-group">
-                        <label id="" for="phone">Phone number:*</label>
-                        <input class="Form-control required" id="phone" type="telephone" value="" name="phone" placeholder="" required>
-                    </div>
+					<div class="Form-group">
+						<label id="" for="phone">Phone number:*</label>
+						<input class="Form-control required" id="phone" type="text" name="phone" required>
+					</div>
 
-                    <div class="Form-group">
-                        <label id="" for="suburb">Suburb and post code:</label>
-                        <input class="Form-control required" id="suburb" type="suburb" value="" name="suburb" placeholder="" required>
-                    </div>
+					<div class="Form-group">
+						<label id="" for="suburb">Suburb and post code:</label>
+						<input class="Form-control required" id="suburb" type="text" name="suburb" required>
+					</div>
 
-                    <div class="DivRule u-marginT25"></div>
-                    <p class="u-textLg u-textBold u-marginB15">Property details:</p>
+					<div class="DivRule u-marginT25"></div>
+					<p class="u-textLg u-textBold u-marginB15">Property details:</p>
 
-                    <div class="Form-group">
-                        <label id="" for="street">Street address:</label>
-                        <input class="Form-control required" id="street" type="street" value="" name="street" placeholder="" required>
-                    </div>
+					<div class="Form-group">
+						<label id="" for="street">Street address:</label>
+						<input class="Form-control required" id="street" type="text" name="property-street" required>
+					</div>
 
-                    <div class="Form-group">
-                        <label id="" for="suburb-property">Suburb and postcode:</label>
-                        <input class="Form-control required" id="suburb-property" type="suburb-property" value="" name="suburb-property" placeholder="" required>
-                    </div>
+					<div class="Form-group">
+						<label id="" for="property-suburb">Suburb and postcode:</label>
+						<input class="Form-control required" id="property-suburb" type="text" name="property-suburb" required>
+					</div>
 
-                    <div class="Form-group">
-                        <label id="" for="type">Property type (e.g. house, apartment, unit, etc.):</label>
-                        <input class="Form-control required" id="type" type="type" value="" name="type" placeholder="" required>
-                    </div>
+					<div class="Form-group">
+						<label id="" for="type">Property type (e.g. house, apartment, unit, etc.):</label>
+						<input class="Form-control required" id="type" type="text" name="property-type" required>
+					</div>
 
-                    <div class="Form-group Form-group--clean">
-                        <div class="Grid Grid--withGutter">
-                            <div class="Grid-cell u-size1of3">
-                                <label id="" for="bedrooms">Bedrooms:</label>
-                                <select name="appraisalbedrooms" id="appraisalbedrooms">
-                                    <option value="0" label="0">0</option>
-                                    <option value="1" label="1">1</option>
-                                    <option value="2" label="2" selected="selected">2</option>
-                                    <option value="3" label="3">3</option>
-                                    <option value="4" label="4">4</option>
-                                    <option value="5+" label="5+">5+</option>
-                                </select>
-                            </div>
-                            <div class="Grid-cell u-size1of3">
-                                <label id="" for="bedrooms">Bathrooms:</label>
-                                <select name="appraisalbedrooms" id="appraisalbedrooms">
-                                    <option value="0" label="0">0</option>
-                                    <option value="1" label="1" selected="selected">1</option>
-                                    <option value="2" label="2">2</option>
-                                    <option value="3" label="3">3</option>
-                                    <option value="4" label="4">4</option>
-                                    <option value="5+" label="5+">5+</option>
-                                </select>
-                            </div>
-                            <div class="Grid-cell u-size1of3">
-                                <label id="" for="bedrooms">Parking:</label>
-                                <select name="appraisalbedrooms" id="appraisalbedrooms">
-                                    <option value="0" label="0">0</option>
-                                    <option value="1" label="1" selected="selected">1</option>
-                                    <option value="2" label="2">2</option>
-                                    <option value="3" label="3">3</option>
-                                    <option value="4" label="4">4</option>
-                                    <option value="5+" label="5+">5+</option>
-                                </select>
-                            </div>
+					<div class="Form-group Form-group--clean">
+						<div class="Grid Grid--withGutter">
+							<div class="Grid-cell u-size1of3">
+								<label id="" for="bedrooms">Bedrooms:</label>
+								<select name="appraisalbedrooms" id="appraisalbedrooms" name="beds">
+									<option value="0" label="0">0</option>
+									<option value="1" label="1">1</option>
+									<option value="2" label="2" selected="selected">2</option>
+									<option value="3" label="3">3</option>
+									<option value="4" label="4">4</option>
+									<option value="5+" label="5+">5+</option>
+								</select>
+							</div>
+							<div class="Grid-cell u-size1of3">
+								<label id="" for="bathrooms">Bathrooms:</label>
+								<select name="appraisalbathrooms" id="appraisalbathrooms" name="baths">
+									<option value="0" label="0">0</option>
+									<option value="1" label="1" selected="selected">1</option>
+									<option value="2" label="2">2</option>
+									<option value="3" label="3">3</option>
+									<option value="4" label="4">4</option>
+									<option value="5+" label="5+">5+</option>
+								</select>
+							</div>
+							<div class="Grid-cell u-size1of3">
+								<label id="" for="carspaces">Parking:</label>
+								<select name="appraisalcarspaces" id="appraisalcarspaces" name="carspaces">
+									<option value="0" label="0">0</option>
+									<option value="1" label="1" selected="selected">1</option>
+									<option value="2" label="2">2</option>
+									<option value="3" label="3">3</option>
+									<option value="4" label="4">4</option>
+									<option value="5+" label="5+">5+</option>
+								</select>
+							</div>
 
-                        </div>
-                    </div>
+						</div>
+					</div>
 
-                    <div class="Form-group">
-                        <label id="" for="features">Property features:</label>
-                        <textarea class="Form-control" name="tell-us-about-your-project" id="features" placeholder="" rows="4"></textarea>
-                    </div>
+					<div class="Form-group">
+						<label id="" for="features">Property features:</label>
+						<textarea class="Form-control" id="features" type="text" name="property-features" rows="4"></textarea>
+					</div>
 
-                    <div class="Form-group">
-                        <label id="" for="comments">Comments:</label>
-                        <textarea class="Form-control" name="tell-us-about-your-project" id="comments" placeholder="" rows="4"></textarea>
-                    </div>
+					<div class="Form-group">
+						<label id="" for="comments">Comments:</label>
+						<textarea class="Form-control" id="comments" type="text" name="comments" rows="4"></textarea>
+					</div>
 
-                    <div class="u-textRight u-marginT">
-                        <!-- <button class="Button Button--invisible u-colorTextMedium u-marginRD1" data-dismiss="modal">Cancel</button> -->
-                        <!-- <p class="u-textXs">All fields are required</p> -->
-                        <button class="Button Button--primary" type="submit" style="min-width:200px">Send</button>
-                    </div>
-                </form>
+					<div class="u-textRight u-marginT">
+						<button class="Button Button--primary" type="submit" value="Send" style="min-width:200px">Send</button>
+						<p class="u-textXs u-colorMedium u-marginTD2">*All fields are required</p>
+					</div>
 
-            </div>
-        </div>
+				</form>
 
-    </div>
+			</div>
+		</div>
+	</div>
 </section>

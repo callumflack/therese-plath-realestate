@@ -6,7 +6,7 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 
 <section class="Hero">
 	<div class="gallery">
-		{% for current in site.data.current | limit:7 %}
+		{% for current in site.data.current | limit: 7 %}
 		<a class="gallery-cell" href="/for-sale/{{current.property_id}}.html">
 			<div class="FlexEmbed">
 				<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
@@ -20,21 +20,22 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 									<span>•</span>
 									<span class="Property-price">{{current.price}}</span>
 									<span>•</span>
-							<span class="Property-config">
-								<span class="Property-bedroooms">{{current.bedrooms}}</span>
-								<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bed"></use>
-								</svg>
-								<span class="Property-bathrooms">{{current.bathrooms}}</span>
-								<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
-								</svg>
-								<span class="Property-carspaces">{{current.garage}}</span>
-								<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-									<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
-								</svg>
-							</span>
+									<span class="Property-config">
+										<span class="Property-bedroooms">{{current.bedrooms}}</span>
+										<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bed"></use>
+										</svg>
+										<span class="Property-bathrooms">{{current.bathrooms}}</span>
+										<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bath"></use>
+										</svg>
+										<span class="Property-carspaces">{{current.garage}}</span>
+										<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+											<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
+										</svg>
+									</span>
 								</div>
+
 							</div>
 						</div>
 					</div>
@@ -47,7 +48,7 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 
 <section class="Section">
 	<div class="Container">
-		<div class="Grid-cell--center u-marginT2">
+		<div class="Grid-cell--center u-marginT u-sm-marginT2">
 			<h2 class="Headline u-textCenter u-marginB15">Therese Plath Real Estate.</br><span class="Header-title">Selling in all price ranges, in all Cairns suburbs.</span></h2>
 			<div class="FlexEmbed">
 				<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
@@ -73,13 +74,13 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 		</div>
 
 		<div class="DivRule--light u-marginBD2">&nbsp;</div>
-		<!-- <a href="/about"><h1 class="Headline">Team Plath</h1></a> -->
-		<div class="Grid Grid--withGutter">
-			<div class="Grid-cell u-xs-size1of2">
+
+		<div class="Grid Grid--withGutter msm-Grid--alignCenter">
+			<div class="Grid-cell u-size9of12 u-sm-size1of2">
 				{% assign profile = site.profiles | where: 'title', 'Therese' | first %}
 				{% include profile-card.html %}
 			</div>
-			<div class="Grid-cell u-xs-size1of2">
+			<div class="Grid-cell u-size9of12 u-sm-size1of2 u-msm-marginT">
 				{% assign profile = site.profiles | where: 'title', 'Team' | first %}
 				{% include profile-card.html %}
 			</div>
@@ -90,16 +91,16 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 
 <section class="Section u-bgNeutral" style="font-size:0">
 	<div class="Container Container--lg">
-		<a class="Pathway u-size1of3 u-textRight" href="/for-sale">
+		<a class="Pathway u-xs-size1of3 u-textRight" href="/for-sale">
 			<span class="Pathway-icon">
 				<svg class="Icon Icon--lg Icon--textAlign">
 					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-for-sale"></use>
 				</svg>
 			</span>
 			<span class="Pathway-title Arrow-right">Properties for sale</span>
-			<p class="">&nbsp;</p>
+			<p class="u-xs-display">&nbsp;</p>
 		</a>
-		<a class="Pathway u-size1of3" href="/appraisal">
+		<a class="Pathway u-xs-size1of3" href="/appraisal">
 			<span class="Pathway-icon">
 				<svg class="Icon Icon--lg Icon--textAlign">
 					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-appraisal"></use>
@@ -108,14 +109,14 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 			<span class="Pathway-title Arrow-right">What's your property worth?</span>
 			<p class="">Get a free no-obligation quote</p>
 		</a>
-		<a class="Pathway u-size1of3" href="{{ site.pages.for-sale.url }}">
+		<a class="Pathway u-xs-size1of3" href="/recent-sales">
 			<span class="Pathway-icon">
 				<svg class="Icon Icon--lg Icon--textAlign">
 					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-recent-sales"></use>
 				</svg>
 			</span>
 			<span class="Pathway-title Arrow-right">Recent sales</span>
-			<p class="">&nbsp;</p>
+			<p class="u-xs-display">&nbsp;</p>
 		</a>
 	</div>
 </section>
@@ -123,13 +124,13 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 <section class="Section">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			<div class="Grid-cell u-size3of12">
+			<div class="Grid-cell u-xs-size3of12">
 				<a href="/blog"><h1 class="Headline">Blog</h1></a>
-				<div class="Affix" data-spy="affix" data-offset-top="2642">
-					{% include posts-aside.html %}
+				<div class="Affix u-mxs-hide" data-spy="affix" data-offset-top="2642">
+					{% include post-aside.html %}
 				</div>
 			</div>
-			<div class="Grid-cell u-size9of12 u-alignBlockDown">
+			<div class="Grid-cell u-xs-size9of12 u-alignBlockDown">
 				{% for post in site.posts | limit: 3 %}
 					{% include post-in-list.html %}
 				{% endfor %}

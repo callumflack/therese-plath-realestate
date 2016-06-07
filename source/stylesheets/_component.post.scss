@@ -9,16 +9,16 @@
 // --------------------------------------------------------------------------
 
 .Posts-nav {
-    @include listClean();
+	@include listClean();
 
-    > li {
-        @include TextSm();
-    }
+	> li {
+		@include TextSm();
+	}
 
-    a {
-        color: palette(muted);
-        padding-bottom: space(0.15);
-    }
+	a {
+		color: palette(muted);
+		padding-bottom: space(0.15);
+	}
 }
 
 // Simple highlighted menu using tags and CSS
@@ -36,56 +36,84 @@
 // --------------------------------------------------------------------------
 
 a.Post {
-    // @include baseTransition();
-    @include complexLink();
+	// @include baseTransition();
+	@include complexLink();
 
-    + .Post {
-        border-right: 2px solid palette(background);
-        margin-top: space(3.25);
-    }
+	+ .Post {
+		border-right: 2px solid palette(background);
+		margin-top: space(1.5);
 
-    @include on-event() {
-        .CoverImage {
-            // @include baseTransition();
-            background-blend-mode: multiply;
-            background-color: palette(brand);
-            // filter: grayscale(100%);
-            opacity: 1;
-        }
-    }
+		@include respond-to(xs) { margin-top: space(2.5); }
+		@include respond-to(md) { margin-top: space(3.25); }
+	}
+
+	@include on-event() {
+		.CoverImage {
+			// @include baseTransition();
+			background-blend-mode: multiply;
+			background-color: palette(brand);
+			// filter: grayscale(100%);
+			opacity: 1;
+		}
+	}
 }
 
 .Post-image {
-    margin-top: space(0.3);
+	margin-top: space(0.3);
+	margin-bottom: space(0.75);
 
-    &--fullWidth {
-        margin-bottom: space(1);
-    }
+	@include respond-to(xs) {
+		margin-bottom: 0;
+	}
 
-    &--dark .CoverImage {
-        opacity: 0.5;
-    }
+	&--fullWidth {
+		margin-bottom: space(0.75);
+
+		@include respond-to(xs) {
+			margin-bottom: space(1);
+		}
+	}
+
+	&--dark .CoverImage {
+		opacity: 0.5;
+	}
+}
+
+// Special to handle post-image ratios responsively
+.FlexEmbed-ratio--postImage {
+	padding-bottom: 56.25%;
+	@include respond-to(xs) { padding-bottom: 100%; }
+	@include respond-to(md) { padding-bottom: 56.25%; }
+
+	@include when-inside(".Post-image--fullWidth") {
+		padding-bottom: 56.25% !important;
+	}
 }
 
 .Post-title {
-    @include headlineRg();
+	@include headlineRg();
 }
 
 .Post-tag {
-    @include TextSm();
-    border: 1px solid palette(base);
-    border-radius: size(border-radius, base);
-    color: palette(medium);
-    display: inline-block;
-    padding: space(0.05) space(0.25);
+	@include TextSm();
+	border: 1px solid palette(base);
+	border-radius: size(border-radius, base);
+	color: palette(medium);
+	display: inline-block;
+	padding: space(0.05) space(0.25);
 
-    &:not(:last-child) {
-        margin-right: space(0.25);
-    }
+	&:not(:last-child) {
+		margin-right: space(0.25);
+	}
+
+	@include on-event() {
+		background-color: palette(brand);
+		border-color: palette(charcoal);
+	}
 }
 
 .Post-excerpt {
-    @include TextSm();
+	@include TextSm();
 }
 
 
@@ -95,21 +123,21 @@ a.Post {
 // --------------------------------------------------------------------------
 
 .Post-headline {
-    @include headlineRg();
-    color: palette(white);
-    margin: 0;
-    padding: space(0.9) space(1);
-    position: absolute;
-    width: 75%;
+	@include headlineRg();
+	color: palette(white);
+	margin: 0;
+	padding: space(0.9) space(1);
+	position: absolute;
+	width: 75%;
 
-    &--right {
-        bottom: 0;
-        float: right;
-        right: 0;
-        text-align: right;
-    }
+	&--right {
+		bottom: 0;
+		float: right;
+		right: 0;
+		text-align: right;
+	}
 
-    @include on-event() {
-        color: palette(faint);
-    }
+	@include on-event() {
+		color: palette(faint);
+	}
 }
