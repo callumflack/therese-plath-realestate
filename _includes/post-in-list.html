@@ -1,17 +1,30 @@
 <a class="Post" href="{{ post.url }}">
-    <div class="Grid Grid--withGutter">
-        <div class="Grid-cell {% if post.list-img-full %}u-sizeFull{% else %}u-size9of12{% endif %}">
-            <figure class="Post-image {% if post.list-img-full %}Post-image--fullWidth{% endif %}">
-                <div class="FlexEmbed">
-                    <div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
-                    <div class="FlexEmbed-content CoverImage" style="background-image: url('{{ post.hero }}')"></div>
-                </div>
-            </figure>
-        </div>
-        <div class="Grid-cell {% if post.list-img-full %}u-size9of12{% else %}u-size3of12{% endif %} {% if post.list-text-left %}u-flexOrderFirst{% endif %}">
-            <h1 class="Post-title">{{ post.title }}</h1>
-            {{ post.content | truncatewords: 32 }}
-            <span class="u-marginLD3 u-linkBuriedTarget Arrow-right">Read more</span>
-        </div>
-    </div>
+	<div class="Grid Grid--withGutter">
+		<div class="
+			Grid-cell
+			{% if post.list-img-full %}u-sizeFull
+			{% else %}u-xs-size6of12 u-md-size8of12 u-lg-size9of12
+			{% endif %}">
+			<figure class="
+				Post-image
+				{% if post.list-img-full %}Post-image--fullWidth
+				{% endif %}">
+				<div class="FlexEmbed">
+					<div class="FlexEmbed-ratio FlexEmbed-ratio--postImage"></div>
+					<div class="FlexEmbed-content CoverImage" style="background-image: url('{{ post.hero }}')"></div>
+				</div>
+			</figure>
+		</div>
+		<div class="
+			Grid-cell
+			{% if post.list-img-full %}u-xs-size9of12
+			{% else %}u-xs-size6of12 u-md-size4of12 u-lg-size3of12
+			{% endif %}
+			{% if post.list-text-left %}u-xs-flexOrderFirst
+			{% endif %}">
+			<h1 class="Post-title">{{ post.title }}</h1>
+			{{ post.content | truncatewords: 32 }}
+			<span class="u-marginLD3 u-linkBuriedTarget Arrow-right">Read more</span>
+		</div>
+	</div>
 </a>

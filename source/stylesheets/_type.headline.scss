@@ -6,55 +6,55 @@
 
 
 @mixin headlineTemplate() {
-    // @include u-link(none);
-    color: palette(charcoal);
-    line-height: 1.25;
-    margin-bottom: space(0.85);
-    text-align: left;
+	// @include u-link(none);
+	color: palette(charcoal);
+	line-height: 1.25;
+	margin-bottom: space(0.7);
+	text-align: left;
 
-    // if the headline is a link
-    // https://css-tricks.com/the-sass-ampersand/
-    // &#{a} {
-    //     @include on-event() {
-    //         opacity: 0.4;
-    //         transition: opacity 500ms ease;
-    //     }
-    // }
+	// if the headline is a link
+	// https://css-tricks.com/the-sass-ampersand/
+	// &#{a} {
+	//     @include on-event() {
+	//         opacity: 0.4;
+	//         transition: opacity 500ms ease;
+	//     }
+	// }
 
-    @include respond-to(xs) {
-        // margin-bottom: space(1.75);
-    }
+	@include respond-to(xs) {
+		margin-bottom: space(0.85);
+	}
 }
 
 @mixin headlineRg() {
-    @include headlineTemplate();
-    font-family: $font-sans-medium;
-    font-size: fontsize(headerRg, xs);
+	@include headlineTemplate();
+	font-family: $font-sans-medium;
+	font-size: fontsize(headerRg, xs);
 
-    @include respond-to(xs) {
-        font-size: fontsize(headerRg, base);
-    }
+	@include respond-to(xs) {
+		font-size: fontsize(headerRg, base);
+	}
 }
 
 @mixin headlineSm() {
-    @include headlineTemplate();
-    font-family: $font-sans-regular;
-    font-size: fontsize(headerSm, xs);
-    line-height: 1.35;
+	@include headlineTemplate();
+	font-family: $font-sans-regular;
+	font-size: fontsize(headerSm, xs);
+	line-height: 1.35;
 
-    @include respond-to(xs) {
-        font-size: fontsize(headerSm, base);
-    }
+	@include respond-to(xs) {
+		font-size: fontsize(headerSm, base);
+	}
 }
 
 @mixin headlineSecondary {
-    @include TextMd();
-    font-family: $font-sans-bold;
+	@include TextMd();
+	font-family: $font-sans-bold;
 }
 
 @mixin headlineTertiary {
-    @include TextSm();
-    font-family: $font-sans-bold;
+	@include TextSm();
+	font-family: $font-sans-bold;
 }
 
 

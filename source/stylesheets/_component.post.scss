@@ -41,7 +41,10 @@ a.Post {
 
 	+ .Post {
 		border-right: 2px solid palette(background);
-		margin-top: space(3.25);
+		margin-top: space(1.5);
+
+		@include respond-to(xs) { margin-top: space(2.5); }
+		@include respond-to(md) { margin-top: space(3.25); }
 	}
 
 	@include on-event() {
@@ -57,13 +60,33 @@ a.Post {
 
 .Post-image {
 	margin-top: space(0.3);
+	margin-bottom: space(0.75);
+
+	@include respond-to(xs) {
+		margin-bottom: 0;
+	}
 
 	&--fullWidth {
-		margin-bottom: space(1);
+		margin-bottom: space(0.75);
+
+		@include respond-to(xs) {
+			margin-bottom: space(1);
+		}
 	}
 
 	&--dark .CoverImage {
 		opacity: 0.5;
+	}
+}
+
+// Special to handle post-image ratios responsively
+.FlexEmbed-ratio--postImage {
+	padding-bottom: 56.25%;
+	@include respond-to(xs) { padding-bottom: 100%; }
+	@include respond-to(md) { padding-bottom: 56.25%; }
+
+	@include when-inside(".Post-image--fullWidth") {
+		padding-bottom: 56.25% !important;
 	}
 }
 

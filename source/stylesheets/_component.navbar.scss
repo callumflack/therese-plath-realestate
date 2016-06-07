@@ -12,13 +12,13 @@
 // other navbar variations.
 
 .navbar {
-    position: relative;
-    padding: space(1);
-    @include clearfix;
+	position: relative;
+	padding: space(1);
+	@include clearfix;
 
-    @include respond-to(sm) {
-        border-radius: 0;
-    }
+	@include respond-to(sm) {
+		border-radius: 0;
+	}
 }
 
 
@@ -30,45 +30,45 @@
 
 // A static, full width modifier with no rounded corners.
 .navbar-full {
-    z-index: 1;
+	z-index: 1;
 
-    @include respond-to(sm) {
-        border-radius: size(border-radius, base);
-    }
+	@include respond-to(sm) {
+		border-radius: size(border-radius, base);
+	}
 }
 
 // Fix the top/bottom navbars when screen real estate supports it
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 2;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 2;
 
-    // Undo the rounded corners
-    @include respond-to(sm) {
-        border-radius: 0;
-    }
+	// Undo the rounded corners
+	@include respond-to(sm) {
+		border-radius: 0;
+	}
 }
 
 .navbar-fixed-top {
-    top: 0;
+	top: 0;
 }
 
 .navbar-fixed-bottom {
-    bottom: 0;
+	bottom: 0;
 }
 
 .navbar-sticky-top {
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	width: 100%;
 
-    // Undo the rounded corners
-    @include respond-to(sm) {
-        border-radius: 0;
-    }
+	// Undo the rounded corners
+	@include respond-to(sm) {
+		border-radius: 0;
+	}
 }
 
 
@@ -77,32 +77,32 @@
 // --------------------------------------------------------------------------
 
 .navbar-brand {
-    @include u-link(none);
-    @include headlineRg();
-    margin-right: 1rem;
+	@include u-link(none);
+	@include headlineRg();
+	margin-right: 1rem;
 
-    @include on-event {
-        text-decoration: none;
-    }
+	@include on-event {
+		text-decoration: none;
+	}
 
-    > img {
-        display: block;
-    }
+	> img {
+		display: block;
+	}
 }
 
 
 .navbar-divider {
-    float: left;
-    width: 1px;
-    padding-top: .425rem;
-    padding-bottom: .425rem;
-    margin-right: space(1);
-    margin-left:  space(1);
-    overflow: hidden;
+	float: left;
+	width: 1px;
+	padding-top: .425rem;
+	padding-bottom: .425rem;
+	margin-right: space(1);
+	margin-left:  space(1);
+	overflow: hidden;
 
-    &::before {
-        content: "\00a0";
-    }
+	&::before {
+		content: "\00a0";
+	}
 }
 
 
@@ -113,40 +113,40 @@
 // Bootstrap JavaScript plugin.
 
 .navbar-toggler {
-    background: none;
-    border: 1px solid transparent;
-    border-radius: size(border-radius, base);
-    font-size: fontsize(textRg, base);
-    line-height: 1;
-    padding: .5rem .75rem;
+	background: none;
+	border: 1px solid transparent;
+	border-radius: size(border-radius, base);
+	font-size: fontsize(textRg, base);
+	line-height: 1;
+	padding: .5rem 0 .5rem .75rem;
 
-    @include on-event {
-        text-decoration: none;
-    }
+	@include on-event {
+		text-decoration: none;
+	}
 
-    .icon-bar {
-        background-color: palette(charcoal);
-        border-radius: 1px;
-        display: block;
-        height: 2px;
-        transition: all 0.2s;
-        width: 35px;
+	.icon-bar {
+		background-color: palette(charcoal);
+		border-radius: 1px;
+		display: block;
+		height: 2px;
+		transition: all 0.2s;
+		width: 35px;
 
-        @include respond-to(xs) {
-            border-radius: 1.5px;
-            height: 3px;
-            width: rem(38);
-        }
+		@include respond-to(xs) {
+			border-radius: 1.5px;
+			height: 3px;
+			width: rem(38);
+		}
 
-        + .icon-bar {
-            margin-top: 6px;
+		+ .icon-bar {
+			margin-top: 6px;
 
-            @include respond-to(sm) {
-                margin-top: 7px;
-            }
+			@include respond-to(sm) {
+				margin-top: 7px;
+			}
 
-        }
-    }
+		}
+	}
 }
 
 // Open: not implemented
@@ -175,21 +175,21 @@
 
 // Custom override for
 .navbar-toggleable {
-    &-xs {
-        @include respond-to(sm) {
-            display: block !important;
-        }
-    }
-    &-sm {
-        @include respond-to(md) {
-            display: block !important;
-        }
-    }
-    &-md {
-        @include respond-to(lg) {
-            display: block !important;
-        }
-    }
+	&-xs {
+		@include respond-to(sm) {
+			display: block !important;
+		}
+	}
+	&-sm {
+		@include respond-to(md) {
+			display: block !important;
+		}
+	}
+	&-md {
+		@include respond-to(lg) {
+			display: block !important;
+		}
+	}
 }
 
 

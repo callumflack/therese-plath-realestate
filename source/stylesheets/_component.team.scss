@@ -6,38 +6,51 @@
 
 
 .Author {
-    min-height: space(10);
+	min-height: space(10);
+}
+
+// Asserting cell height at mobile.
+// Suit's flex can probably handle this better… Can't figure it out yet.
+.Author-image {
+	@include respond-to(max-sm) {
+		height: space(10);
+	}
 }
 
 .Author-details {
-    background-color: palette(neutral);
-    padding: space(0.75);
+	background-color: palette(neutral);
+	padding-top: space(0.75);
 
-    @include when-inside(".Home") {
-        // Style the post's author block by reusing the 'card-*.html'
-        // include and scoping by context.
-        @extend .u-alignBlockUp;
-        background-color: palette(background);
-        padding: 0 space(0.75);
-    }
+	@include respond-to(xs) {
+		// padding: space(0.75);
+	}
+
+	// Style the post's author block by reusing
+	// the 'card-*.html' include and scoping by context.
+	@include when-inside(".Home") {
+		@extend .u-alignBlockUp;
+		background-color: palette(background);
+		// @include respond-to(xs) { padding: space(0.75); }
+		@include respond-to(xs) { padding: 0 space(0.75); }
+	}
 }
 
 // About page stuff
 // --------------------------------------------------------------------------
 
 .Hgroup {
-    > * {
-        color: palette(white);
-    }
+	> * {
+		color: palette(white);
+	}
 }
 
 .Profile-details {
-    min-height: space(15);
-    position: relative;
+	min-height: space(15);
+	position: relative;
 }
 
 .Profile-image {
-    margin-top: space(0.3);
-    min-height: space(15);
-    position: relative;
+	margin-top: space(0.3);
+	min-height: space(15);
+	position: relative;
 }

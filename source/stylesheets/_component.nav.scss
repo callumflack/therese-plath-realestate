@@ -6,22 +6,25 @@
 
 
 .Nav-list {
-    @include listClean();
-    float: right;
-    opacity: 0;
-    transform: translateY(10px);
-    transition: all map-fetch($transition, duration, short) map-fetch($transition, type, base);
+	@include listClean();
+	float: right;
+	opacity: 0;
+	transform: translateY(10px);
+	transition: all map-fetch($transition, duration, short) map-fetch($transition, type, base);
+	padding-top: 5px;
 
-    li {
-        padding-bottom: space(0.25);
-        text-align: right;
-    }
+	@include respond-to(xs) { padding-top: 0; }
+
+	li {
+		padding-bottom: space(0.25);
+		text-align: right;
+	}
 }
 
 
 /* uncss:ignore */
 .Modal.is-active .Nav-list {
-    opacity: 1;
-    transform: translateY(0);
-    transition: all map-fetch($transition, duration, short) map-fetch($transition, type, fine) 250ms;
+	opacity: 1;
+	transform: translateY(0);
+	transition: all map-fetch($transition, duration, short) map-fetch($transition, type, fine) 250ms;
 }

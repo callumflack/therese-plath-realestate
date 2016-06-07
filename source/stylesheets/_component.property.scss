@@ -8,6 +8,17 @@
 // Hero slider property details block
 // --------------------------------------------------------------------------
 
+.Hero {
+	position: relative;
+}
+
+// To enable Hero-details to sit below
+// the slider at mobile.
+@include respond-to(max-xs) {
+	.Hero .flickity-viewport { overflow: auto; }
+	.Hero .FlexEmbed { overflow: auto; }
+}
+
 .Hero-details {
 	background-color: palette(white);
 	display: inline-block;
@@ -16,6 +27,13 @@
 
 	span {
 		margin: 0 space(0.15);
+	}
+
+	// To sit below the slider at mobile
+	@include respond-to(max-xs) {
+		// bottom: -50px;
+		margin-bottom: space(-1.5);
+		position: relative;
 	}
 
 	.Property-price {
