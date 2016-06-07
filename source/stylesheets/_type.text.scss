@@ -6,56 +6,56 @@
 
 
 @mixin textTemplate() {
-    @include TypeReset();
-    color: color(text, charcoal);
-    font-family: $font-sans-regular;
-    line-height: $base-line-height-unit;
+	@include TypeReset();
+	color: color(text, charcoal);
+	font-family: $font-sans-regular;
+	line-height: $base-line-height-unit;
 }
 
 @mixin TextXs() {
-    @include textTemplate();
-    font-size: fontsize(textXs, xs);
+	@include textTemplate();
+	font-size: fontsize(textXs, xs);
 
-    @include respond-to(xs) {
-        font-size: fontsize(textXs, base);
-    }
+	@include respond-to(xs) {
+		font-size: fontsize(textXs, base);
+	}
 }
 
 @mixin TextSm() {
-    @include textTemplate();
-    font-size: fontsize(textSm, xs);
+	@include textTemplate();
+	font-size: fontsize(textSm, xs);
 
-    @include respond-to(sm) {
-        font-size: fontsize(textSm, base);
-    }
+	@include respond-to(sm) {
+		font-size: fontsize(textSm, base);
+	}
 }
 
 @mixin TextRg() {
-    @include textTemplate();
-    font-size: fontsize(textRg, xs);
+	@include textTemplate();
+	font-size: fontsize(textRg, xs);
 
-    @include respond-to(xs) {
-        font-size: fontsize(textRg, base);
-    }
+	@include respond-to(xs) {
+		font-size: fontsize(textRg, base);
+	}
 }
 
 @mixin TextMd() {
-    @include textTemplate();
-    font-size: fontsize(textMd, xs);
+	@include textTemplate();
+	font-size: fontsize(textMd, xs);
 
-    @include respond-to(xs) {
-        font-size: fontsize(textMd, base);
-    }
+	@include respond-to(xs) {
+		font-size: fontsize(textMd, base);
+	}
 }
 
 @mixin TextLg() {
-    @include textTemplate();
-    font-size: fontsize(textLg, xs);
-    line-height: 1.35;
+	@include textTemplate();
+	font-size: fontsize(textLg, xs);
+	line-height: 1.35;
 
-    @include respond-to(sm) {
-        font-size: fontsize(textLg, base);
-    }
+	@include respond-to(sm) {
+		font-size: fontsize(textLg, base);
+	}
 }
 
 
@@ -70,32 +70,36 @@ p, address,
 table, time,
 fieldset, figcaption,
 pre, a {
-    @include TextSm();
+	@include TextSm();
 }
 
-.u-textRg {
-    @include TextRg();
+.u-textXs {
+	@include TextXs();
 }
 
 .u-textSm {
-    @include TextSm();
+	@include TextSm();
+}
+
+.u-textRg {
+	@include TextRg();
 }
 
 .u-textLg {
-    @include TextLg();
+	@include TextLg();
 }
 
 em,
 .u-textEm {
-    @include TypeReset();
-    font-family: $font-sans-regular-i;
+	@include TypeReset();
+	font-family: $font-sans-regular-i;
 }
 
 b,
 strong,
 .u-textBold {
-    @include TypeReset();
-    font-family: $font-sans-bold;
+	@include TypeReset();
+	font-family: $font-sans-bold;
 }
 
 
@@ -104,32 +108,32 @@ strong,
 
 blockquote,
 .Blockquote {
-    color: color(text, medium);
-    font-family: $font-sans-book;
-    // font-family: $font-sans-comp-bk;
-    // font-family: $font-sans-cond-bk-i;
-    font-size: map-fetch($size, font, headerMd, xs);
-    margin-bottom: space(0.75);
+	color: color(text, medium);
+	font-family: $font-sans-book;
+	// font-family: $font-sans-comp-bk;
+	// font-family: $font-sans-cond-bk-i;
+	font-size: map-fetch($size, font, headerMd, xs);
+	margin-bottom: space(0.75);
 
-    @include respond-to(sm) {
-        font-size: map-fetch($size, font, headerMd, base);
-        margin-bottom: space(1);
-    }
+	@include respond-to(sm) {
+		font-size: map-fetch($size, font, headerMd, base);
+		margin-bottom: space(1);
+	}
 }
 
 .TextLede {
-    @include TextRg();
-    color: color(text, brand) !important;
-    font-family: $font-sans-regular;
-    font-size: map-fetch($size, font, headerRg, xs);
-    line-height: 1.45;
-    // margin-bottom: space(1);
+	@include TextRg();
+	color: color(text, brand) !important;
+	font-family: $font-sans-regular;
+	font-size: map-fetch($size, font, headerRg, xs);
+	line-height: 1.45;
+	// margin-bottom: space(1);
 
-    @include respond-to(sm) {
-        font-family: $font-sans-bold;
-        font-size: map-fetch($size, font, headerRg, base);
-        line-height: $base-line-height-unit;
-    }
+	@include respond-to(sm) {
+		font-family: $font-sans-bold;
+		font-size: map-fetch($size, font, headerRg, base);
+		line-height: $base-line-height-unit;
+	}
 }
 
 
@@ -143,8 +147,8 @@ blockquote,
 .Container p,
 .Container li,
 .Container ol {
-    &:last-child,
-    &:last-child a {
-        margin-bottom: 0;
-    }
+	&:last-child,
+	&:last-child a {
+		margin-bottom: 0;
+	}
 }
