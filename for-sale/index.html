@@ -35,7 +35,7 @@ layout: default
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
 			{% for current in site.data.current | limit:12 %}
-				{% include property-in-list.html %}
+				{% include property-forsale-in-list.html %}
 			{% endfor %}
 		</div>
 	</div>
@@ -47,7 +47,7 @@ layout: default
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
 			{% for current in site.data.current | offset:13 %}
-				{% include property-in-list.html %}
+				{% include property-forsale-in-list.html %}
 			{% endfor %}
 		</div>
 	</div>
