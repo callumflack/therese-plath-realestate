@@ -4,7 +4,7 @@ date: 2016-04-08 08:22:00 +10:00
 position: 3
 name: Jodie Kneebone
 jobtitle: Personal assistant
-picture: "/uploads/team-plath-2.jpg"
+picture: "/uploads/jodie-kneebone.jpg"
 email: jodie.kneebone@raywhite.com
 phone: "(07) 4045 9700"
 mobile: 0418 772 995
