@@ -17,7 +17,7 @@ layout: default
 					<div class="Hgroup u-sm-size4of12">
 						<h1 class="Headline u-marginB0">{{ therese.name }}</h1>
 						<h2 class="Headline">{{ therese.jobtitle }}</h2>
-						<p class="u-textLg">{{ therese.summary }}</p>
+						<p class="u-textLg u-msm-hide">{{ therese.summary }}</p>
 					</div>
 				</div>
 			</div>
@@ -28,36 +28,40 @@ layout: default
 <div class="Container">
 
 	<div class="Grid Grid--withGutter">
-		<div class="Grid-cell u-sm-size4of12 u-paddingR2">
-			<div class="DivRule"></div>
-			<h3 class="Headline--tertiary u-marginB0">Contact Therese</h3>
+		<div class="Grid-cell u-sm-size4of12 u-sm-paddingR2">
+			<div class="DivRule u-msm-hide"></div>
+			<h3 class="Headline--tertiary u-msm-marginTD2 u-marginB0">Contact Therese</h3>
 			<ul class="u-listClean u-marginBD1">
 				{% assign profile = therese %}
 				{% include profile-contact.html %}
 			</ul>
-			{% include share.html %}
+			<!-- {% include share.html %} -->
 		</div>
 
-		<div class="Grid-cell u-sm-before1of12 u-sm-size6of12 u-after1of12 u-alignBlockUp">
+		<div class="Grid-cell u-sm-before1of12 u-sm-size6of12 u-after1of12 u-alignBlockUp u-msm-flexOrderFirst">
+			<p class="u-textLg u-sm-hide">{{ therese.summary }}</p>
 			{{ therese.content }}
 		</div>
 	</div>
 
 	<div class="DivRule u-marginT5">
 		<div class="Grid Grid--withGutter">
-			<div class="Grid-cell u-sm-size4of12 u-paddingR2 u-alignBlockDown">
-				<figure class="Profile-image">
-					<div class="u-posAbsoluteCenter CoverImage" style="background-image: url('/build/images/team-plath.jpg')"></div>
+			<div class="Grid-cell u-sm-size4of12 u-sm-paddingR2 u-alignBlockDown">
+				<figure class="Profile-image u-msm-hide">
+					<div class="u-posAbsoluteCenter CoverImage" style="background-image: url('/uploads/jodie-kneebone.jpg')"></div>
 				</figure>
 				<h3 class="Headline--tertiary u-marginTD2 u-marginB0">Contact {{ jodie.name | first }}</h3>
 				<ul class="u-listClean u-marginBD1">
 					{% assign profile-contact  = site.pages.about.pages.profile-1 %}
 					{% include profile-contact.html %}
 				</ul>
-				{% include share.html %}
+				<!-- {% include share.html %} -->
 			</div>
 			<div class="Grid-cell u-sm-size6of12 u-alignBlockDown u-flexOrderFirst">
-				<h1 class="Headline">{{ jodie.name }}</h1>
+				<figure class="Profile-image u-sm-hide">
+					<div class="u-posAbsoluteCenter CoverImage--teamPlath" style="background-image: url('/uploads/jodie-kneebone.jpg')"></div>
+				</figure>
+				<h1 class="Headline u-msm-marginT">{{ jodie.name }}</h1>
 				{{ jodie.content }}
 			</div>
 		</div>
@@ -65,19 +69,22 @@ layout: default
 
 	<div class="DivRule u-marginT5">
 		<div class="Grid Grid--withGutter">
-			<div class="Grid-cell u-sm-before2of12 u-sm-size4of12 u-paddingL2 u-alignBlockDown">
-				<figure class="Profile-image">
-					<div class="u-posAbsoluteCenter CoverImage" style="background-image: url('/build/images/team-plath.jpg')"></div>
+			<div class="Grid-cell u-sm-before2of12 u-sm-size4of12 u-sm-paddingL2 u-alignBlockDown">
+				<figure class="Profile-image u-msm-hide">
+					<div class="u-posAbsoluteCenter CoverImage" style="background-image: url('/uploads/tamara-west.jpg')"></div>
 				</figure>
 				<h3 class="Headline--tertiary u-marginTD2 u-marginB0">Contact {{ tamara.name | first }}</h3>
 				<ul class="u-listClean u-marginBD1">
 					{% assign profile-contact  = site.pages.about.pages.profile-2 %}
 					{% include profile-contact.html %}
 				</ul>
-				{% include share.html %}
+				<!-- {% include share.html %} -->
 			</div>
-			<div class="Grid-cell u-sm-size6of12 u-alignBlockDown">
-				<h1 class="Headline">{{ tamara.name }}</h1>
+			<div class="Grid-cell u-sm-size6of12 u-alignBlockDown u-msm-flexOrderFirst">
+				<figure class="Profile-image u-sm-hide">
+					<div class="u-posAbsoluteCenter CoverImage--teamPlath" style="background-image: url('/uploads/tamara-west.jpg')"></div>
+				</figure>
+				<h1 class="Headline u-msm-marginT">{{ tamara.name }}</h1>
 				{{ tamara.content }}
 			</div>
 		</div>

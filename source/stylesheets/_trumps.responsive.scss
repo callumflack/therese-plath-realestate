@@ -12,6 +12,7 @@
 // hide at breakpoints
 // better naming? "hidden-sm-up"
 .u-mxs-hide                  { @include respond-to(max-xs) { display: none !important; } }
+.u-msm-hide                  { @include respond-to(max-sm) { display: none !important; } }
 .u-xs-hide                   { @include respond-to(xs) { display: none !important; } }
 .u-sm-hide                   { @include respond-to(sm) { display: none !important; } }
 .u-md-hide                   { @include respond-to(md) { display: none !important; } }
@@ -23,9 +24,9 @@
 .u-lg-display                { display: none; @include respond-to(lg) { display: block !important; } }
 
 // display:block at breakpoints
-.u-mxs-block               { @include respond-to(max-xs) { display: block !important; } }
-.u-xs-block                { @include respond-to(xs) { display: block !important; } }
-.u-lg-block                { @include respond-to(lg) { display: block !important; } }
+.u-mxs-block                { @include respond-to(max-xs) { display: block !important; } }
+.u-xs-block                 { @include respond-to(xs) { display: block !important; } }
+.u-lg-block                 { @include respond-to(lg) { display: block !important; } }
 
 // breakpoint: max-xs
 .u-mxs-flex                  { @include respond-to(max-xs) { display: flex !important; } }
@@ -37,7 +38,10 @@
 // breakpoint: max-sm
 .msm-Grid--alignCenter       { @include respond-to(max-sm) { justify-content: center; } }
 .msm-Grid-cell--center       { @include respond-to(max-sm) { margin: 0 auto; } }
+.u-msm-size6of12             { @include respond-to(max-sm) { width: 50% !important; } }
 .u-msm-size10of12            { @include respond-to(max-sm) { width: 83.33333333333334% !important; } }
+.u-msm-flexOrderFirst        { @include respond-to(max-sm) { order: -1 !important; } }
+.u-msm-flexOrderLast         { @include respond-to(max-sm) { order: 1 !important; } }
 
 // breakpoint: xs
 .u-ip6p-size8of12            { @include respond-to(ip6p) { width: 66.66666666666666% !important; } }

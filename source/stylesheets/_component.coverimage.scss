@@ -65,6 +65,16 @@
 	width: 70%
 }
 
+.CoverImage--teamPlath {
+	@include CoverImage();
+
+	@include respond-to(max-sm) {
+		background-position-x: 0%;
+		background-position-y: 0%;
+		background-size: contain;
+	}
+}
+
 .ContainImage {
 	@include CoverImage();
 	background-size: contain;
