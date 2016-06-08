@@ -4,16 +4,15 @@ date: 2016-04-05 17:16:00 +10:00
 permalink: "/blog/:slug/"
 tags:
 - Suburb profiles
-- Test
-layout: post
 header: Blog
 author: jodie
 list-img-full: 
 list-text-left: 
-list-text-truncate: '40'
+list-text-truncate: 40
 hero: "/uploads/post-img-3.jpg"
 summary: The city of southern California, San Diego is locally known as ‘America’s
   Finest City’.
+layout: post
 ---
 
 The holidays bring with them thoughts of carving and serving delicious turkey dinners to your family and friends. Tradition has its fans, but perhaps this year you’d like to try a twist to your turkey recipe. If you have a gas grill and enjoy the smoky flavor of grilled meats, why not try grilling?
