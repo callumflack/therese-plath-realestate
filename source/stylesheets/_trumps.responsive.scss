@@ -54,6 +54,7 @@
 .u-xs-floatRight             { @include respond-to(xs) { float: right !important; } }
 
 // breakpoint: sm
+.u-sm-floatRight             { @include respond-to(sm) { float: right !important; } }
 .u-sm-flex                   { @include respond-to(sm) { display: flex !important; } }
 .u-sm-flexAlignItemsCenter   { @include respond-to(sm) { align-items: center !important; } }
 .u-sm-flexJustifyCenter      { @include respond-to(sm) { justify-content: center !important; } }
