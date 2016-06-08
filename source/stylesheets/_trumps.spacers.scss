@@ -248,6 +248,7 @@
 	.u-xs-paddingB     { padding-bottom: space(1) !important; }
 	.u-xs-paddingB15   { padding-bottom: space(1.5)    !important; }
 	.u-xs-paddingB2    { padding-bottom: space(2)    !important; }
+	.u-xs-paddingR4    { padding-right: space(4)    !important; }
 }
 
 @include respond-to(sm) {

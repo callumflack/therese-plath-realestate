@@ -140,4 +140,8 @@ a.Post {
 	@include on-event() {
 		color: palette(faint);
 	}
+
+	@include respond-to(xs) {
+		margin: 0;
+	}
 }

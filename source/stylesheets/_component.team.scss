@@ -19,7 +19,7 @@
 
 .Author-details {
 	background-color: palette(neutral);
-	padding-top: space(0.75);
+	padding: space(0.75);
 
 	@include respond-to(xs) {
 		// padding: space(0.75);
@@ -30,7 +30,7 @@
 	@include when-inside(".Home") {
 		@extend .u-alignBlockUp;
 		background-color: palette(background);
-		// @include respond-to(xs) { padding: space(0.75); }
+		padding-top: space(0.75);
 		@include respond-to(xs) { padding: 0 space(0.75); }
 	}
 }

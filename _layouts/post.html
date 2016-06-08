@@ -16,7 +16,7 @@ layout: default
 
 <article class="Post">
 	<section class="Section u-marginT0 u-marginB2 u-bgBrandAlt">
-		<div class="Container">
+		<div class="Container Container--heroImage">
 			<figure class="">
 				<div class="FlexEmbed">
 					<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
@@ -30,64 +30,77 @@ layout: default
 
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			<div class="Grid-cell u-sm-size5of12 u-paddingR2 u-md-display">
+			<div class="Grid-cell u-ip6p-size8of12 u-sm-size5of12 u-sm-paddingR2 u-marginB2 u-md-display">
 				<h1 class="Post-title">{{ page.title }}</h1>
 				<p class="u-textLg">{{ page.summary }}</p>
-				<div class="u-marginT"></div>
-				<a class="Post-tag" href="/blog/tags/{{ page.tags }}">{{ page.tags }}</a>
+				<div class="u-marginT">
+					<a class="Post-tag" href="/blog/tags/{{ page.tags }}">{{ page.tags }}</a>
+				</div>
 
-				<div class="DivRule u-marginT2"></div>
-				<h3 class="Headline--tertiary">Share this post</h3>
-				{% include share.html %}
+				<div class="u-sm-display">
+					<div class="DivRule u-marginT25"></div>
+					<h3 class="Headline--tertiary">Share this post</h3>
+					{% include share.html %}
+				</div>
 			</div>
 
-			<div class="Grid-cell u-sm-size6of12 u-sm-after1of12 u-alignBlockDown">
+			<div class="Grid-cell u-xs-size10of12 u-sm-size6of12 u-sm-after1of12 u-alignBlockDown">
 				{{ content }}
+
+				<div class="u-sm-hide">
+					<div class="DivRule--medium u-marginT25"></div>
+					<h3 class="Headline--tertiary">Share this post</h3>
+					{% include share.html %}
+				</div>
+
+				{% include profile-card.html %}
+
 				<div class="DivRule--medium u-marginT25"></div>
 				<h3 class="Headline--tertiary u-marginB">Get posts by email</h3>
-				{% include newsletter-form.html %}
-				{% include profile-card.html %}
+				<div class="u-xs-size9of12 u-sm-sizeFull">
+					{% include newsletter-form.html %}
+				</div>
+
 			</div>
 		</div>
 
 		<section class="Section">
-			<div class="Container DivRule">
-				<a href="/blog">
-					<h1 class="Headline Arrow-right">View all posts</h1>
-				</a>
-				<div class="Grid">
-					{% if page.previous %}
-						<div class="Grid-cell u-xs-size1of2">
-							<a class="Post" href="{{ page.previous.url }}">
-								<figure class="Post-image--dark">
-									<div class="FlexEmbed">
-										<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9 u-bgDark"></div>
-										<div class="FlexEmbed-content CoverImage" style="background-image: url('{{ page.previous.hero }}')"></div>
-										<div class="FlexEmbed-content">
-											<h1 class="Post-headline Post-headline--right Arrow-left">{{ page.previous.title }}</h1>
-										</div>
-									</div>
-								</figure>
-							</a>
-						</div>
-					{% endif %}
-					{% if page.next %}
+			<div class="DivRule"></div>
+			<a href="/blog">
+				<h1 class="Headline Arrow-right">View all posts</h1>
+			</a>
+			<div class="Grid">
+				{% if page.previous %}
 					<div class="Grid-cell u-xs-size1of2">
-						<a class="Post" href="{{ page.next.url }}">
+						<a class="Post" href="{{ page.previous.url }}">
 							<figure class="Post-image--dark">
 								<div class="FlexEmbed">
 									<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9 u-bgDark"></div>
-									<div class="FlexEmbed-content CoverImage" style="background-image: url('{{ page.next.hero }}')"></div>
+									<div class="FlexEmbed-content CoverImage" style="background-image: url('{{ page.previous.hero }}')"></div>
 									<div class="FlexEmbed-content">
-										<h1 class="Post-headline Arrow-right">{{ page.next.title }}</h1>
+										<h1 class="Post-headline Post-headline--right Arrow-left">{{ page.previous.title }}</h1>
 									</div>
 								</div>
 							</figure>
 						</a>
 					</div>
-					{% endif %}
-
+				{% endif %}
+				{% if page.next %}
+				<div class="Grid-cell u-xs-size1of2">
+					<a class="Post" href="{{ page.next.url }}">
+						<figure class="Post-image--dark">
+							<div class="FlexEmbed">
+								<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9 u-bgDark"></div>
+								<div class="FlexEmbed-content CoverImage" style="background-image: url('{{ page.next.hero }}')"></div>
+								<div class="FlexEmbed-content">
+									<h1 class="Post-headline Arrow-right">{{ page.next.title }}</h1>
+								</div>
+							</div>
+						</figure>
+					</a>
 				</div>
+				{% endif %}
+
 			</div>
 		</section>
 

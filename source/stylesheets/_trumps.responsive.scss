@@ -21,6 +21,7 @@
 // toggle display at breakpoints
 .u-mxs-display               { display: none; @include respond-to(max-xs) { display: block !important; } }
 .u-xs-display                { display: none; @include respond-to(xs) { display: block !important; } }
+.u-sm-display                { display: none; @include respond-to(sm) { display: block !important; } }
 .u-lg-display                { display: none; @include respond-to(lg) { display: block !important; } }
 
 // display:block at breakpoints
@@ -44,7 +45,7 @@
 .u-msm-flexOrderLast         { @include respond-to(max-sm) { order: 1 !important; } }
 
 // breakpoint: xs
-.u-ip6p-size8of12            { @include respond-to(ip6p) { width: 66.66666666666666% !important; } }
+
 
 // breakpoint: xs
 .xs-Grid--withGutter         { @include respond-to(xs) { margin: 0 -(space(0.5)); > .Grid-cell { padding: 0 space(0.5); } } }

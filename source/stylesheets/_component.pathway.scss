@@ -31,7 +31,7 @@
 	}
 
 	@include respond-to(sm) {
-		padding: space(4) space(2);
+		padding: space(4) 0;
 	}
 }
 
@@ -53,6 +53,6 @@
 	// @extend .u-linkBuriedTarget;
 	@include headlineSm();
 	font-family: $font-sans-xbold;
-	margin-bottom: 0;
+	margin-bottom: space(0.15) !important;
 	text-align: center;
 }
