@@ -1,20 +1,24 @@
 <header class="Header Header--fixed" role="banner">
-    <div class="Container">
-        <div class="u-cf">
-            <button class="navbar-toggler u-floatRight" type="button" data-modal-toggle>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+	<div class="Container">
+		<div class="u-cf">
+			<button class="navbar-toggler u-floatRight" type="button" data-modal-toggle>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 
-            <a class="Header-logo" href="/">Therese Plath</a>
+			<a class="Header-logo" href="/">Therese Plath</a>
 
-            {% if page.header %}
-                <a class="Header-title" href="/blog">Blog</a>
-            {% elsif page.title != 'Home' %}
-                <a class="Header-title" href="{{ page.slug }}">{{ page.title }}</a>
-            {% endif %}
+			{% if page.header %}
+				<a class="Header-title" href="/blog">Blog</a>
+			{% elsif page.title != 'Home' %}
+				<a class="Header-title" href="{{ page.slug }}">{{ page.title }}</a>
+			{% elsif page.title != 'For sale' %}
+				<a class="Header-title" href="/for-sale">{{ page.title }}</a>
+			{% elsif page.title != 'Recent sales' %}
+				<a class="Header-title" href="/recent-sales">{{ page.title }}</a>
+			{% endif %}
 
-        </div>
-    </div>
+		</div>
+	</div>
 </header>

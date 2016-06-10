@@ -12,7 +12,7 @@ layout: default
 					{% assign CurrentSalesSize = 0 %}
 					{% for current in site.data.current %}
 						{% if forloop.last %}
-							<p class="u-textBold">Showing {{ CurrentSalesSize | plus:forloop.length }} total listings<!--Showing 1 – 20 of 32 total listings--></p>
+							<p class="u-textBold">Showing {{ CurrentSalesSize | plus:forloop.length }} total listings</p>
 						{% endif %}
 					{% endfor %}
 				</div>
@@ -28,87 +28,26 @@ layout: default
 				</div>
 			</div>
 		</div>
-		<div class="Grid Grid--withGutter">
-			<!--First 12 properties: {% include property-in-list.html %} -->
-			{% for current in site.data.current limit:12%}
-			<div class="Grid-cell u-size1of2 u-xs-size1of3">
-				<a class="Property Card" href="/for-sale/{{current.property_id}}.html">
-					<div class="Property-image" style="background-image: url({{current.image}})"></div>
-
-					<div class="Property-details">
-						<h1 class="Property-details--title Arrow-right u-marginB0">{{current.address_suburb}}</h1>
-						<p class="Property-details--location">{{current.address_street}}</p>
-						<p class="Property-details--price">{{current.price}}</p>
-
-						<p class="Property-config u-marginTD6">
-							<span class="Property-bedroooms">{{current.bedrooms}}</span>
-							<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bed"></use>
-							</svg>
-							<span class="Property-bathrooms">{{current.bathrooms}}</span>
-							<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bath"></use>
-							</svg>
-							<span class="Property-carspaces">{{current.garage}}</span>
-							<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
-							</svg>
-						</p>
-
-					</div>
-				</a>
-			</div>
-			{% endfor %}
-		</div>
 	</div>
-</section>
-
-<section class="Section u-bgNeutral u-marginT15 u-marginB25">
-	<a class="Pathway" href="/appraisal">
-		<div class="Container">
-			<span class="Pathway-icon">
-				<svg class="Icon Icon--lg Icon--textAlign">
-					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-appraisal"></use>
-				</svg>
-			</span>
-			<span class="Pathway-title Arrow-right">Find out what your property is worth</span>
-			<p class="">Get a free no-obligation quote</p>
-		</div>
-	</a>
 </section>
 
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			<!--All the rest of the properties-->
-			{% for current in site.data.current offset:13%}
-			<div class="Grid-cell u-size1of2 u-xs-size1of3">
-				<a class="Property Card" href="/for-sale/{{current.property_id}}.html">
-					<div class="Property-image" style="background-image: url({{current.image}})"></div>
+			{% for current in site.data.current | limit:12 %}
+				{% include property-forsale-in-list.html %}
+			{% endfor %}
+		</div>
+	</div>
+</section>
 
-					<div class="Property-details">
-						<h1 class="Property-details--title Arrow-right u-marginB0">{{current.address_suburb}}</h1>
-						<p class="Property-details--location">{{current.address_street}}</p>
-						<p class="Property-details--price">{{current.price}}</p>
+{% include pathway-appraisal.html %}
 
-						<p class="Property-config u-marginTD6">
-							<span class="Property-bedroooms">{{current.bedrooms}}</span>
-							<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bed"></use>
-							</svg>
-							<span class="Property-bathrooms">{{current.bathrooms}}</span>
-							<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bath"></use>
-							</svg>
-							<span class="Property-carspaces">{{current.garage}}</span>
-							<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
-							</svg>
-						</p>
-
-					</div>
-				</a>
-			</div>
+<section class="Section u-marginT0">
+	<div class="Container">
+		<div class="Grid Grid--withGutter">
+			{% for current in site.data.current | offset:13 %}
+				{% include property-forsale-in-list.html %}
 			{% endfor %}
 		</div>
 	</div>

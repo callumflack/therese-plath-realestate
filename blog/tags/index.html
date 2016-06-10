@@ -1,22 +1,22 @@
 ---
-title: blog
+title: Blog
 permalink: "/blog/tags/"
 layout: default
 ---
 
 <section class="Section u-marginT0">
-    <div class="Container">
-        <div class="Grid Grid--withGutter">
-            <div class="Grid-cell u-sm-size3of12 u-sm-display">
-                <div class="Affix" data-spy="affix" data-offset-top="200">
-                    {% include post-aside.html %}
-                </div>
-            </div>
-            <div class="Grid-cell u-sm-size9of12">
-                {% for post in site.posts %}
-                    {% include post-in-list.html %}
-                {% endfor %}
-            </div>
-        </div>
-    </div>
+	<div class="Container">
+		<div class="Grid Grid--withGutter">
+			<div class="Grid-cell u-sm-size3of12 u-sm-display">
+				<div class="Affix" data-spy="affix" data-offset-top="200">
+					{% include post-aside.html %}
+				</div>
+			</div>
+			<div class="Grid-cell u-sm-size9of12">
+				{% for post in site.posts %}
+					{% include post-in-list.html %}
+				{% endfor %}
+			</div>
+		</div>
+	</div>
 </section>

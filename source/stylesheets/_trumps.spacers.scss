@@ -94,6 +94,7 @@
 
 @include respond-to(max-sm) {
 	.u-msm-marginTD3  { margin-top: space(1/3) !important; }
+	.u-msm-marginTD2  { margin-top: space(1/2) !important; }
 	.u-msm-marginT    { margin-top: space(1) !important; }
 	.u-msm-marginT3   { margin-top: space(3) !important; }
 	.u-msm-marginBD1  { margin-bottom: space(0.75) !important; }
@@ -238,6 +239,7 @@
 	.u-msm-paddingBD3  { padding-bottom: space(1/3) !important; }
 	.u-msm-paddingB    { padding-bottom: space(1) !important; }
 	.u-msm-paddingBL   { padding-bottom: space(12) !important; }
+	.u-msm-paddingR2   { padding-right: space(2) !important; }
 }
 
 @include respond-to(xs) {
@@ -246,6 +248,7 @@
 	.u-xs-paddingB     { padding-bottom: space(1) !important; }
 	.u-xs-paddingB15   { padding-bottom: space(1.5)    !important; }
 	.u-xs-paddingB2    { padding-bottom: space(2)    !important; }
+	.u-xs-paddingR4    { padding-right: space(4)    !important; }
 }
 
 @include respond-to(sm) {
