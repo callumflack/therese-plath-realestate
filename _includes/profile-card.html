@@ -15,7 +15,7 @@
 		<a href="/about" class="u-linkBuried {% if home? %}u-colorBlackBlock{% endif %}">
 			<h3 class="Headline--tertiary u-marginB0">
 				{% if page.url contains 'blog' %}Written by {% endif %}
-				{{ profile.name }}{% if profile.jobtitle %}, {{ profile.jobtitle }}{% endif %}
+				{{ profile.name }}
 			</h3>
 			<p class="">
 				{{ profile.summary | truncatewords: 15 }}
@@ -23,13 +23,8 @@
 			</p>
 		</a>
 		<ul class="u-listClean u-marginB0">
-			{% if type == 'post' %}
-				<a class="u-linkHot Arrow-right" href="#">View all {{ post.author.firstname }}'s posts</a>
-				<a class="u-linkHot Arrow-right" href="#">View all {{ profile.name }}'s posts</a>
-			{% else %}
-				<li>Contact:</li>
-				{% include profile-contact.html %}
-			{% endif %}
+			<li>Contact:</li>
+			{% include profile-contact.html %}
 		</ul>
 	</div>
 </div>

@@ -72,7 +72,7 @@ a.gallery-cell {
 	.dot { background: palette(white); }
 
 	@include respond-to(max-xs) {
-		bottom: space(-2);
+		bottom: space(-1.5);
 		.dot { background: palette(charcoal); }
 	}
 }

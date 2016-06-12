@@ -4,7 +4,7 @@ date: 2016-04-08 08:27:00 +10:00
 position: 4
 name: Tamara West
 jobtitle: Personal assistant
-picture: "/uploads/team-plath-1.jpg"
+picture: "/uploads/tamara-west.jpg"
 email: tamara.west@raywhite.com
 phone: "(07) 4045 9700"
 mobile: 0418 772 995

@@ -128,7 +128,7 @@ a.Post {
 	margin: 0;
 	padding: space(0.9) space(1);
 	position: absolute;
-	width: 75%;
+	width: auto;
 
 	&--right {
 		bottom: 0;
@@ -139,5 +139,15 @@ a.Post {
 
 	@include on-event() {
 		color: palette(faint);
+	}
+
+	@include respond-to(xs) {
+		margin: 0;
+		width: 90%;
+	}
+
+	@include respond-to(sm) {
+		margin: 0;
+		width: 75%;
 	}
 }

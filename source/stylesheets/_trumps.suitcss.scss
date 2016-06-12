@@ -1,0 +1,9 @@
+
+
+// --------------------------------------------------------------------------
+// PRETRUMPS: SUITCSS ADDITIONS
+// --------------------------------------------------------------------------
+
+
+// breakpoint: xs
+.u-ip6p-size8of12            { @include respond-to(ip6p) { width: 66.66666666666666% !important; flex-basis: auto !important; } }
