@@ -31,35 +31,28 @@
 @import "layout.section";
 
 @import "vendor.flickity";
+@import "vendor.family";
 
 @import "component.coverimage";
 @import "component.imageblend";
 @import "component.flickity";
 @import "component.contact";
 @import "component.form";
-// @import "component.fold";
 @import "component.modal";
 @import "component.herovideo";
 @import "component.pathway";
 @import "component.property";
 @import "component.post";
 @import "component.team";
-// @import "component.navstack";
-// @import "component.card";
-// @import "component.fancywell";
-// @import "component.newsletter";
 @import "component.scrollspy";
 @import "component.affix";
 @import "component.aside";
 @import "component.navbar";
 @import "component.nav";
 @import "component.touchnav";
-// @import "component.thumbnail";
-// @import "component.sticky";
-// @import "component.fixedsticky";
-// @import "component.page-slider";
 @import "component.fontfaceonload";
 
 @import "trumps.helpers";
 @import "trumps.spacers";
 @import "trumps.responsive";
+@import "trumps.cms";

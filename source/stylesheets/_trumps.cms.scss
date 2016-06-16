@@ -1,0 +1,17 @@
+
+
+// --------------------------------------------------------------------------
+//   TRUMPS: CMS MARKDOWN TYPOGRAPHY
+// --------------------------------------------------------------------------
+
+
+.s-cms-testimonials {
+	p {
+		// @include each(3) { color: pink; }
+	}
+
+	em {
+		display: inline-block;
+		margin-bottom: space(1.5);
+	}
+}

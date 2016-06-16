@@ -2,17 +2,39 @@
 layout: default
 ---
 
+<section class="Section u-marginT0 u-marginB2 u-bgBrandAlt">
+	<div class="Container">
+		<figure class="">
+			<div class="FlexEmbed">
+				<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
+				<div class="FlexEmbed-content u-flex u-flexAlignItemsCenter">
+					<div class="Hgroup u-sm-size4of12">
+						<h1 class="Headline u-marginB0">{{ therese.name }}</h1>
+						<h2 class="Headline">{{ therese.jobtitle }}</h2>
+						<p class="u-textLg u-msm-hide">{{ therese.summary }}</p>
+					</div>
+				</div>
+			</div>
+		</figure>
+	</div>
+</section>
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
 			<div class="Grid-cell u-sm-size4of12 u-sm-paddingR2">
 				<div class="Affix" data-spy="affix" data-offset-top="200">
-					<p class="">To arrange your free, no-obligation property appraisal please fill in this form, or simply call Therese on 0418 772 995.</p>
-					<p class="">The appraisal will be arranged for a time that suits you, and includes a detailed, up-to-date report on real estate prices, past and present, in your local community.</p>
+					<div class="DivRule u-msm-hide"></div>
+					<h3 class="Headline--tertiary u-msm-marginTD2 u-marginB0">Customer service is our business.</h3>
+					<ul class="u-listClean u-marginB">
+						<li>We pride ourselves on our customer service. To know more, please get in touch:</li>
+						{% assign profile = site.profiles | where: 'title', 'Team' | first %}
+						{% include profile-contact.html %}
+					</ul>
+					{% include share.html %}
 				</div>
 			</div>
 
-			<div class="Grid-cell u-sm-before10f12 u-sm-size6of12 u-alignBlockDown">
+			<div class="Grid-cell u-sm-before10f12 u-sm-size6of12 u-alignBlockUp">
 				<div class="s-cms-testimonials">
 					{{ content }}
 				</div>

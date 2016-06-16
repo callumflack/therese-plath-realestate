@@ -68,8 +68,17 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 
 		<div class="u-sm-size11of12 Grid-cell--center u-marginT15 u-marginB3">
 			<div class="gallery u-sm-size11of12 Grid-cell--center">
-				{% include testimonial-1.html %}
-				{% include testimonial-2.html %}
+				{% assign testimonials = page.callout_text | where: 'title', 'Testimonials' | first %}
+				{% for testimonial in page.callout_text %}
+					<a class="gallery-cell u-marginBD2" href="/testimonials">
+						<p class="u-textLg u-textCenter">
+							{{ testimonial }}
+							<svg class="Icon Icon--rightSm Icon--textLgAlign">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-open-in-new"></use>
+							</svg>
+						</p>
+					</a>
+				{% endfor %}
 			</div>
 		</div>
 
