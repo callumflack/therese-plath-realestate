@@ -1,15 +1,16 @@
 ---
 title: Testimonials
 date: 2016-06-17 08:27:00 +10:00
-first_text: |-
-  What a beautiful surprise – so unique and totally unexpected – thank you so much. I have just had the fenced moved back to give us more garden – so the gift voucher will come in very useful. Thank you both for the amount of unseemly tireless energy and effort put into achieving our dream.
+callout_text:
+- |-
+  What a beautiful surprise—so unique and totally unexpected—thank you so much. Thank you both for the amount of unseemly tireless energy and effort put into achieving our dream.
 
   _— Chris & Ron Thompson_
-second_text: |-
+- |-
   I could not speak more highly of these amazing 3 women. They are truly miracle makers!! I would not go past Ray White Cairns Central for either selling; buying or renting your home.
 
   _— Sharon, Bentley Park_
-third_text: |-
+- |-
   3 very lovely ladies that are very helpful. Thank you for everything!
 
   _— Kayla, Bentley Park_
