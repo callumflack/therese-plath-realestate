@@ -13,14 +13,14 @@ third_text: |-
   3 very lovely ladies that are very helpful. Thank you for everything!
 
   _Kayla - Bentley Park_
-layout: default
+layout: testimonials
 ---
 
 This was an uncomplicated sale with a willing seller and a willing buyer. The offer price was fair and no conditions of note required. The agency staff were the conduit for a speedy and painless sale/ purchase process. Common sense and attention to requests for information were evident in the short negotiation period. Very happy with manner and result.
 
 _Rodney and Janine - Bentley Park_
 
-Hi Just a quick note to express our delight in working with Tamara ,Therese and team on this purchase we very very impressed of the professional approch.
+Hi Just a quick note to express our delight in working with Tamara, Therese and team on this purchase we very very impressed of the professional approach.
 
 _Dennis and Fiona - Bayview Heights_
 
