@@ -11,6 +11,8 @@
 
 			{% if page.header %}
 				<a class="Header-title" href="/blog">Blog</a>
+			{% elsif page.title == 'Home' %}
+				&nbsp;
 			{% elsif page.title != 'Home' %}
 				<a class="Header-title" href="{{ page.slug }}">{{ page.title }}</a>
 			{% elsif page.title != 'For sale' %}
