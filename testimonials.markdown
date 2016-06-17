@@ -1,7 +1,7 @@
 ---
 title: Testimonials
 date: 2016-06-17 08:27:00 +10:00
-callouts_text:
+callout_text:
 - |-
   What a beautiful surprise—so unique and totally unexpected—thank you so much. Thank you both for the amount of unseemly tireless energy and effort put into achieving our dream.
 
