@@ -35,7 +35,7 @@ layout: default
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			{% assign entry = site.data.current | reverse:"address_suburb"  %}
+			{% assign entry = (site.data.current | sort:"address_suburb") | reverse  %}
 			{% for current in entry | limit:12 %}
 				{% include property-forsale-in-list.html %}
 			{% endfor %}
