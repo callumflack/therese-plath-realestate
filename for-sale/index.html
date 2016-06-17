@@ -2,7 +2,7 @@
 title: For sale
 layout: default
 ---
-
+<script type="text/javascript" src="../source/javascripts/forsale.js"></script>
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="DivRule--medium"></div>
@@ -34,7 +34,8 @@ layout: default
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			{% for current in site.data.current | limit:12 %}
+			{% assign entry = site.data.current | sort:"address_suburb"  %}
+			{% for current in entry | limit:12 %}
 				{% include property-forsale-in-list.html %}
 			{% endfor %}
 		</div>
@@ -46,7 +47,7 @@ layout: default
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			{% for current in site.data.current | offset:13 %}
+			{% for current in entry | offset:13 %}
 				{% include property-forsale-in-list.html %}
 			{% endfor %}
 		</div>
