@@ -8,7 +8,7 @@ callouts:
 - I could not speak more highly of these amazing 3 women. They are truly miracle makers!!
   I would not go past Ray White Cairns Central for either selling; buying or renting
   your home. <em>— Sharon, Bentley Park</em>
-- 3 very lovely ladies that are very helpful. Thank you for everything! <em>Kayla,
+- 3 very lovely ladies that are very helpful. Thank you for everything! <em>— Kayla,
   Bentley Park</em>
 layout: testimonials
 ---
