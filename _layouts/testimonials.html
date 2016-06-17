@@ -3,21 +3,29 @@ layout: default
 ---
 
 <section class="Section u-marginT0 u-marginB2 u-bgBrandAlt">
-	<div class="Container">
-		<figure class="">
+	<div class="gallery gallery--noDots">
+		{% assign testimonials = site.pages | where: 'title', 'Testimonials' | first %}
+		{% for testimonial in testimonials.callouts %}
+		<div class="gallery-cell">
 			<div class="FlexEmbed">
-				<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
+				<div class="FlexEmbed-ratio FlexEmbed-ratio--4by1"></div>
 				<div class="FlexEmbed-content u-flex u-flexAlignItemsCenter">
-					<div class="Hgroup u-sm-size4of12">
-						<h1 class="Headline u-marginB0">{{ therese.name }}</h1>
-						<h2 class="Headline">{{ therese.jobtitle }}</h2>
-						<p class="u-textLg u-msm-hide">{{ therese.summary }}</p>
+
+					<div class="Hgroup u-xs-size6of12 Grid-cell--center">
+						<p class="s-cms-testimonialHero">
+							{{ testimonial }}
+						</p>
 					</div>
+
 				</div>
 			</div>
-		</figure>
+		</div>
+		{% endfor %}
 	</div>
 </section>
+
+
+
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">

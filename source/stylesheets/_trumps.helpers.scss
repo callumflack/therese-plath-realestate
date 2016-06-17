@@ -13,6 +13,12 @@
 .u-mxs-fullWidth    { @include respond-to(max-xs) { width: 100%; } }
 
 
+// Custom flexEmbeds
+// --------------------------------------------------------------------------
+
+.FlexEmbed-ratio--4by1 { padding-bottom: 25%; }
+
+
 // Colors
 // Alt: .u-colorBrand { color: color($increment: brand) !important; }
 // --------------------------------------------------------------------------
@@ -35,27 +41,27 @@
 .u-colorTextMedium  { color: palette(medium) !important; }
 
 .u-colorMutedBlock {
-    * {
-        color: palette(muted) !important;
-    }
+	* {
+		color: palette(muted) !important;
+	}
 
-    a {
-        @include on-event() {
-            color: palette(black);
-        }
-    }
+	a {
+		@include on-event() {
+			color: palette(black);
+		}
+	}
 }
 
 .u-colorBlackBlock {
-    * {
-        color: palette(black) !important;
-    }
+	* {
+		color: palette(black) !important;
+	}
 
-    // a {
-    //     @include on-event() {
-    //         color: palette(black);
-    //     }
-    // }
+	// a {
+	//     @include on-event() {
+	//         color: palette(black);
+	//     }
+	// }
 }
 
 
@@ -88,8 +94,8 @@
 .u-sm-textSizeRg    { @include respond-to(sm) { font-size: size(font, text) !important; } }
 
 .u-headerSizeRg {
-    font-size: map-fetch($size, font, headerRg, xs) !important;
-    @include respond-to(xs) { font-size: map-fetch($size, font, headerRg, base) !important }
+	font-size: map-fetch($size, font, headerRg, xs) !important;
+	@include respond-to(xs) { font-size: map-fetch($size, font, headerRg, base) !important }
 }
 
 .u-textCenterBlock { > * { @extend .u-textCenter; } }
@@ -140,15 +146,15 @@
 // --------------------------------------------------------------------------
 
 .u-alignBlockUp {
-    @include respond-to(sm) {
-        // transform: translateY( rem(-5) );
-        margin-top: rem(-5);
-    }
+	@include respond-to(sm) {
+		// transform: translateY( rem(-5) );
+		margin-top: rem(-5);
+	}
 }
 
 .u-alignBlockDown {
-    @include respond-to(sm) {
-        margin-top: rem(5);
-        // transform: translateY( rem(8) );
-    }
+	@include respond-to(sm) {
+		margin-top: rem(5);
+		// transform: translateY( rem(8) );
+	}
 }

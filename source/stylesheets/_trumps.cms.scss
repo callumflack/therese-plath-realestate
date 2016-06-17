@@ -5,6 +5,26 @@
 // --------------------------------------------------------------------------
 
 
+.s-cms-testimonialCallout {
+	@include TextLg();
+	text-align: center;
+
+	em {
+		color: palette(muted);
+	}
+}
+
+.s-cms-testimonialHero {
+	@include headlineRg();
+	color: palette(white);
+	text-align: center;
+
+	em {
+		display: inline-block;
+		color: palette(muted);
+	}
+}
+
 .s-cms-testimonials {
 	p {
 		// @include each(3) { color: pink; }

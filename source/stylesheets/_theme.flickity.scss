@@ -5,6 +5,10 @@
 // --------------------------------------------------------------------------
 
 
+.gallery--noDots .flickity-page-dots {
+	display: none;
+}
+
 .gallery-cell {
 	width: 100%;
 }

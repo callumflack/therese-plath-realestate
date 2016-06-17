@@ -67,13 +67,13 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 		</div>
 
 		<div class="u-sm-size11of12 Grid-cell--center u-marginT15 u-marginB3">
-			<div class="gallery u-sm-size11of12 Grid-cell--center">
+			<div class="gallery u-sm-size9of12 Grid-cell--center">
 				{% assign testimonials = site.pages | where: 'title', 'Testimonials' | first %}
-				{% for testimonial in testimonials.callout_text %}
+				{% for testimonial in testimonials.callouts %}
 					<a class="gallery-cell u-marginBD2" href="/testimonials">
-						<p class="u-textLg u-textCenter">
+						<p class="s-cms-testimonialCallout">
 							{{ testimonial }}
-							<svg class="Icon Icon--rightSm Icon--textLgAlign">
+							<svg class="Icon Icon--rightSm Icon--textLgAlign u-colorMuted">
 								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-open-in-new"></use>
 							</svg>
 						</p>
