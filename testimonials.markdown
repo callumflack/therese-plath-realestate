@@ -15,7 +15,12 @@ callouts_text:
 
   _Kayla - Bentley Park_
 callouts:
-  Key 1: 
+- "— Chris & Ron Thompson": What a beautiful surprise—so unique and totally unexpected—thank
+    you so much. Thank you both for the amount of unseemly tireless energy and effort
+    put into achieving our dream.
+- "— Sharon, Bentley Park": I could not speak more highly of these amazing 3 women.
+    They are truly miracle makers!! I would not go past Ray White Cairns Central for
+    either selling; buying or renting your home.
 layout: testimonials
 ---
 
