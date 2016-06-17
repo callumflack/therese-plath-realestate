@@ -43,22 +43,21 @@ layout: default
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
 			{% assign entry = site.data.current | sort:"address_suburb"  %}
-			{% for current in entry %}
+			{% for current in entry | limit:12 %}
 				{% include property-forsale-in-list.html %}
-					{% if forloop.index==12 %}
-						{% include pathway-appraisal.html %}
-					{% endif %}
 			{% endfor %}
 		</div>
 	</div>
 </section>
 
-<!--<section class="Section u-marginT0">-->
-	<!--<div class="Container">-->
-		<!--<div class="Grid Grid&#45;&#45;withGutter">-->
-			<!--{% for current in site.data.current | offset:13 %}-->
-				<!--{% include property-forsale-in-list.html %}-->
-			<!--{% endfor %}-->
-		<!--</div>-->
-	<!--</div>-->
-<!--</section>-->
+{% include pathway-appraisal.html %}
+
+<section class="Section u-marginT0">
+	<div class="Container">
+		<div class="Grid Grid--withGutter">
+			{% for current in entry | offset:13 %}
+				{% include property-forsale-in-list.html %}
+			{% endfor %}
+		</div>
+	</div>
+</section>
