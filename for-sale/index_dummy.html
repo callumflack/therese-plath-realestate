@@ -42,7 +42,8 @@ layout: default
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			{% for current in site.data.current | limit:12 | sort:"address_suburb" %}
+			{% assign entry = site.data.current | sort:"address_suburb"  %}
+			{% for current in entry | limit:12 %}
 				{% include property-forsale-in-list.html %}
 			{% endfor %}
 		</div>
@@ -54,7 +55,7 @@ layout: default
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			{% for current in site.data.current | offset:13 | sort:"address_suburb" %}
+			{% for current in site.data.current | offset:13 %}
 				{% include property-forsale-in-list.html %}
 			{% endfor %}
 		</div>
