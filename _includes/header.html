@@ -9,16 +9,16 @@
 
 			<a class="Header-logo" href="/">Therese Plath</a>
 
-			{% if page.header %}
-				<a class="Header-title" href="/blog">Blog</a>
-			{% elsif page.title == 'Home' %}
+			{% if page.title == 'Home' %}
 				&nbsp;
+			{% elsif page.title == 'For sale' %}
+				<a class="Header-title" href="/for-sale">{{ page.title }}</a>
+			{% elsif page.title == 'Recent sales' %}
+				<a class="Header-title" href="/recent-sales">{{ page.title }}</a>
+			{% elsif page.header == 'Blog' %}
+				<a class="Header-title" href="/blog">{{ page.header }}</a>
 			{% elsif page.title != 'Home' %}
 				<a class="Header-title" href="{{ page.slug }}">{{ page.title }}</a>
-			{% elsif page.title != 'For sale' %}
-				<a class="Header-title" href="/for-sale">{{ page.title }}</a>
-			{% elsif page.title != 'Recent sales' %}
-				<a class="Header-title" href="/recent-sales">{{ page.title }}</a>
 			{% endif %}
 
 		</div>
