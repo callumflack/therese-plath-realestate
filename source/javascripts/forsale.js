@@ -3,7 +3,14 @@
  */
 $(document).ready(function(){
     $(document).on('change', '#sortcombo', function() {
-        console.log('changed');
-        console.log($('#sortcombo option:selected').val());
+        if($('#sortcombo option:selected').val()=='suburb-ASC')
+        {
+            window.location.replace('/index.html');
+        }
+
+        if($('#sortcombo option:selected').val()=='suburb-DES')
+        {
+            window.location.replace('/index-reverse.html');
+        }
     });
 });
