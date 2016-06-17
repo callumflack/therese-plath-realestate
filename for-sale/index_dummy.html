@@ -2,7 +2,14 @@
 title: For sale
 layout: default
 ---
-
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(document).on('change', '#sortcombo', function() {
+			console.log('changed');
+			console.log($('#sortcombo option:selected').val());
+		});
+	});
+</script>
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="DivRule--medium"></div>
@@ -30,8 +37,6 @@ layout: default
 		</div>
 	</div>
 </section>
-
-{{my_filter}}
 
 <section class="Section u-marginT0">
 	<div class="Container">
