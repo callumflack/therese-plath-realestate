@@ -4,11 +4,11 @@ date: 2016-06-17 08:27:00 +10:00
 callouts:
 - What a beautiful surprise—so unique and totally unexpected—thank you so much. Thank
   you both for the amount of unseemly tireless energy and effort put into achieving
-  our dream. <em>— Chris & Ron Thompson</em>
+  our dream. <em>Chris & Ron Thompson</em>
 - I could not speak more highly of these amazing 3 women. They are truly miracle makers!
   I would not go past Ray White Cairns Central for either selling; buying or renting
-  your home. <em>— Sharon, Bentley Park</em>
-- 3 very lovely ladies that are very helpful. Thank you for everything! <em>— Kayla,
+  your home. <em>Sharon, Bentley Park</em>
+- 3 very lovely ladies that are very helpful. Thank you for everything! <em>Kayla,
   Bentley Park</em>
 layout: testimonials
 ---

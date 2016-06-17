@@ -20,8 +20,9 @@
 	text-align: center;
 
 	em {
-		display: inline-block;
 		color: palette(muted);
+		display: inline-block;
+		font-family: $font-sans-medium-i;
 	}
 }
 

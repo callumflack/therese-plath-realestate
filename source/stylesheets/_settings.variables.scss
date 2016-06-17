@@ -277,6 +277,7 @@ $sans-xbold           : #{$sans-font-name}extrabold;
 $sans-black           : #{$sans-font-name}black;
 
 $sans-regular-italic  : #{$sans-font-name}regular-italic;
+$sans-medium-italic   : #{$sans-font-name}medium-italic;
 
 // Make all font files available
 // Mixin options: $font-family, $file-path, $weight, $style, $formats
@@ -300,12 +301,12 @@ $font-sans-thin       : join($sans-thin, $font-sans-stack);
 $font-sans-light      : join($sans-light, $font-sans-stack);
 $font-sans-book       : join($sans-book, $font-sans-stack);
 $font-sans-regular    : join($sans-regular, $font-sans-stack);
-$font-sans-regular-i  : join($sans-regular, $font-sans-stack);
+$font-sans-regular-i  : join($sans-regular-italic, $font-sans-stack);
 $font-sans-medium     : join($sans-medium, $font-sans-stack);
+$font-sans-medium-i   : join($sans-medium-italic, $font-sans-stack);
 $font-sans-bold       : join($sans-bold, $font-sans-stack);
 $font-sans-xbold      : join($sans-xbold, $font-sans-stack);
 $font-sans-black      : join($sans-black, $font-sans-stack);
-$font-sans-regular-i  : join($sans-regular-italic, $font-sans-stack);
 
 // if using @fontface via a cloud service, eg. Google fonts.
 
