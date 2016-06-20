@@ -7,9 +7,9 @@ layout: default
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="DivRule--medium"></div>
-		<div class="u-marginB25">
+		<div class="u-marginB15 u-xs-marginB25">
 			<div class="Grid">
-				<div class="Grid-cell u-size1of2">
+				<div class="Grid-cell u-xs-size5of12">
 					{% assign CurrentSalesSize = 0 %}
 					{% for current in site.data.current %}
 						{% if forloop.last %}
@@ -17,10 +17,10 @@ layout: default
 						{% endif %}
 					{% endfor %}
 				</div>
-				<div class="Grid-cell u-size1of2 u-textRight">
+				<div class="Grid-cell u-xs-size7of12 u-xs-textRight u-mxs-marginTD3">
 					<label for="sortcombo" class="optional u-marginRD6">Sort by:</label>
 					<select class="u-textRg" id="sortcombo" name="sortcombo">
-						<option value="updated-DES" label="Most Recent Listings">Most Recent Listings</option>
+						<option value="updated-DES" label="Most Recent Listings" selected>Most Recent Listings</option>
 						<option value="suburb-ASC" label="Location (A - Z)">Location (A - Z)</option>
 						<option value="suburb-DES" label="Location (Z - A)">Location (Z - A)</option>
 						<!--<option value="price-ASC" label="Price (Low - High)">Price (Low - High)</option>-->
