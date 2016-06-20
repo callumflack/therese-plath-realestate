@@ -54,6 +54,11 @@ a.Card {
 	margin-bottom: space(1);
 	position: relative;
 
+	// emulate .u-flexAlignSelfStretch
+	// requires the parent be u.flex
+	align-self: stretch;
+	flex-shrink: 1;
+
 	@include on-event() {
 		@include baseTransition();
 		background-blend-mode: multiply;
@@ -68,7 +73,7 @@ a.Card {
 }
 
 
-// Used in both list and view templates
+// Any .Property- element class used in both list and view templates
 // --------------------------------------------------------------------------
 
 [class*="Property-"] {
@@ -92,7 +97,8 @@ a.Card {
 // Scoped details
 
 .Property-details {
-	padding: space(0.25) space(0.5) space(1);
+	padding: space(0.2) space(0.3) space(0.75);
+	@include respond-to(xs) { padding: space(0.25) space(0.5) space(1); }
 }
 
 .Property-details--title {

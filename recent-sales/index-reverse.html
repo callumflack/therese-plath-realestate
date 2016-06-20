@@ -36,7 +36,7 @@ layout: default
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
 			{% assign entry = (site.data.sold | sort:"date_created") | reverse  %}
-			{% for current in entry | limit:12 %}
+			{% for current in entry | limit: 12 %}
 				{% include property-recentsale-in-list.html %}
 			{% endfor %}
 		</div>
@@ -48,7 +48,7 @@ layout: default
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			{% for current in entry | offset:13 %}
+			{% for current in entry | offset: 13 %}
 				{% include property-recentsale-in-list.html %}
 			{% endfor %}
 		</div>

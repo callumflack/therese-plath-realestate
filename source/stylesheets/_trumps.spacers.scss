@@ -80,6 +80,8 @@
 .u-marginRL      { margin-right   : space(12)   !important; }
 
 @include respond-to(max-xs) {
+	.u-mxs-marginTD3  { margin-top: space(1/3) !important; }
+	.u-mxs-marginTD2  { margin-top: space(1/2) !important; }
 	.u-mxs-marginT    { margin-top: space(1) !important; }
 	.u-mxs-marginT2   { margin-top: space(2) !important; }
 	.u-mxs-marginT25  { margin-top: space(2.5) !important; }
@@ -95,9 +97,10 @@
 @include respond-to(max-sm) {
 	.u-msm-marginTD3  { margin-top: space(1/3) !important; }
 	.u-msm-marginTD2  { margin-top: space(1/2) !important; }
+	.u-msm-marginTD1  { margin-top: space(3/4) !important; }
 	.u-msm-marginT    { margin-top: space(1) !important; }
 	.u-msm-marginT3   { margin-top: space(3) !important; }
-	.u-msm-marginBD1  { margin-bottom: space(0.75) !important; }
+	.u-msm-marginBD1  { margin-bottom: space(3/4) !important; }
 	.u-msm-marginBD3  { margin-bottom: space(1/3) !important; }
 	.u-msm-marginB    { margin-bottom: space(1) !important; }
 	.u-msm-marginBXL  { margin-bottom: space(12) !important; }

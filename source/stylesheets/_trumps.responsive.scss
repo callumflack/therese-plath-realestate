@@ -35,10 +35,12 @@
 .u-mxs-flexOrderLast         { @include respond-to(max-xs) { order: 1 !important; } }
 .u-mxs-flexAlignItemsStretch { @include respond-to(max-xs) { align-items: stretch !important; } }
 .u-mxs-flexJustifyBetween    { @include respond-to(max-xs) { justify-content: space-between !important; } }
+.u-mxs-alignBlockDown        { @include respond-to(max-xs) { margin-top: rem(5); } }
 
 // breakpoint: max-sm
 .msm-Grid--alignCenter       { @include respond-to(max-sm) { justify-content: center; } }
 .msm-Grid-cell--center       { @include respond-to(max-sm) { margin: 0 auto; } }
+.u-msm-flexOrderLast         { @include respond-to(max-sm) { order: 1 !important; } }
 .u-msm-size6of12             { @include respond-to(max-sm) { width: 50% !important; } }
 .u-msm-size10of12            { @include respond-to(max-sm) { width: 83.33333333333334% !important; } }
 .u-msm-flexOrderFirst        { @include respond-to(max-sm) { order: -1 !important; } }
