@@ -1,30 +1,28 @@
 ---
-title: For sale
+title: Recent sales
 layout: default
 ---
 
-<script type="text/javascript" src="../source/javascripts/forsale.js"></script>
+<script type="text/javascript" src="../source/javascripts/recentsale.js"></script>
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="DivRule--medium"></div>
-		<div class="u-marginB25">
+		<div class="u-marginB15 u-xs-marginB25">
 			<div class="Grid">
-				<div class="Grid-cell u-size1of2">
-					{% assign CurrentSalesSize = 0 %}
-					{% for current in site.data.current %}
+				<div class="Grid-cell u-xs-size5of12">
+					{% assign CurrentSoldSize = 0 %}
+					{% for current in site.data.sold %}
 						{% if forloop.last %}
-							<p class="u-textBold">Showing {{ CurrentSalesSize | plus:forloop.length }} total listings</p>
+							<p class="u-textBold">Showing {{ currentSoldSize | plus:forloop.length }} total listings</p>
 						{% endif %}
 					{% endfor %}
 				</div>
-				<div class="Grid-cell u-size1of2 u-textRight">
+				<div class="Grid-cell u-xs-size7of12 u-xs-textRight u-mxs-marginTD3">
 					<label for="sortcombo" class="optional u-marginRD6">Sort by:</label>
 					<select class="u-textRg" id="sortcombo" name="sortcombo">
-						<option value="suburb-DES" label="Location (Z - A)">Location (Z - A)</option>
 						<option value="updated-DES" label="Most Recent Listings">Most Recent Listings</option>
 						<option value="suburb-ASC" label="Location (A - Z)">Location (A - Z)</option>
-						<!--<option value="price-ASC" label="Price (Low - High)">Price (Low - High)</option>-->
-						<!--<option value="price-DES" label="Price (High - Low)">Price (High - Low)</option>-->
+						<option value="suburb-DES" label="Location (Z - A)" selected>Location (Z - A)</option>
 					</select>
 				</div>
 			</div>
@@ -35,9 +33,9 @@ layout: default
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			{% assign entry = (site.data.current | sort:"address_suburb") | reverse  %}
-			{% for current in entry | limit:12 %}
-				{% include property-forsale-in-list.html %}
+			{% assign entry = (site.data.sold | sort:"address_suburb") | reverse  %}
+			{% for current in entry | limit: 12 %}
+				{% include property-recentsale-in-list.html %}
 			{% endfor %}
 		</div>
 	</div>
@@ -48,8 +46,8 @@ layout: default
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			{% for current in entry | offset:13 %}
-				{% include property-forsale-in-list.html %}
+			{% for current in entry | offset: 13 %}
+				{% include property-recentsale-in-list.html %}
 			{% endfor %}
 		</div>
 	</div>
