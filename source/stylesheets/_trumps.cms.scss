@@ -17,6 +17,7 @@
 .s-cms-testimonialHero {
 	@include headlineRg();
 	color: palette(white);
+	margin-bottom: 0 !important;
 	text-align: center;
 
 	em {
