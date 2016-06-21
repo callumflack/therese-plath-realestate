@@ -172,7 +172,8 @@ layout: default
 										<h1 class="Headline Arrow-right u-marginB15">More for sale</h1>
 									</a>
 									<div class="Grid Grid--withGutter">
-										{% for current in site.data.current limit:2%}
+										{% assign index = 0 %}
+										{% for current in site.data.current limit:3%}
 											{% if current.property_id != 'CTR4382493-3219014'%}
 										<div class="Grid-cell u-size1of2 u-xs-size1of3">
 											<a class="Property Card" href="/for-sale/{{current.property_id}}.html">
@@ -201,6 +202,11 @@ layout: default
 												</div>
 											</a>
 										</div>
+											{% increment index %}
+											{% endif %}
+
+											{% if index==2 %}
+												{% break %}
 											{% endif %}
 										{% endfor %}
 										<div class="Grid-cell u-xs-size1of3">
