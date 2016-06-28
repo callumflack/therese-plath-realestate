@@ -5,8 +5,9 @@ layout: default
 
 <section class="Section u-marginT0">
 	<div class="Container">
+
 		<div class="Grid Grid--withGutter">
-			<div class="Grid-cell u-sm-size3of12 u-sm-paddingR2">
+			<div class="Grid-cell u-size4of12 u-sm-paddingR2 u-sm-display">
 				<div class="Affix" data-spy="affix" data-offset-top="200">
 					<ul class="u-listClean u-marginB">
 						<li>To contact us, please fill in this form, or use these details:</li>
@@ -16,12 +17,12 @@ layout: default
 				</div>
 			</div>
 
-			<div class="Grid-cell u-sm-before1of12 u-sm-size6of12 u-alignBlockDown">
+			<div class="Grid-cell u-xs-size9of12 u-sm-before1of12 u-sm-size7of12 u-alignBlockDown">
+				<div class="DivRule"></div>
+				<p class="u-textLg u-textBold u-marginB15">Get in touch</p>
+
 				{% assign profile = site.profiles | where: 'title', 'Therese' | first %}
 				<form class="Form Form--clear" accept-charset="UTF-8" action="https://formspree.io/{{ profile.email }}" method="POST">
-					<div class="DivRule"></div>
-					<p class="u-textLg u-textBold u-marginB15">Get in touch</p>
-
 					<div class="Form-group">
 						<label for="name">Full name:</label>
 						<input class="Form-control required" id="name" type="text" name="name" required>
