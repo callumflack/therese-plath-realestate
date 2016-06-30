@@ -5,7 +5,7 @@ permalink: "/blog/:slug/"
 tags:
 - Suburb profiles
 header: Blog
-author: tamara
+author: jodie
 list-img-full: 
 list-text-left: 
 list-text-truncate: 40
