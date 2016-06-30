@@ -7,7 +7,7 @@ tags:
 header: Blog
 author: tamara
 list-img-full: 
-list-text-left: 
+list-text-left: true
 list-text-truncate: 40
 hero: "/uploads/10414611_10153153773289879_7429365028734788033_n.jpg"
 summary: The city of southern California, San Diego is locally known as ‘America’s
