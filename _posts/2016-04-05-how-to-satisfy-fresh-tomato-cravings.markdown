@@ -5,7 +5,7 @@ permalink: "/blog/:slug/"
 tags:
 - Suburb profiles
 header: Blog
-author: jodie
+author: tamara
 list-img-full: 
 list-text-left: 
 list-text-truncate: 40
@@ -15,7 +15,7 @@ summary: The city of southern California, San Diego is locally known as ‘Ameri
 layout: post
 ---
 
-The holidays bring with them thoughts of carving and serving delicious turkey dinners to your family and friends. Tradition has its fans, but perhaps this year you’d like to try a twist to your turkey recipe. If you have a gas grill and enjoy the smoky flavor of grilled meats, why not try [grilling](http://www.google.com)?
+The holidays bring with them thoughts of carving and serving delicious turkey dinners to your family and friends. Tradition has its fans, but perhaps this year you’d like to try a twist to your turkey recipe. If you have a gas grill and enjoy the smoky flavor of grilled meats, why not try Limberlost?
 
 ![20160622_102209-4e4d52.png](/uploads/20160622_102209-4e4d52.png)
 
