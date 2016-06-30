@@ -7,7 +7,7 @@ jobtitle: Personal assistant
 picture: "/uploads/tamara-west.jpg"
 email: tamara.west@raywhite.com
 phone: "(07) 4045 9700"
-mobile: 0418 772 995
+mobile: 0450 922 322
 summary: Her bright personality has endeared her to regular clients and strangers
   alike, Tamara is always there to give our staff and clients the assistance they
   need and is always eager to please.
