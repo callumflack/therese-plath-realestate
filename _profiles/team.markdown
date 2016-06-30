@@ -8,9 +8,7 @@ picture: "/uploads/team-plath.jpg"
 email: team.plath@raywhite.com
 phone: "(07) 4045 9700"
 mobile: 0418 772 995
-summary: With the combined skills of Therese, Jodie and Tamara, their vision together
-  is to provide seamless customer service for every client and continue to raise standards
-  in the Cairns Real Estate Industry and make sure our clients achieve their desired
-  outcomes.
+summary: Therese Jodie and Tamara - Selling Real Estate in ALL Price Ranges and Areas
 ---
 
+With the combined skills of Therese, Jodie and Tamara, their vision together is to provide seamless customer service for every client and continue to raise standards in the Cairns Real Estate Industry and make sure our clients achieve their desired outcomes.
