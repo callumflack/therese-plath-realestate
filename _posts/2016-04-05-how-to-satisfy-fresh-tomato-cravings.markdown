@@ -6,8 +6,8 @@ tags:
 - Suburb profiles
 header: Blog
 author: jodie
-list-img-full:
-list-text-left:
+list-img-full: 
+list-text-left: 
 list-text-truncate: 40
 hero-image: "/uploads/post-img-3.jpg"
 summary: The city of southern California, San Diego is locally known as ‘America’s

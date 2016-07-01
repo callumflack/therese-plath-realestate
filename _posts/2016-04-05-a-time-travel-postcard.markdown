@@ -6,7 +6,7 @@ tags:
 - Community events
 header: Blog
 author: tamara
-list-img-full:
+list-img-full: 
 list-text-left: true
 hero-image: "/uploads/post-img-2.jpg"
 summary: The city of southern California, San Diego is locally known as ‘America’s
