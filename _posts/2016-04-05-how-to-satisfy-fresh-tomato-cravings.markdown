@@ -6,8 +6,8 @@ tags:
 - Suburb profiles
 header: Blog
 author: jodie
-list-img-full: 
-list-text-left: 
+list-img-full:
+list-text-left:
 list-text-truncate: 40
 hero-image: "/uploads/post-img-3.jpg"
 summary: The city of southern California, San Diego is locally known as ‘America’s
@@ -15,7 +15,12 @@ summary: The city of southern California, San Diego is locally known as ‘Ameri
 layout: post
 ---
 
-The holidays bring with them thoughts of carving and serving delicious turkey dinners to your family and friends. Tradition has its fans, but perhaps this year you’d like to try a twist to your turkey recipe. If you have a gas grill and enjoy the smoky flavor of grilled meats, why not try grilling?
+The holidays bring with them thoughts of carving and serving delicious turkey dinners to your family and friends. Tradition has its fans, but perhaps this year you’d like to try a twist to your turkey recipe. If you have a gas grill and enjoy the smoky flavor of grilled meats, why not try Limberlost?
+
+![20160622_102209-4e4d52.png](/uploads/20160622_102209-4e4d52.png)
+
+**Asking a question?**
+
 It’s not only possible, it is rather simple. And it delivers a delicious flavored bird to your table. Plus, having the turkey on the grill instead of the oven leaves you with all the room you need to prepare the rest of your dinner in less time.
 
 When you are ready to buy your turkey, the first thing to consider is the size of your grill. You don’t want a bird that is so enormous that it can’t fit on the grill rack. Ideally, the turkey you select should sit on the grill and the lid should close without touching the bird. If this isn’t possible, don’t worry, you can still grill your turkey. You’ll need some heavy duty aluminum foil and either a V shaped grill stand or another metal cooking instrument that you can safely use to prop open the lid of the grill.
