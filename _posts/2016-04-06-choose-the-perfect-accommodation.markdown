@@ -9,7 +9,7 @@ header: Blog
 author: therese
 list-img-full: true
 list-text-left: 
-hero: "/uploads/post-img-1-1.jpg"
+hero-image: "/uploads/post-img-1-1.jpg"
 summary: The city of southern California, San Diego is locally known as ‘America’s
   Finest City’.
 ---
