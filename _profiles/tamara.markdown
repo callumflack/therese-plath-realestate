@@ -8,9 +8,10 @@ picture: "/uploads/tamara-west.jpg"
 email: tamara.west@raywhite.com
 phone: "(07) 4045 9718"
 mobile: 0450 922 322
-summary: Her bright personality has endeared her to regular clients and strangers
-  alike, Tamara is always there to give our staff and clients the assistance they
-  need and is always eager to please.
+summary: Tamara’s enduring good humour, bright personality, positive outlook, versatility
+  and dedication to her job, as well as her willingness to assist in any situation,
+  enables her to excel in her position and has endeared her to both clients and colleagues
+  alike.
 ---
 
 Working side by side with Principal Therese Plath and Sales Associate Jodie Kneebone, Tamara West brings with her genuine enthusiasm, positivity and impeccable professionalism, standing her in good stead for her diverse role.
