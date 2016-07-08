@@ -3,6 +3,7 @@ title: Making Indoor Plants Work
 date: 2016-06-30 16:13:00 +10:00
 tags:
 - House tips
+layout: post
 ---
 
 The 70's trend is back so it's time to bring the garden inside and bring new life to your interior.
