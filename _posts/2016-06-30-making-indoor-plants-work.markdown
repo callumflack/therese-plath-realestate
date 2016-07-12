@@ -4,7 +4,7 @@ date: 2016-06-30 16:13:00 +10:00
 tags:
 - House tips
 Header: Blog
-Author: Tamara
+Author: tamara
 list-image-full: 
 list-text-left: true
 hero-image: "/uploads/Indoor%20Plants%20Hero.jpg"
