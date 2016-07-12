@@ -1,6 +1,12 @@
 ---
 title: Focus on... Bayview Heights
 date: 2016-07-04 15:19:00 +10:00
+header: blog
+author: tamara
+list-img-full: 
+list-text-left: true
+hero-image: "/uploads/iStock_000005368625Small.jpg"
+summary: 
 layout: post
 ---
 
