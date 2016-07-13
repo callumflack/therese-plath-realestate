@@ -16,11 +16,11 @@ Sheridan is about 16mins drive from Cairns CBD.
 
 **The People**
 
-The population of Mount Sheridan consists mainly of families and young singles. The master planned residential estate of Forest Gardens includes a middle-to-upper level of accommodation. It also offers an extensive network of public walkways, including the Cape York rainforest experience. Hill slopes residential developments are more highly priced than the lower areas of the suburb.
+The population of Mount Sheridan consists mainly of families and young singles. The master planned residential estate of Forest Gardens includes a middle-to-upper level of accommodation. It also offers an extensive network of public walkways, including the Cape York rainforest experience. Hill side residential developments are more highly priced than the lower areas of the suburb.
 
 **General Facilities**
 
-Mount Sheridan has few community facilities and services, apart from the Fretwell Park indoor sports facility. Residents are likely to access many services in adjacent areas, including Bentley Park, White Rock and Woree. The nearest library is in Earlville, about 10mins drive north. The nearest swimming pool is in Woree, about 7mins drive north.
+Mount Sheridan has few community facilities and services. Residents are likely to access many services in adjacent areas, including Bentley Park, White Rock and Woree. The nearest library is in Earlville, about 10mins drive north. The nearest swimming pool is in Woree, about 7mins drive north.
 
 **Medical**
 
