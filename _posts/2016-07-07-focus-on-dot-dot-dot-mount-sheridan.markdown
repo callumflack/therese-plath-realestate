@@ -7,7 +7,7 @@ header: blog
 author: tamara
 list-img-full: 
 list-text-left: 
-hero-image: "/uploads/Mt%20Sheridan.jpg"
+hero-image: "/uploads/iStock_000001568922Small.jpg"
 summary: Mount Sheridan is one of the residential suburbs forming the southern corridor
   out of Cairns City, just before Bentley Park.
 list-text-right: true
@@ -16,6 +16,8 @@ layout: post
 
 Mount Sheridan is one of the residential suburbs forming the southern corridor out of Cairns City, just before Bentley Park. It is on the western side of the Highway, opposite White Rock. The population of Mount Sheridan is growing rapidly. It has two distinct residential areas. There is little housing diversity in Mount Sheridan, with most of the residential development being detached houses. Mount
 Sheridan is about 11 mins drive from Cairns CBD.
+
+![Forest Gardens-c224df.jpg](/uploads/Forest%20Gardens-c224df.jpg)
 
 **The People**
 
