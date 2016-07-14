@@ -40,7 +40,7 @@ Mt Sheridan Plaza comprises a fully enclosed single level building with Coles, K
 
 **Childcare**
 
-There are several different 
+There are several different childcare centers in Mount Sheridan, catering to all families wants and needs. 
 
 **Education**
 
