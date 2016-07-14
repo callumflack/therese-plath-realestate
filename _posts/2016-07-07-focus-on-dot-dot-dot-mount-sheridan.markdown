@@ -1,6 +1,7 @@
 ---
 title: Focus On... Mount Sheridan
 date: 2016-07-07 09:48:00 +10:00
+permalink: post
 tags:
 - Suburb profiles
 header: blog
