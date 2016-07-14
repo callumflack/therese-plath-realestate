@@ -2,9 +2,9 @@
 title: Choose The Perfect Accommodation
 date: 2016-04-06 17:47:00 +10:00
 permalink: "/blog/:slug/"
+published: false
 tags:
 - House tips
-layout: post
 header: Blog
 author: therese
 list-img-full: true
@@ -12,6 +12,7 @@ list-text-left:
 hero-image: "/uploads/post-img-1-1.jpg"
 summary: The city of southern California, San Diego is locally known as ‘America’s
   Finest City’.
+layout: post
 ---
 
 The city of southern California, san diego is locally known as ‘America’s Finest City’. It’s located on San Diego Bay, an inlet of the Pacific Ocean near the Mexican border. San Diego is the second largest city in California and the seventh largest in the United States. It is also nicknamed as ‘America’s biggest small town’.
