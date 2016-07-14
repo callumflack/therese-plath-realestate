@@ -33,6 +33,8 @@ Bentley Park offers several Early Education Centres in the area as well as other
 
 Bentley Park College is a Prep to Year 12 state college. The College is comprised of two sectors, Prep to Year 6 and Year 7 to Year 12, on one campus and includes a well-resourced Special Education Program for Prep to Year 12 students.
 
+![Aerial-photo-BPC.jpg](/uploads/Aerial-photo-BPC.jpg)
+
 **Transport**
 
 Sunbus provides a full public transport service in the area. The suburb is serviced by Cairns taxi companies
