@@ -22,27 +22,29 @@ Sheridan is about 11 mins drive from Cairns CBD.
 
 **The People**
 
-The population of Mount Sheridan consists mainly of families and young singles. The master planned residential estate of Forest Gardens includes a middle-to-upper level of accommodation. It also offers an extensive network of public walkways, including the Cape York rainforest experience. Hill side residential developments are more highly priced than the lower areas of the suburb.
+The population of Mount Sheridan consists mainly of families and young couples. The master planned residential estate of Forest Gardens includes a middle-to-upper level of living.  
 
 **General Facilities**
 
-Mount Sheridan has few community facilities and services. Residents are likely to access many services in adjacent areas, including Bentley Park, White Rock and Woree. The nearest library is in Earlville, about 10mins drive north. The nearest swimming pool is in Woree, about 7mins drive north.
+Mount Sheridan  offers an extensive network of public walkways, parks and bike paths, including the Cairns cycleway, which joins the southern and northern suburbs to the city. There are also several cafes, hair dressers and shops throughout the suburb.
 
 **Medical**
 
-There is a medical centre at the Mt Sheridan Shopping Centre. The surrounding suburbs of Bentley Park, White Rock and Woree also offer various medical services. The nearest hospital is Cairns Base Hospital, about 15mins drive north. The full complement of medical, dental and pathology services are available in Cairns CBD.
+Mount Sheridan Family Medical Practice is located in Forest Gardens, on George Cannon Drive. With both male and female GP's available as well as on site nurses, the Mount Sheridan Family Medical Practice is able to offer a range of medical services.
 
 **Shopping**
 
-The Mt Sheridan shopping centre has a supermarket, a chemist, a bakery and other specialty stores. There are takeaway food outlets and a tavern in White Rock, about 5mins drive north.
+Mt Sheridan Plaza comprises a fully enclosed single level building with Coles, KMart, Woolworths, and an internal mall lined with specialty stores for things you need and more.
+
+![Mt SHeridan Shopping.jpeg](/uploads/Mt%20SHeridan%20Shopping.jpeg) 
 
 **Childcare**
 
-There is a child care centre in Mt Sheridan Shopping Centre. The adjacent suburbs of Edmonton and Woree also offer a variety of services. Edmonton is about 7mins drive south and Woree is about 5mins drive north of Mt Sheridan.
+There are several different 
 
 **Education**
 
-There are no schools in Mt Sheridan but the surrounding suburbs of White Rock, Bentley Park, Woree and Edmonton offer a full range of schooling options including Trinity Anglican School, three state schools (Prep-12), a Catholic college and a number of catholic primary schools.
+There are no schools in Mt Sheridan but the surrounding suburbs of White Rock, Bentley Park, Woree and Edmonton all offer a full range of schooling options, public and private primary and secondary education.
 
 **Public Transport**
 
