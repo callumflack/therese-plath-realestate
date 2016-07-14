@@ -1,6 +1,8 @@
 ---
 title: Focus on... Bayview Heights
 date: 2016-07-04 15:19:00 +10:00
+tags:
+- Suburb profiles
 header: blog
 author: tamara
 list-img-full: 
