@@ -1,11 +1,10 @@
 ---
 title: Making Indoor Plants Work
 date: 2016-06-30 16:13:00 +10:00
-permalink: "/blog/:slug/"
 tags:
 - House tips
-Header: Blog
-Author: tamara
+header: Blog
+author: tamara
 list-image-full: true
 list-text-left: 
 hero-image: "/uploads/Indoor%20Plants%20Hero.jpg"
