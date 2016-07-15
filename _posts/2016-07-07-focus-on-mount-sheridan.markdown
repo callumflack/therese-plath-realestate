@@ -6,10 +6,11 @@ tags:
 - Suburb profiles
 header: blog
 author: tamara
-list-img-full:
-list-text-left:
+list-img-full: 
+list-text-left: 
 hero-image: "/uploads/iStock_000001568922Small.jpg"
-summary: Mount Sheridan is one of the residential suburbs forming the southern corridor out of Cairns City, just before Bentley Park.
+summary: Mount Sheridan is one of the residential suburbs forming the southern corridor
+  out of Cairns City, just before Bentley Park.
 list-text-right: true
 layout: post
 ---
