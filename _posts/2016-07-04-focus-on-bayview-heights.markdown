@@ -1,12 +1,12 @@
 ---
-title: Focus on Bayview Heights
+title: Focus on… Bayview Heights
 date: 2016-07-04 15:19:00 +10:00
 permalink: "/blog/:slug/"
 tags:
 - Suburb profiles
 header: blog
 author: tamara
-list-img-full: 
+list-img-full:
 list-text-left: true
 hero-image: "/uploads/iStock_000005343218Small-5afd46.jpg"
 summary: Bayview Heights is residential in nature, part of the suburban corridor south
