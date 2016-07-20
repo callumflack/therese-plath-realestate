@@ -10,7 +10,7 @@ summary: A fun-filled morning of coffee and cake from the guys at domain.com.au
 layout: post
 ---
 
-Yesterday we had the domain.com.au coffee van down at the office to warm our clients up on a raining and miserable morning. For Real Estate people, they do pretty good tall, non-fat latte With caramel drizzle.
+Yesterday we had the domain.com.au coffee van down at the office to warm our clients up on a raining and miserable morning. For Real Estate people, they do pretty good tall, non-fat latte with caramel drizzle.
 
 ![received_10153754831680980.jpeg](/uploads/received_10153754831680980.jpeg)
 
