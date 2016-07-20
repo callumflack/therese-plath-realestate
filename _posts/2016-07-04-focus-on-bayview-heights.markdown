@@ -6,7 +6,7 @@ tags:
 - Suburb profiles
 header: Blog
 author: tamara
-list-img-full:
+list-img-full: 
 list-text-left: true
 hero-image: "/uploads/iStock_000005343218Small-5afd46.jpg"
 summary: Bayview Heights is residential in nature, part of the suburban corridor south
