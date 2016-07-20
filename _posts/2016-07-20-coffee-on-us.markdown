@@ -6,6 +6,7 @@ author: Tamara
 list-img-full: true
 hero-image: "/uploads/received_10153754831620980.jpeg"
 Summary: A fun-filled morning of coffee and cake from the guys at domain.com.au
+layout: post
 ---
 
 Yesterday - 19th July, we had the domain.com.au coffee van down at the office to warm our clients up on a raining and miserable morning.
