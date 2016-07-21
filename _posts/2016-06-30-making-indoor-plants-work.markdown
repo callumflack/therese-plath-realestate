@@ -44,6 +44,6 @@ Adding structure to modern, contemporary and retro structures, the Mother in Law
 
 With an ability to tolerate neglect, the ZZ Plant (Zamioculcas zamiifolia) has been a favourite for people who are after a low maintenance plant.
 
-![ZZ Plant.jpg](/uploads/ZZ%20Plant.jpg)
+![ZZ Plant-654e78.jpg](/uploads/ZZ%20Plant-654e78.jpg)
 
 The ZZ plant likes bright, indirect light and only requires watering once a fortnight. It would be an ideal addition to any office space.
