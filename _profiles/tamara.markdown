@@ -2,7 +2,7 @@
 title: Tamara
 date: 2016-04-08 08:27:00 +10:00
 position: 4
-name: Tamara West
+name: "Tamara West"
 jobtitle: Personal Assistant
 picture: "/uploads/tamara-west.jpg"
 email: tamara.west@raywhite.com
