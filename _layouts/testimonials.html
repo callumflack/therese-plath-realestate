@@ -8,9 +8,9 @@ layout: default
 		{% for testimonial in testimonials.callouts %}
 		<div class="gallery-cell">
 			<div class="FlexEmbed">
-				<div class="FlexEmbed-ratio FlexEmbed-ratio--4by1"></div>
+				<div class="FlexEmbed-ratio FlexEmbed-ratio--letterbox"></div>
 				<div class="FlexEmbed-content u-flex u-flexAlignItemsCenter">
-					<div class="Hgroup u-xs-size6of12 Grid-cell--center">
+					<div class="Hgroup u-size10of12 u-sm-size6of12 Grid-cell--center">
 						<p class="s-cms-testimonialHero">
 							{{ testimonial }}
 						</p>
@@ -25,9 +25,9 @@ layout: default
 <section class="Section u-marginT0">
 	<div class="Container">
 		<div class="Grid Grid--withGutter">
-			<div class="Grid-cell u-sm-size4of12 u-sm-paddingR2">
+			<div class="Grid-cell u-xs-size9of12 u-sm-size4of12 u-sm-paddingR2 u-msm-flexOrderLast">
 				<div class="Affix" data-spy="affix" data-offset-top="420">
-					<div class="DivRule u-msm-hide"></div>
+					<div class="DivRule"></div>
 					<h3 class="Headline--tertiary u-msm-marginTD2 u-marginB0">Customer service is our business.</h3>
 					<ul class="u-listClean u-marginB">
 						<li>We pride ourselves on our customer service. To know more, please get in touch:</li>
@@ -38,7 +38,7 @@ layout: default
 				</div>
 			</div>
 
-			<div class="Grid-cell u-sm-before10f12 u-sm-size6of12 u-alignBlockUp">
+			<div class="Grid-cell u-xs-size9of12 u-sm-before1f12 u-sm-size7of12 u-alignBlockUp">
 				<div class="s-cms-testimonials">
 					{{ content }}
 				</div>

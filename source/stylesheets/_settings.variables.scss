@@ -292,7 +292,9 @@ $sans-medium-italic   : #{$sans-font-name}medium-italic;
 @include font-face($sans-bold,    '#{$fonts-path}#{$sans-bold}' );
 @include font-face($sans-xbold,   '#{$fonts-path}#{$sans-xbold}' );
 @include font-face($sans-black,   '#{$fonts-path}#{$sans-black}' );
+
 @include font-face($sans-regular-italic, '#{$fonts-path}#{$sans-regular-italic}' );
+@include font-face($sans-medium-italic, '#{$fonts-path}#{$sans-medium-italic}' );
 
 // Apply font-file variables to a font-stack
 // Only use these variables in our classes.

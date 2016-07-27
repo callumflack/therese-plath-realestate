@@ -1,12 +1,12 @@
 ---
 title: Therese
-date: 2016-04-19 11:17:09.486000000 +10:00
+date: 2016-04-19 11:17:00 +10:00
 position: 1
 name: Therese Plath
-jobtitle: Founder
+jobtitle: Selling Principal
 picture: "/uploads/therese-plath.jpg"
 email: therese.plath@raywhite.com
-phone: "(07) 4045 9700"
+phone: "(07) 4045 9711"
 mobile: 0418 772 995
 summary: Therese Plath is a true local. Born in Cairns,  she grew up on the Tablelands
   before returning to Cairns on her marriage, 40 years ago. For the past 30 years,

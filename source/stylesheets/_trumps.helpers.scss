@@ -16,7 +16,12 @@
 // Custom flexEmbeds
 // --------------------------------------------------------------------------
 
-.FlexEmbed-ratio--4by1 { padding-bottom: 25%; }
+.FlexEmbed-ratio--letterbox {
+	padding-bottom: 56.25%;
+	@include respond-to(xs) { padding-bottom: 45%; }
+	@include respond-to(md) { padding-bottom: 35%; }
+	@include respond-to(xl) { padding-bottom: 25%; }
+}
 
 
 // Colors
