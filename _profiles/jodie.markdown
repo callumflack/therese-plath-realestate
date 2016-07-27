@@ -2,7 +2,7 @@
 title: Jodie
 date: 2016-04-08 08:22:00 +10:00
 position: 3
-name: "Jodie Kneebone"
+name: Jodie Kneebone
 jobtitle: Sales Associate/ Personal Assistant
 picture: "/uploads/jodie-kneebone.jpg"
 email: jodie.kneebone@raywhite.com
