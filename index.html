@@ -7,7 +7,7 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 <section class="Hero">
 	<div class="gallery">
 		{% assign entry = (site.data.current | sort:"date_created") | reverse  %}
-		{% for current in entry | limit: 7 %}
+		{% for current in entry | limit: 8 %}
 		<a class="gallery-cell" href="/for-sale/{{current.property_id}}.html">
 			<div class="FlexEmbed">
 				<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
