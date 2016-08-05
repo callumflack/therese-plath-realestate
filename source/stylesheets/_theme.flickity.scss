@@ -94,7 +94,6 @@ a.gallery-cell {
 
 	@include respond-to(sm) {
 		background-color: rgba( palette(neutral), 0.96 );
-		// background-color: palette(background);
 		display: block;
 		width: calc( (100% - #{size(container, wide-picture)}) * 0.5 );
 	}
@@ -124,5 +123,18 @@ a.gallery-cell {
 		svg {
 			opacity: 1;
 		}
+	}
+}
+
+
+
+// Theme when inside '.Testimonials'
+// --------------------------------------------------------------------------
+
+.Testimonials .flickity-prev-next-button {
+	display: none;
+
+	@include respond-to(sm) {
+		display: block;
 	}
 }
