@@ -15,7 +15,7 @@
 // To enable Hero-details to sit below
 // the slider at mobile.
 @include respond-to(max-xs) {
-	.Hero .flickity-viewport { overflow: auto; }
+	//.Hero .flickity-viewport { overflow: auto; }
 	.Hero .FlexEmbed { overflow: auto; }
 }
 
