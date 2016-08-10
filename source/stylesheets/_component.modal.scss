@@ -2,6 +2,8 @@
 
 // --------------------------------------------------------------------------
 //   MODAL COMPONENT
+//   1. Crucial! if you want to click outside any modal links
+//      to close the modal on smartphones.
 // --------------------------------------------------------------------------
 
 
@@ -26,6 +28,7 @@
 
 /* uncss:ignore */
 .Modal.is-active {
+	cursor: pointer; // 1
 	opacity: 1;
 	overflow: hidden;
 	transition: z-index 0s ease, opacity 250ms ease;

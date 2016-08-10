@@ -9,12 +9,14 @@
 	display: none;
 }
 
+// because we're using FlexEmbed & background-images.
 .gallery-cell {
 	width: 100%;
 }
 
 a.gallery-cell {
 	@include u-link(none);
+	display: block;
 	transition: none;
 }
 
@@ -65,7 +67,7 @@ a.gallery-cell {
 		}
 	}
 
-	@include respond-to(md) {
+	@include respond-to(wp) {
 		width: size(container, wide-picture);
 	}
 }
@@ -85,15 +87,14 @@ a.gallery-cell {
 	@include baseTransition();
 	border-radius: 0;
 	color: palette(charcoal);
+	display: none;
 	height: 100%;
 	opacity: 1;
 	top: 0;
-	width: 20%;
-	width: 0;
 
 	@include respond-to(sm) {
 		background-color: rgba( palette(neutral), 0.96 );
-		// background-color: palette(background);
+		display: block;
 		width: calc( (100% - #{size(container, wide-picture)}) * 0.5 );
 	}
 
@@ -122,5 +123,18 @@ a.gallery-cell {
 		svg {
 			opacity: 1;
 		}
+	}
+}
+
+
+
+// Theme when inside '.Testimonials'
+// --------------------------------------------------------------------------
+
+.Testimonials .flickity-prev-next-button {
+	display: none;
+
+	@include respond-to(sm) {
+		display: block;
 	}
 }
