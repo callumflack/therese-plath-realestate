@@ -8,7 +8,7 @@ picture: "/uploads/team-plath.jpg"
 email: team.plath@raywhite.com
 phone: "(07) 4045 9700"
 mobile: 0418 772 995
-summary: Therese and Jodie - Selling Real Estate in ALL Price Ranges and Areas
+summary: Therese and Jodie - Selling Real Estate in ALL Price Ranges and Areas… 
 hero-image: "/uploads/DSC_8735.JPG"
 header: Team Plath
 ---
