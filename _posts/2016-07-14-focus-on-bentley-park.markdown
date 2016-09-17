@@ -5,13 +5,13 @@ permalink: "/blog/:slug/"
 tags:
 - Suburb profiles
 header: Blog
-author: tamara
-list-img-full: 
+author: jodie
+list-img-full:
 list-text-left: true
 hero-image: "/uploads/iStock_000005368625Small-c8aa2d.jpg"
 Summary: Bentley Park is one of the larger suburbs on the Southside and is located
   approximately 12 minutes from Cairns CBD.
-list-text-right: 
+list-text-right:
 layout: post
 ---
 

@@ -3,7 +3,7 @@ title: Coffee on Us!
 date: 2016-07-20 12:13:00 +10:00
 permalink: "/blog/:slug/"
 header: Blog
-author: tamara
+author: jodie
 list-img-full: true
 hero-image: "/uploads/received_10153754831620980.jpeg"
 summary: A fun-filled morning of coffee and cake from the guys at domain.com.au
