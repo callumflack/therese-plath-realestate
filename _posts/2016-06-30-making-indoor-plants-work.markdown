@@ -7,7 +7,7 @@ tags:
 header: Blog
 author: jodie
 list-img-full: true
-list-text-left:
+list-text-left: 
 hero-image: "/uploads/Indoor%20Plants%20Hero.jpg"
 summary: If you feel like your home is lacking a little something, try adding some
   of these plants  to instantly lift a space and make it feel fresh and welcoming.
