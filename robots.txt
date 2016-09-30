@@ -1,0 +1,6 @@
+# www.robotstxt.org/
+# http://goo.gl/PAqUBV
+
+# Manage crawling of all content
+User-agent: *
+Disallow:
