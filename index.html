@@ -7,7 +7,7 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 <section class="Hero">
 	<div class="gallery">
 		{% assign entry = (site.data.current | sort:"date_created")  %}
-		{% for current in entry | limit: 8 %}
+		{% for current in entry limit: "8" %}
 		<a class="gallery-cell" href="/for-sale/{{current.property_id}}.html">
 			<div class="FlexEmbed">
 				<div class="FlexEmbed-ratio FlexEmbed-ratio--16by9"></div>
@@ -98,6 +98,8 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 			</div>
 		</div>
 
+        <div class="DivRule--light u-marginT">&nbsp;</div>
+
 	</div>
 </section>
 
@@ -143,7 +145,7 @@ youtube_link: https://www.youtube.com/embed/u4SfjE52sQo?autoplay=1
 				</div>
 			</div>
 			<div class="Grid-cell u-xs-size9of12 u-alignBlockDown">
-				{% for post in site.posts | limit: 3 %}
+				{% for post in site.posts limit: "3" %}
 					{% include post-in-list.html %}
 				{% endfor %}
 			</div>
