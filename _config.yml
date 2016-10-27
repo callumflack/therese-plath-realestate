@@ -14,6 +14,31 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/blog/:slug/"
+    header: Blog
+    author: jodie
+    hero-image:
+    list-img-full:
+    list-text-left:
+    summary:
+description: |
+    Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+baseurl:
+url: http://www.thereseplath.com.au/
+facebook: https://www.facebook.com/therese.plath012
+instagram: https://www.instagram.com/thereseplath.raywhite/
+linkedin:
+author: patternworks.com.au
+gems:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
 exclude:
 - README.markdown
 - package.json
