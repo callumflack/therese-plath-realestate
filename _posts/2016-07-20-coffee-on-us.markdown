@@ -2,6 +2,8 @@
 title: Coffee on Us!
 date: 2016-07-20 12:13:00 +10:00
 permalink: "/blog/:slug/"
+tags:
+- Community events
 header: Blog
 author: jodie
 list-img-full: true
