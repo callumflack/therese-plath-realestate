@@ -26,5 +26,10 @@
 			<li>Contact:</li>
 			{% include profile-contact.html %}
 		</ul>
+
+        {% unless profile.title == 'Team' %}
+            {% include profile-connect.html %}
+        {% endunless %}
+
 	</div>
 </div>
