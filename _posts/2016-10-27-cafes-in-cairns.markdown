@@ -2,6 +2,7 @@
 title: Cafés in Cairns
 date: 2016-10-27 15:13:00 +10:00
 permalink: "/blog/:slug/"
+published: false
 tags:
 - Around town
 header: Blog
