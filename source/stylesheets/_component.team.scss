@@ -18,7 +18,8 @@
 }
 
 .Author-details {
-	background-color: palette(neutral);
+	background-color: rgba( palette(neutral), 0.7 );
+    //background-color: palette(neutral-light);
 	padding: space(0.75);
 
 	@include respond-to(xs) {
