@@ -13,7 +13,7 @@ summary: Cairns now brims with great coffee with many fantastic new cafés openi
 layout: post
 ---
 
-Are you in need of a caffeine kick? Perhaps you are a Coffee enthusiast? Look no further, as we have found the top 5 Cafés for quality coffee in Cairns.
+Are you in need of a caffeine kick? Perhaps you are a Coffee enthusiast? Look no further, as we've done our homework and come up with the top 5 Cafés for quality coffee in Cairns.
 
 ## Cruze Coffee
 
