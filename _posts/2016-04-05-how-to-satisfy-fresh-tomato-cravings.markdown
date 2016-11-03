@@ -5,8 +5,8 @@ published: false
 tags:
 - Suburb profiles
 image: "/uploads/post-img-3.jpg"
-summary: "The city of southern California, San Diego is locally known as ‘America’s
-  Finest City’."
+summary: The city of southern California, San Diego is locally known as ‘America’s
+  Finest City’.
 ---
 
 The holidays bring with them thoughts of carving and serving delicious turkey dinners to your family and friends. Tradition has its fans, but perhaps this year you’d like to try a twist to your turkey recipe. If you have a gas grill and enjoy the smoky flavor of grilled meats, why not try Limberlost?
