@@ -1,18 +1,14 @@
 ---
 title: A Time Travel Postcard
 date: 2016-04-05 00:00:00 +10:00
-permalink: "/blog/:slug/"
 published: false
 tags:
 - Community events
-header: Blog
 author: tamara
-list-img-full: 
 list-text-left: true
-hero-image: "/uploads/post-img-2.jpg"
-summary: The city of southern California, San Diego is locally known as ‘America’s
-  Finest City’.
-layout: post
+image: "/uploads/post-img-2.jpg"
+summary: "The city of southern California, San Diego is locally known as ‘America’s
+  Finest City’."
 ---
 
 Long years ago, you have to wear two sets of eye glasses, then doctors discovered the lens at the bifocal eye-glasses, then recently they do the same thing in a bifocal contact lens. The lens is divided into two halves, one upper and the other is lower and sometimes it can be in concentric circles, one lens on the interior part and the other is on the outside part.

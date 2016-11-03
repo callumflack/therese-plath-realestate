@@ -1,16 +1,12 @@
 ---
 title: Cafés in Cairns
 date: 2016-10-27 15:13:00 +10:00
-permalink: "/blog/:slug/"
 tags:
 - Around town
-header: Blog
-author: jodie
 list-text-left: true
-hero-image: "/uploads/cafes-blackbird.jpg"
+image: "/uploads/cafes-blackbird.jpg"
 summary: Cairns now brims with great coffee with many fantastic new cafés opening
   in the past few years.
-layout: post
 ---
 
 Are you in need of a caffeine kick? Perhaps you're a Coffee enthusiast? Or just in need of a new place to try out? Look no further, we've done our homework and come up with our 5 favourite Cafés for quality coffee in Cairns.

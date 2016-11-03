@@ -1,17 +1,12 @@
 ---
 title: Making Indoor Plants Work
 date: 2016-06-30 16:13:00 +10:00
-permalink: "/blog/:slug/"
 tags:
 - House tips
-header: Blog
-author: jodie
 list-img-full: true
-list-text-left: 
-hero-image: "/uploads/Indoor%20Plants%20Hero.jpg"
+image: "/uploads/Indoor%20Plants%20Hero.jpg"
 summary: If you feel like your home is lacking a little something, try adding some
   of these plants  to instantly lift a space and make it feel fresh and welcoming.
-layout: post
 ---
 
 The 70's trend is back so it's time to bring the garden inside and bring new life to your interior. If you feel like your home is lacking a little something, try adding some of these plants to instantly lift a space and make it feel fresh and welcoming.

@@ -1,17 +1,12 @@
 ---
 title: Focus on… Bayview Heights
 date: 2016-07-04 15:19:00 +10:00
-permalink: "/blog/:slug/"
 tags:
 - Suburb profiles
-header: Blog
-author: jodie
-list-img-full: 
 list-text-left: true
-hero-image: "/uploads/iStock_000005343218Small-5afd46.jpg"
+image: "/uploads/iStock_000005343218Small-5afd46.jpg"
 summary: Bayview Heights is residential in nature, part of the suburban corridor south
   of Cairns
-layout: post
 ---
 
 Bayview Heights is residential in nature  and forms part of the suburban corridor. It is approximatley 12km from Cairns city center, developing along the highway south west, adjacent to the suburbs of Earlville and Woree while.

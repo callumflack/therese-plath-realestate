@@ -23,7 +23,7 @@ defaults:
     permalink: "/blog/:slug/"
     header: Blog
     author: jodie
-    hero-image:
+    image:
     list-img-full:
     list-text-left:
     summary:
