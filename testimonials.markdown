@@ -13,6 +13,10 @@ callouts:
 layout: testimonials
 ---
 
+We have been searching around for properties for quite a bit and we are glad to have found Theresa's Sales Team. They were very professional and proactive, they even drove us around to show different properties around our budget. At the end of the day we had seen a lot of good properties and find it hard to decide which one to buy!!! We had a really good experience doing business with their team that we also gave use them to manage our properties (^_^)
+
+_— Michael Jemar, November 2016_
+
 This was an uncomplicated sale with a willing seller and a willing buyer. The offer price was fair and no conditions of note required. The agency staff were the conduit for a speedy and painless sale/ purchase process. Common sense and attention to requests for information were evident in the short negotiation period. Very happy with manner and result.
 
 _— Rodney and Janine, Bentley Park_
