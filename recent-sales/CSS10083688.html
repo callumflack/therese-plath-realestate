@@ -1,5 +1,5 @@
 ---
-title: For sale
+title: Recent sales
 layout: default
 ---
 
@@ -113,7 +113,7 @@ layout: default
 								</div>
 
 								<div class="Grid-cell u-xs-size8of12">
-									<h1 class="Property-title">Residential property at BENTLEY PARK on a 749m<sub>2</sub></h1>
+									<h1 class="Property-title">Residential property at BENTLEY PARK </h1>
 									<p class="Property-price">$299,000</p>
 
 									<div class="DivRule u-marginT15"></div>
@@ -134,7 +134,7 @@ layout: default
 											</svg>
 										</span>
 									</p>
-									<p class="Property-area">Land area: 749m<sub>2</sub></p>
+									
 									<p class="Property-id">Property ID: CSS10083688</p>
 
 									<!-- <div class="DivRule u-marginT15"></div> -->
@@ -167,47 +167,47 @@ layout: default
 							<section class="Section">
 								<div class="Container DivRule">
 									<a href="/for-sale">
-										<h1 class="Headline Arrow-right u-marginB15">More for sale</h1>
+										<h1 class="Headline Arrow-right u-marginB15">More recent sales</h1>
 									</a>
 									<div class="Grid Grid--withGutter">
-										{% for current in site.data.current limit:2%}
-										<div class="Grid-cell u-size1of2 u-xs-size1of3">
-											<a class="Property Card" href="/for-sale/{{current.property_id}}.html">
-												<div class="Property-image" style="background-image: url({{current.image}})"></div>
+										{% for current in site.data.sold limit:2%}
+<div class="Grid-cell u-size1of2 u-xs-size1of3">
+	<a class="Property Card" href="/recent-sales/{{current.property_id}}.html">
+		<div class="Property-image" style="background-image: url({{current.image}})"></div>
 
-												<div class="Property-details">
-													<h1 class="Property-details--title Arrow-right u-marginB0">{{current.address_suburb}}</h1>
-													<p class="Property-details--location">{{current.address_street}}</p>
-													<p class="Property-details--price">{{current.price}}</p>
+		<div class="Property-details">
+			<h1 class="Property-details--title Arrow-right u-marginB0">{{current.address_suburb}}</h1>
+			<p class="Property-details--location">{{current.address_street}}</p>
+			<p class="Property-details--price">{{current.price}}</p>
 
-													<p class="Property-config u-marginTD6">
-														<span class="Property-bedroooms">{{current.bedrooms}}</span>
-														<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bed"></use>
-														</svg>
-														<span class="Property-bathrooms">{{current.bathrooms}}</span>
-														<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bath"></use>
-														</svg>
-														<span class="Property-carspaces">{{current.garage}}</span>
-														<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
-															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
-														</svg>
-													</p>
+			<p class="Property-config u-marginTD6">
+				<span class="Property-bedroooms">{{current.bedrooms}}</span>
+				<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bed"></use>
+				</svg>
+				<span class="Property-bathrooms">{{current.bathrooms}}</span>
+				<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-bath"></use>
+				</svg>
+				<span class="Property-carspaces">{{current.garage}}</span>
+				<svg class="Icon Icon--md Icon--rightSm Icon--left Icon--textAlign">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-car"></use>
+				</svg>
+			</p>
 
-												</div>
-											</a>
-										</div>
-										{% endfor %}
+		</div>
+	</a>
+</div>
+{% endfor %}
 										<div class="Grid-cell u-xs-size1of3">
 											<a class="Pathway Card u-bgNeutral u-textCenter u-flex u-flexAlignItemsCenter" href="/for-sale">
 												<div class="Pathway-detail">
 													<span class="Pathway-icon">
 														<svg class="Icon Icon--lg Icon--textAlign">
-															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-for-sale"></use>
+															<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#ic-recent-sales"></use>
 														</svg>
 													</span>
-													<span class="Pathway-title Arrow-right">Properties for sale</span>
+													<span class="Pathway-title Arrow-right">Recent sales</span>
 												</div>
 											</a>
 										</div>
@@ -217,4 +217,4 @@ layout: default
 							</section>
 
 						</div>
-					</article>
+</article>
